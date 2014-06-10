@@ -1,0 +1,11 @@
+image==1.2
+BeautifulSoup==3.2.1
+PyYAML==3.10
+beautifulsoup4==4.3.2
+distribute==0.6.49
+idna==0.3
+pyparsing==2.0.1
+python-dateutil==2.2
+pywin==0.3.1
+selenium==2.40.0
+six==1.6.1

@@ -1,0 +1,71 @@
+TODO DISPLAY IMAGE
+
+4-9-14
+COMPLETED* complete imgSelection dialog for incorrect images
+COMPLETED*(see MainFrame.currentItemInfo)    - store selections made
+COMPLETED*    - keep these choices in a database so that the correct image is chosen on the next scan
+
+ONGOING Keep logic and gui seperate
+
+4-10-14
+        # create onSaveDescription add a editedDescription key/value to MainFrame.currentItemInfo
+        # create onCategoryNumber add a categoryNumber key/value to MainFrame.currentItemInfo
+        # create onUpcEntered add upcEntered key/value to MainFrame.currentItemInfo
+        # Save these to json_state_file (MainFrame.itemNumber+'.json')
+
+4-12
+
+# json item state file
+COMPLETED* remove onSaveDescription include in onNewItemButton() key/value to MainFrame.currentItemInfo
+TODO* create onCategoryNumber add a categoryNumber key/value to MainFrame.currentItemInfo
+TODO* create onUpcEntered add upcEntered key/value to MainFrame.currentItemInfo
+         -  Save these to json_state_file (MainFrame.itemNumber+'.json')
+
+
+# CSV class for manifest lookup and json saving
+# Looks up category_type: item_title, item_msrp,
+IN PROGRESS* write basic html templates for saved items
+COMPLETED* SKU start field iterate up for each new item
+TODO* load STORE category id based on item type
+    - Master Manifest format? Load based on row_headers
+    - Assign Category type(shoes, apparel, electronics) to items & save to json
+TODO* dynamically load item requirements based on category? (C:Size,C:Type,etc.')
+TODO* load STORE category id based on item type
+    - Master Manifest format? Load based on row_headers
+    - Assign Category type(shoes, apparel, electronics) to items & save to json
+
+
+# Create watch specific process
+    - watch scanned
+    - Item description/specs pulled from shophq
+        - use bs4 or other to pull clean text
+    - Item manifest information pulled from manifest
+        - Use Master Manifest as starting point
+        - How to pull the correct Model Number?
+        - Include Model Number Field? Pull these automatically?
+    - item information edited
+        - Compare/Edit/Save
+
+# Manifester Module?
+# Scan item and find it in the manifest, mark it as manifested
+
+4-13-14
+TODO* Pull classes to seperate files? Having difficulty keeping track of variables
+especially MainFrame.currentItemInfo and currentImagePath and imagesSelected'
+
+
+4-18-14
+
+IN PROGRESS: BuildAuction()
+
+4-21-14
+
+TODO: Write scripts for server.
+    - find files for verification
+    - append to verification csv file
+    - check verification results
+    - append successful verifcations to listing queue/ csv file
+        - update sku folder with listing date
+    - send errors to check file
+        - re-append to verification csv file
+    -

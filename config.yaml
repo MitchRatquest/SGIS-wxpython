@@ -1,0 +1,97 @@
+#---------------------------------------
+# Perhaps I should pull all the auction settings to a file like this?
+#---------------------------------------
+listerInitials: 'JM'
+defaultShelf: 'XXX'
+
+
+#---------------------------------------
+# default information for program start
+#---------------------------------------
+defaultJNumberInfo: !!map
+    description: |
+        
+        J176344  Description is empty
+        4PK4260000010
+        21492
+    specs: |
+        
+        J176344 is Empty
+        4PK4260000010
+        21492
+    image_list: [ "default", "4NS3600000010_A_99"]
+    itemSelectedImages: !!map
+        key: ''
+defaultScanNumber: 'XQZ468XXXXX'
+defaultJNumber: 'QZ468'
+jNumberFolder: 'QZ468'
+#---------------------------------------
+# folder names for item locations
+# 
+# this is the parent directory
+#---------------------------------------
+displayImageFolder: 'display_image'
+
+#---------------------------------------
+# contains all the downloaded jpages
+#---------------------------------------
+jPages: 'jPages'
+
+#---------------------------------------
+# display_image/archivedData/.
+# lookUpTable is used for grabbing item specifics from seen items
+# ebayHeaderFile is used to build auctions with the needed headers 
+#---------------------------------------
+archivedData: 'archivedData'
+lookUpTable: 'unique_category_4numbeer_sku.csv'
+ebayHeaderFile: 'ebay_auction_headers.csv'
+
+#---------------------------------------
+# itemSelectedImages holds a dictionary with images that have been
+# selected by the user
+# {'/path/to/selected_image':True,'/path/to/unselected':False}
+#---------------------------------------
+itemSelectedImages: !!map
+    key: ''
+
+#---------------------------------------
+# initialize currentItemInfo with default
+#---------------------------------------
+currentItemInfo: !!map
+    description: |
+        
+        J176344  Description is empty
+        4PK4260000010
+        21492
+    specs: |
+        
+        J176344  Description is empty
+        4PK4260000010
+        21492
+    image_list: [ "default","4QZ4680000010_VA_999", "default"]
+    jNumber: ''
+    itemSelectedImages: !!map
+        key: ''
+
+#---------------------------------------
+# ssh login info
+#---------------------------------------
+serverLocation: '192.168.0.170'
+port: 22
+username: 'root'
+ssh_pass: ~
+fileDestination: '/var/www'
+
+extIP: '50.244.213.181'
+
+#---------------------------------------
+# sets size of image being displayed
+#---------------------------------------
+PhotoMaxSize: 400
+
+#---------------------------------------
+# these are empty, but is used as a reminder
+#---------------------------------------
+itemSpecifics: []
+watchDictManifestResults: !!map
+    key: ""

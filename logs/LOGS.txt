@@ -1,0 +1,9 @@
+How should the logs be handled?
+
+Full blast 500KB and archive?
+
+log counts?
+
+set log level and only then log?
+
+log all events in case of issues with something unexpected.

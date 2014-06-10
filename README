@@ -1,0 +1,5 @@
+To install enter install directory and install dependencies.
+
+Double click install1 and then install2
+
+May need to install dependencies with pip install -r requirements.txt
