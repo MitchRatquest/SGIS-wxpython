@@ -243,9 +243,6 @@ class FetchPage(object):
             httplib.HTTPConnection.debuglevel = 1
             self.debugLogger('itemJnumber',itemJNumber)
             try:
-                ######################
-                # TODO # url format?
-                ######################
                 url = 'http://www.shophq.com/product/?&familyid=' + itemJNumber
                 self.infoLogger("get: download_page_info(): Fetching:" + html_file_path + ' ' )
                 request = urllib2.Request(url)
@@ -287,17 +284,24 @@ class FetchPage(object):
             specs = str(price_title_info)
             description = str(watch_description)
             self.infoLogger(description)
+            #--------------------------------------------
+            # create image_list
+            #---------------------------------------------
             image_list = []
             for img_str in data.split('/is/image/ShopHQ/'):
-                if 'DefaultImage' in img_str:
-                    image_list.append(img_str.split("\"")[0].rstrip("\r\n ',"))
+                if ('swatch' not in img_str) or ( '80x80' not in img_str):            
+                    if 'DefaultImage' in img_str:
+                        image_list.append(img_str.split("\"")[0].rstrip("\r\n ',"))
 
             results = {'description': description,
                         'specs': specs,
                         'image_list': image_list
                         }
+                        
+            
             if len(results['image_list']) is 0:
                 return Exception('ImageListEmpty: "image_list" is empty',results)
+
             return results
 
         # Check if item page has been downloaded
@@ -334,5 +338,10 @@ class FetchPage(object):
         ########################################
 
         results = extract_product_info(data)
+        #---------------------
+        # remove smaller photos
+        #-----------------------
+
+        
         self.infoLogger(results)
         return results

@@ -41,7 +41,7 @@ class log_this(object):
         except Exception, e:
             print(traceback.format_exc())
             print(e)
-            exit()
+            
         return
 
 
@@ -71,7 +71,7 @@ class log_this(object):
         except Exception, e:
             print(traceback.format_exc())
             print(e)
-            exit()
+            
         return
 
 

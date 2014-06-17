@@ -52,7 +52,7 @@ class Check():
             prev_selected = unicode(prev_selected)
         try:
             for key in prev_selected.keys():
-                # keys and values are u'key':u'value'
+                # { 'image_name': bool}
                 if "True" in prev_selected[key]:
                     self.infoLogger(key)
                     if key is not None or "":
@@ -63,11 +63,11 @@ class Check():
                     pass
             self.key = None
             if self.key is None or "":
-                return
+                return None
         except AttributeError, e:
             self.infoLogger('. prev_selected does not have keys()')
             self.infoLogger('. prev_selected: '+ str(prev_selected))
-            return str(prev_selected)
+            return None
     def loadMainFrameJson(self):
         '''
         Check if loadself.MainFrameJson exist if so load it, if not carry on and save it
@@ -197,7 +197,12 @@ class Check():
         return
 
     def downloadImages(self):
-
+        '''
+        Why is downloadImages in Check and not
+        in fetch page?
+        
+        Well anyways this downloads image_list
+        '''
         def mkdir(fp):
             try:
                 os.mkdir(fp)
@@ -208,6 +213,9 @@ class Check():
         self.debugLogger("WHAT IS IN THE itemInfo IMAGE LIST",self.currentItemInfo['image_list'])
         self.debugLogger("WHAT IS IN THE currentItemInfo IMAGE LIST",self.MainFrame.currentItemInfo['image_list'])
         for img_name in self.currentItemInfo['image_list']:
+            #------------------------------------
+            # download FH images
+            #------------------------------------
             if 'DefaultImage' not in img_name:
                 try:
                     uts_number = self.MainFrame.scanNumberTextValue[1:6]
@@ -244,7 +252,10 @@ class Check():
                     self.MainFrame.statusbar.SetStatusText('ERROR:'+img_fp+' '+str(e))
                     self.infoLogger(traceback.format_exc())
                     pass
-            else:
+             #------------------------------------
+             # Download Shophq photos
+             #------------------------------------
+            else: 
                 try:
                     url_ = img_name
                     imgName = img_name.split('?')[0]+'.JPEG'

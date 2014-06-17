@@ -23,9 +23,9 @@ class PreFetcher(threading.Thread):
         #self.logger.log_debug(this_function_name,str(msg)+this_function_name,debug_info)
         #return
     def run(self):
-        import pdb;pdb.set_trace()
+        # import pdb;pdb.set_trace()
         for file_name in self.filenames:
-            yield ('Opening: ' + file_name)
+            yield (str('Opening: ' + file_name))
             results = sky_manifest.ManifestReader(file_name,self.MainFrame).getJnumbers()
             self.retailer_code = results[0]
             self.MainFrame.currentItemInfo['retailer_code'] = self.retailer_code
@@ -41,13 +41,19 @@ class PreFetcher(threading.Thread):
                 self.itemNumber = jnumber
                 self.MainFrame.scanNumberTextValue = jnumber
                 self.MainFrame.currentItemInfo['retailer_code'] = self.retailer_code
-                self.data = FetchPage(self.MainFrame).results
+                try:
+                    self.data = FetchPage(self.MainFrame).results
+                except Exception, e:
+                    print(e)
+                    continue
                 if self.itemNumber is "" or None:
+                    continue
+                if isinstance(self.data, Exception):
                     continue
 
                 if 'jnumber' not in jnumber:
                     self.data = FetchPage(self.MainFrame).results
-                    self.infoLogger("self.data"+str(self.data))
+                    # self.infoLogger("self.data"+str(self.data))
                     try:
                         itemResults = Check(self.MainFrame)
                         images = itemResults.downloadImages()

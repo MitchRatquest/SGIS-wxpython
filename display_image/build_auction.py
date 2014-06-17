@@ -223,19 +223,12 @@ class BuildAuction(object):
         float_check_list = ['percent of MSRP', 'Amount']
         # import pdb;pdb.set_trace()
         for header_key in self.listingPreferences:
-            print(header_key,type(header_key))
             for setting_dict_key in self.listingPreferences[header_key]:
-                print(setting_dict_key,type(setting_dict_key))
-                for s_key in setting_dict_key:
-                    print(s_key,type(s_key))
-                    print(' : '.join(['header',header_key,'setting_dict_key',setting_dict_key,'s_key',s_key]))
-        exit()
-                    # if 'False' not in str(s_key): # tests for integers or True
-                        # print(header_key,str(setting_dict_key),s_key)
-                        # if setting_dict_key in float_check_list:
-                            # setting_dict_key = self.listingPreferences[header_key][setting_dict_key]
-                        # self.itemModifiedListingPreferencesDict[header_key] = setting_dict_key
-                        # self.infoLogger('header: '+str(header_key)+'value: '+str(self.itemModifiedListingPreferencesDict[header_key]))
+                self.infoLogger(' : '.join(['header',header_key,'setting_dict_key',setting_dict_key,'s_value',str(self.listingPreferences[header_key][setting_dict_key])]))
+                if 'False' not in str(self.listingPreferences[header_key][setting_dict_key]): # tests for integers or True
+                    if setting_dict_key in float_check_list:
+                        setting_dict_key = self.listingPreferences[header_key][setting_dict_key]
+                    self.itemModifiedListingPreferencesDict[header_key] = setting_dict_key
         self.infoLogger(str(self.itemModifiedListingPreferencesDict.keys()))
         #----------------------------------------------
         # update *StartPrice, ReservePrice, BuyItNowPrice
@@ -243,14 +236,29 @@ class BuildAuction(object):
         float_check_list = ['BuyItNowPrice', 'ReservePrice', '*StartPrice']
         self.infoLogger(self.listingPreferences)
         for key in float_check_list:
-            self.infoLogger('Updating floats: '+' '.join([key,str(self.listingPreferences[key])]))
-            modifier = float(self.itemModifiedListingPreferencesDict[key])
-            self.infoLogger(modifier)
-            # Change floats have 2 decimal places
-            if modifier != 0.0:
-                self.itemModifiedListingPreferencesDict[key] = "%.2f" % round(float(msrp)*float(modifier),2)
-            else:
-                self.itemModifiedListingPreferencesDict[key] = ''
+            for modifier_key in self.listingPreferences[key]:
+                modifier_value = str(self.listingPreferences[key][modifier_key])
+                self.infoLogger('Checking floats: '+
+                ' '.join([key,str(self.listingPreferences[key]),
+                '\nself.itemModifiedListingPreferencesDict[key]: '+
+                str(self.itemModifiedListingPreferencesDict[key]),
+                '\nmodifer_key: ',str(modifier_key),
+                '\nmodifer_value: ',modifier_value]))
+                
+                if 'False' not in modifier_value:
+                    if '.99' in modifier_key: # if *StartPrice .99 has been selected
+                        self.itemModifiedListingPreferencesDict[key] = ".99"
+                        self.infoLogger('self.itemModifiedListingPreferencesDict[key] Modified: '+str(self.itemModifiedListingPreferencesDict[key]))
+                    else:
+                        modifier = float(modifier_value)
+                        self.infoLogger('modifier: '+str(modifier))
+                        # Change floats have 2 decimal places
+                        if modifier != 0.0:
+                            self.itemModifiedListingPreferencesDict[key] = "%.2f" % round(float(msrp)*float(modifier),2)
+                            self.infoLogger('self.itemModifiedListingPreferencesDict[key] Modified: '+str(self.itemModifiedListingPreferencesDict[key]))
+                        else:
+                            self.itemModifiedListingPreferencesDict[key] = ''
+        # self.itemModifiedListingPreferencesDict['*StartPrice'] = 
         self.infoLogger('###############Applied listing Preferences###################')
         for key in self.listingPreferences.keys():
             self.infoLogger('\n#'+': '.join([key,str(self.itemModifiedListingPreferencesDict[key])])+'\n#')

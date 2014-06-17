@@ -20,7 +20,7 @@ class SeleniumEbayVerifyResults(unittest.TestCase):
         self.password = self.values[1].rstrip('\r\n')
 
     def returnUsernamePassword(self):
-        with open('../really_secret.txt', 'r') as f:
+        with open('../../../really_secret.txt', 'r') as f:
             lines = f.readlines()[0]
         return lines.split(',')
 

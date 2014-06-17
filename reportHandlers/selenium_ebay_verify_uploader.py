@@ -15,13 +15,15 @@ def getVerifyQueue():
         urllib2 does not support javascript/AJAX implemented
         javascript_support.selenium_browser_save_page(url,fp) just in case?
         '''
-        verificationRequestsDirPath = 'C:\\Users\\User\\Desktop\\Photos\\MEE_6668-687\\MEE_received\\MEE_spreadsheets\\reportHandlers\\verificationRequestsQueue\\'
+        cwd = os.getcwd()
+        verificationRequestsDirPath = os.path.join(cwd,'verificationRequestsQueue')
 
         year = str(time.localtime()[0])
         month = str(time.localtime()[1])
         day = str(time.localtime()[2])
         count = len([name for name in os.listdir(verificationRequestsDirPath) if '_'.join([year,month,day,'verificationRequestsQueue.csv']) in name])
-        count += 1
+        if count != 0:
+            count += 1
         csv_fn = '_'.join([year,month,day,'verificationRequestsQueue.csv'])
         csv_fn = str(count)+'_'+csv_fn
         verificationRequestCsvName = csv_fn
@@ -29,7 +31,7 @@ def getVerifyQueue():
         json_url = 'http://192.168.0.170/selenium/'+seleniumJson
         print('Found/Creating: ' + csv_fn)
 
-        csv_fp = 'C:\\Users\\User\\Desktop\\Photos\\MEE_6668-687\\MEE_received\\MEE_spreadsheets\\reportHandlers\\VerificationRequestsQueue\\'+csv_fn
+        csv_fp = os.path.join(verificationRequestsDirPath,csv_fn)
         httplib.HTTPConnection.debuglevel = 1
         print("getVerifyQueue(): Fetching:" + json_url)
         try:
@@ -78,7 +80,9 @@ def getFn():
     os.remove('tmp_fn')
     return verifyRequestFp
 
-verifyRequestNumberFp = 'C:\\Users\\User\\Desktop\\Photos\\MEE_6668-687\\MEE_received\\MEE_spreadsheets\\reportHandlers\\VerificationRequestResults\\verifyRequestRefNumber.csv'
+cwd = os.getcwd()
+verificationRequestsResultsDirPath = os.path.join(cwd,'VerificationRequestsResults')
+verifyRequestNumberFp = os.path.join(verificationRequestsResultsDirPath,'verifyRequestRefNumber.csv')
 
 
 class SeleniumEbayVerifyUploader(unittest.TestCase):
@@ -98,7 +102,7 @@ class SeleniumEbayVerifyUploader(unittest.TestCase):
         self.password = self.values[1].rstrip('\r\n')
 
     def returnUsernamePassword(self):
-        with open('../really_secret.txt', 'r') as f:
+        with open('../../../really_secret.txt', 'r') as f:
             lines = f.readlines()[0]
         return lines.split(',')
 

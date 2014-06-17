@@ -1,52 +1,52 @@
 
---06-10 14:24:59 log_info display_image.Dialogs.ListingPreferencesDialog.check INFO     
+--06-17 09:03:12 log_info display_image.Dialogs.ListingPreferencesDialog.check INFO     
 
 # ListingPreferencesDialog.CheckListingPreferences.check() # check
 
---06-10 14:24:59 log_info display_image.Dialogs.ListingPreferencesDialog.check INFO     
+--06-17 09:03:12 log_info display_image.Dialogs.ListingPreferencesDialog.check INFO     
 ######################## Listing Preferences #############
 Type: <type 'dict'>
-{u'BuyItNowPrice': {u'percent of MSRP': False}, u'*Format': {u'Auction': True, u'FixedPrice': False}, u'ReservePrice': {u'percent of MSRP': False}, u'ShippingService-1:Cost': {u'Amount': u'12'}, u'ShippingService-1:Option': {u'FedExHomeDelivery': True, u'USPSPriority': False}, u'*StartPrice': {u'.99': u'', u'percent of MSRP': False}, u'*Duration': {u'10': False, u'GTC': False, u'30': False, u'3': True, u'5': False, u'7': False}} check
+{u'BuyItNowPrice': {u'percent of MSRP': False}, u'*Format': {u'Auction': True, u'FixedPrice': False}, u'ReservePrice': {u'percent of MSRP': False}, u'ShippingService-1:Cost': {u'Amount': u'12'}, u'ShippingService-1:Option': {u'FedExHomeDelivery': True, u'USPSPriority': False}, u'*StartPrice': {u'.99': u'.99', u'percent of MSRP': False}, u'*Duration': {u'10': False, u'GTC': False, u'30': False, u'3': False, u'5': True, u'7': False}} check
 
---06-10 14:24:59 log_info display_image.MainFrame.createWidgets INFO     
+--06-17 09:03:12 log_info display_image.MainFrame.createWidgets INFO     
 THIS IS A MESSAGE in CreateWidgets
 
---06-10 14:24:59 log_info display_image.MainFrame.lsizerCreate INFO     
+--06-17 09:03:12 log_info display_image.MainFrame.lsizerCreate INFO     
 THIS IS A MESSAGE IN lsizerCreate
 
---06-10 14:24:59 log_info display_image.EventsHandlers.MainFrameEventHandler.onbeginShelfNumberText INFO     
+--06-17 09:03:12 log_info display_image.EventsHandlers.MainFrameEventHandler.onbeginShelfNumberText INFO     
 Inside:  onbeginShelfNumberText
 
---06-10 14:24:59 log_info display_image.EventsHandlers.MainFrameEventHandler.onbeginShelfNumberText INFO     
+--06-17 09:03:12 log_info display_image.EventsHandlers.MainFrameEventHandler.onbeginShelfNumberText INFO     
 Inside:  onbeginShelfNumberText
 
---06-10 14:24:59 log_info display_image.EventsHandlers.MainFrameEventHandler.onListerInitialsText INFO     
+--06-17 09:03:12 log_info display_image.EventsHandlers.MainFrameEventHandler.onListerInitialsText INFO     
 Initials set:JM onListerInitialsText
 
---06-10 14:24:59 log_info display_image.EventsHandlers.MainFrameEventHandler.onListerInitialsText INFO     
+--06-17 09:03:12 log_info display_image.EventsHandlers.MainFrameEventHandler.onListerInitialsText INFO     
 Initials set:JM onListerInitialsText
 
---06-10 14:24:59 log_info display_image.MainFrame.csizerCreate INFO     
+--06-17 09:03:12 log_info display_image.MainFrame.csizerCreate INFO     
 THIS IS A MESSAGE in csizerCreate
 
---06-10 14:24:59 log_info display_image.MainFrame.rsizerCreate INFO     
+--06-17 09:03:12 log_info display_image.MainFrame.rsizerCreate INFO     
 THIS IS A MESSAGE in rsizerCreate
 
---06-10 14:24:59 log_info run.MainFrame INFO     
+--06-17 09:03:12 log_info run.MainFrame INFO     
 # main(): #
 MainFrame.__dict__:
-{'retailerLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3769278> >,
- 'help': <wx._core.Menu; proxy of <Swig Object of type 'wxMenu *' at 0x1f662c0> >,
- 'listingPreferencesResults': {u'BuyItNowPrice': {u'percent of MSRP': False}, u'*Format': {u'Auction': True, u'FixedPrice': False}, u'ReservePrice': {u'percent of MSRP': False}, u'ShippingService-1:Cost': {u'Amount': u'12'}, u'ShippingService-1:Option': {u'FedExHomeDelivery': True, u'USPSPriority': False}, u'*StartPrice': {u'.99': u'', u'percent of MSRP': False}, u'*Duration': {u'10': False, u'GTC': False, u'30': False, u'3': True, u'5': False, u'7': False}},
- 'buildAuctionButton': <wx._controls.Button; proxy of <Swig Object of type 'wxButton *' at 0x376a658> >,
+{'retailerLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3adc678> >,
+ 'help': <wx._core.Menu; proxy of <Swig Object of type 'wxMenu *' at 0x23db8c0> >,
+ 'listingPreferencesResults': {u'BuyItNowPrice': {u'percent of MSRP': False}, u'*Format': {u'Auction': True, u'FixedPrice': False}, u'ReservePrice': {u'percent of MSRP': False}, u'ShippingService-1:Cost': {u'Amount': u'12'}, u'ShippingService-1:Option': {u'FedExHomeDelivery': True, u'USPSPriority': False}, u'*StartPrice': {u'.99': u'.99', u'percent of MSRP': False}, u'*Duration': {u'10': False, u'GTC': False, u'30': False, u'3': False, u'5': True, u'7': False}},
+ 'buildAuctionButton': <wx._controls.Button; proxy of <Swig Object of type 'wxButton *' at 0x3c60840> >,
  'defaultImgPath': 'display_image\\jPages\\QZ468\\default.JPEG',
- 'currentTitleText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x37f8440> >,
- 'loadManifest': <wx._core.MenuItem; proxy of <Swig Object of type 'wxMenuItem *' at 0x1f66380> >,
- 'itemSpecificsFetcher': <display_image.sky_manifest.ManifestReader object at 0x0361F8B0>,
- 'emptyRadio': <wx._controls.RadioButton; proxy of <Swig Object of type 'wxRadioButton *' at 0x3768bd8> >,
- 'reloadModules': <wx._core.MenuItem; proxy of <Swig Object of type 'wxMenuItem *' at 0x1f668c0> >,
- 'logger': <logs.logger_example.log_this object at 0x0361F610>,
- 'upcNumberText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x376bf00> >,
+ 'currentTitleText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x3c818e8> >,
+ 'loadManifest': <wx._core.MenuItem; proxy of <Swig Object of type 'wxMenuItem *' at 0x23db980> >,
+ 'itemSpecificsFetcher': <display_image.sky_manifest.ManifestReader object at 0x03B178F0>,
+ 'emptyRadio': <wx._controls.RadioButton; proxy of <Swig Object of type 'wxRadioButton *' at 0x3adbfd8> >,
+ 'reloadModules': <wx._core.MenuItem; proxy of <Swig Object of type 'wxMenuItem *' at 0x23dbec0> >,
+ 'logger': <logs.logger_example.log_this object at 0x03B17650>,
+ 'upcNumberText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x3c62050> >,
  'ebayAuctionHeaders': ['*Action(SiteID=US|Country=US|Currency=USD|Version=745)',
  '*Category',
  '*Title',
@@ -123,17 +123,17 @@ MainFrame.__dict__:
  'C:MPN',
  'C:Serial Number',
  'C:Country/Region of Manufacture'],
- 'ssh': <display_image.Ssh_Put.Ssh object at 0x0361FE90>,
+ 'ssh': <display_image.Ssh_Put.Ssh object at 0x03B17ED0>,
  'ebayHeadersFile': 'display_image\\archivedData\\ebay_auction_headers.csv',
  'instructions': 'Is this image correct?',
- 'browseBtn': <wx._controls.Button; proxy of <Swig Object of type 'wxButton *' at 0x3770d68> >,
- 'currentTitleLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3771aa8> >,
- 'edit': <wx._core.Menu; proxy of <Swig Object of type 'wxMenu *' at 0x1f66200> >,
- 'fingerRadio': <wx._controls.RadioButton; proxy of <Swig Object of type 'wxRadioButton *' at 0x3769420> >,
- 'lookUpBySkuBtn': <wx._controls.Button; proxy of <Swig Object of type 'wxButton *' at 0x3769e10> >,
+ 'browseBtn': <wx._controls.Button; proxy of <Swig Object of type 'wxButton *' at 0x3c61088> >,
+ 'currentTitleLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3c7f6e8> >,
+ 'edit': <wx._core.Menu; proxy of <Swig Object of type 'wxMenu *' at 0x23db740> >,
+ 'fingerRadio': <wx._controls.RadioButton; proxy of <Swig Object of type 'wxRadioButton *' at 0x3adc820> >,
+ 'lookUpBySkuBtn': <wx._controls.Button; proxy of <Swig Object of type 'wxButton *' at 0x3c5fff8> >,
  'threading': False,
  'uniqueCategoryArchive': 'display_image\\archivedData\\unique_category_4numbeer_sku.csv',
- 'resetSsh': <wx._core.MenuItem; proxy of <Swig Object of type 'wxMenuItem *' at 0x1f665c0> >,
+ 'resetSsh': <wx._core.MenuItem; proxy of <Swig Object of type 'wxMenuItem *' at 0x23dbbc0> >,
  'defaults':
 
  {'username': 'root',
@@ -181,35 +181,35 @@ MainFrame.__dict__:
  'serverLocation': '192.168.0.170',
  'itemSpecifics': [],
  'defaultShelf': 'XXX'},
- 'palletNumberText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x376abc0> >,
+ 'palletNumberText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x3b5a8e8> >,
  'jNumberFolderPath': 'display_image\\jPages\\QZ468',
- 'actionSeperator': <wx._controls.StaticLine; proxy of <Swig Object of type 'wxStaticLine *' at 0x37690d0> >,
- 'currentConditionNotesLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x37715b0> >,
+ 'actionSeperator': <wx._controls.StaticLine; proxy of <Swig Object of type 'wxStaticLine *' at 0x3adc4d0> >,
+ 'currentConditionNotesLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3c618d0> >,
  'ssh_pass': None,
- 'beginShelfNumberLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x376a160> >,
- 'currentConditionText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x37f7540> >,
- 'eventsHandler': <display_image.EventsHandlers.MainFrameEventHandler.MainFrameEventHandler object at 0x0361F950>,
- 'lSizer': <wx._core.BoxSizer; proxy of <Swig Object of type 'wxBoxSizer *' at 0x363fad0> >,
- 'currentSkuText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x376bb40> >,
- 'currentRepairLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3771900> >,
- 'listingPreferences': <wx._core.MenuItem; proxy of <Swig Object of type 'wxMenuItem *' at 0x1f66680> >,
- 'cSizer': <wx._core.BoxSizer; proxy of <Swig Object of type 'wxBoxSizer *' at 0x33a50b8> >,
- 'currentConditionNotesText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x37f7900> >,
- 'currentConditionLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3771408> >,
- 'currentBoxLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3771260> >,
+ 'beginShelfNumberLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3c60348> >,
+ 'currentConditionText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x3c7e9e8> >,
+ 'eventsHandler': <display_image.EventsHandlers.MainFrameEventHandler.MainFrameEventHandler object at 0x03B17990>,
+ 'lSizer': <wx._core.BoxSizer; proxy of <Swig Object of type 'wxBoxSizer *' at 0x3804328> >,
+ 'currentSkuText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x3c61c90> >,
+ 'currentRepairLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3c7f540> >,
+ 'listingPreferences': <wx._core.MenuItem; proxy of <Swig Object of type 'wxMenuItem *' at 0x23dbc80> >,
+ 'cSizer': <wx._core.BoxSizer; proxy of <Swig Object of type 'wxBoxSizer *' at 0x38043e8> >,
+ 'currentConditionNotesText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x3c7eda8> >,
+ 'currentConditionLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3c61728> >,
+ 'currentBoxLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3c61580> >,
  'defaultJPagesFolder': 'display_image\\jPages',
  'sky_manifest': <module 'display_image.sky_manifest' from 'C:\Users\User\Desktop\SGIS\SGIS_6-2-14\Sky_Group_Inventory_Scanner-wxpython-master\display_image\sky_manifest.pyc'>,
- 'scanNumberLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3769918> >,
- 'browseText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x3773200> >,
- 'currentBoxText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x37f7180> >,
- 'newItemButton': <wx._controls.Button; proxy of <Swig Object of type 'wxButton *' at 0x376a800> >,
+ 'scanNumberLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3adcd18> >,
+ 'browseText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x3c67350> >,
+ 'currentBoxText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x3c7e628> >,
+ 'newItemButton': <wx._controls.Button; proxy of <Swig Object of type 'wxButton *' at 0x3c609e8> >,
  'currentImgPath': 'display_image\\jPages\\QZ468\\default.JPEG',
- 'this': <Swig Object of type 'wxFrame *' at 0x33aa0c8>,
- 'fetchManifestItemInfo': <wx._core.MenuItem; proxy of <Swig Object of type 'wxMenuItem *' at 0x1f66440> >,
- 'currentDateListedLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3771758> >,
- 'scanNumberSeperator': <wx._controls.StaticLine; proxy of <Swig Object of type 'wxStaticLine *' at 0x3769ac0> >,
- 'ebayCategoryIdLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x376a308> >,
- 'mainSizer': <wx._core.BoxSizer; proxy of <Swig Object of type 'wxBoxSizer *' at 0x2030970> >,
+ 'this': <Swig Object of type 'wxFrame *' at 0x3888890>,
+ 'fetchManifestItemInfo': <wx._core.MenuItem; proxy of <Swig Object of type 'wxMenuItem *' at 0x23dba40> >,
+ 'currentDateListedLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3c61a78> >,
+ 'scanNumberSeperator': <wx._controls.StaticLine; proxy of <Swig Object of type 'wxStaticLine *' at 0x3c5fca8> >,
+ 'ebayCategoryIdLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3c604f0> >,
+ 'mainSizer': <wx._core.BoxSizer; proxy of <Swig Object of type 'wxBoxSizer *' at 0x3804508> >,
  'currentItemInfo':
 
  {'description': '\nJ176344  Description is empty\n4PK4260000010\n21492\n',
@@ -222,9 +222,9 @@ MainFrame.__dict__:
 
  {'key': ''},
  'specs': '\nJ176344  Description is empty\n4PK4260000010\n21492\n'},
- 'quit': <wx._core.MenuItem; proxy of <Swig Object of type 'wxMenuItem *' at 0x1f66740> >,
- 'rSizerCurrentItemSizer': <wx._core.BoxSizer; proxy of <Swig Object of type 'wxBoxSizer *' at 0x3264450> >,
- 'SelectImageBtn': <wx._controls.Button; proxy of <Swig Object of type 'wxButton *' at 0x3770f10> >,
+ 'quit': <wx._core.MenuItem; proxy of <Swig Object of type 'wxMenuItem *' at 0x23dbd40> >,
+ 'rSizerCurrentItemSizer': <wx._core.BoxSizer; proxy of <Swig Object of type 'wxBoxSizer *' at 0x38044a8> >,
+ 'SelectImageBtn': <wx._controls.Button; proxy of <Swig Object of type 'wxButton *' at 0x3c61230> >,
  'jNumber': 'QZ468',
  'defaultJNumberInfo':
 
@@ -235,52 +235,44 @@ MainFrame.__dict__:
  '4NS3600000010_A_99'],
  'description': '\nJ176344  Description is empty\n4PK4260000010\n21492\n',
  'specs': '\nJ176344 is Empty\n4PK4260000010\n21492\n'},
- 'listerInitialsLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x376a4b0> >,
- 'instructLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3770bc0> >,
- 'lookupManifestedRadio': <wx._controls.RadioButton; proxy of <Swig Object of type 'wxRadioButton *' at 0x3768f28> >,
- 'descriptionTextField': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x37f2dc0> >,
+ 'listerInitialsLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3c60698> >,
+ 'instructLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3c60ee0> >,
+ 'lookupManifestedRadio': <wx._controls.RadioButton; proxy of <Swig Object of type 'wxRadioButton *' at 0x3adc328> >,
+ 'descriptionTextField': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x3c78268> >,
  'archivedDataFolderPath': 'display_image\\archivedData',
  'defaultJNumberFolder': 'display_image\\jPages\\QZ468',
- 'imageCountLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3770a18> >,
- 'listerInitialsText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x376d240> >,
- 'imageCtrl': <wx._controls.StaticBitmap; proxy of <Swig Object of type 'wxStaticBitmap *' at 0x376a9a8> >,
- 'beginManifestingRadio': <wx._controls.RadioButton; proxy of <Swig Object of type 'wxRadioButton *' at 0x3768d80> >,
- 'ebayCategoryIdText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x376ce80> >,
- 'lookUpBySkuSizer': <wx._core.BoxSizer; proxy of <Swig Object of type 'wxBoxSizer *' at 0x33c9540> >,
- 'file': <wx._core.Menu; proxy of <Swig Object of type 'wxMenu *' at 0x1f66140> >,
- 'currentRepairText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x37f8080> >,
+ 'imageCountLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3c60d38> >,
+ 'listerInitialsText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x3c63390> >,
+ 'imageCtrl': <wx._controls.StaticBitmap; proxy of <Swig Object of type 'wxStaticBitmap *' at 0x3c60b90> >,
+ 'beginManifestingRadio': <wx._controls.RadioButton; proxy of <Swig Object of type 'wxRadioButton *' at 0x3adc180> >,
+ 'ebayCategoryIdText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x3c62fd0> >,
+ 'lookUpBySkuSizer': <wx._core.BoxSizer; proxy of <Swig Object of type 'wxBoxSizer *' at 0x3804388> >,
+ 'file': <wx._core.Menu; proxy of <Swig Object of type 'wxMenu *' at 0x23db800> >,
+ 'currentRepairText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x3c81528> >,
  'defaultJNumber': 'QZ468',
- 'palletNumberLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3769770> >,
+ 'palletNumberLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3adcb70> >,
  'PhotoMaxSize': 400,
- 'mainPanel': <wx._windows.Panel; proxy of <Swig Object of type 'wxPanel *' at 0x35c99c0> >,
- 'startingSkuLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3769c68> >,
- 'rSizer': <wx._core.BoxSizer; proxy of <Swig Object of type 'wxBoxSizer *' at 0x32643f0> >,
- 'saveDescriptionTextBtn': <wx._controls.Button; proxy of <Swig Object of type 'wxButton *' at 0x37710b8> >,
- 'scanNumberText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x376b780> >,
- 'pdbSetTrace': <wx._core.MenuItem; proxy of <Swig Object of type 'wxMenuItem *' at 0x1f66800> >,
- 'statusbar': <wx._windows.StatusBar; proxy of <Swig Object of type 'wxStatusBar *' at 0x34eb688> >,
- 'upcNumberLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3769fb8> >,
- 'currentDateListedText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x37f7cc0> >,
- 'shopHqRadio': <wx._controls.RadioButton; proxy of <Swig Object of type 'wxRadioButton *' at 0x37695c8> >,
+ 'mainPanel': <wx._windows.Panel; proxy of <Swig Object of type 'wxPanel *' at 0x3aab330> >,
+ 'startingSkuLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3c5fe50> >,
+ 'rSizer': <wx._core.BoxSizer; proxy of <Swig Object of type 'wxBoxSizer *' at 0x3804448> >,
+ 'saveDescriptionTextBtn': <wx._controls.Button; proxy of <Swig Object of type 'wxButton *' at 0x3c613d8> >,
+ 'scanNumberText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x3c5f8d0> >,
+ 'pdbSetTrace': <wx._core.MenuItem; proxy of <Swig Object of type 'wxMenuItem *' at 0x23dbe00> >,
+ 'statusbar': <wx._windows.StatusBar; proxy of <Swig Object of type 'wxStatusBar *' at 0x394f0d0> >,
+ 'upcNumberLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3c601a0> >,
+ 'currentDateListedText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x3c7f168> >,
+ 'shopHqRadio': <wx._controls.RadioButton; proxy of <Swig Object of type 'wxRadioButton *' at 0x3adc9c8> >,
  'scanNumberTextValue': None,
  'ListingPreferencesDialog': <class 'display_image.Dialogs.ListingPreferencesDialog.ListingPreferencesDialog'>,
- 'beginShelfNumberText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x376cac0> >}
+ 'beginShelfNumberText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x3c62c10> >}
 
---06-10 14:25:01 log_info display_image.EventsHandlers.MainFrameEventHandler.onLookupManifestedRadio INFO     
-Inside:  onLookupManifestedRadio
+--06-17 09:03:13 log_info display_image.EventsHandlers.MainFrameEventHandler.onPrefetch INFO     
+Inside:  onPrefetch
 
---06-10 14:25:01 log_info display_image.EventsHandlers.MainFrameEventHandler.onLookupManifestedRadio INFO     
-Inside:  onLookupManifestedRadio
+--06-17 09:03:13 log_info display_image.EventsHandlers.MainFrameEventHandler.onPrefetch INFO     
+Inside:  onPrefetch
 
---06-10 14:25:01 log_info display_image.EventsHandlers.MainFrameEventHandler.onLookupManifestedRadio INFO     
-
-# PhotoCtrlEventsHandler: onLookupManifestedRadio # onLookupManifestedRadio
-
---06-10 14:25:01 log_info display_image.EventsHandlers.MainFrameEventHandler.onLookupManifestedRadio INFO     
-
-# PhotoCtrlEventsHandler: onLookupManifestedRadio # onLookupManifestedRadio
-
---06-10 14:25:01 log_debug display_image.EventsHandlers.MainFrameEventHandler.csvFileBrowse DEBUG    Inside:  csvFileBrowse
+--06-17 09:03:13 log_debug display_image.EventsHandlers.MainFrameEventHandler.csvFileBrowse DEBUG    Inside:  csvFileBrowse
 ARGS_KWARGS_STR:
 {'ARGS': ()
 , 'KWARGS': {}}
@@ -291,15 +283,15 @@ caller: ['        return _core_.PyApp_MainLoop(*args, **kwargs)\n']
 Exception:
 None
 
---06-10 14:25:01 log_info display_image.EventsHandlers.MainFrameEventHandler.csvFileBrowse INFO     
+--06-17 09:03:13 log_info display_image.EventsHandlers.MainFrameEventHandler.csvFileBrowse INFO     
 Inside:  csvFileBrowse
 
---06-10 14:25:01 log_info display_image.EventsHandlers.MainFrameEventHandler.csvFileBrowse INFO     
+--06-17 09:03:13 log_info display_image.EventsHandlers.MainFrameEventHandler.csvFileBrowse INFO     
 Inside:  csvFileBrowse
 
---06-10 14:25:03 log_debug display_image.EventsHandlers.MainFrameEventHandler.csvFileBrowse DEBUG    Filenames: csvFileBrowse
+--06-17 09:03:16 log_debug display_image.EventsHandlers.MainFrameEventHandler.csvFileBrowse DEBUG    Filenames: csvFileBrowse
 ARGS_KWARGS_STR:
-{'ARGS': ([u'C:\\Users\\User\\Desktop\\SGIS\\SGIS_6-2-14\\Sky_Group_Inventory_Scanner-wxpython-master\\spreadsheets\\MEE_Test\\MEE_Test.csv'],)
+{'ARGS': ([u'C:\\Users\\User\\Desktop\\SGIS\\Master_SpreadSheets\\SNBC4\\SNBC4_Master.csv'],)
 , 'KWARGS': {}}
 call_fn: C:\Python27\lib\site-packages\wx-3.0-msw\wx\_core.py
 call_ln: 7952
@@ -308,1405 +300,8 @@ caller: ['        return _core_.PyApp_MainLoop(*args, **kwargs)\n']
 Exception:
 None
 
---06-10 14:25:04 log_info display_image.EventsHandlers.MainFrameEventHandler.onPalletNumberText INFO     
-Inside:  onPalletNumberText
-
---06-10 14:25:04 log_info display_image.EventsHandlers.MainFrameEventHandler.onPalletNumberText INFO     
-Inside:  onPalletNumberText
-
---06-10 14:25:04 log_info display_image.EventsHandlers.MainFrameEventHandler.onPalletNumberText INFO     
-
-# PhotoCtrlEventHandler.onPalletNumberText(): # onPalletNumberText
-
---06-10 14:25:04 log_info display_image.EventsHandlers.MainFrameEventHandler.onPalletNumberText INFO     
-
-# PhotoCtrlEventHandler.onPalletNumberText(): # onPalletNumberText
-
---06-10 14:25:05 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentSkuText INFO     
-Inside:  onCurrentSkuText
-
---06-10 14:25:05 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentSkuText INFO     
-Inside:  onCurrentSkuText
-
---06-10 14:25:05 log_debug display_image.EventsHandlers.MainFrameEventHandler.onCurrentSkuText DEBUG    . self.MainFrame.startingSkuNumber Updated to:  onCurrentSkuText
-ARGS_KWARGS_STR:
-{'ARGS': ('1',)
-, 'KWARGS': {}}
-call_fn: C:\Python27\lib\site-packages\wx-3.0-msw\wx\_core.py
-call_ln: 8660
-call_func: MainLoop
-caller: ['        wx.PyApp.MainLoop(self)\n']
-Exception:
-None
-
---06-10 14:25:06 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentSkuText INFO     
-Inside:  onCurrentSkuText
-
---06-10 14:25:06 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentSkuText INFO     
-Inside:  onCurrentSkuText
-
---06-10 14:25:06 log_debug display_image.EventsHandlers.MainFrameEventHandler.onCurrentSkuText DEBUG    . self.MainFrame.startingSkuNumber Updated to:  onCurrentSkuText
-ARGS_KWARGS_STR:
-{'ARGS': ('11',)
-, 'KWARGS': {}}
-call_fn: C:\Python27\lib\site-packages\wx-3.0-msw\wx\_core.py
-call_ln: 8660
-call_func: MainLoop
-caller: ['        wx.PyApp.MainLoop(self)\n']
-Exception:
-None
-
---06-10 14:25:06 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentSkuText INFO     
-Inside:  onCurrentSkuText
-
---06-10 14:25:06 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentSkuText INFO     
-Inside:  onCurrentSkuText
-
---06-10 14:25:06 log_debug display_image.EventsHandlers.MainFrameEventHandler.onCurrentSkuText DEBUG    . self.MainFrame.startingSkuNumber Updated to:  onCurrentSkuText
-ARGS_KWARGS_STR:
-{'ARGS': ('111',)
-, 'KWARGS': {}}
-call_fn: C:\Python27\lib\site-packages\wx-3.0-msw\wx\_core.py
-call_ln: 8660
-call_func: MainLoop
-caller: ['        wx.PyApp.MainLoop(self)\n']
-Exception:
-None
-
---06-10 14:25:06 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentSkuText INFO     
-Inside:  onCurrentSkuText
-
---06-10 14:25:06 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentSkuText INFO     
-Inside:  onCurrentSkuText
-
---06-10 14:25:06 log_debug display_image.EventsHandlers.MainFrameEventHandler.onCurrentSkuText DEBUG    . self.MainFrame.startingSkuNumber Updated to:  onCurrentSkuText
-ARGS_KWARGS_STR:
-{'ARGS': ('1111',)
-, 'KWARGS': {}}
-call_fn: C:\Python27\lib\site-packages\wx-3.0-msw\wx\_core.py
-call_ln: 8660
-call_func: MainLoop
-caller: ['        wx.PyApp.MainLoop(self)\n']
-Exception:
-None
-
---06-10 14:25:07 log_info display_image.EventsHandlers.MainFrameEventHandler.onLookUpBySkuBtn INFO     
-Inside:  onLookUpBySkuBtn
-
---06-10 14:25:07 log_info display_image.EventsHandlers.MainFrameEventHandler.onLookUpBySkuBtn INFO     
-Inside:  onLookUpBySkuBtn
-
---06-10 14:25:07 log_info display_image.EventsHandlers.MainFrameEventHandler.onLookUpBySkuBtn INFO     
-
-# PhotoCtrlEventsHandler.onLookUpBySkuBtn(): # onLookUpBySkuBtn
-
---06-10 14:25:07 log_info display_image.EventsHandlers.MainFrameEventHandler.onLookUpBySkuBtn INFO     
-
-# PhotoCtrlEventsHandler.onLookUpBySkuBtn(): # onLookUpBySkuBtn
-
---06-10 14:25:07 log_info display_image.EventsHandlers.MainFrameEventHandler.onLookUpBySkuBtnFinger INFO     
-Inside:  onLookUpBySkuBtnFinger
-
---06-10 14:25:07 log_info display_image.EventsHandlers.MainFrameEventHandler.onLookUpBySkuBtnFinger INFO     
-Inside:  onLookUpBySkuBtnFinger
-
---06-10 14:25:07 log_info display_image.EventsHandlers.MainFrameEventHandler.onPalletNumberText INFO     
-Inside:  onPalletNumberText
-
---06-10 14:25:07 log_info display_image.EventsHandlers.MainFrameEventHandler.onPalletNumberText INFO     
-Inside:  onPalletNumberText
-
---06-10 14:25:07 log_info display_image.EventsHandlers.MainFrameEventHandler.onPalletNumberText INFO     
-
-# PhotoCtrlEventHandler.onPalletNumberText(): # onPalletNumberText
-
---06-10 14:25:07 log_info display_image.EventsHandlers.MainFrameEventHandler.onPalletNumberText INFO     
-
-# PhotoCtrlEventHandler.onPalletNumberText(): # onPalletNumberText
-
---06-10 14:25:07 log_info display_image.EventsHandlers.MainFrameEventHandler.onScanNumberText INFO     
-Inside:  onScanNumberText
-
---06-10 14:25:07 log_info display_image.EventsHandlers.MainFrameEventHandler.onScanNumberText INFO     
-Inside:  onScanNumberText
-
---06-10 14:25:07 log_info display_image.EventsHandlers.MainFrameEventHandler.onScanNumberText INFO     
-
-# PhotoCtrlEventHandler.scanNumberText() # onScanNumberText
-
---06-10 14:25:07 log_info display_image.EventsHandlers.MainFrameEventHandler.onScanNumberText INFO     
-
-# PhotoCtrlEventHandler.scanNumberText() # onScanNumberText
-
---06-10 14:25:07 log_info display_image.sky_manifest.checkIfManifested INFO     
-
-# sky_manifest.ManifestReader.checkIfManifested(jnumber) # checkIfManifested
-
---06-10 14:25:07 log_info display_image.sky_manifest.checkIfManifested INFO     
-. jnumber:4PL5140000010 checkIfManifested
-
---06-10 14:25:07 log_info display_image.sky_manifest.returnColumn INFO     
-
-# sky_manifest.ManifestReader.returnColumn: ERROR appending returnColumn
-
---06-10 14:25:07 log_info display_image.sky_manifest.returnColumn INFO     
-list index out of range returnColumn
-
---06-10 14:25:07 log_info display_image.sky_manifest.returnColumn INFO     
-
-# sky_manifest.ManifestReader.returnColumn: ERROR appending returnColumn
-
---06-10 14:25:07 log_info display_image.sky_manifest.returnColumn INFO     
-list index out of range returnColumn
-
---06-10 14:25:07 log_info display_image.sky_manifest.returnColumn INFO     
-
-# sky_manifest.ManifestReader.returnColumn: ERROR appending returnColumn
-
---06-10 14:25:07 log_info display_image.sky_manifest.returnColumn INFO     
-list index out of range returnColumn
-
---06-10 14:25:07 log_info display_image.sky_manifest.returnColumn INFO     
-
-# sky_manifest.ManifestReader.returnColumn: ERROR appending returnColumn
-
---06-10 14:25:07 log_info display_image.sky_manifest.returnColumn INFO     
-list index out of range returnColumn
-
---06-10 14:25:07 log_info display_image.sky_manifest.returnColumn INFO     
-
-# sky_manifest.ManifestReader.returnColumn: ERROR appending returnColumn
-
---06-10 14:25:07 log_info display_image.sky_manifest.returnColumn INFO     
-list index out of range returnColumn
-
---06-10 14:25:07 log_info display_image.sky_manifest.checkIfManifested INFO     
-. jc_len:5 mc_len:5 sc_len:5 checkIfManifested
-
---06-10 14:25:07 log_info display_image.sky_manifest.checkIfManifested INFO     
-. Found Match on row_index:1 checkIfManifested
-
---06-10 14:25:07 log_info display_image.sky_manifest.checkIfManifested INFO     
-. Line Number: 2 checkIfManifested
-
---06-10 14:25:07 log_info display_image.sky_manifest.checkIfManifested INFO     
-. Found sku Number: 1111 checkIfManifested
-
---06-10 14:25:07 log_info display_image.sky_manifest.checkIfManifested INFO     
-. Manifested: X checkIfManifested
-
---06-10 14:25:07 log_info display_image.Check.loadMainFrameJson INFO     
-
-# Check.loadself.MainFrameJson(): # loadMainFrameJson
-
---06-10 14:25:07 log_info display_image.Check.loadMainFrameJson INFO     
-display_image\jPages\PL514\PL514.json loadMainFrameJson
-
---06-10 14:25:07 log_info display_image.Check.loadMainFrameJson INFO     
-. retailer_code:0 loadMainFrameJson
-
---06-10 14:25:07 log_info display_image.Check.loadMainFrameJson INFO     
-. ebay_category loadMainFrameJson
-
---06-10 14:25:07 log_info display_image.Check.loadMainFrameJson INFO     
-. image_list loadMainFrameJson
-
---06-10 14:25:07 log_info display_image.Check.loadMainFrameJson INFO     
-. jnumber loadMainFrameJson
-
---06-10 14:25:07 log_info display_image.Check.loadMainFrameJson INFO     
-. pallet_number loadMainFrameJson
-
---06-10 14:25:07 log_info display_image.Check.loadMainFrameJson INFO     
-. specs loadMainFrameJson
-
---06-10 14:25:07 log_info display_image.Check.loadMainFrameJson INFO     
-. category loadMainFrameJson
-
---06-10 14:25:07 log_info display_image.Check.loadMainFrameJson INFO     
-. title loadMainFrameJson
-
---06-10 14:25:07 log_info display_image.Check.loadMainFrameJson INFO     
-. jNumber loadMainFrameJson
-
---06-10 14:25:07 log_info display_image.Check.loadMainFrameJson INFO     
-. itemSelectedImages loadMainFrameJson
-
---06-10 14:25:07 log_info display_image.Check.loadMainFrameJson INFO     
-. condition loadMainFrameJson
-
---06-10 14:25:07 log_info display_image.Check.loadMainFrameJson INFO     
-. condition_notes loadMainFrameJson
-
---06-10 14:25:07 log_info display_image.Check.loadMainFrameJson INFO     
-. retailer_code loadMainFrameJson
-
---06-10 14:25:07 log_info display_image.Check.loadMainFrameJson INFO     
-. *ConditionID loadMainFrameJson
-
---06-10 14:25:07 log_info display_image.Check.loadMainFrameJson INFO     
-. sku loadMainFrameJson
-
---06-10 14:25:07 log_info display_image.Check.loadMainFrameJson INFO     
-. description loadMainFrameJson
-
---06-10 14:25:07 log_info display_image.Check.loadMainFrameJson INFO     
-. palletNumber loadMainFrameJson
-
---06-10 14:25:07 log_info display_image.Check.loadMainFrameJson INFO     
-. manifested loadMainFrameJson
-
---06-10 14:25:07 log_info display_image.Check.loadMainFrameJson INFO     
-. date_listed loadMainFrameJson
-
---06-10 14:25:07 log_info display_image.Check.loadMainFrameJson INFO     
-. upc loadMainFrameJson
-
---06-10 14:25:07 log_info display_image.Check.loadMainFrameJson INFO     
-. listerInitials loadMainFrameJson
-
---06-10 14:25:07 log_info display_image.Check.loadMainFrameJson INFO     
-. jNumberFolderPath loadMainFrameJson
-
---06-10 14:25:07 log_info display_image.Check.loadMainFrameJson INFO     
-. *Category loadMainFrameJson
-
---06-10 14:25:07 log_info display_image.Check.loadMainFrameJson INFO     
-. msrp loadMainFrameJson
-
---06-10 14:25:07 log_info display_image.Check.loadMainFrameJson INFO     
-. quantity loadMainFrameJson
-
---06-10 14:25:07 log_info display_image.Check.loadMainFrameJson INFO     
-Updating currentItemInfo in loadMainFrameJson{u'retailer_code:0': u'', u'ebay_category': u'', u'image_list': [u'4PL5140000010_VE_999', u'4PL5140000010_VA_999'], u'jnumber': u'4PL5140000010', u'pallet_number': u'0', u'specs': u'TV HDMI Inputs<br>Product Height (in.)<br>Picture-In-Picture<br>3D-Ready<br>Audio Outputs<br>Product Depth (in.)<br>Speaker Output (in Watts)<br>Product Depth With Stand (in.)<br>Alarm Timer<br>Model #<br>Mount Bracket Pattern<br>MFR Included Warranty Type<br>TV Display Type<br>Additional TV Outputs<br>Aspect Ratio<br>Digital Tuner<br>Component Cable<br>Digital Comb Filter<br>Sleep Timer<br>Brand<br>Wall Mountable<br>Stand Included<br>Television Type<br>Headphone Jack<br>Additional Cables Included<br>Viewing Modes<br>TV Refresh Rate (Hz.)<br>Composite Cable<br>Energy Star Compliant<br>V-Chip<br>Screen Size<br>HDMI Cable<br>Languages Displayed<br>Internet-Ready<br>Coaxial Cable Included<br>Media Card Slot<br>Instant Content<br>Antiglare Screen Coating<br>Video Input Type(s)<br>Product Height With Stand (in.)<br>Remote Included<br>Volume Leveler<br>Product Width (in.)<br>Audio Inputs<br>HDMI Inputs<br>TV Screen Size (in.)<br>Additional TV Inputs<br>USB Port<br>Vertical Resolution<br>S-Video Cable<br>Number of Speakers<br>Closed Captioning<br>RCA Cable<br>Response Time (in Ms)<br>Antenna Included<br>Widescreen<br>Viewing Angles (in Degrees)', u'category': u'Electronics', u'title': u'Coby 39in 1080p LED HDTV', u'jNumber': u'PL514', u'itemSelectedImages': {u'display_image\\jPages\\PL514\\4PL5140000010_VA_999.JPEG': u'True'}, u'condition': u'5', u'condition_notes': u'New in original packaging.', u'retailer_code': u'0', u'*ConditionID': u'1000', u'sku': u'1111', u'description': u'<p>\n This Coby 39 LED HDTV with Full HD (1080p) resolution and slim\nprofile delivers a brilliant picture! With 3 HDMI inputs it easily\nconnects to a cable or satellite box HD video game console or\nother high-definition device.\n</p>\n<ul>\n <li>\n  39 (38.5 diagonal) widescreen LED display\n </li>\n <li>\n  Full HD (1080p) resolution\n </li>\n <li>\n  60Hz (6.5ms) refresh rate\n </li>\n <li>\n  3000:1 contrast ratio\n </li>\n <li>\n  176\xb0 horizontal and vertical viewing angles\n </li>\n <li>\n  Digital noise reduction\n </li>\n <li>\n  Integrated stereo speakers with\xa0SRS TruSurround XT\n </li>\n <li>\n  V-chip parental control\n </li>\n <li>\n  Closed captioning\n </li>\n <li>\n  Electronic program guide support\n </li>\n <li>\n  Multilingual on-screen menus\n </li>\n <li>\n  Inputs: 3 HDMI component video composite video PC RF\n </li>\n <li>\n  Coaxial digital audio output\n </li>\n <li>\n  3.5mm headphone jack\n </li>\n <li>\n  Includes removable stand and remote control with batteries\n </li>\n <li>\n  Antenna not included\n </li>\n <li>\n  Wall mountable (VESA 200mm x 100mm)\n </li>\n <li>\n  Approx. 35W x 7-3/4D x 24-1/4H (with stand)\n </li>\n <li>\n  Weighs 22.1 lbs. (with stand)\n </li>\n <li>\n  ENERGY STAR qualified saves you energy and money\n </li>\n <li>\n  $9.13 Estimated yearly consumption energy costs will vary by\nutility rates and usage\n </li>\n <li>\n  Limited warranty\n </li>\n</ul>\n', u'palletNumber': u'0', u'manifested': u'X', u'date_listed': u'..', u'upc': u'100000000001', u'listerInitials': u'JM', u'jNumberFolderPath': u'display_image\\jPages\\PL514', u'*Category': u'', u'msrp': u'$499.99', u'quantity': u'1'} loadMainFrameJson
-
---06-10 14:25:07 log_info display_image.Check.loadMainFrameJson INFO     
-self.MainFrame.currentItemInfo Updated loadMainFrameJson
-
---06-10 14:25:07 log_info display_image.EventsHandlers.MainFrameEventHandler.updateMainFrameCurrentItemInfo INFO     
-Post json_exists: {u'ebay_category': u'', 'image_list': [u'4PL5140000010_VE_999', u'4PL5140000010_VA_999'], 'jnumber': u'4PL5140000010', 'pallet_number': u'0', 'specs': u'TV HDMI Inputs<br>Product Height (in.)<br>Picture-In-Picture<br>3D-Ready<br>Audio Outputs<br>Product Depth (in.)<br>Speaker Output (in Watts)<br>Product Depth With Stand (in.)<br>Alarm Timer<br>Model #<br>Mount Bracket Pattern<br>MFR Included Warranty Type<br>TV Display Type<br>Additional TV Outputs<br>Aspect Ratio<br>Digital Tuner<br>Component Cable<br>Digital Comb Filter<br>Sleep Timer<br>Brand<br>Wall Mountable<br>Stand Included<br>Television Type<br>Headphone Jack<br>Additional Cables Included<br>Viewing Modes<br>TV Refresh Rate (Hz.)<br>Composite Cable<br>Energy Star Compliant<br>V-Chip<br>Screen Size<br>HDMI Cable<br>Languages Displayed<br>Internet-Ready<br>Coaxial Cable Included<br>Media Card Slot<br>Instant Content<br>Antiglare Screen Coating<br>Video Input Type(s)<br>Product Height With Stand (in.)<br>Remote Included<br>Volume Leveler<br>Product Width (in.)<br>Audio Inputs<br>HDMI Inputs<br>TV Screen Size (in.)<br>Additional TV Inputs<br>USB Port<br>Vertical Resolution<br>S-Video Cable<br>Number of Speakers<br>Closed Captioning<br>RCA Cable<br>Response Time (in Ms)<br>Antenna Included<br>Widescreen<br>Viewing Angles (in Degrees)', 'category': u'Electronics', 'title': u'Coby 39in 1080p LED HDTV', 'jNumber': u'PL514', 'itemSelectedImages': {u'display_image\\jPages\\PL514\\4PL5140000010_VA_999.JPEG': u'True'}, 'condition': u'5', 'condition_notes': u'New in original packaging.', 'sku': u'1111', 'retailer_code': u'0', u'*ConditionID': u'1000', 'retailer_code:0': u'', 'description': u'<p>\n This Coby 39 LED HDTV with Full HD (1080p) resolution and slim\nprofile delivers a brilliant picture! With 3 HDMI inputs it easily\nconnects to a cable or satellite box HD video game console or\nother high-definition device.\n</p>\n<ul>\n <li>\n  39 (38.5 diagonal) widescreen LED display\n </li>\n <li>\n  Full HD (1080p) resolution\n </li>\n <li>\n  60Hz (6.5ms) refresh rate\n </li>\n <li>\n  3000:1 contrast ratio\n </li>\n <li>\n  176\xb0 horizontal and vertical viewing angles\n </li>\n <li>\n  Digital noise reduction\n </li>\n <li>\n  Integrated stereo speakers with\xa0SRS TruSurround XT\n </li>\n <li>\n  V-chip parental control\n </li>\n <li>\n  Closed captioning\n </li>\n <li>\n  Electronic program guide support\n </li>\n <li>\n  Multilingual on-screen menus\n </li>\n <li>\n  Inputs: 3 HDMI component video composite video PC RF\n </li>\n <li>\n  Coaxial digital audio output\n </li>\n <li>\n  3.5mm headphone jack\n </li>\n <li>\n  Includes removable stand and remote control with batteries\n </li>\n <li>\n  Antenna not included\n </li>\n <li>\n  Wall mountable (VESA 200mm x 100mm)\n </li>\n <li>\n  Approx. 35W x 7-3/4D x 24-1/4H (with stand)\n </li>\n <li>\n  Weighs 22.1 lbs. (with stand)\n </li>\n <li>\n  ENERGY STAR qualified saves you energy and money\n </li>\n <li>\n  $9.13 Estimated yearly consumption energy costs will vary by\nutility rates and usage\n </li>\n <li>\n  Limited warranty\n </li>\n</ul>\n', 'palletNumber': u'0', 'manifested': u'X', 'date_listed': u'..', 'upc': u'100000000001', 'listerInitials': u'JM', 'jNumberFolderPath': u'display_image\\jPages\\PL514', u'*Category': u'', 'msrp': u'$499.99', 'quantity': u'1'} updateMainFrameCurrentItemInfo
-
---06-10 14:25:07 log_info display_image.EventsHandlers.MainFrameEventHandler.updateMainFrameCurrentItemInfo INFO     
-Post json_exists: {u'ebay_category': u'', 'image_list': [u'4PL5140000010_VE_999', u'4PL5140000010_VA_999'], 'jnumber': u'4PL5140000010', 'pallet_number': u'0', 'specs': u'TV HDMI Inputs<br>Product Height (in.)<br>Picture-In-Picture<br>3D-Ready<br>Audio Outputs<br>Product Depth (in.)<br>Speaker Output (in Watts)<br>Product Depth With Stand (in.)<br>Alarm Timer<br>Model #<br>Mount Bracket Pattern<br>MFR Included Warranty Type<br>TV Display Type<br>Additional TV Outputs<br>Aspect Ratio<br>Digital Tuner<br>Component Cable<br>Digital Comb Filter<br>Sleep Timer<br>Brand<br>Wall Mountable<br>Stand Included<br>Television Type<br>Headphone Jack<br>Additional Cables Included<br>Viewing Modes<br>TV Refresh Rate (Hz.)<br>Composite Cable<br>Energy Star Compliant<br>V-Chip<br>Screen Size<br>HDMI Cable<br>Languages Displayed<br>Internet-Ready<br>Coaxial Cable Included<br>Media Card Slot<br>Instant Content<br>Antiglare Screen Coating<br>Video Input Type(s)<br>Product Height With Stand (in.)<br>Remote Included<br>Volume Leveler<br>Product Width (in.)<br>Audio Inputs<br>HDMI Inputs<br>TV Screen Size (in.)<br>Additional TV Inputs<br>USB Port<br>Vertical Resolution<br>S-Video Cable<br>Number of Speakers<br>Closed Captioning<br>RCA Cable<br>Response Time (in Ms)<br>Antenna Included<br>Widescreen<br>Viewing Angles (in Degrees)', 'category': u'Electronics', 'title': u'Coby 39in 1080p LED HDTV', 'jNumber': u'PL514', 'itemSelectedImages': {u'display_image\\jPages\\PL514\\4PL5140000010_VA_999.JPEG': u'True'}, 'condition': u'5', 'condition_notes': u'New in original packaging.', 'sku': u'1111', 'retailer_code': u'0', u'*ConditionID': u'1000', 'retailer_code:0': u'', 'description': u'<p>\n This Coby 39 LED HDTV with Full HD (1080p) resolution and slim\nprofile delivers a brilliant picture! With 3 HDMI inputs it easily\nconnects to a cable or satellite box HD video game console or\nother high-definition device.\n</p>\n<ul>\n <li>\n  39 (38.5 diagonal) widescreen LED display\n </li>\n <li>\n  Full HD (1080p) resolution\n </li>\n <li>\n  60Hz (6.5ms) refresh rate\n </li>\n <li>\n  3000:1 contrast ratio\n </li>\n <li>\n  176\xb0 horizontal and vertical viewing angles\n </li>\n <li>\n  Digital noise reduction\n </li>\n <li>\n  Integrated stereo speakers with\xa0SRS TruSurround XT\n </li>\n <li>\n  V-chip parental control\n </li>\n <li>\n  Closed captioning\n </li>\n <li>\n  Electronic program guide support\n </li>\n <li>\n  Multilingual on-screen menus\n </li>\n <li>\n  Inputs: 3 HDMI component video composite video PC RF\n </li>\n <li>\n  Coaxial digital audio output\n </li>\n <li>\n  3.5mm headphone jack\n </li>\n <li>\n  Includes removable stand and remote control with batteries\n </li>\n <li>\n  Antenna not included\n </li>\n <li>\n  Wall mountable (VESA 200mm x 100mm)\n </li>\n <li>\n  Approx. 35W x 7-3/4D x 24-1/4H (with stand)\n </li>\n <li>\n  Weighs 22.1 lbs. (with stand)\n </li>\n <li>\n  ENERGY STAR qualified saves you energy and money\n </li>\n <li>\n  $9.13 Estimated yearly consumption energy costs will vary by\nutility rates and usage\n </li>\n <li>\n  Limited warranty\n </li>\n</ul>\n', 'palletNumber': u'0', 'manifested': u'X', 'date_listed': u'..', 'upc': u'100000000001', 'listerInitials': u'JM', 'jNumberFolderPath': u'display_image\\jPages\\PL514', u'*Category': u'', 'msrp': u'$499.99', 'quantity': u'1'} updateMainFrameCurrentItemInfo
-
---06-10 14:25:07 log_info display_image.Check.defaultImageSelections INFO     
-
-# Check.defaultImageSelections(): # defaultImageSelections
-
---06-10 14:25:07 log_info display_image.Check.defaultImageSelections INFO     
-prev_selected:{u'display_image\\jPages\\PL514\\4PL5140000010_VA_999.JPEG': u'True'} defaultImageSelections
-
---06-10 14:25:07 log_info display_image.Check.defaultImageSelections INFO     
-display_image\jPages\PL514\4PL5140000010_VA_999.JPEG defaultImageSelections
-
---06-10 14:25:07 log_info display_image.Check.defaultImageSelections INFO     
-# Check.defaultImageSelections: display_image\jPages\PL514\4PL5140000010_VA_999.JPEG defaultImageSelections
-
---06-10 14:25:07 log_info display_image.EventsHandlers.MainFrameEventHandler.updateMainFrameCurrentItemInfo INFO     
-
-# PhotoCtrlEventHandler.onScanNumberText(): self.prev_image # updateMainFrameCurrentItemInfo
-
---06-10 14:25:07 log_info display_image.EventsHandlers.MainFrameEventHandler.updateMainFrameCurrentItemInfo INFO     
-
-# PhotoCtrlEventHandler.onScanNumberText(): self.prev_image # updateMainFrameCurrentItemInfo
-
---06-10 14:25:07 log_info display_image.EventsHandlers.MainFrameEventHandler.updateMainFrameCurrentItemInfo INFO     
-. Previous Images:  updateMainFrameCurrentItemInfo
-
---06-10 14:25:07 log_info display_image.EventsHandlers.MainFrameEventHandler.updateMainFrameCurrentItemInfo INFO     
-. Previous Images:  updateMainFrameCurrentItemInfo
-
---06-10 14:25:07 log_info display_image.EventsHandlers.MainFrameEventHandler.updateMainFrameCurrentItemInfo INFO     
-. {u'display_image\\jPages\\PL514\\4PL5140000010_VA_999.JPEG': u'True'} updateMainFrameCurrentItemInfo
-
---06-10 14:25:07 log_info display_image.EventsHandlers.MainFrameEventHandler.updateMainFrameCurrentItemInfo INFO     
-. {u'display_image\\jPages\\PL514\\4PL5140000010_VA_999.JPEG': u'True'} updateMainFrameCurrentItemInfo
-
---06-10 14:25:07 log_info display_image.EventsHandlers.MainFrameEventHandler.updateMainFrameCurrentItemInfo INFO     
-. display_image\jPages\PL514\4PL5140000010_VA_999.JPEG updateMainFrameCurrentItemInfo
-
---06-10 14:25:07 log_info display_image.EventsHandlers.MainFrameEventHandler.updateMainFrameCurrentItemInfo INFO     
-. display_image\jPages\PL514\4PL5140000010_VA_999.JPEG updateMainFrameCurrentItemInfo
-
---06-10 14:25:07 log_info display_image.EventsHandlers.MainFrameEventHandler.updateMainFrameCurrentItemInfo INFO     
-. Found Previous Image Selection: display_image\jPages\PL514\4PL5140000010_VA_999.JPEG updateMainFrameCurrentItemInfo
-
---06-10 14:25:07 log_info display_image.EventsHandlers.MainFrameEventHandler.updateMainFrameCurrentItemInfo INFO     
-. Found Previous Image Selection: display_image\jPages\PL514\4PL5140000010_VA_999.JPEG updateMainFrameCurrentItemInfo
-
---06-10 14:25:07 log_info display_image.EventsHandlers.MainFrameEventHandler.updateMainFrameCurrentItemInfo INFO     
-None in self.MainFrame.currentImgPath: display_image\jPages\PL514\4PL5140000010_VA_999.JPEG updateMainFrameCurrentItemInfo
-
---06-10 14:25:07 log_info display_image.EventsHandlers.MainFrameEventHandler.updateMainFrameCurrentItemInfo INFO     
-None in self.MainFrame.currentImgPath: display_image\jPages\PL514\4PL5140000010_VA_999.JPEG updateMainFrameCurrentItemInfo
-
---06-10 14:25:08 log_debug display_image.sky_scraper.fetchPage DEBUG    retailer_code,jNumberfetchPage
-ARGS_KWARGS_STR:
-{'ARGS': (u'0', u'4PL5140000010')
-, 'KWARGS': {}}
-call_fn: C:\Users\User\Desktop\SGIS\SGIS_6-2-14\Sky_Group_Inventory_Scanner-wxpython-master\display_image\EventsHandlers\MainFrameEventHandler.py
-call_ln: 817
-call_func: updateMainFrameCurrentItemInfo
-caller: ['                results = FetchPage(self.MainFrame).results # updates currentItemInfo\n']
-Exception:
-None
-
---06-10 14:25:08 log_info display_image.sky_scraper.fetchPage INFO     
-starting getFingertHutProductInfo fetchPage
-
---06-10 14:25:08 log_info display_image.sky_scraper.getFingerHutProductInfo INFO     
-PL514 getFingerHutProductInfo
-
---06-10 14:25:08 log_debug display_image.sky_scraper.getFingerHutProductInfo DEBUG    itemJnumbergetFingerHutProductInfo
-ARGS_KWARGS_STR:
-{'ARGS': (u'PL514',)
-, 'KWARGS': {}}
-call_fn: C:\Users\User\Desktop\SGIS\SGIS_6-2-14\Sky_Group_Inventory_Scanner-wxpython-master\display_image\sky_scraper.py
-call_ln: 26
-call_func: __init__
-caller: ['        self.results = self.fetchPage(self.retailer_code,self.MainFrame.scanNumberTextValue)\n']
-Exception:
-None
-
---06-10 14:25:08 log_info display_image.sky_scraper.getFingerHutProductInfo INFO     
-folder:display_image\jPages getFingerHutProductInfo
-
---06-10 14:25:08 log_info display_image.sky_scraper.getFingerHutProductInfo INFO     
-itemFolder:display_image\jPages\PL514 getFingerHutProductInfo
-
---06-10 14:25:08 log_info display_image.sky_scraper.getFingerHutProductInfo INFO     
-html_file_path:display_image\jPages\PL514\PL514_html getFingerHutProductInfo
-
---06-10 14:25:08 log_info display_image.sky_scraper.getFingerHutProductInfo INFO     
-[Error 183] Cannot create a file when that file already exists: 'display_image\\jPages' getFingerHutProductInfo
-
---06-10 14:25:08 log_info display_image.sky_scraper.getFingerHutProductInfo INFO     
-[Error 183] Cannot create a file when that file already exists: u'display_image\\jPages\\PL514' getFingerHutProductInfo
-
---06-10 14:25:08 log_info display_image.sky_scraper.extract_product_info INFO     
-Trying to load json extract_product_info
-
---06-10 14:25:08 log_info display_image.sky_scraper.extract_product_info INFO     
-Trying to load json extract_product_info
-
---06-10 14:25:08 log_info display_image.sky_scraper.extract_product_info INFO     
-Trying to load json extract_product_info
-
---06-10 14:25:08 log_info display_image.sky_scraper.extract_product_info INFO     
-Got Images. extract_product_info
-
---06-10 14:25:08 log_info display_image.sky_scraper.getFingerHutProductInfo INFO     
-{'image_list': ['4PL5140000010_VE_999', '4PL5140000010_VA_999'], 'description': <p>This Coby 39" LED HDTV with Full HD (1080p) resolution and slim
-profile delivers a brilliant picture! With 3 HDMI inputs, it easily
-connects to a cable or satellite box, HD video game console or
-other high-definition device.</p>
-<ul>
-<li>39" (38.5" diagonal) widescreen LED display</li>
-<li>Full HD (1080p) resolution</li>
-<li>60Hz (6.5ms) refresh rate</li>
-<li>3000:1 contrast ratio</li>
-<li>176° horizontal and vertical viewing angles</li>
-<li>Digital noise reduction</li>
-<li>Integrated stereo speakers with SRS TruSurround XT</li>
-<li>V-chip parental control</li>
-<li>Closed captioning</li>
-<li>Electronic program guide support</li>
-<li>Multilingual on-screen menus</li>
-<li>Inputs: 3 HDMI, component video, composite video, PC, RF</li>
-<li>Coaxial digital audio output</li>
-<li>3.5mm headphone jack</li>
-<li>Includes removable stand and remote control with batteries</li>
-<li>Antenna not included</li>
-<li>Wall mountable (VESA 200mm x 100mm)</li>
-<li>Approx. 35"W x 7-3/4"D x 24-1/4"H (with stand)</li>
-<li>Weighs 22.1 lbs. (with stand)</li>
-<li>ENERGY STAR qualified saves you energy and money</li>
-<li>$9.13 Estimated yearly consumption, energy costs will vary by
-utility rates and usage</li>
-<li>Limited warranty</li>
-</ul>
-, 'specs': u'TV HDMI Inputs<br>Product Height (in.)<br>Picture-In-Picture<br>3D-Ready<br>Audio Outputs<br>Product Depth (in.)<br>Speaker Output (in Watts)<br>Product Depth With Stand (in.)<br>Alarm Timer<br>Model #<br>Mount Bracket Pattern<br>MFR Included Warranty Type<br>TV Display Type<br>Additional TV Outputs<br>Aspect Ratio<br>Digital Tuner<br>Component Cable<br>Digital Comb Filter<br>Sleep Timer<br>Brand<br>Wall Mountable<br>Stand Included<br>Television Type<br>Headphone Jack<br>Additional Cables Included<br>Viewing Modes<br>TV Refresh Rate (Hz.)<br>Composite Cable<br>Energy Star Compliant<br>V-Chip<br>Screen Size<br>HDMI Cable<br>Languages Displayed<br>Internet-Ready<br>Coaxial Cable Included<br>Media Card Slot<br>Instant Content<br>Antiglare Screen Coating<br>Video Input Type(s)<br>Product Height With Stand (in.)<br>Remote Included<br>Volume Leveler<br>Product Width (in.)<br>Audio Inputs<br>HDMI Inputs<br>TV Screen Size (in.)<br>Additional TV Inputs<br>USB Port<br>Vertical Resolution<br>S-Video Cable<br>Number of Speakers<br>Closed Captioning<br>RCA Cable<br>Response Time (in Ms)<br>Antenna Included<br>Widescreen<br>Viewing Angles (in Degrees)'} getFingerHutProductInfo
-
---06-10 14:25:08 log_info display_image.sky_scraper.fetchPage INFO     
-Updating currentItemInfo in FetchPage fetchPage
-
---06-10 14:25:08 log_debug display_image.sky_scraper.fetchPage DEBUG    getFinderHutProductInfo(jNumber) fetchPage results:fetchPage
-ARGS_KWARGS_STR:
-{'ARGS': ({u'ebay_category': u''
-, 'image_list': ['4PL5140000010_VE_999'
-, '4PL5140000010_VA_999']
-, 'jnumber': u'4PL5140000010'
-, 'pallet_number': u'0'
-, 'specs': u'TV HDMI Inputs<br>Product Height (in.)<br>Picture-In-Picture<br>3D-Ready<br>Audio Outputs<br>Product Depth (in.)<br>Speaker Output (in Watts)<br>Product Depth With Stand (in.)<br>Alarm Timer<br>Model #<br>Mount Bracket Pattern<br>MFR Included Warranty Type<br>TV Display Type<br>Additional TV Outputs<br>Aspect Ratio<br>Digital Tuner<br>Component Cable<br>Digital Comb Filter<br>Sleep Timer<br>Brand<br>Wall Mountable<br>Stand Included<br>Television Type<br>Headphone Jack<br>Additional Cables Included<br>Viewing Modes<br>TV Refresh Rate (Hz.)<br>Composite Cable<br>Energy Star Compliant<br>V-Chip<br>Screen Size<br>HDMI Cable<br>Languages Displayed<br>Internet-Ready<br>Coaxial Cable Included<br>Media Card Slot<br>Instant Content<br>Antiglare Screen Coating<br>Video Input Type(s)<br>Product Height With Stand (in.)<br>Remote Included<br>Volume Leveler<br>Product Width (in.)<br>Audio Inputs<br>HDMI Inputs<br>TV Screen Size (in.)<br>Additional TV Inputs<br>USB Port<br>Vertical Resolution<br>S-Video Cable<br>Number of Speakers<br>Closed Captioning<br>RCA Cable<br>Response Time (in Ms)<br>Antenna Included<br>Widescreen<br>Viewing Angles (in Degrees)'
-, 'category': u'Electronics'
-, 'title': u'Coby 39in 1080p LED HDTV'
-, 'jNumber': u'PL514'
-, 'itemSelectedImages': {u'display_image\\jPages\\PL514\\4PL5140000010_VA_999.JPEG': u'True'}
-, 'condition': u'5'
-, 'condition_notes': u'New in original packaging.'
-, 'sku': u'1111'
-, 'retailer_code': u'0', u'*ConditionID': u'1000'
-, 'retailer_code:0': u''
-, 'description': <p>This Coby 39" LED HDTV with Full HD (1080p) resolution and slim
-profile delivers a brilliant picture! With 3 HDMI inputs, it easily
-connects to a cable or satellite box, HD video game console or
-other high-definition device.</p>
-<ul>
-<li>39" (38.5" diagonal) widescreen LED display</li>
-<li>Full HD (1080p) resolution</li>
-<li>60Hz (6.5ms) refresh rate</li>
-<li>3000:1 contrast ratio</li>
-<li>176° horizontal and vertical viewing angles</li>
-<li>Digital noise reduction</li>
-<li>Integrated stereo speakers with SRS TruSurround XT</li>
-<li>V-chip parental control</li>
-<li>Closed captioning</li>
-<li>Electronic program guide support</li>
-<li>Multilingual on-screen menus</li>
-<li>Inputs: 3 HDMI, component video, composite video, PC, RF</li>
-<li>Coaxial digital audio output</li>
-<li>3.5mm headphone jack</li>
-<li>Includes removable stand and remote control with batteries</li>
-<li>Antenna not included</li>
-<li>Wall mountable (VESA 200mm x 100mm)</li>
-<li>Approx. 35"W x 7-3/4"D x 24-1/4"H (with stand)</li>
-<li>Weighs 22.1 lbs. (with stand)</li>
-<li>ENERGY STAR qualified saves you energy and money</li>
-<li>$9.13 Estimated yearly consumption, energy costs will vary by
-utility rates and usage</li>
-<li>Limited warranty</li>
-</ul>
-
-, 'palletNumber': u'0'
-, 'manifested': u'X'
-, 'date_listed': u'..'
-, 'upc': u'100000000001'
-, 'listerInitials': u'JM'
-, 'jNumberFolderPath': u'display_image\\jPages\\PL514', u'*Category': u''
-, 'msrp': u'$499.99'
-, 'quantity': u'1'}, u'PL514', u'4PL5140000010')
-, 'KWARGS': {}}
-call_fn: C:\Users\User\Desktop\SGIS\SGIS_6-2-14\Sky_Group_Inventory_Scanner-wxpython-master\display_image\EventsHandlers\MainFrameEventHandler.py
-call_ln: 817
-call_func: updateMainFrameCurrentItemInfo
-caller: ['                results = FetchPage(self.MainFrame).results # updates currentItemInfo\n']
-Exception:
-None
-
---06-10 14:25:08 log_debug display_image.Check.guessImageName DEBUG    currentItemInfo:guessImageName
-ARGS_KWARGS_STR:
-{'ARGS': ({u'ebay_category': u''
-, 'image_list': ['4PL5140000010_VE_999'
-, '4PL5140000010_VA_999']
-, 'jnumber': u'4PL5140000010'
-, 'pallet_number': u'0'
-, 'specs': u'TV HDMI Inputs<br>Product Height (in.)<br>Picture-In-Picture<br>3D-Ready<br>Audio Outputs<br>Product Depth (in.)<br>Speaker Output (in Watts)<br>Product Depth With Stand (in.)<br>Alarm Timer<br>Model #<br>Mount Bracket Pattern<br>MFR Included Warranty Type<br>TV Display Type<br>Additional TV Outputs<br>Aspect Ratio<br>Digital Tuner<br>Component Cable<br>Digital Comb Filter<br>Sleep Timer<br>Brand<br>Wall Mountable<br>Stand Included<br>Television Type<br>Headphone Jack<br>Additional Cables Included<br>Viewing Modes<br>TV Refresh Rate (Hz.)<br>Composite Cable<br>Energy Star Compliant<br>V-Chip<br>Screen Size<br>HDMI Cable<br>Languages Displayed<br>Internet-Ready<br>Coaxial Cable Included<br>Media Card Slot<br>Instant Content<br>Antiglare Screen Coating<br>Video Input Type(s)<br>Product Height With Stand (in.)<br>Remote Included<br>Volume Leveler<br>Product Width (in.)<br>Audio Inputs<br>HDMI Inputs<br>TV Screen Size (in.)<br>Additional TV Inputs<br>USB Port<br>Vertical Resolution<br>S-Video Cable<br>Number of Speakers<br>Closed Captioning<br>RCA Cable<br>Response Time (in Ms)<br>Antenna Included<br>Widescreen<br>Viewing Angles (in Degrees)'
-, 'category': u'Electronics'
-, 'title': u'Coby 39in 1080p LED HDTV'
-, 'jNumber': u'PL514'
-, 'itemSelectedImages': {u'display_image\\jPages\\PL514\\4PL5140000010_VA_999.JPEG': u'True'}
-, 'condition': u'5'
-, 'condition_notes': u'New in original packaging.'
-, 'sku': u'1111'
-, 'retailer_code': u'0', u'*ConditionID': u'1000'
-, 'retailer_code:0': u''
-, 'description': <p>This Coby 39" LED HDTV with Full HD (1080p) resolution and slim
-profile delivers a brilliant picture! With 3 HDMI inputs, it easily
-connects to a cable or satellite box, HD video game console or
-other high-definition device.</p>
-<ul>
-<li>39" (38.5" diagonal) widescreen LED display</li>
-<li>Full HD (1080p) resolution</li>
-<li>60Hz (6.5ms) refresh rate</li>
-<li>3000:1 contrast ratio</li>
-<li>176° horizontal and vertical viewing angles</li>
-<li>Digital noise reduction</li>
-<li>Integrated stereo speakers with SRS TruSurround XT</li>
-<li>V-chip parental control</li>
-<li>Closed captioning</li>
-<li>Electronic program guide support</li>
-<li>Multilingual on-screen menus</li>
-<li>Inputs: 3 HDMI, component video, composite video, PC, RF</li>
-<li>Coaxial digital audio output</li>
-<li>3.5mm headphone jack</li>
-<li>Includes removable stand and remote control with batteries</li>
-<li>Antenna not included</li>
-<li>Wall mountable (VESA 200mm x 100mm)</li>
-<li>Approx. 35"W x 7-3/4"D x 24-1/4"H (with stand)</li>
-<li>Weighs 22.1 lbs. (with stand)</li>
-<li>ENERGY STAR qualified saves you energy and money</li>
-<li>$9.13 Estimated yearly consumption, energy costs will vary by
-utility rates and usage</li>
-<li>Limited warranty</li>
-</ul>
-
-, 'palletNumber': u'0'
-, 'manifested': u'X'
-, 'date_listed': u'..'
-, 'upc': u'100000000001'
-, 'listerInitials': u'JM'
-, 'jNumberFolderPath': u'display_image\\jPages\\PL514', u'*Category': u''
-, 'msrp': u'$499.99'
-, 'quantity': u'1'},)
-, 'KWARGS': {}}
-call_fn: C:\Users\User\Desktop\SGIS\SGIS_6-2-14\Sky_Group_Inventory_Scanner-wxpython-master\display_image\EventsHandlers\MainFrameEventHandler.py
-call_ln: 998
-call_func: onScanNumberText
-caller: ['            results = self.updateMainFrameCurrentItemInfo(retailer_code) #<---------------------- \n']
-Exception:
-None
-
---06-10 14:25:08 log_debug display_image.Check.guessImageName DEBUG    image name guess: guessImageName
-ARGS_KWARGS_STR:
-{'ARGS': ('4PL5140000010_VE_999',)
-, 'KWARGS': {}}
-call_fn: C:\Users\User\Desktop\SGIS\SGIS_6-2-14\Sky_Group_Inventory_Scanner-wxpython-master\display_image\EventsHandlers\MainFrameEventHandler.py
-call_ln: 998
-call_func: onScanNumberText
-caller: ['            results = self.updateMainFrameCurrentItemInfo(retailer_code) #<---------------------- \n']
-Exception:
-None
-
---06-10 14:25:08 log_info display_image.EventsHandlers.MainFrameEventHandler.updateMainFrameCurrentItemInfo INFO     
-4PL5140000010_VE_999.JPEG updateMainFrameCurrentItemInfo
-
---06-10 14:25:08 log_info display_image.EventsHandlers.MainFrameEventHandler.updateMainFrameCurrentItemInfo INFO     
-4PL5140000010_VE_999.JPEG updateMainFrameCurrentItemInfo
-
---06-10 14:25:08 log_info display_image.EventsHandlers.MainFrameEventHandler.updateMainFrameCurrentItemInfo INFO     
-Before updateMainFrameCurrentItemInfo Return: {u'ebay_category': u'', 'image_list': ['4PL5140000010_VE_999', '4PL5140000010_VA_999'], 'jnumber': u'4PL5140000010', 'pallet_number': u'0', 'specs': u'TV HDMI Inputs<br>Product Height (in.)<br>Picture-In-Picture<br>3D-Ready<br>Audio Outputs<br>Product Depth (in.)<br>Speaker Output (in Watts)<br>Product Depth With Stand (in.)<br>Alarm Timer<br>Model #<br>Mount Bracket Pattern<br>MFR Included Warranty Type<br>TV Display Type<br>Additional TV Outputs<br>Aspect Ratio<br>Digital Tuner<br>Component Cable<br>Digital Comb Filter<br>Sleep Timer<br>Brand<br>Wall Mountable<br>Stand Included<br>Television Type<br>Headphone Jack<br>Additional Cables Included<br>Viewing Modes<br>TV Refresh Rate (Hz.)<br>Composite Cable<br>Energy Star Compliant<br>V-Chip<br>Screen Size<br>HDMI Cable<br>Languages Displayed<br>Internet-Ready<br>Coaxial Cable Included<br>Media Card Slot<br>Instant Content<br>Antiglare Screen Coating<br>Video Input Type(s)<br>Product Height With Stand (in.)<br>Remote Included<br>Volume Leveler<br>Product Width (in.)<br>Audio Inputs<br>HDMI Inputs<br>TV Screen Size (in.)<br>Additional TV Inputs<br>USB Port<br>Vertical Resolution<br>S-Video Cable<br>Number of Speakers<br>Closed Captioning<br>RCA Cable<br>Response Time (in Ms)<br>Antenna Included<br>Widescreen<br>Viewing Angles (in Degrees)', 'category': u'Electronics', 'title': u'Coby 39in 1080p LED HDTV', 'jNumber': u'PL514', 'itemSelectedImages': {u'display_image\\jPages\\PL514\\4PL5140000010_VA_999.JPEG': u'True'}, 'condition': u'5', 'condition_notes': u'New in original packaging.', 'sku': u'1111', 'retailer_code': u'0', u'*ConditionID': u'1000', 'retailer_code:0': u'', 'description': <p>This Coby 39" LED HDTV with Full HD (1080p) resolution and slim
-profile delivers a brilliant picture! With 3 HDMI inputs, it easily
-connects to a cable or satellite box, HD video game console or
-other high-definition device.</p>
-<ul>
-<li>39" (38.5" diagonal) widescreen LED display</li>
-<li>Full HD (1080p) resolution</li>
-<li>60Hz (6.5ms) refresh rate</li>
-<li>3000:1 contrast ratio</li>
-<li>176° horizontal and vertical viewing angles</li>
-<li>Digital noise reduction</li>
-<li>Integrated stereo speakers with SRS TruSurround XT</li>
-<li>V-chip parental control</li>
-<li>Closed captioning</li>
-<li>Electronic program guide support</li>
-<li>Multilingual on-screen menus</li>
-<li>Inputs: 3 HDMI, component video, composite video, PC, RF</li>
-<li>Coaxial digital audio output</li>
-<li>3.5mm headphone jack</li>
-<li>Includes removable stand and remote control with batteries</li>
-<li>Antenna not included</li>
-<li>Wall mountable (VESA 200mm x 100mm)</li>
-<li>Approx. 35"W x 7-3/4"D x 24-1/4"H (with stand)</li>
-<li>Weighs 22.1 lbs. (with stand)</li>
-<li>ENERGY STAR qualified saves you energy and money</li>
-<li>$9.13 Estimated yearly consumption, energy costs will vary by
-utility rates and usage</li>
-<li>Limited warranty</li>
-</ul>
-, 'palletNumber': u'0', 'manifested': u'X', 'date_listed': u'..', 'upc': u'100000000001', 'listerInitials': u'JM', 'jNumberFolderPath': u'display_image\\jPages\\PL514', u'*Category': u'', 'msrp': u'$499.99', 'quantity': u'1'} updateMainFrameCurrentItemInfo
-
---06-10 14:25:08 log_info display_image.EventsHandlers.MainFrameEventHandler.updateMainFrameCurrentItemInfo INFO     
-Before updateMainFrameCurrentItemInfo Return: {u'ebay_category': u'', 'image_list': ['4PL5140000010_VE_999', '4PL5140000010_VA_999'], 'jnumber': u'4PL5140000010', 'pallet_number': u'0', 'specs': u'TV HDMI Inputs<br>Product Height (in.)<br>Picture-In-Picture<br>3D-Ready<br>Audio Outputs<br>Product Depth (in.)<br>Speaker Output (in Watts)<br>Product Depth With Stand (in.)<br>Alarm Timer<br>Model #<br>Mount Bracket Pattern<br>MFR Included Warranty Type<br>TV Display Type<br>Additional TV Outputs<br>Aspect Ratio<br>Digital Tuner<br>Component Cable<br>Digital Comb Filter<br>Sleep Timer<br>Brand<br>Wall Mountable<br>Stand Included<br>Television Type<br>Headphone Jack<br>Additional Cables Included<br>Viewing Modes<br>TV Refresh Rate (Hz.)<br>Composite Cable<br>Energy Star Compliant<br>V-Chip<br>Screen Size<br>HDMI Cable<br>Languages Displayed<br>Internet-Ready<br>Coaxial Cable Included<br>Media Card Slot<br>Instant Content<br>Antiglare Screen Coating<br>Video Input Type(s)<br>Product Height With Stand (in.)<br>Remote Included<br>Volume Leveler<br>Product Width (in.)<br>Audio Inputs<br>HDMI Inputs<br>TV Screen Size (in.)<br>Additional TV Inputs<br>USB Port<br>Vertical Resolution<br>S-Video Cable<br>Number of Speakers<br>Closed Captioning<br>RCA Cable<br>Response Time (in Ms)<br>Antenna Included<br>Widescreen<br>Viewing Angles (in Degrees)', 'category': u'Electronics', 'title': u'Coby 39in 1080p LED HDTV', 'jNumber': u'PL514', 'itemSelectedImages': {u'display_image\\jPages\\PL514\\4PL5140000010_VA_999.JPEG': u'True'}, 'condition': u'5', 'condition_notes': u'New in original packaging.', 'sku': u'1111', 'retailer_code': u'0', u'*ConditionID': u'1000', 'retailer_code:0': u'', 'description': <p>This Coby 39" LED HDTV with Full HD (1080p) resolution and slim
-profile delivers a brilliant picture! With 3 HDMI inputs, it easily
-connects to a cable or satellite box, HD video game console or
-other high-definition device.</p>
-<ul>
-<li>39" (38.5" diagonal) widescreen LED display</li>
-<li>Full HD (1080p) resolution</li>
-<li>60Hz (6.5ms) refresh rate</li>
-<li>3000:1 contrast ratio</li>
-<li>176° horizontal and vertical viewing angles</li>
-<li>Digital noise reduction</li>
-<li>Integrated stereo speakers with SRS TruSurround XT</li>
-<li>V-chip parental control</li>
-<li>Closed captioning</li>
-<li>Electronic program guide support</li>
-<li>Multilingual on-screen menus</li>
-<li>Inputs: 3 HDMI, component video, composite video, PC, RF</li>
-<li>Coaxial digital audio output</li>
-<li>3.5mm headphone jack</li>
-<li>Includes removable stand and remote control with batteries</li>
-<li>Antenna not included</li>
-<li>Wall mountable (VESA 200mm x 100mm)</li>
-<li>Approx. 35"W x 7-3/4"D x 24-1/4"H (with stand)</li>
-<li>Weighs 22.1 lbs. (with stand)</li>
-<li>ENERGY STAR qualified saves you energy and money</li>
-<li>$9.13 Estimated yearly consumption, energy costs will vary by
-utility rates and usage</li>
-<li>Limited warranty</li>
-</ul>
-, 'palletNumber': u'0', 'manifested': u'X', 'date_listed': u'..', 'upc': u'100000000001', 'listerInitials': u'JM', 'jNumberFolderPath': u'display_image\\jPages\\PL514', u'*Category': u'', 'msrp': u'$499.99', 'quantity': u'1'} updateMainFrameCurrentItemInfo
-
---06-10 14:25:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onScanNumberText INFO     
-updateMainFrameCurrentItemInfo results:True onScanNumberText
-
---06-10 14:25:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onScanNumberText INFO     
-updateMainFrameCurrentItemInfo results:True onScanNumberText
-
---06-10 14:25:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onScanNumberText INFO     
-onScanNumberText currentItemInfo: {u'ebay_category': u'', 'image_list': ['4PL5140000010_VE_999', '4PL5140000010_VA_999'], 'jnumber': u'4PL5140000010', 'pallet_number': u'0', 'specs': u'TV HDMI Inputs<br>Product Height (in.)<br>Picture-In-Picture<br>3D-Ready<br>Audio Outputs<br>Product Depth (in.)<br>Speaker Output (in Watts)<br>Product Depth With Stand (in.)<br>Alarm Timer<br>Model #<br>Mount Bracket Pattern<br>MFR Included Warranty Type<br>TV Display Type<br>Additional TV Outputs<br>Aspect Ratio<br>Digital Tuner<br>Component Cable<br>Digital Comb Filter<br>Sleep Timer<br>Brand<br>Wall Mountable<br>Stand Included<br>Television Type<br>Headphone Jack<br>Additional Cables Included<br>Viewing Modes<br>TV Refresh Rate (Hz.)<br>Composite Cable<br>Energy Star Compliant<br>V-Chip<br>Screen Size<br>HDMI Cable<br>Languages Displayed<br>Internet-Ready<br>Coaxial Cable Included<br>Media Card Slot<br>Instant Content<br>Antiglare Screen Coating<br>Video Input Type(s)<br>Product Height With Stand (in.)<br>Remote Included<br>Volume Leveler<br>Product Width (in.)<br>Audio Inputs<br>HDMI Inputs<br>TV Screen Size (in.)<br>Additional TV Inputs<br>USB Port<br>Vertical Resolution<br>S-Video Cable<br>Number of Speakers<br>Closed Captioning<br>RCA Cable<br>Response Time (in Ms)<br>Antenna Included<br>Widescreen<br>Viewing Angles (in Degrees)', 'category': u'Electronics', 'title': u'Coby 39in 1080p LED HDTV', 'jNumber': u'PL514', 'itemSelectedImages': {u'display_image\\jPages\\PL514\\4PL5140000010_VA_999.JPEG': u'True'}, 'condition': u'5', 'condition_notes': u'New in original packaging.', 'sku': u'1111', 'retailer_code': u'0', u'*ConditionID': u'1000', 'retailer_code:0': u'', 'description': <p>This Coby 39" LED HDTV with Full HD (1080p) resolution and slim
-profile delivers a brilliant picture! With 3 HDMI inputs, it easily
-connects to a cable or satellite box, HD video game console or
-other high-definition device.</p>
-<ul>
-<li>39" (38.5" diagonal) widescreen LED display</li>
-<li>Full HD (1080p) resolution</li>
-<li>60Hz (6.5ms) refresh rate</li>
-<li>3000:1 contrast ratio</li>
-<li>176° horizontal and vertical viewing angles</li>
-<li>Digital noise reduction</li>
-<li>Integrated stereo speakers with SRS TruSurround XT</li>
-<li>V-chip parental control</li>
-<li>Closed captioning</li>
-<li>Electronic program guide support</li>
-<li>Multilingual on-screen menus</li>
-<li>Inputs: 3 HDMI, component video, composite video, PC, RF</li>
-<li>Coaxial digital audio output</li>
-<li>3.5mm headphone jack</li>
-<li>Includes removable stand and remote control with batteries</li>
-<li>Antenna not included</li>
-<li>Wall mountable (VESA 200mm x 100mm)</li>
-<li>Approx. 35"W x 7-3/4"D x 24-1/4"H (with stand)</li>
-<li>Weighs 22.1 lbs. (with stand)</li>
-<li>ENERGY STAR qualified saves you energy and money</li>
-<li>$9.13 Estimated yearly consumption, energy costs will vary by
-utility rates and usage</li>
-<li>Limited warranty</li>
-</ul>
-, 'palletNumber': u'0', 'manifested': u'X', 'date_listed': u'..', 'upc': u'100000000001', 'listerInitials': u'JM', 'jNumberFolderPath': u'display_image\\jPages\\PL514', u'*Category': u'', 'msrp': u'$499.99', 'quantity': u'1'} onScanNumberText
-
---06-10 14:25:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onScanNumberText INFO     
-onScanNumberText currentItemInfo: {u'ebay_category': u'', 'image_list': ['4PL5140000010_VE_999', '4PL5140000010_VA_999'], 'jnumber': u'4PL5140000010', 'pallet_number': u'0', 'specs': u'TV HDMI Inputs<br>Product Height (in.)<br>Picture-In-Picture<br>3D-Ready<br>Audio Outputs<br>Product Depth (in.)<br>Speaker Output (in Watts)<br>Product Depth With Stand (in.)<br>Alarm Timer<br>Model #<br>Mount Bracket Pattern<br>MFR Included Warranty Type<br>TV Display Type<br>Additional TV Outputs<br>Aspect Ratio<br>Digital Tuner<br>Component Cable<br>Digital Comb Filter<br>Sleep Timer<br>Brand<br>Wall Mountable<br>Stand Included<br>Television Type<br>Headphone Jack<br>Additional Cables Included<br>Viewing Modes<br>TV Refresh Rate (Hz.)<br>Composite Cable<br>Energy Star Compliant<br>V-Chip<br>Screen Size<br>HDMI Cable<br>Languages Displayed<br>Internet-Ready<br>Coaxial Cable Included<br>Media Card Slot<br>Instant Content<br>Antiglare Screen Coating<br>Video Input Type(s)<br>Product Height With Stand (in.)<br>Remote Included<br>Volume Leveler<br>Product Width (in.)<br>Audio Inputs<br>HDMI Inputs<br>TV Screen Size (in.)<br>Additional TV Inputs<br>USB Port<br>Vertical Resolution<br>S-Video Cable<br>Number of Speakers<br>Closed Captioning<br>RCA Cable<br>Response Time (in Ms)<br>Antenna Included<br>Widescreen<br>Viewing Angles (in Degrees)', 'category': u'Electronics', 'title': u'Coby 39in 1080p LED HDTV', 'jNumber': u'PL514', 'itemSelectedImages': {u'display_image\\jPages\\PL514\\4PL5140000010_VA_999.JPEG': u'True'}, 'condition': u'5', 'condition_notes': u'New in original packaging.', 'sku': u'1111', 'retailer_code': u'0', u'*ConditionID': u'1000', 'retailer_code:0': u'', 'description': <p>This Coby 39" LED HDTV with Full HD (1080p) resolution and slim
-profile delivers a brilliant picture! With 3 HDMI inputs, it easily
-connects to a cable or satellite box, HD video game console or
-other high-definition device.</p>
-<ul>
-<li>39" (38.5" diagonal) widescreen LED display</li>
-<li>Full HD (1080p) resolution</li>
-<li>60Hz (6.5ms) refresh rate</li>
-<li>3000:1 contrast ratio</li>
-<li>176° horizontal and vertical viewing angles</li>
-<li>Digital noise reduction</li>
-<li>Integrated stereo speakers with SRS TruSurround XT</li>
-<li>V-chip parental control</li>
-<li>Closed captioning</li>
-<li>Electronic program guide support</li>
-<li>Multilingual on-screen menus</li>
-<li>Inputs: 3 HDMI, component video, composite video, PC, RF</li>
-<li>Coaxial digital audio output</li>
-<li>3.5mm headphone jack</li>
-<li>Includes removable stand and remote control with batteries</li>
-<li>Antenna not included</li>
-<li>Wall mountable (VESA 200mm x 100mm)</li>
-<li>Approx. 35"W x 7-3/4"D x 24-1/4"H (with stand)</li>
-<li>Weighs 22.1 lbs. (with stand)</li>
-<li>ENERGY STAR qualified saves you energy and money</li>
-<li>$9.13 Estimated yearly consumption, energy costs will vary by
-utility rates and usage</li>
-<li>Limited warranty</li>
-</ul>
-, 'palletNumber': u'0', 'manifested': u'X', 'date_listed': u'..', 'upc': u'100000000001', 'listerInitials': u'JM', 'jNumberFolderPath': u'display_image\\jPages\\PL514', u'*Category': u'', 'msrp': u'$499.99', 'quantity': u'1'} onScanNumberText
-
---06-10 14:25:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onScanNumberText INFO     
-Trying to open: display_image\jPages\PL514\4PL5140000010_VE_999.JPEG onScanNumberText
-
---06-10 14:25:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onScanNumberText INFO     
-Trying to open: display_image\jPages\PL514\4PL5140000010_VE_999.JPEG onScanNumberText
-
---06-10 14:25:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onUpcNumberText INFO     
-Inside:  onUpcNumberText
-
---06-10 14:25:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onUpcNumberText INFO     
-Inside:  onUpcNumberText
-
---06-10 14:25:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onUpcNumberText INFO     
-upc entered, and updated.100000000001 onUpcNumberText
-
---06-10 14:25:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onUpcNumberText INFO     
-upc entered, and updated.100000000001 onUpcNumberText
-
---06-10 14:25:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onEbayCategoryIdText INFO     
-Inside:  onEbayCategoryIdText
-
---06-10 14:25:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onEbayCategoryIdText INFO     
-Inside:  onEbayCategoryIdText
-
---06-10 14:25:08 log_debug display_image.EventsHandlers.MainFrameEventHandler.onEbayCategoryIdText DEBUG     onEbayCategoryIdText
-ARGS_KWARGS_STR:
-{'ARGS': ()
-, 'KWARGS': {}}
-call_fn: C:\Users\User\Desktop\SGIS\SGIS_6-2-14\Sky_Group_Inventory_Scanner-wxpython-master\display_image\EventsHandlers\MainFrameEventHandler.py
-call_ln: 1055
-call_func: onScanNumberText
-caller: ["                self.MainFrame.ebayCategoryIdText.SetValue(self.MainFrame.currentItemInfo['ebay_category'])\n"]
-Exception:
-None
-
---06-10 14:25:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onLookUpBySkuBtnFinger INFO     
-Added MainFrame.itemRow to currentItemInfo[['retailer_code:0', 'pallet_number', 'category', 'jnumber', 'title', 'quantity', 'msrp', 'condition', 'condition_notes', 'sku', 'manifested', 'date_listed', 'upc'], ['', '0', 'Electronics', '4PL5140000010', 'Coby 39in 1080p LED HDTV', '1', '$499.99', '5', 'New in original packaging.', '1111', 'X', '..', '100000000001']] onLookUpBySkuBtnFinger
-
---06-10 14:25:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onLookUpBySkuBtnFinger INFO     
-Added MainFrame.itemRow to currentItemInfo[['retailer_code:0', 'pallet_number', 'category', 'jnumber', 'title', 'quantity', 'msrp', 'condition', 'condition_notes', 'sku', 'manifested', 'date_listed', 'upc'], ['', '0', 'Electronics', '4PL5140000010', 'Coby 39in 1080p LED HDTV', '1', '$499.99', '5', 'New in original packaging.', '1111', 'X', '..', '100000000001']] onLookUpBySkuBtnFinger
-
---06-10 14:25:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentConditionText INFO     
-Inside:  onCurrentConditionText
-
---06-10 14:25:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentConditionText INFO     
-Inside:  onCurrentConditionText
-
---06-10 14:25:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentConditionText INFO     
-Calling Save(self.MainFrame) onCurrentConditionText
-
---06-10 14:25:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentConditionText INFO     
-Calling Save(self.MainFrame) onCurrentConditionText
-
---06-10 14:25:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentConditionText INFO     
-Inside:  onCurrentConditionText
-
---06-10 14:25:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentConditionText INFO     
-Inside:  onCurrentConditionText
-
---06-10 14:25:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentConditionText INFO     
-Calling Save(self.MainFrame) onCurrentConditionText
-
---06-10 14:25:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentConditionText INFO     
-Calling Save(self.MainFrame) onCurrentConditionText
-
---06-10 14:25:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentTitleText INFO     
-Inside:  onCurrentTitleText
-
---06-10 14:25:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentTitleText INFO     
-Inside:  onCurrentTitleText
-
---06-10 14:25:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentTitleText INFO     
-Inside:  onCurrentTitleText
-
---06-10 14:25:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentTitleText INFO     
-Inside:  onCurrentTitleText
-
---06-10 14:25:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onEbayCategoryIdText INFO     
-Inside:  onEbayCategoryIdText
-
---06-10 14:25:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onEbayCategoryIdText INFO     
-Inside:  onEbayCategoryIdText
-
---06-10 14:25:08 log_debug display_image.EventsHandlers.MainFrameEventHandler.onEbayCategoryIdText DEBUG     onEbayCategoryIdText
-ARGS_KWARGS_STR:
-{'ARGS': ()
-, 'KWARGS': {}}
-call_fn: C:\Users\User\Desktop\SGIS\SGIS_6-2-14\Sky_Group_Inventory_Scanner-wxpython-master\display_image\EventsHandlers\MainFrameEventHandler.py
-call_ln: 304
-call_func: onLookUpBySkuBtnFinger
-caller: ["        self.MainFrame.ebayCategoryIdText.SetValue('')\n"]
-Exception:
-None
-
---06-10 14:25:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onLookUpBySkuBtnFinger INFO     
-Found item row, and set values onLookUpBySkuBtn onLookUpBySkuBtnFinger
-
---06-10 14:25:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onLookUpBySkuBtnFinger INFO     
-Found item row, and set values onLookUpBySkuBtn onLookUpBySkuBtnFinger
-
---06-10 14:25:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onPalletNumberText INFO     
-Inside:  onPalletNumberText
-
---06-10 14:25:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onPalletNumberText INFO     
-Inside:  onPalletNumberText
-
---06-10 14:25:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onPalletNumberText INFO     
-
-# PhotoCtrlEventHandler.onPalletNumberText(): # onPalletNumberText
-
---06-10 14:25:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onPalletNumberText INFO     
-
-# PhotoCtrlEventHandler.onPalletNumberText(): # onPalletNumberText
-
---06-10 14:25:09 log_info display_image.EventsHandlers.MainFrameEventHandler.onSelectImageBtn INFO     
-Inside:  onSelectImageBtn
-
---06-10 14:25:09 log_info display_image.EventsHandlers.MainFrameEventHandler.onSelectImageBtn INFO     
-Inside:  onSelectImageBtn
-
---06-10 14:25:09 log_info display_image.EventsHandlers.MainFrameEventHandler.onSelectImageBtn INFO     
-
-# PhotoCtrlEventHandler.onSelectImageBtn(): # onSelectImageBtn
-
---06-10 14:25:09 log_info display_image.EventsHandlers.MainFrameEventHandler.onSelectImageBtn INFO     
-
-# PhotoCtrlEventHandler.onSelectImageBtn(): # onSelectImageBtn
-
---06-10 14:25:09 log_info display_image.Dialogs.ImageSelectionFrame.prepareImageButtons INFO     
-
-# ImageSelectionFrame.prepareImageButtons # prepareImageButtons
-
---06-10 14:25:09 log_info display_image.Dialogs.ImageSelectionFrame.prepareImageButtons INFO     
-File Exists: display_image\jPages\PL514\4PL5140000010_VE_999.JPEG prepareImageButtons
-
---06-10 14:25:09 log_info display_image.Dialogs.ImageSelectionFrame.prepareImageButtons INFO     
-Trying self.createButtonImage prepareImageButtons
-
---06-10 14:25:09 log_info display_image.Dialogs.ImageSelectionFrame.createButtonImage INFO     
-
-# ImageSelectionFrame.createButtonImage(): # createButtonImage
-
---06-10 14:25:09 log_debug display_image.Dialogs.ImageSelectionFrame.createButtonImage DEBUG    fp: createButtonImage
-ARGS_KWARGS_STR:
-{'ARGS': ('display_image\\jPages\\PL514\\4PL5140000010_VE_999.JPEG',)
-, 'KWARGS': {}}
-call_fn: C:\Users\User\Desktop\SGIS\SGIS_6-2-14\Sky_Group_Inventory_Scanner-wxpython-master\display_image\Dialogs\ImageSelectionFrame.py
-call_ln: 28
-call_func: setMainFrame
-caller: ['        self.prepareImageButtons()\n']
-Exception:
-None
-
---06-10 14:25:09 log_info display_image.Dialogs.ImageSelectionFrame.createButtonImage INFO     
-<type 'str'> createButtonImage
-
---06-10 14:25:09 log_info display_image.Dialogs.ImageSelectionFrame.createButtonImage INFO     
-Trying to open fp: ./display_image\jPages\PL514\4PL5140000010_VE_999.JPEG Type:<type 'str'> createButtonImage
-
---06-10 14:25:09 log_info display_image.Dialogs.ImageSelectionFrame.createButtonImage INFO     
-['4PL5140000010_VE_999', ''] createButtonImage
-
---06-10 14:25:09 log_info display_image.Dialogs.ImageSelectionFrame.createButtonImage INFO     
-jNumberFolderPath: display_image\jPages\PL514 createButtonImage
-
---06-10 14:25:09 log_info display_image.Dialogs.ImageSelectionFrame.createButtonImage INFO     
-display_image\jPages\PL514\4PL5140000010_VE_999_pressed.JPEG createButtonImage
-
---06-10 14:25:09 log_info display_image.Dialogs.ImageSelectionFrame.createButtonImage INFO     
-display_image\jPages\PL514\4PL5140000010_VE_999_disabled.JPEG createButtonImage
-
---06-10 14:25:09 log_info display_image.Dialogs.ImageSelectionFrame.createButtonImage INFO     
-. Completed Creating Button Images createButtonImage
-
---06-10 14:25:09 log_info display_image.Dialogs.ImageSelectionFrame.prepareImageButtons INFO     
-('display_image\\jPages\\PL514\\4PL5140000010_VE_999_pressed.JPEG', 'display_image\\jPages\\PL514\\4PL5140000010_VE_999_disabled.JPEG') None
- prepareImageButtons
-
---06-10 14:25:09 log_info display_image.Dialogs.ImageSelectionFrame.setMainFrame INFO     
-. id: 900 setMainFrame
-
---06-10 14:25:09 log_info display_image.Dialogs.ImageSelectionFrame.prepareImageButtons INFO     
-File Exists: display_image\jPages\PL514\4PL5140000010_VA_999.JPEG prepareImageButtons
-
---06-10 14:25:09 log_info display_image.Dialogs.ImageSelectionFrame.prepareImageButtons INFO     
-Trying self.createButtonImage prepareImageButtons
-
---06-10 14:25:09 log_info display_image.Dialogs.ImageSelectionFrame.createButtonImage INFO     
-
-# ImageSelectionFrame.createButtonImage(): # createButtonImage
-
---06-10 14:25:09 log_debug display_image.Dialogs.ImageSelectionFrame.createButtonImage DEBUG    fp: createButtonImage
-ARGS_KWARGS_STR:
-{'ARGS': ('display_image\\jPages\\PL514\\4PL5140000010_VA_999.JPEG',)
-, 'KWARGS': {}}
-call_fn: C:\Users\User\Desktop\SGIS\SGIS_6-2-14\Sky_Group_Inventory_Scanner-wxpython-master\display_image\Dialogs\ImageSelectionFrame.py
-call_ln: 28
-call_func: setMainFrame
-caller: ['        self.prepareImageButtons()\n']
-Exception:
-None
-
---06-10 14:25:09 log_info display_image.Dialogs.ImageSelectionFrame.createButtonImage INFO     
-<type 'str'> createButtonImage
-
---06-10 14:25:09 log_info display_image.Dialogs.ImageSelectionFrame.createButtonImage INFO     
-Trying to open fp: ./display_image\jPages\PL514\4PL5140000010_VA_999.JPEG Type:<type 'str'> createButtonImage
-
---06-10 14:25:09 log_info display_image.Dialogs.ImageSelectionFrame.createButtonImage INFO     
-['4PL5140000010_VA_999', ''] createButtonImage
-
---06-10 14:25:09 log_info display_image.Dialogs.ImageSelectionFrame.createButtonImage INFO     
-jNumberFolderPath: display_image\jPages\PL514 createButtonImage
-
---06-10 14:25:09 log_info display_image.Dialogs.ImageSelectionFrame.createButtonImage INFO     
-display_image\jPages\PL514\4PL5140000010_VA_999_pressed.JPEG createButtonImage
-
---06-10 14:25:09 log_info display_image.Dialogs.ImageSelectionFrame.createButtonImage INFO     
-display_image\jPages\PL514\4PL5140000010_VA_999_disabled.JPEG createButtonImage
-
---06-10 14:25:09 log_info display_image.Dialogs.ImageSelectionFrame.createButtonImage INFO     
-. Completed Creating Button Images createButtonImage
-
---06-10 14:25:09 log_info display_image.Dialogs.ImageSelectionFrame.prepareImageButtons INFO     
-('display_image\\jPages\\PL514\\4PL5140000010_VA_999_pressed.JPEG', 'display_image\\jPages\\PL514\\4PL5140000010_VA_999_disabled.JPEG') None
- prepareImageButtons
-
---06-10 14:25:09 log_info display_image.Dialogs.ImageSelectionFrame.setMainFrame INFO     
-. id: 901 setMainFrame
-
---06-10 14:25:09 log_info display_image.EventsHandlers.MainFrameEventHandler.onSelectImageBtn INFO     
-. onSelectImageBtn: Clicked... onSelectImageBtn
-
---06-10 14:25:09 log_info display_image.EventsHandlers.MainFrameEventHandler.onSelectImageBtn INFO     
-. onSelectImageBtn: Clicked... onSelectImageBtn
-
---06-10 14:25:09 log_info display_image.Dialogs.ImageSelectionFrame.on_left_up INFO     
-
-# ShapedButtons.on_left_up(): #
-{'display_image\\jPages\\PL514\\4PL5140000010_VA_999.JPEG': 'True'} on_left_up
-
---06-10 14:25:09 log_info display_image.Dialogs.ImageSelectionFrame.on_left_up INFO     
-. True on_left_up
-
---06-10 14:25:09 log_info display_image.SaveJsonStateFile.writeJson INFO     
-
-# Save.writeJson(): # writeJson
-
---06-10 14:25:09 log_info display_image.SaveJsonStateFile.writeJson INFO     
-. ###
-. ebay_category
-. ###
-. Unicode: writeJson
-
---06-10 14:25:09 log_info display_image.SaveJsonStateFile.writeJson INFO     
-. ###
-. image_list
-###
-. List:['4PL5140000010_VE_999', '4PL5140000010_VA_999'] writeJson
-
---06-10 14:25:09 log_info display_image.SaveJsonStateFile.writeJson INFO     
-. ###
-. jnumber
-. ###
-. str:4PL5140000010 writeJson
-
---06-10 14:25:09 log_info display_image.SaveJsonStateFile.writeJson INFO     
-. ###
-. pallet_number
-. ###
-. str:0 writeJson
-
---06-10 14:25:09 log_info display_image.SaveJsonStateFile.writeJson INFO     
-. ###
-. specs
-. ###
-. str:TV HDMI Inputs<br>Product Height (in.)<br>Picture-In-Picture<br>3D-Ready<br>Audio Outputs<br>Product Depth (in.)<br>Speaker Output (in Watts)<br>Product Depth With Stand (in.)<br>Alarm Timer<br>Model #<br>Mount Bracket Pattern<br>MFR Included Warranty Type<br>TV Display Type<br>Additional TV Outputs<br>Aspect Ratio<br>Digital Tuner<br>Component Cable<br>Digital Comb Filter<br>Sleep Timer<br>Brand<br>Wall Mountable<br>Stand Included<br>Television Type<br>Headphone Jack<br>Additional Cables Included<br>Viewing Modes<br>TV Refresh Rate (Hz.)<br>Composite Cable<br>Energy Star Compliant<br>V-Chip<br>Screen Size<br>HDMI Cable<br>Languages Displayed<br>Internet-Ready<br>Coaxial Cable Included<br>Media Card Slot<br>Instant Content<br>Antiglare Screen Coating<br>Video Input Type(s)<br>Product Height With Stand (in.)<br>Remote Included<br>Volume Leveler<br>Product Width (in.)<br>Audio Inputs<br>HDMI Inputs<br>TV Screen Size (in.)<br>Additional TV Inputs<br>USB Port<br>Vertical Resolution<br>S-Video Cable<br>Number of Speakers<br>Closed Captioning<br>RCA Cable<br>Response Time (in Ms)<br>Antenna Included<br>Widescreen<br>Viewing Angles (in Degrees) writeJson
-
---06-10 14:25:09 log_info display_image.SaveJsonStateFile.writeJson INFO     
-. ###
-. category
-. ###
-. str:Electronics writeJson
-
---06-10 14:25:09 log_info display_image.SaveJsonStateFile.writeJson INFO     
-. ###
-. title
-. ###
-. Unicode:Coby 39in 1080p LED HDTV writeJson
-
---06-10 14:25:09 log_info display_image.SaveJsonStateFile.writeJson INFO     
-. ###
-. jNumber
-. ###
-. Unicode:PL514 writeJson
-
---06-10 14:25:09 log_info display_image.SaveJsonStateFile.writeJson INFO     
-. ###
-. itemSelectedImages
-###
-. Dict:{'display_image\\jPages\\PL514\\4PL5140000010_VA_999.JPEG': 'True'} writeJson
-
---06-10 14:25:09 log_info display_image.SaveJsonStateFile.writeJson INFO     
-. ###
-. condition
-. ###
-. str:5 writeJson
-
---06-10 14:25:09 log_info display_image.SaveJsonStateFile.writeJson INFO     
-. ###
-. condition_notes
-. ###
-. str:New in original packaging. writeJson
-
---06-10 14:25:09 log_info display_image.SaveJsonStateFile.writeJson INFO     
-. ###
-. sku
-. ###
-. str:1111 writeJson
-
---06-10 14:25:09 log_info display_image.SaveJsonStateFile.writeJson INFO     
-. ###
-. retailer_code
-. ###
-. Unicode:0 writeJson
-
---06-10 14:25:09 log_info display_image.SaveJsonStateFile.writeJson INFO     
-. ###
-. *ConditionID
-. ###
-. str:1000 writeJson
-
---06-10 14:25:09 log_info display_image.SaveJsonStateFile.writeJson INFO     
-. ###
-. retailer_code:0
-. ###
-. str: writeJson
-
---06-10 14:25:09 log_info display_image.SaveJsonStateFile.writeJson INFO     
-. ###
-. description
-. ###
-. Unicode:<p>
- This Coby 39" LED HDTV with Full HD (1080p) resolution and slim
-profile delivers a brilliant picture! With 3 HDMI inputs, it easily
-connects to a cable or satellite box, HD video game console or
-other high-definition device.
-</p>
-<ul>
- <li>
-  39" (38.5" diagonal) widescreen LED display
- </li>
- <li>
-  Full HD (1080p) resolution
- </li>
- <li>
-  60Hz (6.5ms) refresh rate
- </li>
- <li>
-  3000:1 contrast ratio
- </li>
- <li>
-  176 horizontal and vertical viewing angles
- </li>
- <li>
-  Digital noise reduction
- </li>
- <li>
-  Integrated stereo speakers withSRS TruSurround XT
- </li>
- <li>
-  V-chip parental control
- </li>
- <li>
-  Closed captioning
- </li>
- <li>
-  Electronic program guide support
- </li>
- <li>
-  Multilingual on-screen menus
- </li>
- <li>
-  Inputs: 3 HDMI, component video, composite video, PC, RF
- </li>
- <li>
-  Coaxial digital audio output
- </li>
- <li>
-  3.5mm headphone jack
- </li>
- <li>
-  Includes removable stand and remote control with batteries
- </li>
- <li>
-  Antenna not included
- </li>
- <li>
-  Wall mountable (VESA 200mm x 100mm)
- </li>
- <li>
-  Approx. 35"W x 7-3/4"D x 24-1/4"H (with stand)
- </li>
- <li>
-  Weighs 22.1 lbs. (with stand)
- </li>
- <li>
-  ENERGY STAR qualified saves you energy and money
- </li>
- <li>
-  $9.13 Estimated yearly consumption, energy costs will vary by
-utility rates and usage
- </li>
- <li>
-  Limited warranty
- </li>
-</ul>
- writeJson
-
---06-10 14:25:09 log_info display_image.SaveJsonStateFile.writeJson INFO     
-. ###
-. palletNumber
-. ###
-. Unicode:0 writeJson
-
---06-10 14:25:09 log_info display_image.SaveJsonStateFile.writeJson INFO     
-. ###
-. manifested
-. ###
-. str:X writeJson
-
---06-10 14:25:09 log_info display_image.SaveJsonStateFile.writeJson INFO     
-. ###
-. date_listed
-. ###
-. str:.. writeJson
-
---06-10 14:25:09 log_info display_image.SaveJsonStateFile.writeJson INFO     
-. ###
-. upc
-. ###
-. str:100000000001 writeJson
-
---06-10 14:25:09 log_info display_image.SaveJsonStateFile.writeJson INFO     
-. ###
-. listerInitials
-. ###
-. Unicode:JM writeJson
-
---06-10 14:25:09 log_info display_image.SaveJsonStateFile.writeJson INFO     
-. ###
-. jNumberFolderPath
-. ###
-. Unicode:display_image\jPages\PL514 writeJson
-
---06-10 14:25:09 log_info display_image.SaveJsonStateFile.writeJson INFO     
-. ###
-. *Category
-. ###
-. Unicode: writeJson
-
---06-10 14:25:09 log_info display_image.SaveJsonStateFile.writeJson INFO     
-. ###
-. msrp
-. ###
-. str:$499.99 writeJson
-
---06-10 14:25:09 log_info display_image.SaveJsonStateFile.writeJson INFO     
-. ###
-. quantity
-. ###
-. str:1 writeJson
-
---06-10 14:25:09 log_info display_image.SaveJsonStateFile.writeJson INFO     
-save:{u'ebay_category': u'', 'image_list': ['4PL5140000010_VE_999', '4PL5140000010_VA_999'], 'jnumber': '4PL5140000010', 'pallet_number': '0', 'specs': 'TV HDMI Inputs<br>Product Height (in.)<br>Picture-In-Picture<br>3D-Ready<br>Audio Outputs<br>Product Depth (in.)<br>Speaker Output (in Watts)<br>Product Depth With Stand (in.)<br>Alarm Timer<br>Model #<br>Mount Bracket Pattern<br>MFR Included Warranty Type<br>TV Display Type<br>Additional TV Outputs<br>Aspect Ratio<br>Digital Tuner<br>Component Cable<br>Digital Comb Filter<br>Sleep Timer<br>Brand<br>Wall Mountable<br>Stand Included<br>Television Type<br>Headphone Jack<br>Additional Cables Included<br>Viewing Modes<br>TV Refresh Rate (Hz.)<br>Composite Cable<br>Energy Star Compliant<br>V-Chip<br>Screen Size<br>HDMI Cable<br>Languages Displayed<br>Internet-Ready<br>Coaxial Cable Included<br>Media Card Slot<br>Instant Content<br>Antiglare Screen Coating<br>Video Input Type(s)<br>Product Height With Stand (in.)<br>Remote Included<br>Volume Leveler<br>Product Width (in.)<br>Audio Inputs<br>HDMI Inputs<br>TV Screen Size (in.)<br>Additional TV Inputs<br>USB Port<br>Vertical Resolution<br>S-Video Cable<br>Number of Speakers<br>Closed Captioning<br>RCA Cable<br>Response Time (in Ms)<br>Antenna Included<br>Widescreen<br>Viewing Angles (in Degrees)', 'category': 'Electronics', 'title': u'Coby 39in 1080p LED HDTV', 'jNumber': u'PL514', 'itemSelectedImages': {'display_image\\jPages\\PL514\\4PL5140000010_VA_999.JPEG': 'True'}, 'condition': '5', 'condition_notes': 'New in original packaging.', 'sku': '1111', 'retailer_code': u'0', u'*ConditionID': '1000', 'retailer_code:0': '', 'description': u'<p>\n This Coby 39 LED HDTV with Full HD (1080p) resolution and slim\nprofile delivers a brilliant picture! With 3 HDMI inputs it easily\nconnects to a cable or satellite box HD video game console or\nother high-definition device.\n</p>\n<ul>\n <li>\n  39 (38.5 diagonal) widescreen LED display\n </li>\n <li>\n  Full HD (1080p) resolution\n </li>\n <li>\n  60Hz (6.5ms) refresh rate\n </li>\n <li>\n  3000:1 contrast ratio\n </li>\n <li>\n  176\xb0 horizontal and vertical viewing angles\n </li>\n <li>\n  Digital noise reduction\n </li>\n <li>\n  Integrated stereo speakers with\xa0SRS TruSurround XT\n </li>\n <li>\n  V-chip parental control\n </li>\n <li>\n  Closed captioning\n </li>\n <li>\n  Electronic program guide support\n </li>\n <li>\n  Multilingual on-screen menus\n </li>\n <li>\n  Inputs: 3 HDMI component video composite video PC RF\n </li>\n <li>\n  Coaxial digital audio output\n </li>\n <li>\n  3.5mm headphone jack\n </li>\n <li>\n  Includes removable stand and remote control with batteries\n </li>\n <li>\n  Antenna not included\n </li>\n <li>\n  Wall mountable (VESA 200mm x 100mm)\n </li>\n <li>\n  Approx. 35W x 7-3/4D x 24-1/4H (with stand)\n </li>\n <li>\n  Weighs 22.1 lbs. (with stand)\n </li>\n <li>\n  ENERGY STAR qualified saves you energy and money\n </li>\n <li>\n  $9.13 Estimated yearly consumption energy costs will vary by\nutility rates and usage\n </li>\n <li>\n  Limited warranty\n </li>\n</ul>\n', 'palletNumber': u'0', 'manifested': 'X', 'date_listed': '..', 'upc': '100000000001', 'listerInitials': u'JM', 'jNumberFolderPath': u'display_image\\jPages\\PL514', u'*Category': u'', 'msrp': '$499.99', 'quantity': '1'} writeJson
-
---06-10 14:25:09 log_info display_image.Dialogs.ImageSelectionFrame.on_button INFO     
-. Button was clicked.display_image\jPages\PL514\4PL5140000010_VA_999.JPEG on_button
-
---06-10 14:25:12 log_info display_image.EventsHandlers.MainFrameEventHandler.onEbayCategoryIdText INFO     
-Inside:  onEbayCategoryIdText
-
---06-10 14:25:12 log_info display_image.EventsHandlers.MainFrameEventHandler.onEbayCategoryIdText INFO     
-Inside:  onEbayCategoryIdText
-
---06-10 14:25:12 log_debug display_image.EventsHandlers.MainFrameEventHandler.onEbayCategoryIdText DEBUG    1 onEbayCategoryIdText
-ARGS_KWARGS_STR:
-{'ARGS': ()
-, 'KWARGS': {}}
-call_fn: C:\Python27\lib\site-packages\wx-3.0-msw\wx\_core.py
-call_ln: 8660
-call_func: MainLoop
-caller: ['        wx.PyApp.MainLoop(self)\n']
-Exception:
-None
-
---06-10 14:25:12 log_info display_image.EventsHandlers.MainFrameEventHandler.onEbayCategoryIdText INFO     
-Inside:  onEbayCategoryIdText
-
---06-10 14:25:12 log_info display_image.EventsHandlers.MainFrameEventHandler.onEbayCategoryIdText INFO     
-Inside:  onEbayCategoryIdText
-
---06-10 14:25:12 log_debug display_image.EventsHandlers.MainFrameEventHandler.onEbayCategoryIdText DEBUG    12 onEbayCategoryIdText
-ARGS_KWARGS_STR:
-{'ARGS': ()
-, 'KWARGS': {}}
-call_fn: C:\Python27\lib\site-packages\wx-3.0-msw\wx\_core.py
-call_ln: 8660
-call_func: MainLoop
-caller: ['        wx.PyApp.MainLoop(self)\n']
-Exception:
-None
-
---06-10 14:25:12 log_info display_image.EventsHandlers.MainFrameEventHandler.onEbayCategoryIdText INFO     
-Inside:  onEbayCategoryIdText
-
---06-10 14:25:12 log_info display_image.EventsHandlers.MainFrameEventHandler.onEbayCategoryIdText INFO     
-Inside:  onEbayCategoryIdText
-
---06-10 14:25:12 log_debug display_image.EventsHandlers.MainFrameEventHandler.onEbayCategoryIdText DEBUG    123 onEbayCategoryIdText
-ARGS_KWARGS_STR:
-{'ARGS': ()
-, 'KWARGS': {}}
-call_fn: C:\Python27\lib\site-packages\wx-3.0-msw\wx\_core.py
-call_ln: 8660
-call_func: MainLoop
-caller: ['        wx.PyApp.MainLoop(self)\n']
-Exception:
-None
-
---06-10 14:25:12 log_info display_image.EventsHandlers.MainFrameEventHandler.onEbayCategoryIdText INFO     
-Inside:  onEbayCategoryIdText
-
---06-10 14:25:12 log_info display_image.EventsHandlers.MainFrameEventHandler.onEbayCategoryIdText INFO     
-Inside:  onEbayCategoryIdText
-
---06-10 14:25:12 log_debug display_image.EventsHandlers.MainFrameEventHandler.onEbayCategoryIdText DEBUG    1234 onEbayCategoryIdText
-ARGS_KWARGS_STR:
-{'ARGS': ()
-, 'KWARGS': {}}
-call_fn: C:\Python27\lib\site-packages\wx-3.0-msw\wx\_core.py
-call_ln: 8660
-call_func: MainLoop
-caller: ['        wx.PyApp.MainLoop(self)\n']
-Exception:
-None
-
---06-10 14:25:12 log_info display_image.EventsHandlers.MainFrameEventHandler.onEbayCategoryIdText INFO     
-Inside:  onEbayCategoryIdText
-
---06-10 14:25:12 log_info display_image.EventsHandlers.MainFrameEventHandler.onEbayCategoryIdText INFO     
-Inside:  onEbayCategoryIdText
-
---06-10 14:25:12 log_debug display_image.EventsHandlers.MainFrameEventHandler.onEbayCategoryIdText DEBUG    12345 onEbayCategoryIdText
-ARGS_KWARGS_STR:
-{'ARGS': ()
-, 'KWARGS': {}}
-call_fn: C:\Python27\lib\site-packages\wx-3.0-msw\wx\_core.py
-call_ln: 8660
-call_func: MainLoop
-caller: ['        wx.PyApp.MainLoop(self)\n']
-Exception:
-None
-
---06-10 14:25:12 log_info display_image.EventsHandlers.MainFrameEventHandler.onEbayCategoryIdText INFO     
-Inside:  onEbayCategoryIdText
-
---06-10 14:25:12 log_info display_image.EventsHandlers.MainFrameEventHandler.onEbayCategoryIdText INFO     
-Inside:  onEbayCategoryIdText
-
---06-10 14:25:12 log_debug display_image.EventsHandlers.MainFrameEventHandler.onEbayCategoryIdText DEBUG    123456 onEbayCategoryIdText
-ARGS_KWARGS_STR:
-{'ARGS': ()
-, 'KWARGS': {}}
-call_fn: C:\Python27\lib\site-packages\wx-3.0-msw\wx\_core.py
-call_ln: 8660
-call_func: MainLoop
-caller: ['        wx.PyApp.MainLoop(self)\n']
-Exception:
-None
-
---06-10 14:25:13 log_info display_image.EventsHandlers.MainFrameEventHandler.onBuildEbayAuction INFO     
-Inside:  onBuildEbayAuction
-
---06-10 14:25:13 log_info display_image.EventsHandlers.MainFrameEventHandler.onBuildEbayAuction INFO     
-Inside:  onBuildEbayAuction
-
---06-10 14:25:13 log_info display_image.EventsHandlers.MainFrameEventHandler.onBuildEbayAuction INFO     
-
-# PhotoCtrlEventsHandler.onBuildEbayAuction(): # onBuildEbayAuction
-
---06-10 14:25:13 log_info display_image.EventsHandlers.MainFrameEventHandler.onBuildEbayAuction INFO     
-
-# PhotoCtrlEventsHandler.onBuildEbayAuction(): # onBuildEbayAuction
-
---06-10 14:25:13 log_info display_image.EventsHandlers.MainFrameEventHandler.onBuildEbayAuction INFO     
-. {u'ebay_category': u'123456', 'image_list': ['4PL5140000010_VE_999', '4PL5140000010_VA_999'], 'jnumber': '4PL5140000010', 'pallet_number': '0', 'specs': 'TV HDMI Inputs<br>Product Height (in.)<br>Picture-In-Picture<br>3D-Ready<br>Audio Outputs<br>Product Depth (in.)<br>Speaker Output (in Watts)<br>Product Depth With Stand (in.)<br>Alarm Timer<br>Model #<br>Mount Bracket Pattern<br>MFR Included Warranty Type<br>TV Display Type<br>Additional TV Outputs<br>Aspect Ratio<br>Digital Tuner<br>Component Cable<br>Digital Comb Filter<br>Sleep Timer<br>Brand<br>Wall Mountable<br>Stand Included<br>Television Type<br>Headphone Jack<br>Additional Cables Included<br>Viewing Modes<br>TV Refresh Rate (Hz.)<br>Composite Cable<br>Energy Star Compliant<br>V-Chip<br>Screen Size<br>HDMI Cable<br>Languages Displayed<br>Internet-Ready<br>Coaxial Cable Included<br>Media Card Slot<br>Instant Content<br>Antiglare Screen Coating<br>Video Input Type(s)<br>Product Height With Stand (in.)<br>Remote Included<br>Volume Leveler<br>Product Width (in.)<br>Audio Inputs<br>HDMI Inputs<br>TV Screen Size (in.)<br>Additional TV Inputs<br>USB Port<br>Vertical Resolution<br>S-Video Cable<br>Number of Speakers<br>Closed Captioning<br>RCA Cable<br>Response Time (in Ms)<br>Antenna Included<br>Widescreen<br>Viewing Angles (in Degrees)', 'category': 'Electronics', 'title': u'Coby 39in 1080p LED HDTV', 'jNumber': u'PL514', 'itemSelectedImages': {'display_image\\jPages\\PL514\\4PL5140000010_VA_999.JPEG': 'True'}, 'condition': '5', 'condition_notes': 'New in original packaging.', 'sku': '1111', 'retailer_code': u'0', u'*ConditionID': '1000', 'retailer_code:0': '', 'description': u'<p>\n This Coby 39 LED HDTV with Full HD (1080p) resolution and slim\nprofile delivers a brilliant picture! With 3 HDMI inputs it easily\nconnects to a cable or satellite box HD video game console or\nother high-definition device.\n</p>\n<ul>\n <li>\n  39 (38.5 diagonal) widescreen LED display\n </li>\n <li>\n  Full HD (1080p) resolution\n </li>\n <li>\n  60Hz (6.5ms) refresh rate\n </li>\n <li>\n  3000:1 contrast ratio\n </li>\n <li>\n  176\xb0 horizontal and vertical viewing angles\n </li>\n <li>\n  Digital noise reduction\n </li>\n <li>\n  Integrated stereo speakers with\xa0SRS TruSurround XT\n </li>\n <li>\n  V-chip parental control\n </li>\n <li>\n  Closed captioning\n </li>\n <li>\n  Electronic program guide support\n </li>\n <li>\n  Multilingual on-screen menus\n </li>\n <li>\n  Inputs: 3 HDMI component video composite video PC RF\n </li>\n <li>\n  Coaxial digital audio output\n </li>\n <li>\n  3.5mm headphone jack\n </li>\n <li>\n  Includes removable stand and remote control with batteries\n </li>\n <li>\n  Antenna not included\n </li>\n <li>\n  Wall mountable (VESA 200mm x 100mm)\n </li>\n <li>\n  Approx. 35W x 7-3/4D x 24-1/4H (with stand)\n </li>\n <li>\n  Weighs 22.1 lbs. (with stand)\n </li>\n <li>\n  ENERGY STAR qualified saves you energy and money\n </li>\n <li>\n  $9.13 Estimated yearly consumption energy costs will vary by\nutility rates and usage\n </li>\n <li>\n  Limited warranty\n </li>\n</ul>\n', 'palletNumber': u'0', 'manifested': 'X', 'date_listed': '..', 'upc': '100000000001', 'listerInitials': u'JM', 'jNumberFolderPath': u'display_image\\jPages\\PL514', u'*Category': u'123456', 'msrp': '$499.99', 'quantity': '1'} onBuildEbayAuction
-
---06-10 14:25:13 log_info display_image.EventsHandlers.MainFrameEventHandler.onBuildEbayAuction INFO     
-. {u'ebay_category': u'123456', 'image_list': ['4PL5140000010_VE_999', '4PL5140000010_VA_999'], 'jnumber': '4PL5140000010', 'pallet_number': '0', 'specs': 'TV HDMI Inputs<br>Product Height (in.)<br>Picture-In-Picture<br>3D-Ready<br>Audio Outputs<br>Product Depth (in.)<br>Speaker Output (in Watts)<br>Product Depth With Stand (in.)<br>Alarm Timer<br>Model #<br>Mount Bracket Pattern<br>MFR Included Warranty Type<br>TV Display Type<br>Additional TV Outputs<br>Aspect Ratio<br>Digital Tuner<br>Component Cable<br>Digital Comb Filter<br>Sleep Timer<br>Brand<br>Wall Mountable<br>Stand Included<br>Television Type<br>Headphone Jack<br>Additional Cables Included<br>Viewing Modes<br>TV Refresh Rate (Hz.)<br>Composite Cable<br>Energy Star Compliant<br>V-Chip<br>Screen Size<br>HDMI Cable<br>Languages Displayed<br>Internet-Ready<br>Coaxial Cable Included<br>Media Card Slot<br>Instant Content<br>Antiglare Screen Coating<br>Video Input Type(s)<br>Product Height With Stand (in.)<br>Remote Included<br>Volume Leveler<br>Product Width (in.)<br>Audio Inputs<br>HDMI Inputs<br>TV Screen Size (in.)<br>Additional TV Inputs<br>USB Port<br>Vertical Resolution<br>S-Video Cable<br>Number of Speakers<br>Closed Captioning<br>RCA Cable<br>Response Time (in Ms)<br>Antenna Included<br>Widescreen<br>Viewing Angles (in Degrees)', 'category': 'Electronics', 'title': u'Coby 39in 1080p LED HDTV', 'jNumber': u'PL514', 'itemSelectedImages': {'display_image\\jPages\\PL514\\4PL5140000010_VA_999.JPEG': 'True'}, 'condition': '5', 'condition_notes': 'New in original packaging.', 'sku': '1111', 'retailer_code': u'0', u'*ConditionID': '1000', 'retailer_code:0': '', 'description': u'<p>\n This Coby 39 LED HDTV with Full HD (1080p) resolution and slim\nprofile delivers a brilliant picture! With 3 HDMI inputs it easily\nconnects to a cable or satellite box HD video game console or\nother high-definition device.\n</p>\n<ul>\n <li>\n  39 (38.5 diagonal) widescreen LED display\n </li>\n <li>\n  Full HD (1080p) resolution\n </li>\n <li>\n  60Hz (6.5ms) refresh rate\n </li>\n <li>\n  3000:1 contrast ratio\n </li>\n <li>\n  176\xb0 horizontal and vertical viewing angles\n </li>\n <li>\n  Digital noise reduction\n </li>\n <li>\n  Integrated stereo speakers with\xa0SRS TruSurround XT\n </li>\n <li>\n  V-chip parental control\n </li>\n <li>\n  Closed captioning\n </li>\n <li>\n  Electronic program guide support\n </li>\n <li>\n  Multilingual on-screen menus\n </li>\n <li>\n  Inputs: 3 HDMI component video composite video PC RF\n </li>\n <li>\n  Coaxial digital audio output\n </li>\n <li>\n  3.5mm headphone jack\n </li>\n <li>\n  Includes removable stand and remote control with batteries\n </li>\n <li>\n  Antenna not included\n </li>\n <li>\n  Wall mountable (VESA 200mm x 100mm)\n </li>\n <li>\n  Approx. 35W x 7-3/4D x 24-1/4H (with stand)\n </li>\n <li>\n  Weighs 22.1 lbs. (with stand)\n </li>\n <li>\n  ENERGY STAR qualified saves you energy and money\n </li>\n <li>\n  $9.13 Estimated yearly consumption energy costs will vary by\nutility rates and usage\n </li>\n <li>\n  Limited warranty\n </li>\n</ul>\n', 'palletNumber': u'0', 'manifested': 'X', 'date_listed': '..', 'upc': '100000000001', 'listerInitials': u'JM', 'jNumberFolderPath': u'display_image\\jPages\\PL514', u'*Category': u'123456', 'msrp': '$499.99', 'quantity': '1'} onBuildEbayAuction
-
---06-10 14:25:13 log_debug display_image.EventsHandlers.MainFrameEventHandler.onBuildEbayAuction DEBUG    Assign pictures to ebay auction:  onBuildEbayAuction
-ARGS_KWARGS_STR:
-{'ARGS': ({'display_image\\jPages\\PL514\\4PL5140000010_VA_999.JPEG': 'True'},)
-, 'KWARGS': {}}
-call_fn: C:\Python27\lib\site-packages\wx-3.0-msw\wx\_core.py
-call_ln: 8660
-call_func: MainLoop
-caller: ['        wx.PyApp.MainLoop(self)\n']
-Exception:
-None
-
---06-10 14:25:13 log_info display_image.EventsHandlers.MainFrameEventHandler.onBuildEbayAuction INFO     
-{'display_image\\jPages\\PL514\\4PL5140000010_VA_999.JPEG': 'True'} onBuildEbayAuction
-
---06-10 14:25:13 log_info display_image.EventsHandlers.MainFrameEventHandler.onBuildEbayAuction INFO     
-{'display_image\\jPages\\PL514\\4PL5140000010_VA_999.JPEG': 'True'} onBuildEbayAuction
-
---06-10 14:25:13 log_debug display_image.sky_manifest.returnItemSpecifics DEBUG    Missing Column:returnItemSpecifics
-ARGS_KWARGS_STR:
-{'ARGS': (ValueError("u'4PL5140000010' is not in list",),)
-, 'KWARGS': {}}
-call_fn: C:\Python27\lib\site-packages\wx-3.0-msw\wx\_core.py
-call_ln: 7952
-call_func: MainLoop
-caller: ['        return _core_.PyApp_MainLoop(*args, **kwargs)\n']
-Exception:
-Traceback (most recent call last):
-  File "C:\Users\User\Desktop\SGIS\SGIS_6-2-14\Sky_Group_Inventory_Scanner-wxpython-master\display_image\sky_manifest.py", line 139, in returnItemSpecifics
-    EbayCategoryRowNumber = CustomLabelColumn.index(jnumber)
-ValueError: u'4PL5140000010' is not in list
-
---06-10 14:25:13 log_info display_image.EventsHandlers.MainFrameEventHandler.onBuildEbayAuction INFO     
-# self.MainFrame.itemSpecifics onBuildEbayAuction(): ValueError:u'4PL5140000010' is not in list onBuildEbayAuction
-
---06-10 14:25:13 log_info display_image.EventsHandlers.MainFrameEventHandler.onBuildEbayAuction INFO     
-# self.MainFrame.itemSpecifics onBuildEbayAuction(): ValueError:u'4PL5140000010' is not in list onBuildEbayAuction
-
---06-10 14:25:14 log_info display_image.EventsHandlers.MainFrameEventHandler.onBuildEbayAuction INFO     
-Starting BuildAuction onBuildEbayAuction
-
---06-10 14:25:14 log_info display_image.EventsHandlers.MainFrameEventHandler.onBuildEbayAuction INFO     
-Starting BuildAuction onBuildEbayAuction
-
---06-10 14:25:14 log_info display_image.EventsHandlers.MainFrameEventHandler.onBuildEbayAuction INFO     
-Trying to returnHtmlStringForListing onBuildEbayAuction
-
---06-10 14:25:14 log_info display_image.EventsHandlers.MainFrameEventHandler.onBuildEbayAuction INFO     
-Trying to returnHtmlStringForListing onBuildEbayAuction
-
---06-10 14:25:14 log_info display_image.build_auction.returnHtmlStringForListing INFO     
-Inside:  returnHtmlStringForListing
-
---06-10 14:25:14 log_info display_image.build_auction.returnHtmlStringForListing INFO     
-self.itemCurrentInfo: {u'ebay_category': u'123456', 'image_list': ['4PL5140000010_VE_999', '4PL5140000010_VA_999'], 'jnumber': '4PL5140000010', 'pallet_number': '0', 'specs': 'TV HDMI Inputs<br>Product Height (in.)<br>Picture-In-Picture<br>3D-Ready<br>Audio Outputs<br>Product Depth (in.)<br>Speaker Output (in Watts)<br>Product Depth With Stand (in.)<br>Alarm Timer<br>Model #<br>Mount Bracket Pattern<br>MFR Included Warranty Type<br>TV Display Type<br>Additional TV Outputs<br>Aspect Ratio<br>Digital Tuner<br>Component Cable<br>Digital Comb Filter<br>Sleep Timer<br>Brand<br>Wall Mountable<br>Stand Included<br>Television Type<br>Headphone Jack<br>Additional Cables Included<br>Viewing Modes<br>TV Refresh Rate (Hz.)<br>Composite Cable<br>Energy Star Compliant<br>V-Chip<br>Screen Size<br>HDMI Cable<br>Languages Displayed<br>Internet-Ready<br>Coaxial Cable Included<br>Media Card Slot<br>Instant Content<br>Antiglare Screen Coating<br>Video Input Type(s)<br>Product Height With Stand (in.)<br>Remote Included<br>Volume Leveler<br>Product Width (in.)<br>Audio Inputs<br>HDMI Inputs<br>TV Screen Size (in.)<br>Additional TV Inputs<br>USB Port<br>Vertical Resolution<br>S-Video Cable<br>Number of Speakers<br>Closed Captioning<br>RCA Cable<br>Response Time (in Ms)<br>Antenna Included<br>Widescreen<br>Viewing Angles (in Degrees)', 'category': 'Electronics', 'title': u'Coby 39in 1080p LED HDTV', 'jNumber': u'PL514', 'itemSelectedImages': {'display_image\\jPages\\PL514\\4PL5140000010_VA_999.JPEG': 'True'}, 'condition': '5', 'condition_notes': 'New in original packaging.', 'sku': '1111', 'retailer_code': u'0', u'*ConditionID': '1000', 'retailer_code:0': '', 'description': u'<p>\n This Coby 39 LED HDTV with Full HD (1080p) resolution and slim\nprofile delivers a brilliant picture! With 3 HDMI inputs it easily\nconnects to a cable or satellite box HD video game console or\nother high-definition device.\n</p>\n<ul>\n <li>\n  39 (38.5 diagonal) widescreen LED display\n </li>\n <li>\n  Full HD (1080p) resolution\n </li>\n <li>\n  60Hz (6.5ms) refresh rate\n </li>\n <li>\n  3000:1 contrast ratio\n </li>\n <li>\n  176\xb0 horizontal and vertical viewing angles\n </li>\n <li>\n  Digital noise reduction\n </li>\n <li>\n  Integrated stereo speakers with\xa0SRS TruSurround XT\n </li>\n <li>\n  V-chip parental control\n </li>\n <li>\n  Closed captioning\n </li>\n <li>\n  Electronic program guide support\n </li>\n <li>\n  Multilingual on-screen menus\n </li>\n <li>\n  Inputs: 3 HDMI component video composite video PC RF\n </li>\n <li>\n  Coaxial digital audio output\n </li>\n <li>\n  3.5mm headphone jack\n </li>\n <li>\n  Includes removable stand and remote control with batteries\n </li>\n <li>\n  Antenna not included\n </li>\n <li>\n  Wall mountable (VESA 200mm x 100mm)\n </li>\n <li>\n  Approx. 35W x 7-3/4D x 24-1/4H (with stand)\n </li>\n <li>\n  Weighs 22.1 lbs. (with stand)\n </li>\n <li>\n  ENERGY STAR qualified saves you energy and money\n </li>\n <li>\n  $9.13 Estimated yearly consumption energy costs will vary by\nutility rates and usage\n </li>\n <li>\n  Limited warranty\n </li>\n</ul>\n', 'palletNumber': u'0', 'manifested': 'X', 'image_sources': {'display_image\\jPages\\PL514\\4PL5140000010_VA_999.JPEG': 'True'}, 'date_listed': '..', 'upc': '100000000001', 'listerInitials': u'JM', 'jNumberFolderPath': u'display_image\\jPages\\PL514', u'*Category': u'123456', 'msrp': '$499.99', 'quantity': '1'} returnHtmlStringForListing
-
---06-10 14:25:14 log_info display_image.EventsHandlers.MainFrameEventHandler.onBuildEbayAuction INFO     
-Trying to generateEbayListingCsvLine onBuildEbayAuction
-
---06-10 14:25:14 log_info display_image.EventsHandlers.MainFrameEventHandler.onBuildEbayAuction INFO     
-Trying to generateEbayListingCsvLine onBuildEbayAuction
-
---06-10 14:25:14 log_info display_image.build_auction.processListingPreferences INFO     
-###############Applying listing Preferences################### processListingPreferences
-
---06-10 14:25:14 log_info display_image.build_auction.processListingPreferences INFO     
-
-#BuyItNowPrice: {u'percent of MSRP': False}
-# processListingPreferences
-
---06-10 14:25:14 log_info display_image.build_auction.processListingPreferences INFO     
-
-#*Format: {u'Auction': True, u'FixedPrice': False}
-# processListingPreferences
-
---06-10 14:25:14 log_info display_image.build_auction.processListingPreferences INFO     
-
-#ReservePrice: {u'percent of MSRP': False}
-# processListingPreferences
-
---06-10 14:25:14 log_info display_image.build_auction.processListingPreferences INFO     
-
-#ShippingService-1:Cost: {u'Amount': u'12'}
-# processListingPreferences
-
---06-10 14:25:14 log_info display_image.build_auction.processListingPreferences INFO     
-
-#ShippingService-1:Option: {u'FedExHomeDelivery': True, u'USPSPriority': False}
-# processListingPreferences
-
---06-10 14:25:14 log_info display_image.build_auction.processListingPreferences INFO     
-
-#*StartPrice: {u'.99': u'', u'percent of MSRP': False}
-# processListingPreferences
-
---06-10 14:25:14 log_info display_image.build_auction.processListingPreferences INFO     
-
-#*Duration: {u'10': False, u'GTC': False, u'30': False, u'3': True, u'5': False, u'7': False}
-# processListingPreferences
-
---06-10 14:25:14 log_info display_image.build_auction.processListingPreferences INFO     
-listingPreferences: {u'BuyItNowPrice': {u'percent of MSRP': False}, u'*Format': {u'Auction': True, u'FixedPrice': False}, u'ReservePrice': {u'percent of MSRP': False}, u'ShippingService-1:Cost': {u'Amount': u'12'}, u'ShippingService-1:Option': {u'FedExHomeDelivery': True, u'USPSPriority': False}, u'*StartPrice': {u'.99': u'', u'percent of MSRP': False}, u'*Duration': {u'10': False, u'GTC': False, u'30': False, u'3': True, u'5': False, u'7': False}}
-Type: <type 'dict'> processListingPreferences
+--06-17 09:44:40 log_info display_image.EventsHandlers.MainFrameEventHandler.onClose INFO     
+Inside:  onClose
+
+--06-17 09:44:40 log_info display_image.EventsHandlers.MainFrameEventHandler.onClose INFO     
+Inside:  onClose

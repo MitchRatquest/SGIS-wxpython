@@ -529,9 +529,18 @@ class MainFrameEventHandler(object):
         self.MainFrame.currentItemInfo['image_sources'] = None
         self.MainFrame.currentItemInfo.update({'image_sources':sources})
         self.infoLogger(sources)
+        #-------------------------------------------------------
         # with ebay archive open return item specifics for jnumber
         # returns item_category, item_specifics from sky_manifest.returnItemSpecifics()
         #
+        #  item_specifics = item_row[ErrorMessageIndex].split('Please provide the required item specifics.|')[-1].split('|')[0].split('#comma# ')
+        #
+        #-------------------------------------------------------
+        # Item specifics fetcher  Searches through
+        # ebay Verification_Results by category number
+        # if the catefory number is found
+        # it will return a list
+        # returns [item_category, item_specifics]
         self.MainFrame.itemSpecifics = self.MainFrame.itemSpecificsFetcher.returnItemSpecifics(self.MainFrame.scanNumberText.GetValue())
         self.infoLogger('# self.MainFrame.itemSpecifics onBuildEbayAuction(): ' +str(self.MainFrame.itemSpecifics))
         self.MainFrame.ebayCategoryIdLbl.Show()
@@ -737,6 +746,8 @@ class MainFrameEventHandler(object):
         ##########
         # refreshes self.panel with a given image path
         ###########
+        This is used for JPEG onBrowse.... should be used
+        for each onJPEG change.
         '''
         self.infoLogger("Inside: ")
         self.fp = self.MainFrame.browseText.GetValue()
@@ -791,7 +802,7 @@ class MainFrameEventHandler(object):
         check = Check(self.MainFrame)
         self.setJNumberFolder(retailer_code)
         #-------------------------------------------------------
-        # load json if exists 
+        # load json if exists  (json created on scanNewItem ... or Save(  self.Mainframe)
         # updates currentItemInfo
         # return True
         # else return False
@@ -801,7 +812,7 @@ class MainFrameEventHandler(object):
         print('json_exists:',json_exists)
         if json_exists is True:
             self.MainFrame.statusbar.SetStatusText('Found json_state_file.')
-            self.prev_image = check.defaultImageSelections()
+            self.prev_image = check.defaultImageSelections() # returns image path or None
             self.MainFrame.currentImgPath = self.prev_image
             self.infoLogger('\n# PhotoCtrlEventHandler.onScanNumberText(): self.prev_image #')
             self.infoLogger('. Previous Images: ')
@@ -810,9 +821,11 @@ class MainFrameEventHandler(object):
             self.infoLogger(('. ' + str(self.prev_image)))
             self.infoLogger('. Found Previous Image Selection: '+str(self.MainFrame.currentImgPath))
             #-------------------------------------------------------
-            # if currentImgPath is empty update image
+            # 
+            # prev_image -> currentImgPath if seen
+            # else if currentImgPath is empty update image
             #-------------------------------------------------------
-            if "None" or None in str(self.MainFrame.currentImgPath):
+            if ("None" in str(self.MainFrame.currentImgPath)) or (self.MainFrame.currentImgPath is None):
                 self.infoLogger('None in self.MainFrame.currentImgPath: '+str(self.MainFrame.currentImgPath))
                 results = FetchPage(self.MainFrame).results # updates currentItemInfo
                 if isinstance(results,Exception):
@@ -828,14 +841,16 @@ class MainFrameEventHandler(object):
             return True
         #-------------------------------------------------------
         # if no json, fetchPage()
+        # download images
+        # 
         #-------------------------------------------------------
         else:
             self.MainFrame.statusbar.SetStatusText('Didnt find json_state_file.')
             try:
                 try:
-                    results = FetchPage(self.MainFrame).results
+                    results = FetchPage(self.MainFrame).results     # results = {image_list:[],description:''}
                     self.debugLogger('MainFrameEventHandler.updateMainFrameCurrentItemInfo',results)
-                    # results = {image_list:[],description:''}
+                    
                 except Exception, results:
                     if isinstance(results,Exception):
                         if 'ImageListEmpty' in results[0]:
@@ -853,8 +868,14 @@ class MainFrameEventHandler(object):
                 results = int_dialog.ShowModal()
                 int_dialog.Destroy()
                 return
-            # download the images
+            #---------------------------------------------
+            # download image_list
+            #
+            # image_list created in sky_scraper
+            # image_list downloaded in Check.downloadimages
+            #---------------------------------------------
             try:
+                self.infoLogger('############### Begin download images ##############')
                 images = check.downloadImages()
                 self.MainFrame.statusbar.SetStatusText('Done Getting images')
                 p = Process(target=images, args=())
@@ -1165,6 +1186,7 @@ class MainFrameEventHandler(object):
         self.MainFrame.browseText.Clear()
         self.MainFrame.currentItemInfo['itemSelectedImages'] = {}
         self.MainFrame.descriptionTextField.SetValue("")
+        self.MainFrame.descriptionTextField.Clear()
         self.MainFrame.jNumber = self.MainFrame.defaultJNumber
         self.MainFrame.descriptionTextField.SetValue(self.MainFrame.defaultJNumberInfo['description'])
         self.MainFrame.currentItemInfo = self.MainFrame.defaultJNumberInfo

@@ -14,7 +14,7 @@ class ManifestReader(object):
     File must be Comma Delimited
     List of headers:
     '''
-    def __init__(self, filepath, MainFrame):
+    def __init__(self, filepath, MainFrame=None):
         super(ManifestReader, self).__init__()
         self.filepath = filepath
         self.returnCsvFile()
@@ -119,7 +119,7 @@ class ManifestReader(object):
 
     def returnItemSpecifics(self, jnumber):
         '''
-        Given the jnumber find the item specifics in unique_category_4numbeer_sku.csv
+        Given the jnumber find the item specifics in self.MainFrame.lookUpTable
         If unable to find jnumber
         return 'ValueError:'+str(e)
         else return [item_category, [item_specifics]]
@@ -184,6 +184,23 @@ class ManifestReader(object):
     def checkIfManifested(self, jnumber, currentPalletNumber):
         '''
         checks if item is manifested
+        returns results dictionary:
+        results_dict = {'sku_column_index': sku_column_index,
+                        'jnumber_column_index': jnumber_column_index,
+                        'manifested_column_index': manifested_column_index,
+                        'manifested_column': manifested_column,
+                        'row_index_matches': row_index_matches,
+                        'manifested_count': manifested_count,
+                        'title_column': title_column,
+                        'title_column_index': title_column_index,
+                        'upc_column_index': upc_column_index,
+                        'pallet_number_index': pallet_number_index,
+                        'pallet_number_column': pallet_number_column,
+                        'currentSku': '',
+                        'titleModelSelection': '',
+                        'jnumber': jnumber,
+                        'retailer_code': retailer_code
+                        }
         '''
         self.infoLogger('\n# sky_manifest.ManifestReader.checkIfManifested(jnumber) #')
         self.infoLogger('. jnumber:' + jnumber)
