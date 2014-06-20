@@ -1,102 +1,52 @@
 
---06-20 12:42:10 log_info display_image.Dialogs.ListingPreferencesDialog.check INFO     
+--06-20 15:13:25 log_info display_image.Dialogs.ListingPreferencesDialog.check INFO     
 
 # ListingPreferencesDialog.CheckListingPreferences.check() # check
 
---06-20 12:42:10 log_info display_image.Dialogs.ListingPreferencesDialog.check INFO     
+--06-20 15:13:25 log_info display_image.Dialogs.ListingPreferencesDialog.check INFO     
 ######################## Listing Preferences #############
 Type: <type 'dict'>
 {u'BuyItNowPrice': {u'percent of MSRP': False}, u'*Format': {u'Auction': True, u'FixedPrice': False}, u'ReservePrice': {u'percent of MSRP': False}, u'ShippingService-1:Cost': {u'Amount': u'12'}, u'ShippingService-1:Option': {u'FedExHomeDelivery': True, u'USPSPriority': False}, u'*StartPrice': {u'.99': u'.99', u'percent of MSRP': False}, u'*Duration': {u'10': False, u'GTC': False, u'30': False, u'3': False, u'5': True, u'7': False}} check
 
---06-20 12:42:10 log_info display_image.MainFrame.createWidgets INFO     
+--06-20 15:13:25 log_info display_image.MainFrame.createWidgets INFO     
 THIS IS A MESSAGE in CreateWidgets
 
---06-20 12:42:10 log_info display_image.MainFrame.lsizerCreate INFO     
+--06-20 15:13:25 log_info display_image.MainFrame.lsizerCreate INFO     
 THIS IS A MESSAGE IN lsizerCreate
 
---06-20 12:42:10 log_info display_image.EventsHandlers.MainFrameEventHandler.onbeginShelfNumberText INFO     
+--06-20 15:13:25 log_info display_image.EventsHandlers.MainFrameEventHandler.onbeginShelfNumberText INFO     
 Inside:  onbeginShelfNumberText
 
---06-20 12:42:10 log_info display_image.EventsHandlers.MainFrameEventHandler.onbeginShelfNumberText INFO     
+--06-20 15:13:25 log_info display_image.EventsHandlers.MainFrameEventHandler.onbeginShelfNumberText INFO     
 Inside:  onbeginShelfNumberText
 
---06-20 12:42:10 log_info display_image.EventsHandlers.MainFrameEventHandler.onListerInitialsText INFO     
+--06-20 15:13:25 log_info display_image.EventsHandlers.MainFrameEventHandler.onListerInitialsText INFO     
 Initials set:JM onListerInitialsText
 
---06-20 12:42:10 log_info display_image.EventsHandlers.MainFrameEventHandler.onListerInitialsText INFO     
+--06-20 15:13:25 log_info display_image.EventsHandlers.MainFrameEventHandler.onListerInitialsText INFO     
 Initials set:JM onListerInitialsText
 
---06-20 12:42:10 log_info display_image.MainFrame.csizerCreate INFO     
+--06-20 15:13:25 log_info display_image.MainFrame.csizerCreate INFO     
 THIS IS A MESSAGE in csizerCreate
 
---06-20 12:42:10 log_info display_image.MainFrame.rsizerCreate INFO     
+--06-20 15:13:25 log_info display_image.MainFrame.rsizerCreate INFO     
 THIS IS A MESSAGE in rsizerCreate
 
---06-20 12:42:10 log_info run.MainFrame INFO     
+--06-20 15:13:25 log_info run.MainFrame INFO     
 # main(): #
 MainFrame.__dict__:
-{'beginManifestingRadio': <wx._controls.RadioButton; proxy of <Swig Object of type 'wxRadioButton *' at 0x3815068> >,
- 'retailerLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3815560> >,
- 'file': <wx._core.Menu; proxy of <Swig Object of type 'wxMenu *' at 0x1fd55b0> >,
- 'ebayCategoryIdText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x381aea8> >,
+{'retailerLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x35265a8> >,
+ 'help': <wx._core.Menu; proxy of <Swig Object of type 'wxMenu *' at 0x2025730> >,
  'listingPreferencesResults': {u'BuyItNowPrice': {u'percent of MSRP': False}, u'*Format': {u'Auction': True, u'FixedPrice': False}, u'ReservePrice': {u'percent of MSRP': False}, u'ShippingService-1:Cost': {u'Amount': u'12'}, u'ShippingService-1:Option': {u'FedExHomeDelivery': True, u'USPSPriority': False}, u'*StartPrice': {u'.99': u'.99', u'percent of MSRP': False}, u'*Duration': {u'10': False, u'GTC': False, u'30': False, u'3': False, u'5': True, u'7': False}},
- 'ebayCategoryIdLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x38165f0> >,
- 'fetchManifestItemInfo': <wx._core.MenuItem; proxy of <Swig Object of type 'wxMenuItem *' at 0x1fd5970> >,
- 'currentSkuText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x3809948> >,
- 'rSizer': <wx._core.BoxSizer; proxy of <Swig Object of type 'wxBoxSizer *' at 0x33876a0> >,
- 'jNumber': 'QZ468',
- 'ssh_pass': None,
- 'beginShelfNumberLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3816448> >,
- 'browseText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x381ee28> >,
- 'currentItemInfo':
-
- {'description': '\nJ176344  Description is empty\n4PK4260000010\n21492\n',
- 'image_list': ['default',
- '4QZ4680000010_VA_999',
- 'default'],
- 'jNumber': '',
- 'listerInitials': u'JM',
- 'itemSelectedImages':
-
- {'key': ''},
- 'specs': '\nJ176344  Description is empty\n4PK4260000010\n21492\n'},
- 'mainSizer': <wx._core.BoxSizer; proxy of <Swig Object of type 'wxBoxSizer *' at 0x3387760> >,
- 'help': <wx._core.Menu; proxy of <Swig Object of type 'wxMenu *' at 0x1fd57f0> >,
- 'eventsHandler': <display_image.EventsHandlers.MainFrameEventHandler.MainFrameEventHandler object at 0x037B1410>,
- 'quit': <wx._core.MenuItem; proxy of <Swig Object of type 'wxMenuItem *' at 0x1fd5c70> >,
- 'scanNumberSeperator': <wx._controls.StaticLine; proxy of <Swig Object of type 'wxStaticLine *' at 0x3815da8> >,
- 'SelectImageBtn': <wx._controls.Button; proxy of <Swig Object of type 'wxButton *' at 0x381d338> >,
- 'statusbar': <wx._windows.StatusBar; proxy of <Swig Object of type 'wxStatusBar *' at 0x35e5bc8> >,
- 'currentDateListedLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x381d830> >,
+ 'buildAuctionButton': <wx._controls.Button; proxy of <Swig Object of type 'wxButton *' at 0x3527988> >,
  'defaultImgPath': 'display_image\\jPages\\QZ468\\default.JPEG',
- 'ListingPreferencesDialog': <class 'display_image.Dialogs.ListingPreferencesDialog.ListingPreferencesDialog'>,
- 'currentTitleText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x369ded0> >,
- 'palletNumberLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3815a58> >,
- 'defaultJNumber': 'QZ468',
- 'loadManifest': <wx._core.MenuItem; proxy of <Swig Object of type 'wxMenuItem *' at 0x1fd58b0> >,
- 'itemSpecificsFetcher': <display_image.sky_manifest.ManifestReader object at 0x037B1390>,
- 'emptyRadio': <wx._controls.RadioButton; proxy of <Swig Object of type 'wxRadioButton *' at 0x3814ec0> >,
- 'reloadModules': <wx._core.MenuItem; proxy of <Swig Object of type 'wxMenuItem *' at 0x1fd5df0> >,
- 'PhotoMaxSize': 400,
- 'mainPanel': <wx._windows.Panel; proxy of <Swig Object of type 'wxPanel *' at 0x36e6890> >,
- 'threading': False,
- 'currentConditionNotesLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x381d688> >,
- 'startingSkuLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3815f50> >,
- 'logger': <logs.logger_example.log_this object at 0x037B1290>,
- 'instructions': 'Is this image correct?',
- 'upcNumberText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x3704650> >,
- 'resetSsh': <wx._core.MenuItem; proxy of <Swig Object of type 'wxMenuItem *' at 0x1fd5af0> >,
- 'lookUpBySkuSizer': <wx._core.BoxSizer; proxy of <Swig Object of type 'wxBoxSizer *' at 0x33875e0> >,
- 'saveDescriptionTextBtn': <wx._controls.Button; proxy of <Swig Object of type 'wxButton *' at 0x381d4e0> >,
- 'defaultJNumberInfo':
-
- {'itemSelectedImages':
-
- {'key': ''},
- 'image_list': ['default',
- '4NS3600000010_A_99'],
- 'description': '\nJ176344  Description is empty\n4PK4260000010\n21492\n',
- 'specs': '\nJ176344 is Empty\n4PK4260000010\n21492\n'},
+ 'currentTitleText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x34fbe30> >,
+ 'mainSizer': <wx._core.BoxSizer; proxy of <Swig Object of type 'wxBoxSizer *' at 0x333f2f0> >,
+ 'itemSpecificsFetcher': <display_image.sky_manifest.ManifestReader object at 0x0378E390>,
+ 'emptyRadio': <wx._controls.RadioButton; proxy of <Swig Object of type 'wxRadioButton *' at 0x3525f08> >,
+ 'reloadModules': <wx._core.MenuItem; proxy of <Swig Object of type 'wxMenuItem *' at 0x2025d30> >,
+ 'logger': <logs.logger_example.log_this object at 0x0378E290>,
+ 'upcNumberText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x37f03c0> >,
  'ebayAuctionHeaders': ['*Action(SiteID=US|Country=US|Currency=USD|Version=745)',
  '*Category',
  '*Title',
@@ -173,39 +123,17 @@ MainFrame.__dict__:
  'C:MPN',
  'C:Serial Number',
  'C:Country/Region of Manufacture'],
- 'buildAuctionButton': <wx._controls.Button; proxy of <Swig Object of type 'wxButton *' at 0x3816940> >,
- 'cSizer': <wx._core.BoxSizer; proxy of <Swig Object of type 'wxBoxSizer *' at 0x3387640> >,
- 'instructLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x381cfe8> >,
- 'beginShelfNumberText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x3705210> >,
- 'listingPreferences': <wx._core.MenuItem; proxy of <Swig Object of type 'wxMenuItem *' at 0x1fd5bb0> >,
- 'currentConditionNotesText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x3822168> >,
- 'scanNumberText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x3809588> >,
- 'lookupManifestedRadio': <wx._controls.RadioButton; proxy of <Swig Object of type 'wxRadioButton *' at 0x3815210> >,
- 'imageCountLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x381ce40> >,
- 'currentConditionText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x3821da8> >,
- 'ssh': <display_image.Ssh_Put.Ssh object at 0x037B1970>,
- 'pdbSetTrace': <wx._core.MenuItem; proxy of <Swig Object of type 'wxMenuItem *' at 0x1fd5d30> >,
- 'listerInitialsText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x381ba68> >,
- 'defaultJPagesFolder': 'display_image\\jPages',
- 'listerInitialsLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3816798> >,
- 'descriptionTextField': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x381f9e8> >,
+ 'ssh': <display_image.Ssh_Put.Ssh object at 0x0378E970>,
  'ebayHeadersFile': 'display_image\\archivedData\\ebay_auction_headers.csv',
- 'lSizer': <wx._core.BoxSizer; proxy of <Swig Object of type 'wxBoxSizer *' at 0x3387580> >,
- 'archivedDataFolderPath': 'display_image\\archivedData',
- 'browseBtn': <wx._controls.Button; proxy of <Swig Object of type 'wxButton *' at 0x381d190> >,
- 'currentTitleLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x381d9d8> >,
- 'rSizerCurrentItemSizer': <wx._core.BoxSizer; proxy of <Swig Object of type 'wxBoxSizer *' at 0x3387700> >,
- 'defaultJNumberFolder': 'display_image\\jPages\\QZ468',
- 'sky_manifest': <module 'display_image.sky_manifest' from 'C:\Users\Mitchell\Desktop\juan\display_image\sky_manifest.py'>,
- 'fingerRadio': <wx._controls.RadioButton; proxy of <Swig Object of type 'wxRadioButton *' at 0x3815708> >,
- 'currentDateListedText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x3822528> >,
- 'shopHqRadio': <wx._controls.RadioButton; proxy of <Swig Object of type 'wxRadioButton *' at 0x38158b0> >,
- 'lookUpBySkuBtn': <wx._controls.Button; proxy of <Swig Object of type 'wxButton *' at 0x38160f8> >,
- 'scanNumberLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3815c00> >,
- 'this': <Swig Object of type 'wxFrame *' at 0x33f4950>,
- 'scanNumberTextValue': None,
+ 'instructions': 'Is this image correct?',
+ 'browseBtn': <wx._controls.Button; proxy of <Swig Object of type 'wxButton *' at 0x37f3628> >,
+ 'currentTitleLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x37f3e70> >,
+ 'edit': <wx._core.Menu; proxy of <Swig Object of type 'wxMenu *' at 0x20255b0> >,
+ 'fingerRadio': <wx._controls.RadioButton; proxy of <Swig Object of type 'wxRadioButton *' at 0x3526750> >,
+ 'lookUpBySkuBtn': <wx._controls.Button; proxy of <Swig Object of type 'wxButton *' at 0x3527140> >,
+ 'threading': False,
  'uniqueCategoryArchive': 'display_image\\archivedData\\unique_category_4numbeer_sku.csv',
- 'edit': <wx._core.Menu; proxy of <Swig Object of type 'wxMenu *' at 0x1fd5730> >,
+ 'resetSsh': <wx._core.MenuItem; proxy of <Swig Object of type 'wxMenuItem *' at 0x2025a30> >,
  'defaults':
 
  {'username': 'root',
@@ -253,10 +181,2159 @@ MainFrame.__dict__:
  'serverLocation': '192.168.0.170',
  'itemSpecifics': [],
  'defaultShelf': 'XXX'},
- 'upcNumberLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x38162a0> >,
- 'palletNumberText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x38091c8> >,
+ 'palletNumberText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x36fe7f0> >,
  'jNumberFolderPath': 'display_image\\jPages\\QZ468',
- 'actionSeperator': <wx._controls.StaticLine; proxy of <Swig Object of type 'wxStaticLine *' at 0x38153b8> >,
- 'imageCtrl': <wx._controls.StaticBitmap; proxy of <Swig Object of type 'wxStaticBitmap *' at 0x3816c90> >,
- 'newItemButton': <wx._controls.Button; proxy of <Swig Object of type 'wxButton *' at 0x3816ae8> >,
- 'currentImgPath': 'display_image\\jPages\\QZ468\\default.JPEG'}
+ 'actionSeperator': <wx._controls.StaticLine; proxy of <Swig Object of type 'wxStaticLine *' at 0x3526400> >,
+ 'currentConditionNotesLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x37f3b20> >,
+ 'ssh_pass': None,
+ 'beginShelfNumberLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3527490> >,
+ 'currentConditionText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x37fa240> >,
+ 'eventsHandler': <display_image.EventsHandlers.MainFrameEventHandler.MainFrameEventHandler object at 0x0378E410>,
+ 'lSizer': <wx._core.BoxSizer; proxy of <Swig Object of type 'wxBoxSizer *' at 0x333f110> >,
+ 'currentSkuText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x37f0000> >,
+ 'listingPreferences': <wx._core.MenuItem; proxy of <Swig Object of type 'wxMenuItem *' at 0x2025af0> >,
+ 'cSizer': <wx._core.BoxSizer; proxy of <Swig Object of type 'wxBoxSizer *' at 0x333f1d0> >,
+ 'currentConditionNotesText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x37fa600> >,
+ 'defaultJPagesFolder': 'display_image\\jPages',
+ 'sky_manifest': <module 'display_image.sky_manifest' from 'C:\Users\Mitchell\Desktop\juan\display_image\sky_manifest.pyc'>,
+ 'scanNumberLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3526c48> >,
+ 'browseText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x37f52c0> >,
+ 'newItemButton': <wx._controls.Button; proxy of <Swig Object of type 'wxButton *' at 0x3527b30> >,
+ 'currentImgPath': 'display_image\\jPages\\QZ468\\default.JPEG',
+ 'this': <Swig Object of type 'wxFrame *' at 0x339fac0>,
+ 'fetchManifestItemInfo': <wx._core.MenuItem; proxy of <Swig Object of type 'wxMenuItem *' at 0x20258b0> >,
+ 'currentDateListedLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x37f3cc8> >,
+ 'scanNumberSeperator': <wx._controls.StaticLine; proxy of <Swig Object of type 'wxStaticLine *' at 0x3526df0> >,
+ 'ebayCategoryIdLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3527638> >,
+ 'loadManifest': <wx._core.MenuItem; proxy of <Swig Object of type 'wxMenuItem *' at 0x20257f0> >,
+ 'currentItemInfo':
+
+ {'description': '\nJ176344  Description is empty\n4PK4260000010\n21492\n',
+ 'image_list': ['default',
+ '4QZ4680000010_VA_999',
+ 'default'],
+ 'jNumber': '',
+ 'listerInitials': u'JM',
+ 'itemSelectedImages':
+
+ {'key': ''},
+ 'specs': '\nJ176344  Description is empty\n4PK4260000010\n21492\n'},
+ 'quit': <wx._core.MenuItem; proxy of <Swig Object of type 'wxMenuItem *' at 0x2025bb0> >,
+ 'rSizerCurrentItemSizer': <wx._core.BoxSizer; proxy of <Swig Object of type 'wxBoxSizer *' at 0x333f290> >,
+ 'SelectImageBtn': <wx._controls.Button; proxy of <Swig Object of type 'wxButton *' at 0x37f37d0> >,
+ 'jNumber': 'QZ468',
+ 'defaultJNumberInfo':
+
+ {'itemSelectedImages':
+
+ {'key': ''},
+ 'image_list': ['default',
+ '4NS3600000010_A_99'],
+ 'description': '\nJ176344  Description is empty\n4PK4260000010\n21492\n',
+ 'specs': '\nJ176344 is Empty\n4PK4260000010\n21492\n'},
+ 'listerInitialsLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x35277e0> >,
+ 'instructLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x37f3480> >,
+ 'lookupManifestedRadio': <wx._controls.RadioButton; proxy of <Swig Object of type 'wxRadioButton *' at 0x3526258> >,
+ 'descriptionTextField': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x37f5e80> >,
+ 'archivedDataFolderPath': 'display_image\\archivedData',
+ 'defaultJNumberFolder': 'display_image\\jPages\\QZ468',
+ 'imageCountLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x37f32d8> >,
+ 'listerInitialsText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x37f1f00> >,
+ 'imageCtrl': <wx._controls.StaticBitmap; proxy of <Swig Object of type 'wxStaticBitmap *' at 0x3527cd8> >,
+ 'beginManifestingRadio': <wx._controls.RadioButton; proxy of <Swig Object of type 'wxRadioButton *' at 0x35260b0> >,
+ 'ebayCategoryIdText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x37f1340> >,
+ 'lookUpBySkuSizer': <wx._core.BoxSizer; proxy of <Swig Object of type 'wxBoxSizer *' at 0x333f170> >,
+ 'file': <wx._core.Menu; proxy of <Swig Object of type 'wxMenu *' at 0x2025670> >,
+ 'defaultJNumber': 'QZ468',
+ 'palletNumberLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3526aa0> >,
+ 'PhotoMaxSize': 400,
+ 'mainPanel': <wx._windows.Panel; proxy of <Swig Object of type 'wxPanel *' at 0x36e2738> >,
+ 'startingSkuLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3526f98> >,
+ 'descriptionTextFieldInitialized': False,
+ 'rSizer': <wx._core.BoxSizer; proxy of <Swig Object of type 'wxBoxSizer *' at 0x333f230> >,
+ 'saveDescriptionTextBtn': <wx._controls.Button; proxy of <Swig Object of type 'wxButton *' at 0x37f3978> >,
+ 'scanNumberText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x37efc40> >,
+ 'pdbSetTrace': <wx._core.MenuItem; proxy of <Swig Object of type 'wxMenuItem *' at 0x2025c70> >,
+ 'statusbar': <wx._windows.StatusBar; proxy of <Swig Object of type 'wxStatusBar *' at 0x3499a98> >,
+ 'upcNumberLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x35272e8> >,
+ 'currentDateListedText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x37fa9c0> >,
+ 'shopHqRadio': <wx._controls.RadioButton; proxy of <Swig Object of type 'wxRadioButton *' at 0x35268f8> >,
+ 'scanNumberTextValue': None,
+ 'ListingPreferencesDialog': <class 'display_image.Dialogs.ListingPreferencesDialog.ListingPreferencesDialog'>,
+ 'beginShelfNumberText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x37f0f80> >}
+
+--06-20 15:13:27 log_info display_image.EventsHandlers.MainFrameEventHandler.onLookupManifestedRadio INFO     
+Inside:  onLookupManifestedRadio
+
+--06-20 15:13:27 log_info display_image.EventsHandlers.MainFrameEventHandler.onLookupManifestedRadio INFO     
+Inside:  onLookupManifestedRadio
+
+--06-20 15:13:27 log_info display_image.EventsHandlers.MainFrameEventHandler.onLookupManifestedRadio INFO     
+
+# PhotoCtrlEventsHandler: onLookupManifestedRadio # onLookupManifestedRadio
+
+--06-20 15:13:27 log_info display_image.EventsHandlers.MainFrameEventHandler.onLookupManifestedRadio INFO     
+
+# PhotoCtrlEventsHandler: onLookupManifestedRadio # onLookupManifestedRadio
+
+--06-20 15:13:27 log_debug display_image.EventsHandlers.MainFrameEventHandler.csvFileBrowse DEBUG    Inside:  csvFileBrowse
+ARGS_KWARGS_STR:
+{'ARGS': ()
+, 'KWARGS': {}}
+call_fn: C:\Python27\lib\site-packages\wx-3.0-msw\wx\_core.py
+call_ln: 7952
+call_func: MainLoop
+caller: ['        return _core_.PyApp_MainLoop(*args, **kwargs)\n']
+Exception:
+None
+
+--06-20 15:13:27 log_info display_image.EventsHandlers.MainFrameEventHandler.csvFileBrowse INFO     
+Inside:  csvFileBrowse
+
+--06-20 15:13:27 log_info display_image.EventsHandlers.MainFrameEventHandler.csvFileBrowse INFO     
+Inside:  csvFileBrowse
+
+--06-20 15:13:28 log_debug display_image.EventsHandlers.MainFrameEventHandler.csvFileBrowse DEBUG    Filenames: csvFileBrowse
+ARGS_KWARGS_STR:
+{'ARGS': ([u'C:\\Users\\Mitchell\\Desktop\\SGIS-wxpython-master\\spreadsheets\\Watch SNBC#4 CR March 14-04 - SNBC4 no dupes.csv'],)
+, 'KWARGS': {}}
+call_fn: C:\Python27\lib\site-packages\wx-3.0-msw\wx\_core.py
+call_ln: 7952
+call_func: MainLoop
+caller: ['        return _core_.PyApp_MainLoop(*args, **kwargs)\n']
+Exception:
+None
+
+--06-20 15:13:29 log_info display_image.EventsHandlers.MainFrameEventHandler.onRetailerRadio INFO     
+Inside:  onRetailerRadio
+
+--06-20 15:13:29 log_info display_image.EventsHandlers.MainFrameEventHandler.onRetailerRadio INFO     
+Inside:  onRetailerRadio
+
+--06-20 15:13:29 log_info display_image.EventsHandlers.MainFrameEventHandler.onRetailerRadio INFO     
+
+# PhotoCtrlEventsHandler.onRetailerRadio()  onRetailerRadio
+
+--06-20 15:13:29 log_info display_image.EventsHandlers.MainFrameEventHandler.onRetailerRadio INFO     
+
+# PhotoCtrlEventsHandler.onRetailerRadio()  onRetailerRadio
+
+--06-20 15:13:31 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentSkuText INFO     
+Inside:  onCurrentSkuText
+
+--06-20 15:13:31 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentSkuText INFO     
+Inside:  onCurrentSkuText
+
+--06-20 15:13:31 log_debug display_image.EventsHandlers.MainFrameEventHandler.onCurrentSkuText DEBUG    . self.MainFrame.startingSkuNumber Updated to:  onCurrentSkuText
+ARGS_KWARGS_STR:
+{'ARGS': ('1',)
+, 'KWARGS': {}}
+call_fn: C:\Python27\lib\site-packages\wx-3.0-msw\wx\_core.py
+call_ln: 8660
+call_func: MainLoop
+caller: ['        wx.PyApp.MainLoop(self)\n']
+Exception:
+None
+
+--06-20 15:13:31 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentSkuText INFO     
+Inside:  onCurrentSkuText
+
+--06-20 15:13:31 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentSkuText INFO     
+Inside:  onCurrentSkuText
+
+--06-20 15:13:31 log_debug display_image.EventsHandlers.MainFrameEventHandler.onCurrentSkuText DEBUG    . self.MainFrame.startingSkuNumber Updated to:  onCurrentSkuText
+ARGS_KWARGS_STR:
+{'ARGS': ('15',)
+, 'KWARGS': {}}
+call_fn: C:\Python27\lib\site-packages\wx-3.0-msw\wx\_core.py
+call_ln: 8660
+call_func: MainLoop
+caller: ['        wx.PyApp.MainLoop(self)\n']
+Exception:
+None
+
+--06-20 15:13:31 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentSkuText INFO     
+Inside:  onCurrentSkuText
+
+--06-20 15:13:31 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentSkuText INFO     
+Inside:  onCurrentSkuText
+
+--06-20 15:13:31 log_debug display_image.EventsHandlers.MainFrameEventHandler.onCurrentSkuText DEBUG    . self.MainFrame.startingSkuNumber Updated to:  onCurrentSkuText
+ARGS_KWARGS_STR:
+{'ARGS': ('152',)
+, 'KWARGS': {}}
+call_fn: C:\Python27\lib\site-packages\wx-3.0-msw\wx\_core.py
+call_ln: 8660
+call_func: MainLoop
+caller: ['        wx.PyApp.MainLoop(self)\n']
+Exception:
+None
+
+--06-20 15:13:31 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentSkuText INFO     
+Inside:  onCurrentSkuText
+
+--06-20 15:13:31 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentSkuText INFO     
+Inside:  onCurrentSkuText
+
+--06-20 15:13:31 log_debug display_image.EventsHandlers.MainFrameEventHandler.onCurrentSkuText DEBUG    . self.MainFrame.startingSkuNumber Updated to:  onCurrentSkuText
+ARGS_KWARGS_STR:
+{'ARGS': ('1522',)
+, 'KWARGS': {}}
+call_fn: C:\Python27\lib\site-packages\wx-3.0-msw\wx\_core.py
+call_ln: 8660
+call_func: MainLoop
+caller: ['        wx.PyApp.MainLoop(self)\n']
+Exception:
+None
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onLookUpBySkuBtn INFO     
+Inside:  onLookUpBySkuBtn
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onLookUpBySkuBtn INFO     
+Inside:  onLookUpBySkuBtn
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onLookUpBySkuBtn INFO     
+
+# PhotoCtrlEventsHandler.onLookUpBySkuBtn(): # onLookUpBySkuBtn
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onLookUpBySkuBtn INFO     
+
+# PhotoCtrlEventsHandler.onLookUpBySkuBtn(): # onLookUpBySkuBtn
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onLookUpBySkuBtnShopHq INFO     
+Inside:  onLookUpBySkuBtnShopHq
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onLookUpBySkuBtnShopHq INFO     
+Inside:  onLookUpBySkuBtnShopHq
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onLookUpBySkuBtnShopHq INFO     
+[['retailer_code:1', 'Division', 'Brand', 'pallet_number', 'full_', 'jnumber', 'model_number', 'title', 'Qty', 'msrp', 'Total Cost', 'Retail', 'Total Retail', 'Margin %', 'Margin $', 'eBay Price', 'sku', 'box', 'condition', 'condition_notes', 'band_size', 'date_listed', 'repair', 'manifested', 'upc'], ['', 'Watches', 'Invicta', 'Watches4', 'J416733-00466-01593', 'J416733', '', 'TTV INVICTA WOMEN ANGEL STARLIGHT MOP DIAL BRACELET WATCH W/ 3 SLOT BOX SILVERTONE SIZE: WOMENS', '1', '$49.84', '$49.84', '', '', '', '', '', '1522', 'no movement 1', 'bad movement', '', '6.25', '', '', 'X', '']] onLookUpBySkuBtnShopHq
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onLookUpBySkuBtnShopHq INFO     
+[['retailer_code:1', 'Division', 'Brand', 'pallet_number', 'full_', 'jnumber', 'model_number', 'title', 'Qty', 'msrp', 'Total Cost', 'Retail', 'Total Retail', 'Margin %', 'Margin $', 'eBay Price', 'sku', 'box', 'condition', 'condition_notes', 'band_size', 'date_listed', 'repair', 'manifested', 'upc'], ['', 'Watches', 'Invicta', 'Watches4', 'J416733-00466-01593', 'J416733', '', 'TTV INVICTA WOMEN ANGEL STARLIGHT MOP DIAL BRACELET WATCH W/ 3 SLOT BOX SILVERTONE SIZE: WOMENS', '1', '$49.84', '$49.84', '', '', '', '', '', '1522', 'no movement 1', 'bad movement', '', '6.25', '', '', 'X', '']] onLookUpBySkuBtnShopHq
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onPalletNumberText INFO     
+Inside:  onPalletNumberText
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onPalletNumberText INFO     
+Inside:  onPalletNumberText
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onPalletNumberText INFO     
+
+# PhotoCtrlEventHandler.onPalletNumberText(): # onPalletNumberText
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onPalletNumberText INFO     
+
+# PhotoCtrlEventHandler.onPalletNumberText(): # onPalletNumberText
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onScanNumberText INFO     
+Inside:  onScanNumberText
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onScanNumberText INFO     
+Inside:  onScanNumberText
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onScanNumberText INFO     
+
+# PhotoCtrlEventHandler.scanNumberText() # onScanNumberText
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onScanNumberText INFO     
+
+# PhotoCtrlEventHandler.scanNumberText() # onScanNumberText
+
+--06-20 15:13:33 log_info display_image.sky_manifest.checkIfManifested INFO     
+
+# sky_manifest.ManifestReader.checkIfManifested(jnumber) # checkIfManifested
+
+--06-20 15:13:33 log_info display_image.sky_manifest.checkIfManifested INFO     
+. jnumber:J416733 checkIfManifested
+
+--06-20 15:13:33 log_info display_image.sky_manifest.returnColumn INFO     
+
+# sky_manifest.ManifestReader.returnColumn: ERROR appending returnColumn
+
+--06-20 15:13:33 log_info display_image.sky_manifest.returnColumn INFO     
+list index out of range returnColumn
+
+--06-20 15:13:33 log_info display_image.sky_manifest.returnColumn INFO     
+
+# sky_manifest.ManifestReader.returnColumn: ERROR appending returnColumn
+
+--06-20 15:13:33 log_info display_image.sky_manifest.returnColumn INFO     
+list index out of range returnColumn
+
+--06-20 15:13:33 log_info display_image.sky_manifest.returnColumn INFO     
+
+# sky_manifest.ManifestReader.returnColumn: ERROR appending returnColumn
+
+--06-20 15:13:33 log_info display_image.sky_manifest.returnColumn INFO     
+list index out of range returnColumn
+
+--06-20 15:13:33 log_info display_image.sky_manifest.returnColumn INFO     
+
+# sky_manifest.ManifestReader.returnColumn: ERROR appending returnColumn
+
+--06-20 15:13:33 log_info display_image.sky_manifest.returnColumn INFO     
+list index out of range returnColumn
+
+--06-20 15:13:33 log_info display_image.sky_manifest.returnColumn INFO     
+
+# sky_manifest.ManifestReader.returnColumn: ERROR appending returnColumn
+
+--06-20 15:13:33 log_info display_image.sky_manifest.returnColumn INFO     
+list index out of range returnColumn
+
+--06-20 15:13:33 log_info display_image.sky_manifest.checkIfManifested INFO     
+. jc_len:561 mc_len:561 sc_len:561 checkIfManifested
+
+--06-20 15:13:33 log_info display_image.sky_manifest.checkIfManifested INFO     
+. Found Match on row_index:282 checkIfManifested
+
+--06-20 15:13:33 log_info display_image.sky_manifest.checkIfManifested INFO     
+. Found Match on row_index:478 checkIfManifested
+
+--06-20 15:13:33 log_info display_image.sky_manifest.checkIfManifested INFO     
+. Found Match on row_index:522 checkIfManifested
+
+--06-20 15:13:33 log_info display_image.sky_manifest.checkIfManifested INFO     
+. Line Number: 283 checkIfManifested
+
+--06-20 15:13:33 log_info display_image.sky_manifest.checkIfManifested INFO     
+. Found sku Number: 1282 checkIfManifested
+
+--06-20 15:13:33 log_info display_image.sky_manifest.checkIfManifested INFO     
+. Manifested: X checkIfManifested
+
+--06-20 15:13:33 log_info display_image.sky_manifest.checkIfManifested INFO     
+. Line Number: 479 checkIfManifested
+
+--06-20 15:13:33 log_info display_image.sky_manifest.checkIfManifested INFO     
+. Found sku Number: 1478 checkIfManifested
+
+--06-20 15:13:33 log_info display_image.sky_manifest.checkIfManifested INFO     
+. Manifested: X checkIfManifested
+
+--06-20 15:13:33 log_info display_image.sky_manifest.checkIfManifested INFO     
+. Line Number: 523 checkIfManifested
+
+--06-20 15:13:33 log_info display_image.sky_manifest.checkIfManifested INFO     
+. Found sku Number: 1522 checkIfManifested
+
+--06-20 15:13:33 log_info display_image.sky_manifest.checkIfManifested INFO     
+. Manifested: X checkIfManifested
+
+--06-20 15:13:33 log_info display_image.Check.loadMainFrameJson INFO     
+
+# Check.loadself.MainFrameJson(): # loadMainFrameJson
+
+--06-20 15:13:33 log_info display_image.Check.loadMainFrameJson INFO     
+display_image\jPages\J416733\J416733.json loadMainFrameJson
+
+--06-20 15:13:33 log_info display_image.Check.loadMainFrameJson INFO     
+. repair loadMainFrameJson
+
+--06-20 15:13:33 log_info display_image.Check.loadMainFrameJson INFO     
+. ebay_category loadMainFrameJson
+
+--06-20 15:13:33 log_info display_image.Check.loadMainFrameJson INFO     
+. image_list loadMainFrameJson
+
+--06-20 15:13:33 log_info display_image.Check.loadMainFrameJson INFO     
+. jnumber loadMainFrameJson
+
+--06-20 15:13:33 log_info display_image.Check.loadMainFrameJson INFO     
+. pallet_number loadMainFrameJson
+
+--06-20 15:13:33 log_info display_image.Check.loadMainFrameJson INFO     
+. specs loadMainFrameJson
+
+--06-20 15:13:33 log_info display_image.Check.loadMainFrameJson INFO     
+. eBay Price loadMainFrameJson
+
+--06-20 15:13:33 log_info display_image.Check.loadMainFrameJson INFO     
+. sku loadMainFrameJson
+
+--06-20 15:13:33 log_info display_image.Check.loadMainFrameJson INFO     
+. Division loadMainFrameJson
+
+--06-20 15:13:33 log_info display_image.Check.loadMainFrameJson INFO     
+. Margin $ loadMainFrameJson
+
+--06-20 15:13:33 log_info display_image.Check.loadMainFrameJson INFO     
+. title loadMainFrameJson
+
+--06-20 15:13:33 log_info display_image.Check.loadMainFrameJson INFO     
+. Brand loadMainFrameJson
+
+--06-20 15:13:33 log_info display_image.Check.loadMainFrameJson INFO     
+. model_number loadMainFrameJson
+
+--06-20 15:13:33 log_info display_image.Check.loadMainFrameJson INFO     
+. jNumber loadMainFrameJson
+
+--06-20 15:13:33 log_info display_image.Check.loadMainFrameJson INFO     
+. itemSelectedImages loadMainFrameJson
+
+--06-20 15:13:33 log_info display_image.Check.loadMainFrameJson INFO     
+. manifested loadMainFrameJson
+
+--06-20 15:13:33 log_info display_image.Check.loadMainFrameJson INFO     
+. condition_notes loadMainFrameJson
+
+--06-20 15:13:33 log_info display_image.Check.loadMainFrameJson INFO     
+. retailer_code loadMainFrameJson
+
+--06-20 15:13:33 log_info display_image.Check.loadMainFrameJson INFO     
+. Total Cost loadMainFrameJson
+
+--06-20 15:13:33 log_info display_image.Check.loadMainFrameJson INFO     
+. retailer_code:1 loadMainFrameJson
+
+--06-20 15:13:33 log_info display_image.Check.loadMainFrameJson INFO     
+. description loadMainFrameJson
+
+--06-20 15:13:33 log_info display_image.Check.loadMainFrameJson INFO     
+. full_ loadMainFrameJson
+
+--06-20 15:13:33 log_info display_image.Check.loadMainFrameJson INFO     
+. palletNumber loadMainFrameJson
+
+--06-20 15:13:33 log_info display_image.Check.loadMainFrameJson INFO     
+. Retail loadMainFrameJson
+
+--06-20 15:13:33 log_info display_image.Check.loadMainFrameJson INFO     
+. condition loadMainFrameJson
+
+--06-20 15:13:33 log_info display_image.Check.loadMainFrameJson INFO     
+. Total Retail loadMainFrameJson
+
+--06-20 15:13:33 log_info display_image.Check.loadMainFrameJson INFO     
+. box loadMainFrameJson
+
+--06-20 15:13:33 log_info display_image.Check.loadMainFrameJson INFO     
+. date_listed loadMainFrameJson
+
+--06-20 15:13:33 log_info display_image.Check.loadMainFrameJson INFO     
+. Margin % loadMainFrameJson
+
+--06-20 15:13:33 log_info display_image.Check.loadMainFrameJson INFO     
+. upc loadMainFrameJson
+
+--06-20 15:13:33 log_info display_image.Check.loadMainFrameJson INFO     
+. Qty loadMainFrameJson
+
+--06-20 15:13:33 log_info display_image.Check.loadMainFrameJson INFO     
+. listerInitials loadMainFrameJson
+
+--06-20 15:13:33 log_info display_image.Check.loadMainFrameJson INFO     
+. band_size loadMainFrameJson
+
+--06-20 15:13:33 log_info display_image.Check.loadMainFrameJson INFO     
+. jNumberFolderPath loadMainFrameJson
+
+--06-20 15:13:33 log_info display_image.Check.loadMainFrameJson INFO     
+. *Category loadMainFrameJson
+
+--06-20 15:13:33 log_info display_image.Check.loadMainFrameJson INFO     
+. msrp loadMainFrameJson
+
+--06-20 15:13:33 log_info display_image.Check.loadMainFrameJson INFO     
+Updating currentItemInfo in loadMainFrameJson{u'repair': u'', u'ebay_category': u'31387', u'image_list': [u'618-041?DefaultImage=1&$472x472_jpg$', u'618-041_01_swatch?DefaultImage=1&$40x40_jpg$', u'618-041_02_swatch?DefaultImage=1&$40x40_jpg$', u'618-041_00_swatch?DefaultImage=1&$40x40_jpg$', u'618-041?DefaultImage=1&$80x80_jpg$', u'618-041_00_detail?DefaultImage=1&$80x80_jpg$', u'618-041_01_detail?DefaultImage=1&$80x80_jpg$', u'618-041_02_detail?DefaultImage=1&$80x80_jpg$', u'618-041_03_detail?DefaultImage=1&$80x80_jpg$', u'618-041_04_detail?DefaultImage=1&$80x80_jpg$', u'618-041_05_detail?DefaultImage=1&$80x80_jpg$', u'618-041_06_detail?DefaultImage=1&$80x80_jpg$', u'618-041_07_detail?DefaultImage=1&$80x80_jpg$', u'618-041_08_detail?DefaultImage=1&$80x80_jpg$', u'618-041_09_detail?DefaultImage=1&$80x80_jpg$', u'618-041_10_detail?DefaultImage=1&$80x80_jpg$', u'618-041_11_detail?DefaultImage=1&$80x80_jpg$', u'618-041_12_detail?DefaultImage=1&$80x80_jpg$', u'618-041_13_detail?DefaultImage=1&$80x80_jpg$', u'618-041?DefaultImage=1&$120x120_jpg$', u'618-041?DefaultImage=1&$120x120_jpg$'], u'jnumber': u'J416733', u'pallet_number': u'Watches4', u'specs': u"['tt_productRightCol', 'entity.id=618-041', 'entity.categoryId=product', 'entity.name=Invicta Womens Angel Starlight Bracelet Watch Made w/ Swarovski&reg; Elements', 'entity.pageUrl=http://www.shophq.com/product/618-041.aspx?\\\\u0026familyid=J416733', 'entity.thumbnailUrl=http://images.shophq.com/is/image/ShopHQ/618-041?DefaultImage=1&$120x120_jpg$', 'entity.message=TTV INVICTA WOMEN ANGEL STARLIGHT MOP DIAL BRACELET WATCH W/ JEWLERY BOX', 'entity.value=49.8400', '']", u'eBay Price': u'', u'sku': u'1522', u'Division': u'Watches', u'Margin $': u'', u'title': u'Ttv Invicta Women Angel Starlight Mop Dial Bracelet Watch W/ 3 Slot Box Silvertone Size: Womens', u'Brand': u'Invicta', u'model_number': u'', u'jNumber': u'J416733', u'itemSelectedImages': {u'key': u''}, u'manifested': u'X', u'condition_notes': u'', u'retailer_code': u'1', u'Total Cost': u'$49.84', u'retailer_code:1': u'', u'description': u"\n                \n                <p><strong>Invicta Women's Angel Starlight Bracelet Watch Made w/ Swarovski&reg; Elements</strong></p>\n\n<p><strong>Choices: </strong>Gold-tone Rose-tone or Silver-tone bezel</p>\n\n<p>Refined elegance and a sleek profile accentuated with a shimmering halo of crystals makes this Angel Starlight by Invicta the perfect gift for your angel!</p>\n                <p>Commencing the design a round silver-tone stainless steel case houses a reliable Swiss Parts ISA 2331/103 Quartz movement. Resting atop the case a fixed bezel in your choice of gold-tone rose-tone or silver-tone features a dazzling array of 24 clear crystal accents. A bezel coordinating coin edged push/pull crown puts time at your fingertips.</p>\n\n<p>Adding another touch of sophistication a round white mother-of-pearl dial rests below a protective Flame Fusion crystal. Bezel matching Roman numerals appear at 12:00 4:00 and 8:00 and coordinating Tritnite accented triangular index markers display at all remaining hour positions except 3:00. The Invicta name and logo settle in below 12:00 while a date window at 3:00 keeps you on schedule. Hour minute and seconds hands in a bezel coordinating color keep the time. Tritnite accents adorn the hour and minute hands.</p>\n\n<p>Finishing your look in classic taste a 16mm three-link bracelet executed in a combination of silver-tone outer links and bezel matching inner links tapers in width to 14mm. The bracelet fastens comfortably to the wrist with a dual deployant clasp. Treat yourself or someone you love to the gift of time today with the stunning Invicta Angel Starlight!</p>\n\n<p>Your Invicta Angel Starlight comes shipped to you in a stunning three-slot collector's watch box.</p>\n\n<p><li><strong>Bracelet: </strong>Stainless Steel\n<li><strong>Movement: </strong>Swiss Parts ISA 2331/103 Quartz u\n<li><strong>Crystal: </strong>Flame Fusion\n<li><strong>Crown: </strong>Push/Pull\n<li><strong>Clasp: </strong>Dual Deployant\n<li><strong>Bracelet Measurements: </strong>8-1/2 L x 16mm Wuuueouau\n<li><strong>Case Measurements: </strong>33mm\n<li><strong>Case Thickness: </strong>9.5mm\n<li><strong>Water Resistance: </strong>10 ATM - 100 meters - 330 feet\n<li><strong>Model Numbers: </strong>\n<br>Gold-tone: 12855-IPM121 \n<br>Rose-tone: 12856-IPM121\n<br>Silver-tone: 12854-IPM121\n<li><strong>UPC: </strong>\n<br>Gold-tone: 886678128556 \n<br>Rose-tone: 886678128563 \n<br>Silver-tone: 886678128549  \n\n<li>", u'full_': u'J416733-00466-01593', u'palletNumber': u'Watches4', u'Retail': u'', u'condition': u'bad movement', u'Total Retail': u'', u'box': u'no movement 1', u'date_listed': u'', u'Margin %': u'', u'upc': u'', u'Qty': u'1', u'listerInitials': u'JM', u'band_size': u'6.25', u'jNumberFolderPath': u'display_image\\jPages\\J416733', u'*Category': u'31387', u'msrp': u'$49.84'} loadMainFrameJson
+
+--06-20 15:13:33 log_info display_image.Check.loadMainFrameJson INFO     
+self.MainFrame.currentItemInfo Updated loadMainFrameJson
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.updateMainFrameCurrentItemInfo INFO     
+Post json_exists: {'repair': u'', u'ebay_category': u'31387', 'image_list': [u'618-041?DefaultImage=1&$472x472_jpg$', u'618-041_01_swatch?DefaultImage=1&$40x40_jpg$', u'618-041_02_swatch?DefaultImage=1&$40x40_jpg$', u'618-041_00_swatch?DefaultImage=1&$40x40_jpg$', u'618-041?DefaultImage=1&$80x80_jpg$', u'618-041_00_detail?DefaultImage=1&$80x80_jpg$', u'618-041_01_detail?DefaultImage=1&$80x80_jpg$', u'618-041_02_detail?DefaultImage=1&$80x80_jpg$', u'618-041_03_detail?DefaultImage=1&$80x80_jpg$', u'618-041_04_detail?DefaultImage=1&$80x80_jpg$', u'618-041_05_detail?DefaultImage=1&$80x80_jpg$', u'618-041_06_detail?DefaultImage=1&$80x80_jpg$', u'618-041_07_detail?DefaultImage=1&$80x80_jpg$', u'618-041_08_detail?DefaultImage=1&$80x80_jpg$', u'618-041_09_detail?DefaultImage=1&$80x80_jpg$', u'618-041_10_detail?DefaultImage=1&$80x80_jpg$', u'618-041_11_detail?DefaultImage=1&$80x80_jpg$', u'618-041_12_detail?DefaultImage=1&$80x80_jpg$', u'618-041_13_detail?DefaultImage=1&$80x80_jpg$', u'618-041?DefaultImage=1&$120x120_jpg$', u'618-041?DefaultImage=1&$120x120_jpg$'], 'sku': u'1522', 'Margin $': u'', 'title': u'Ttv Invicta Women Angel Starlight Mop Dial Bracelet Watch W/ 3 Slot Box Silvertone Size: Womens', 'Brand': u'Invicta', 'model_number': u'', 'jNumber': u'J416733', 'Total Cost': u'$49.84', 'full_': u'J416733-00466-01593', 'Retail': u'', 'condition': u'bad movement', 'upc': u'', 'Qty': u'1', 'listerInitials': u'JM', 'jNumberFolderPath': u'display_image\\jPages\\J416733', 'msrp': u'$49.84', 'jnumber': u'J416733', 'pallet_number': u'Watches4', 'specs': u"['tt_productRightCol', 'entity.id=618-041', 'entity.categoryId=product', 'entity.name=Invicta Womens Angel Starlight Bracelet Watch Made w/ Swarovski&reg; Elements', 'entity.pageUrl=http://www.shophq.com/product/618-041.aspx?\\\\u0026familyid=J416733', 'entity.thumbnailUrl=http://images.shophq.com/is/image/ShopHQ/618-041?DefaultImage=1&$120x120_jpg$', 'entity.message=TTV INVICTA WOMEN ANGEL STARLIGHT MOP DIAL BRACELET WATCH W/ JEWLERY BOX', 'entity.value=49.8400', '']", 'eBay Price': u'', 'Division': u'Watches', 'itemSelectedImages': {u'key': u''}, 'condition_notes': u'', 'retailer_code': u'1', 'retailer_code:1': u'', 'description': u"\n                \n                <p><strong>Invicta Women's Angel Starlight Bracelet Watch Made w/ Swarovski&reg; Elements</strong></p>\n\n<p><strong>Choices: </strong>Gold-tone Rose-tone or Silver-tone bezel</p>\n\n<p>Refined elegance and a sleek profile accentuated with a shimmering halo of crystals makes this Angel Starlight by Invicta the perfect gift for your angel!</p>\n                <p>Commencing the design a round silver-tone stainless steel case houses a reliable Swiss Parts ISA 2331/103 Quartz movement. Resting atop the case a fixed bezel in your choice of gold-tone rose-tone or silver-tone features a dazzling array of 24 clear crystal accents. A bezel coordinating coin edged push/pull crown puts time at your fingertips.</p>\n\n<p>Adding another touch of sophistication a round white mother-of-pearl dial rests below a protective Flame Fusion crystal. Bezel matching Roman numerals appear at 12:00 4:00 and 8:00 and coordinating Tritnite accented triangular index markers display at all remaining hour positions except 3:00. The Invicta name and logo settle in below 12:00 while a date window at 3:00 keeps you on schedule. Hour minute and seconds hands in a bezel coordinating color keep the time. Tritnite accents adorn the hour and minute hands.</p>\n\n<p>Finishing your look in classic taste a 16mm three-link bracelet executed in a combination of silver-tone outer links and bezel matching inner links tapers in width to 14mm. The bracelet fastens comfortably to the wrist with a dual deployant clasp. Treat yourself or someone you love to the gift of time today with the stunning Invicta Angel Starlight!</p>\n\n<p>Your Invicta Angel Starlight comes shipped to you in a stunning three-slot collector's watch box.</p>\n\n<p><li><strong>Bracelet: </strong>Stainless Steel\n<li><strong>Movement: </strong>Swiss Parts ISA 2331/103 Quartz u\n<li><strong>Crystal: </strong>Flame Fusion\n<li><strong>Crown: </strong>Push/Pull\n<li><strong>Clasp: </strong>Dual Deployant\n<li><strong>Bracelet Measurements: </strong>8-1/2 L x 16mm Wuuueouau\n<li><strong>Case Measurements: </strong>33mm\n<li><strong>Case Thickness: </strong>9.5mm\n<li><strong>Water Resistance: </strong>10 ATM - 100 meters - 330 feet\n<li><strong>Model Numbers: </strong>\n<br>Gold-tone: 12855-IPM121 \n<br>Rose-tone: 12856-IPM121\n<br>Silver-tone: 12854-IPM121\n<li><strong>UPC: </strong>\n<br>Gold-tone: 886678128556 \n<br>Rose-tone: 886678128563 \n<br>Silver-tone: 886678128549  \n\n<li>", 'palletNumber': u'Watches4', 'manifested': u'X', 'Total Retail': u'', 'box': u'no movement 1', 'date_listed': u'', 'Margin %': u'', 'band_size': u'6.25', u'*Category': u'31387'} updateMainFrameCurrentItemInfo
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.updateMainFrameCurrentItemInfo INFO     
+Post json_exists: {'repair': u'', u'ebay_category': u'31387', 'image_list': [u'618-041?DefaultImage=1&$472x472_jpg$', u'618-041_01_swatch?DefaultImage=1&$40x40_jpg$', u'618-041_02_swatch?DefaultImage=1&$40x40_jpg$', u'618-041_00_swatch?DefaultImage=1&$40x40_jpg$', u'618-041?DefaultImage=1&$80x80_jpg$', u'618-041_00_detail?DefaultImage=1&$80x80_jpg$', u'618-041_01_detail?DefaultImage=1&$80x80_jpg$', u'618-041_02_detail?DefaultImage=1&$80x80_jpg$', u'618-041_03_detail?DefaultImage=1&$80x80_jpg$', u'618-041_04_detail?DefaultImage=1&$80x80_jpg$', u'618-041_05_detail?DefaultImage=1&$80x80_jpg$', u'618-041_06_detail?DefaultImage=1&$80x80_jpg$', u'618-041_07_detail?DefaultImage=1&$80x80_jpg$', u'618-041_08_detail?DefaultImage=1&$80x80_jpg$', u'618-041_09_detail?DefaultImage=1&$80x80_jpg$', u'618-041_10_detail?DefaultImage=1&$80x80_jpg$', u'618-041_11_detail?DefaultImage=1&$80x80_jpg$', u'618-041_12_detail?DefaultImage=1&$80x80_jpg$', u'618-041_13_detail?DefaultImage=1&$80x80_jpg$', u'618-041?DefaultImage=1&$120x120_jpg$', u'618-041?DefaultImage=1&$120x120_jpg$'], 'sku': u'1522', 'Margin $': u'', 'title': u'Ttv Invicta Women Angel Starlight Mop Dial Bracelet Watch W/ 3 Slot Box Silvertone Size: Womens', 'Brand': u'Invicta', 'model_number': u'', 'jNumber': u'J416733', 'Total Cost': u'$49.84', 'full_': u'J416733-00466-01593', 'Retail': u'', 'condition': u'bad movement', 'upc': u'', 'Qty': u'1', 'listerInitials': u'JM', 'jNumberFolderPath': u'display_image\\jPages\\J416733', 'msrp': u'$49.84', 'jnumber': u'J416733', 'pallet_number': u'Watches4', 'specs': u"['tt_productRightCol', 'entity.id=618-041', 'entity.categoryId=product', 'entity.name=Invicta Womens Angel Starlight Bracelet Watch Made w/ Swarovski&reg; Elements', 'entity.pageUrl=http://www.shophq.com/product/618-041.aspx?\\\\u0026familyid=J416733', 'entity.thumbnailUrl=http://images.shophq.com/is/image/ShopHQ/618-041?DefaultImage=1&$120x120_jpg$', 'entity.message=TTV INVICTA WOMEN ANGEL STARLIGHT MOP DIAL BRACELET WATCH W/ JEWLERY BOX', 'entity.value=49.8400', '']", 'eBay Price': u'', 'Division': u'Watches', 'itemSelectedImages': {u'key': u''}, 'condition_notes': u'', 'retailer_code': u'1', 'retailer_code:1': u'', 'description': u"\n                \n                <p><strong>Invicta Women's Angel Starlight Bracelet Watch Made w/ Swarovski&reg; Elements</strong></p>\n\n<p><strong>Choices: </strong>Gold-tone Rose-tone or Silver-tone bezel</p>\n\n<p>Refined elegance and a sleek profile accentuated with a shimmering halo of crystals makes this Angel Starlight by Invicta the perfect gift for your angel!</p>\n                <p>Commencing the design a round silver-tone stainless steel case houses a reliable Swiss Parts ISA 2331/103 Quartz movement. Resting atop the case a fixed bezel in your choice of gold-tone rose-tone or silver-tone features a dazzling array of 24 clear crystal accents. A bezel coordinating coin edged push/pull crown puts time at your fingertips.</p>\n\n<p>Adding another touch of sophistication a round white mother-of-pearl dial rests below a protective Flame Fusion crystal. Bezel matching Roman numerals appear at 12:00 4:00 and 8:00 and coordinating Tritnite accented triangular index markers display at all remaining hour positions except 3:00. The Invicta name and logo settle in below 12:00 while a date window at 3:00 keeps you on schedule. Hour minute and seconds hands in a bezel coordinating color keep the time. Tritnite accents adorn the hour and minute hands.</p>\n\n<p>Finishing your look in classic taste a 16mm three-link bracelet executed in a combination of silver-tone outer links and bezel matching inner links tapers in width to 14mm. The bracelet fastens comfortably to the wrist with a dual deployant clasp. Treat yourself or someone you love to the gift of time today with the stunning Invicta Angel Starlight!</p>\n\n<p>Your Invicta Angel Starlight comes shipped to you in a stunning three-slot collector's watch box.</p>\n\n<p><li><strong>Bracelet: </strong>Stainless Steel\n<li><strong>Movement: </strong>Swiss Parts ISA 2331/103 Quartz u\n<li><strong>Crystal: </strong>Flame Fusion\n<li><strong>Crown: </strong>Push/Pull\n<li><strong>Clasp: </strong>Dual Deployant\n<li><strong>Bracelet Measurements: </strong>8-1/2 L x 16mm Wuuueouau\n<li><strong>Case Measurements: </strong>33mm\n<li><strong>Case Thickness: </strong>9.5mm\n<li><strong>Water Resistance: </strong>10 ATM - 100 meters - 330 feet\n<li><strong>Model Numbers: </strong>\n<br>Gold-tone: 12855-IPM121 \n<br>Rose-tone: 12856-IPM121\n<br>Silver-tone: 12854-IPM121\n<li><strong>UPC: </strong>\n<br>Gold-tone: 886678128556 \n<br>Rose-tone: 886678128563 \n<br>Silver-tone: 886678128549  \n\n<li>", 'palletNumber': u'Watches4', 'manifested': u'X', 'Total Retail': u'', 'box': u'no movement 1', 'date_listed': u'', 'Margin %': u'', 'band_size': u'6.25', u'*Category': u'31387'} updateMainFrameCurrentItemInfo
+
+--06-20 15:13:33 log_info display_image.Check.defaultImageSelections INFO     
+
+# Check.defaultImageSelections(): # defaultImageSelections
+
+--06-20 15:13:33 log_info display_image.Check.defaultImageSelections INFO     
+prev_selected:{u'key': u''} defaultImageSelections
+
+--06-20 15:13:33 log_info display_image.Check.defaultImageSelections INFO     
+. Check.defaultImageSelection() not found defaultImageSelections
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.updateMainFrameCurrentItemInfo INFO     
+
+# PhotoCtrlEventHandler.onScanNumberText(): self.prev_image # updateMainFrameCurrentItemInfo
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.updateMainFrameCurrentItemInfo INFO     
+
+# PhotoCtrlEventHandler.onScanNumberText(): self.prev_image # updateMainFrameCurrentItemInfo
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.updateMainFrameCurrentItemInfo INFO     
+. Previous Images:  updateMainFrameCurrentItemInfo
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.updateMainFrameCurrentItemInfo INFO     
+. Previous Images:  updateMainFrameCurrentItemInfo
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.updateMainFrameCurrentItemInfo INFO     
+. {u'key': u''} updateMainFrameCurrentItemInfo
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.updateMainFrameCurrentItemInfo INFO     
+. {u'key': u''} updateMainFrameCurrentItemInfo
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.updateMainFrameCurrentItemInfo INFO     
+. None updateMainFrameCurrentItemInfo
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.updateMainFrameCurrentItemInfo INFO     
+. None updateMainFrameCurrentItemInfo
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.updateMainFrameCurrentItemInfo INFO     
+. Found Previous Image Selection: None updateMainFrameCurrentItemInfo
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.updateMainFrameCurrentItemInfo INFO     
+. Found Previous Image Selection: None updateMainFrameCurrentItemInfo
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.updateMainFrameCurrentItemInfo INFO     
+None in self.MainFrame.currentImgPath: None updateMainFrameCurrentItemInfo
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.updateMainFrameCurrentItemInfo INFO     
+None in self.MainFrame.currentImgPath: None updateMainFrameCurrentItemInfo
+
+--06-20 15:13:33 log_debug display_image.sky_scraper.fetchPage DEBUG    retailer_code,jNumberfetchPage
+ARGS_KWARGS_STR:
+{'ARGS': (u'1', u'J416733')
+, 'KWARGS': {}}
+call_fn: C:\Users\Mitchell\Desktop\juan\display_image\EventsHandlers\MainFrameEventHandler.py
+call_ln: 863
+call_func: updateMainFrameCurrentItemInfo
+caller: ['                results = FetchPage(self.MainFrame).results # updates currentItemInfo\n']
+Exception:
+None
+
+--06-20 15:13:33 log_info display_image.sky_scraper.fetchPage INFO     
+starting getShopHqProductInfo fetchPage
+
+--06-20 15:13:33 log_info display_image.sky_scraper.getShopHqProductInfo INFO     
+folder:display_image\jPages getShopHqProductInfo
+
+--06-20 15:13:33 log_info display_image.sky_scraper.getShopHqProductInfo INFO     
+itemFolder:display_image\jPages\J416733 getShopHqProductInfo
+
+--06-20 15:13:33 log_info display_image.sky_scraper.getShopHqProductInfo INFO     
+html_file_path:display_image\jPages\J416733\J416733_html getShopHqProductInfo
+
+--06-20 15:13:33 log_info display_image.sky_scraper.getShopHqProductInfo INFO     
+[Error 183] Cannot create a file when that file already exists: 'display_image\\jPages' getShopHqProductInfo
+
+--06-20 15:13:33 log_info display_image.sky_scraper.getShopHqProductInfo INFO     
+[Error 183] Cannot create a file when that file already exists: u'display_image\\jPages\\J416733' getShopHqProductInfo
+
+--06-20 15:13:33 log_info display_image.sky_scraper.extract_product_info INFO     
+
+                
+                <p><strong>Invicta Women's Angel Starlight Bracelet Watch Made w/ Swarovski&reg; Elements</strong></p>
+
+<p><strong>Choices: </strong>Gold-tone, Rose-tone or Silver-tone bezel</p>
+
+<p>Refined elegance and a sleek profile accentuated with a shimmering halo of crystals makes this Angel Starlight by Invicta the perfect gift for your angel!</p>
+                <p>Commencing the design, a round silver-tone stainless steel case houses a reliable Swiss Parts ISA 2331/103 Quartz movement. Resting atop the case, a fixed bezel in your choice of gold-tone, rose-tone or silver-tone features a dazzling array of 24 clear crystal accents. A bezel coordinating coin edged push/pull crown puts time at your fingertips.</p>
+
+<p>Adding another touch of sophistication, a round white mother-of-pearl dial rests below a protective Flame Fusion crystal. Bezel matching Roman numerals appear at 12:00, 4:00 and 8:00, and coordinating Tritnite accented triangular index markers display at all remaining hour positions except 3:00. The Invicta name and logo settle in below 12:00 while a date window at 3:00 keeps you on schedule. Hour, minute and seconds hands in a bezel coordinating color keep the time. Tritnite accents adorn the hour and minute hands.</p>
+
+<p>Finishing your look in classic taste, a 16mm three-link bracelet executed in a combination of silver-tone outer links and bezel matching inner links tapers in width to 14mm. The bracelet fastens comfortably to the wrist with a dual deployant clasp. Treat yourself or someone you love to the gift of time today with the stunning Invicta Angel Starlight!</p>
+
+<p>Your Invicta Angel Starlight comes shipped to you in a stunning three-slot collector's watch box.</p>
+
+<p><li><strong>Bracelet: </strong>Stainless Steel
+<li><strong>Movement: </strong>Swiss Parts ISA 2331/103 Quartz 
+<li><strong>Crystal: </strong>Flame Fusion
+<li><strong>Crown: </strong>Push/Pull
+<li><strong>Clasp: </strong>Dual Deployant
+<li><strong>Bracelet Measurements: </strong>8-1/2" L x 16mm W
+<li><strong>Case Measurements: </strong>33mm
+<li><strong>Case Thickness: </strong>9.5mm
+<li><strong>Water Resistance: </strong>10 ATM - 100 meters - 330 feet
+<li><strong>Model Numbers: </strong>
+<br>Gold-tone: 12855-IPM121 
+<br>Rose-tone: 12856-IPM121
+<br>Silver-tone: 12854-IPM121
+<li><strong>UPC: </strong>
+<br>Gold-tone: 886678128556 
+<br>Rose-tone: 886678128563 
+<br>Silver-tone: 886678128549  
+
+<li> extract_product_info
+
+--06-20 15:13:33 log_info display_image.sky_scraper.getShopHqProductInfo INFO     
+{'image_list': ['618-041?DefaultImage=1&$472x472_jpg$', '618-041_01_swatch?DefaultImage=1&$40x40_jpg$', '618-041_02_swatch?DefaultImage=1&$40x40_jpg$', '618-041_00_swatch?DefaultImage=1&$40x40_jpg$', '618-041?DefaultImage=1&$80x80_jpg$', '618-041_00_detail?DefaultImage=1&$80x80_jpg$', '618-041_01_detail?DefaultImage=1&$80x80_jpg$', '618-041_02_detail?DefaultImage=1&$80x80_jpg$', '618-041_03_detail?DefaultImage=1&$80x80_jpg$', '618-041_04_detail?DefaultImage=1&$80x80_jpg$', '618-041_05_detail?DefaultImage=1&$80x80_jpg$', '618-041_06_detail?DefaultImage=1&$80x80_jpg$', '618-041_07_detail?DefaultImage=1&$80x80_jpg$', '618-041_08_detail?DefaultImage=1&$80x80_jpg$', '618-041_09_detail?DefaultImage=1&$80x80_jpg$', '618-041_10_detail?DefaultImage=1&$80x80_jpg$', '618-041_11_detail?DefaultImage=1&$80x80_jpg$', '618-041_12_detail?DefaultImage=1&$80x80_jpg$', '618-041_13_detail?DefaultImage=1&$80x80_jpg$', '618-041?DefaultImage=1&$120x120_jpg$', '618-041?DefaultImage=1&$120x120_jpg$'], 'description': '\r\n                \r\n                <p><strong>Invicta Women\'s Angel Starlight Bracelet Watch Made w/ Swarovski&reg; Elements</strong></p>\r\n\r\n<p><strong>Choices: </strong>Gold-tone, Rose-tone or Silver-tone bezel</p>\r\n\r\n<p>Refined elegance and a sleek profile accentuated with a shimmering halo of crystals makes this Angel Starlight by Invicta the perfect gift for your angel!</p>\r\n                <p>Commencing the design, a round silver-tone stainless steel case houses a reliable Swiss Parts ISA 2331/103 Quartz movement. Resting atop the case, a fixed bezel in your choice of gold-tone, rose-tone or silver-tone features a dazzling array of 24 clear crystal accents. A bezel coordinating coin edged push/pull crown puts time at your fingertips.</p>\r\n\r\n<p>Adding another touch of sophistication, a round white mother-of-pearl dial rests below a protective Flame Fusion crystal. Bezel matching Roman numerals appear at 12:00, 4:00 and 8:00, and coordinating Tritnite accented triangular index markers display at all remaining hour positions except 3:00. The Invicta name and logo settle in below 12:00 while a date window at 3:00 keeps you on schedule. Hour, minute and seconds hands in a bezel coordinating color keep the time. Tritnite accents adorn the hour and minute hands.</p>\r\n\r\n<p>Finishing your look in classic taste, a 16mm three-link bracelet executed in a combination of silver-tone outer links and bezel matching inner links tapers in width to 14mm. The bracelet fastens comfortably to the wrist with a dual deployant clasp. Treat yourself or someone you love to the gift of time today with the stunning Invicta Angel Starlight!</p>\r\n\r\n<p>Your Invicta Angel Starlight comes shipped to you in a stunning three-slot collector\'s watch box.</p>\r\n\r\n<p><li><strong>Bracelet: </strong>Stainless Steel\r\n<li><strong>Movement: </strong>Swiss Parts ISA 2331/103 Quartz \r\n<li><strong>Crystal: </strong>Flame Fusion\r\n<li><strong>Crown: </strong>Push/Pull\r\n<li><strong>Clasp: </strong>Dual Deployant\r\n<li><strong>Bracelet Measurements: </strong>8-1/2" L x 16mm W\r\n<li><strong>Case Measurements: </strong>33mm\r\n<li><strong>Case Thickness: </strong>9.5mm\r\n<li><strong>Water Resistance: </strong>10 ATM - 100 meters - 330 feet\r\n<li><strong>Model Numbers: </strong>\r\n<br>Gold-tone: 12855-IPM121 \r\n<br>Rose-tone: 12856-IPM121\r\n<br>Silver-tone: 12854-IPM121\r\n<li><strong>UPC: </strong>\r\n<br>Gold-tone: 886678128556 \r\n<br>Rose-tone: 886678128563 \r\n<br>Silver-tone: 886678128549  \r\n\r\n<li>', 'specs': "['tt_productRightCol', 'entity.id=618-041', 'entity.categoryId=product', 'entity.name=Invicta Womens Angel Starlight Bracelet Watch Made w/ Swarovski&reg; Elements', 'entity.pageUrl=http://www.shophq.com/product/618-041.aspx?\\\\u0026familyid=J416733', 'entity.thumbnailUrl=http://images.shophq.com/is/image/ShopHQ/618-041?DefaultImage=1&$120x120_jpg$', 'entity.message=TTV INVICTA WOMEN ANGEL STARLIGHT MOP DIAL BRACELET WATCH W/ JEWLERY BOX', 'entity.value=49.8400', '']"} getShopHqProductInfo
+
+--06-20 15:13:33 log_info display_image.sky_scraper.fetchPage INFO     
+Updating currentItemInfo in FetchPage fetchPage
+
+--06-20 15:13:33 log_debug display_image.sky_scraper.fetchPage DEBUG    getShopHqProductInfo(jNumber) fetchPage results:fetchPage
+ARGS_KWARGS_STR:
+{'ARGS': ({'repair': u'', u'ebay_category': u'31387'
+, 'image_list': ['618-041?DefaultImage=1&$472x472_jpg$'
+, '618-041_01_swatch?DefaultImage=1&$40x40_jpg$'
+, '618-041_02_swatch?DefaultImage=1&$40x40_jpg$'
+, '618-041_00_swatch?DefaultImage=1&$40x40_jpg$'
+, '618-041?DefaultImage=1&$80x80_jpg$'
+, '618-041_00_detail?DefaultImage=1&$80x80_jpg$'
+, '618-041_01_detail?DefaultImage=1&$80x80_jpg$'
+, '618-041_02_detail?DefaultImage=1&$80x80_jpg$'
+, '618-041_03_detail?DefaultImage=1&$80x80_jpg$'
+, '618-041_04_detail?DefaultImage=1&$80x80_jpg$'
+, '618-041_05_detail?DefaultImage=1&$80x80_jpg$'
+, '618-041_06_detail?DefaultImage=1&$80x80_jpg$'
+, '618-041_07_detail?DefaultImage=1&$80x80_jpg$'
+, '618-041_08_detail?DefaultImage=1&$80x80_jpg$'
+, '618-041_09_detail?DefaultImage=1&$80x80_jpg$'
+, '618-041_10_detail?DefaultImage=1&$80x80_jpg$'
+, '618-041_11_detail?DefaultImage=1&$80x80_jpg$'
+, '618-041_12_detail?DefaultImage=1&$80x80_jpg$'
+, '618-041_13_detail?DefaultImage=1&$80x80_jpg$'
+, '618-041?DefaultImage=1&$120x120_jpg$'
+, '618-041?DefaultImage=1&$120x120_jpg$']
+, 'sku': u'1522'
+, 'Margin $': u''
+, 'title': u'Ttv Invicta Women Angel Starlight Mop Dial Bracelet Watch W/ 3 Slot Box Silvertone Size: Womens'
+, 'Brand': u'Invicta'
+, 'model_number': u''
+, 'jNumber': u'J416733'
+, 'Total Cost': u'$49.84'
+, 'full_': u'J416733-00466-01593'
+, 'Retail': u''
+, 'condition': u'bad movement'
+, 'upc': u''
+, 'Qty': u'1'
+, 'listerInitials': u'JM'
+, 'jNumberFolderPath': u'display_image\\jPages\\J416733'
+, 'msrp': u'$49.84'
+, 'jnumber': u'J416733'
+, 'pallet_number': u'Watches4'
+, 'specs': "['tt_productRightCol'
+, 'entity.id=618-041'
+, 'entity.categoryId=product'
+, 'entity.name=Invicta Womens Angel Starlight Bracelet Watch Made w/ Swarovski&reg; Elements'
+, 'entity.pageUrl=http://www.shophq.com/product/618-041.aspx?\\\\u0026familyid=J416733'
+, 'entity.thumbnailUrl=http://images.shophq.com/is/image/ShopHQ/618-041?DefaultImage=1&$120x120_jpg$'
+, 'entity.message=TTV INVICTA WOMEN ANGEL STARLIGHT MOP DIAL BRACELET WATCH W/ JEWLERY BOX'
+, 'entity.value=49.8400'
+, '']"
+, 'eBay Price': u''
+, 'Division': u'Watches'
+, 'itemSelectedImages': {u'key': u''}
+, 'condition_notes': u''
+, 'retailer_code': u'1'
+, 'retailer_code:1': u''
+, 'description': '\r\n                \r\n                <p><strong>Invicta Women\'s Angel Starlight Bracelet Watch Made w/ Swarovski&reg; Elements</strong></p>\r\n\r\n<p><strong>Choices: </strong>Gold-tone, Rose-tone or Silver-tone bezel</p>\r\n\r\n<p>Refined elegance and a sleek profile accentuated with a shimmering halo of crystals makes this Angel Starlight by Invicta the perfect gift for your angel!</p>\r\n                <p>Commencing the design, a round silver-tone stainless steel case houses a reliable Swiss Parts ISA 2331/103 Quartz movement. Resting atop the case, a fixed bezel in your choice of gold-tone, rose-tone or silver-tone features a dazzling array of 24 clear crystal accents. A bezel coordinating coin edged push/pull crown puts time at your fingertips.</p>\r\n\r\n<p>Adding another touch of sophistication, a round white mother-of-pearl dial rests below a protective Flame Fusion crystal. Bezel matching Roman numerals appear at 12:00, 4:00 and 8:00, and coordinating Tritnite accented triangular index markers display at all remaining hour positions except 3:00. The Invicta name and logo settle in below 12:00 while a date window at 3:00 keeps you on schedule. Hour, minute and seconds hands in a bezel coordinating color keep the time. Tritnite accents adorn the hour and minute hands.</p>\r\n\r\n<p>Finishing your look in classic taste, a 16mm three-link bracelet executed in a combination of silver-tone outer links and bezel matching inner links tapers in width to 14mm. The bracelet fastens comfortably to the wrist with a dual deployant clasp. Treat yourself or someone you love to the gift of time today with the stunning Invicta Angel Starlight!</p>\r\n\r\n<p>Your Invicta Angel Starlight comes shipped to you in a stunning three-slot collector\'s watch box.</p>\r\n\r\n<p><li><strong>Bracelet: </strong>Stainless Steel\r\n<li><strong>Movement: </strong>Swiss Parts ISA 2331/103 Quartz \r\n<li><strong>Crystal: </strong>Flame Fusion\r\n<li><strong>Crown: </strong>Push/Pull\r\n<li><strong>Clasp: </strong>Dual Deployant\r\n<li><strong>Bracelet Measurements: </strong>8-1/2" L x 16mm W\r\n<li><strong>Case Measurements: </strong>33mm\r\n<li><strong>Case Thickness: </strong>9.5mm\r\n<li><strong>Water Resistance: </strong>10 ATM - 100 meters - 330 feet\r\n<li><strong>Model Numbers: </strong>\r\n<br>Gold-tone: 12855-IPM121 \r\n<br>Rose-tone: 12856-IPM121\r\n<br>Silver-tone: 12854-IPM121\r\n<li><strong>UPC: </strong>\r\n<br>Gold-tone: 886678128556 \r\n<br>Rose-tone: 886678128563 \r\n<br>Silver-tone: 886678128549  \r\n\r\n<li>'
+, 'palletNumber': u'Watches4'
+, 'manifested': u'X'
+, 'Total Retail': u''
+, 'box': u'no movement 1'
+, 'date_listed': u''
+, 'Margin %': u''
+, 'band_size': u'6.25', u'*Category': u'31387'}, u'J416733', u'J416733')
+, 'KWARGS': {}}
+call_fn: C:\Users\Mitchell\Desktop\juan\display_image\EventsHandlers\MainFrameEventHandler.py
+call_ln: 863
+call_func: updateMainFrameCurrentItemInfo
+caller: ['                results = FetchPage(self.MainFrame).results # updates currentItemInfo\n']
+Exception:
+None
+
+--06-20 15:13:33 log_debug display_image.Check.guessImageName DEBUG    currentItemInfo:guessImageName
+ARGS_KWARGS_STR:
+{'ARGS': ({'repair': u'', u'ebay_category': u'31387'
+, 'image_list': ['618-041?DefaultImage=1&$472x472_jpg$'
+, '618-041_01_swatch?DefaultImage=1&$40x40_jpg$'
+, '618-041_02_swatch?DefaultImage=1&$40x40_jpg$'
+, '618-041_00_swatch?DefaultImage=1&$40x40_jpg$'
+, '618-041?DefaultImage=1&$80x80_jpg$'
+, '618-041_00_detail?DefaultImage=1&$80x80_jpg$'
+, '618-041_01_detail?DefaultImage=1&$80x80_jpg$'
+, '618-041_02_detail?DefaultImage=1&$80x80_jpg$'
+, '618-041_03_detail?DefaultImage=1&$80x80_jpg$'
+, '618-041_04_detail?DefaultImage=1&$80x80_jpg$'
+, '618-041_05_detail?DefaultImage=1&$80x80_jpg$'
+, '618-041_06_detail?DefaultImage=1&$80x80_jpg$'
+, '618-041_07_detail?DefaultImage=1&$80x80_jpg$'
+, '618-041_08_detail?DefaultImage=1&$80x80_jpg$'
+, '618-041_09_detail?DefaultImage=1&$80x80_jpg$'
+, '618-041_10_detail?DefaultImage=1&$80x80_jpg$'
+, '618-041_11_detail?DefaultImage=1&$80x80_jpg$'
+, '618-041_12_detail?DefaultImage=1&$80x80_jpg$'
+, '618-041_13_detail?DefaultImage=1&$80x80_jpg$'
+, '618-041?DefaultImage=1&$120x120_jpg$'
+, '618-041?DefaultImage=1&$120x120_jpg$']
+, 'sku': u'1522'
+, 'Margin $': u''
+, 'title': u'Ttv Invicta Women Angel Starlight Mop Dial Bracelet Watch W/ 3 Slot Box Silvertone Size: Womens'
+, 'Brand': u'Invicta'
+, 'model_number': u''
+, 'jNumber': u'J416733'
+, 'Total Cost': u'$49.84'
+, 'full_': u'J416733-00466-01593'
+, 'Retail': u''
+, 'condition': u'bad movement'
+, 'upc': u''
+, 'Qty': u'1'
+, 'listerInitials': u'JM'
+, 'jNumberFolderPath': u'display_image\\jPages\\J416733'
+, 'msrp': u'$49.84'
+, 'jnumber': u'J416733'
+, 'pallet_number': u'Watches4'
+, 'specs': "['tt_productRightCol'
+, 'entity.id=618-041'
+, 'entity.categoryId=product'
+, 'entity.name=Invicta Womens Angel Starlight Bracelet Watch Made w/ Swarovski&reg; Elements'
+, 'entity.pageUrl=http://www.shophq.com/product/618-041.aspx?\\\\u0026familyid=J416733'
+, 'entity.thumbnailUrl=http://images.shophq.com/is/image/ShopHQ/618-041?DefaultImage=1&$120x120_jpg$'
+, 'entity.message=TTV INVICTA WOMEN ANGEL STARLIGHT MOP DIAL BRACELET WATCH W/ JEWLERY BOX'
+, 'entity.value=49.8400'
+, '']"
+, 'eBay Price': u''
+, 'Division': u'Watches'
+, 'itemSelectedImages': {u'key': u''}
+, 'condition_notes': u''
+, 'retailer_code': u'1'
+, 'retailer_code:1': u''
+, 'description': '\r\n                \r\n                <p><strong>Invicta Women\'s Angel Starlight Bracelet Watch Made w/ Swarovski&reg; Elements</strong></p>\r\n\r\n<p><strong>Choices: </strong>Gold-tone, Rose-tone or Silver-tone bezel</p>\r\n\r\n<p>Refined elegance and a sleek profile accentuated with a shimmering halo of crystals makes this Angel Starlight by Invicta the perfect gift for your angel!</p>\r\n                <p>Commencing the design, a round silver-tone stainless steel case houses a reliable Swiss Parts ISA 2331/103 Quartz movement. Resting atop the case, a fixed bezel in your choice of gold-tone, rose-tone or silver-tone features a dazzling array of 24 clear crystal accents. A bezel coordinating coin edged push/pull crown puts time at your fingertips.</p>\r\n\r\n<p>Adding another touch of sophistication, a round white mother-of-pearl dial rests below a protective Flame Fusion crystal. Bezel matching Roman numerals appear at 12:00, 4:00 and 8:00, and coordinating Tritnite accented triangular index markers display at all remaining hour positions except 3:00. The Invicta name and logo settle in below 12:00 while a date window at 3:00 keeps you on schedule. Hour, minute and seconds hands in a bezel coordinating color keep the time. Tritnite accents adorn the hour and minute hands.</p>\r\n\r\n<p>Finishing your look in classic taste, a 16mm three-link bracelet executed in a combination of silver-tone outer links and bezel matching inner links tapers in width to 14mm. The bracelet fastens comfortably to the wrist with a dual deployant clasp. Treat yourself or someone you love to the gift of time today with the stunning Invicta Angel Starlight!</p>\r\n\r\n<p>Your Invicta Angel Starlight comes shipped to you in a stunning three-slot collector\'s watch box.</p>\r\n\r\n<p><li><strong>Bracelet: </strong>Stainless Steel\r\n<li><strong>Movement: </strong>Swiss Parts ISA 2331/103 Quartz \r\n<li><strong>Crystal: </strong>Flame Fusion\r\n<li><strong>Crown: </strong>Push/Pull\r\n<li><strong>Clasp: </strong>Dual Deployant\r\n<li><strong>Bracelet Measurements: </strong>8-1/2" L x 16mm W\r\n<li><strong>Case Measurements: </strong>33mm\r\n<li><strong>Case Thickness: </strong>9.5mm\r\n<li><strong>Water Resistance: </strong>10 ATM - 100 meters - 330 feet\r\n<li><strong>Model Numbers: </strong>\r\n<br>Gold-tone: 12855-IPM121 \r\n<br>Rose-tone: 12856-IPM121\r\n<br>Silver-tone: 12854-IPM121\r\n<li><strong>UPC: </strong>\r\n<br>Gold-tone: 886678128556 \r\n<br>Rose-tone: 886678128563 \r\n<br>Silver-tone: 886678128549  \r\n\r\n<li>'
+, 'palletNumber': u'Watches4'
+, 'manifested': u'X'
+, 'Total Retail': u''
+, 'box': u'no movement 1'
+, 'date_listed': u''
+, 'Margin %': u''
+, 'band_size': u'6.25', u'*Category': u'31387'},)
+, 'KWARGS': {}}
+call_fn: C:\Users\Mitchell\Desktop\juan\display_image\EventsHandlers\MainFrameEventHandler.py
+call_ln: 1052
+call_func: onScanNumberText
+caller: ['            results = self.updateMainFrameCurrentItemInfo(retailer_code) \n']
+Exception:
+None
+
+--06-20 15:13:33 log_debug display_image.Check.guessImageName DEBUG    image name guess: guessImageName
+ARGS_KWARGS_STR:
+{'ARGS': ('618-041_01_swatch?DefaultImage=1&$40x40_jpg$',)
+, 'KWARGS': {}}
+call_fn: C:\Users\Mitchell\Desktop\juan\display_image\EventsHandlers\MainFrameEventHandler.py
+call_ln: 1052
+call_func: onScanNumberText
+caller: ['            results = self.updateMainFrameCurrentItemInfo(retailer_code) \n']
+Exception:
+None
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.updateMainFrameCurrentItemInfo INFO     
+618-041_01_swatch.JPEG updateMainFrameCurrentItemInfo
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.updateMainFrameCurrentItemInfo INFO     
+618-041_01_swatch.JPEG updateMainFrameCurrentItemInfo
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.updateMainFrameCurrentItemInfo INFO     
+Before updateMainFrameCurrentItemInfo Return: {'repair': u'', u'ebay_category': u'31387', 'image_list': ['618-041?DefaultImage=1&$472x472_jpg$', '618-041_01_swatch?DefaultImage=1&$40x40_jpg$', '618-041_02_swatch?DefaultImage=1&$40x40_jpg$', '618-041_00_swatch?DefaultImage=1&$40x40_jpg$', '618-041?DefaultImage=1&$80x80_jpg$', '618-041_00_detail?DefaultImage=1&$80x80_jpg$', '618-041_01_detail?DefaultImage=1&$80x80_jpg$', '618-041_02_detail?DefaultImage=1&$80x80_jpg$', '618-041_03_detail?DefaultImage=1&$80x80_jpg$', '618-041_04_detail?DefaultImage=1&$80x80_jpg$', '618-041_05_detail?DefaultImage=1&$80x80_jpg$', '618-041_06_detail?DefaultImage=1&$80x80_jpg$', '618-041_07_detail?DefaultImage=1&$80x80_jpg$', '618-041_08_detail?DefaultImage=1&$80x80_jpg$', '618-041_09_detail?DefaultImage=1&$80x80_jpg$', '618-041_10_detail?DefaultImage=1&$80x80_jpg$', '618-041_11_detail?DefaultImage=1&$80x80_jpg$', '618-041_12_detail?DefaultImage=1&$80x80_jpg$', '618-041_13_detail?DefaultImage=1&$80x80_jpg$', '618-041?DefaultImage=1&$120x120_jpg$', '618-041?DefaultImage=1&$120x120_jpg$'], 'sku': u'1522', 'Margin $': u'', 'title': u'Ttv Invicta Women Angel Starlight Mop Dial Bracelet Watch W/ 3 Slot Box Silvertone Size: Womens', 'Brand': u'Invicta', 'model_number': u'', 'jNumber': u'J416733', 'Total Cost': u'$49.84', 'full_': u'J416733-00466-01593', 'Retail': u'', 'condition': u'bad movement', 'upc': u'', 'Qty': u'1', 'listerInitials': u'JM', 'jNumberFolderPath': u'display_image\\jPages\\J416733', 'msrp': u'$49.84', 'jnumber': u'J416733', 'pallet_number': u'Watches4', 'specs': "['tt_productRightCol', 'entity.id=618-041', 'entity.categoryId=product', 'entity.name=Invicta Womens Angel Starlight Bracelet Watch Made w/ Swarovski&reg; Elements', 'entity.pageUrl=http://www.shophq.com/product/618-041.aspx?\\\\u0026familyid=J416733', 'entity.thumbnailUrl=http://images.shophq.com/is/image/ShopHQ/618-041?DefaultImage=1&$120x120_jpg$', 'entity.message=TTV INVICTA WOMEN ANGEL STARLIGHT MOP DIAL BRACELET WATCH W/ JEWLERY BOX', 'entity.value=49.8400', '']", 'eBay Price': u'', 'Division': u'Watches', 'itemSelectedImages': {u'key': u''}, 'condition_notes': u'', 'retailer_code': u'1', 'retailer_code:1': u'', 'description': '\r\n                \r\n                <p><strong>Invicta Women\'s Angel Starlight Bracelet Watch Made w/ Swarovski&reg; Elements</strong></p>\r\n\r\n<p><strong>Choices: </strong>Gold-tone, Rose-tone or Silver-tone bezel</p>\r\n\r\n<p>Refined elegance and a sleek profile accentuated with a shimmering halo of crystals makes this Angel Starlight by Invicta the perfect gift for your angel!</p>\r\n                <p>Commencing the design, a round silver-tone stainless steel case houses a reliable Swiss Parts ISA 2331/103 Quartz movement. Resting atop the case, a fixed bezel in your choice of gold-tone, rose-tone or silver-tone features a dazzling array of 24 clear crystal accents. A bezel coordinating coin edged push/pull crown puts time at your fingertips.</p>\r\n\r\n<p>Adding another touch of sophistication, a round white mother-of-pearl dial rests below a protective Flame Fusion crystal. Bezel matching Roman numerals appear at 12:00, 4:00 and 8:00, and coordinating Tritnite accented triangular index markers display at all remaining hour positions except 3:00. The Invicta name and logo settle in below 12:00 while a date window at 3:00 keeps you on schedule. Hour, minute and seconds hands in a bezel coordinating color keep the time. Tritnite accents adorn the hour and minute hands.</p>\r\n\r\n<p>Finishing your look in classic taste, a 16mm three-link bracelet executed in a combination of silver-tone outer links and bezel matching inner links tapers in width to 14mm. The bracelet fastens comfortably to the wrist with a dual deployant clasp. Treat yourself or someone you love to the gift of time today with the stunning Invicta Angel Starlight!</p>\r\n\r\n<p>Your Invicta Angel Starlight comes shipped to you in a stunning three-slot collector\'s watch box.</p>\r\n\r\n<p><li><strong>Bracelet: </strong>Stainless Steel\r\n<li><strong>Movement: </strong>Swiss Parts ISA 2331/103 Quartz \r\n<li><strong>Crystal: </strong>Flame Fusion\r\n<li><strong>Crown: </strong>Push/Pull\r\n<li><strong>Clasp: </strong>Dual Deployant\r\n<li><strong>Bracelet Measurements: </strong>8-1/2" L x 16mm W\r\n<li><strong>Case Measurements: </strong>33mm\r\n<li><strong>Case Thickness: </strong>9.5mm\r\n<li><strong>Water Resistance: </strong>10 ATM - 100 meters - 330 feet\r\n<li><strong>Model Numbers: </strong>\r\n<br>Gold-tone: 12855-IPM121 \r\n<br>Rose-tone: 12856-IPM121\r\n<br>Silver-tone: 12854-IPM121\r\n<li><strong>UPC: </strong>\r\n<br>Gold-tone: 886678128556 \r\n<br>Rose-tone: 886678128563 \r\n<br>Silver-tone: 886678128549  \r\n\r\n<li>', 'palletNumber': u'Watches4', 'manifested': u'X', 'Total Retail': u'', 'box': u'no movement 1', 'date_listed': u'', 'Margin %': u'', 'band_size': u'6.25', u'*Category': u'31387'} updateMainFrameCurrentItemInfo
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.updateMainFrameCurrentItemInfo INFO     
+Before updateMainFrameCurrentItemInfo Return: {'repair': u'', u'ebay_category': u'31387', 'image_list': ['618-041?DefaultImage=1&$472x472_jpg$', '618-041_01_swatch?DefaultImage=1&$40x40_jpg$', '618-041_02_swatch?DefaultImage=1&$40x40_jpg$', '618-041_00_swatch?DefaultImage=1&$40x40_jpg$', '618-041?DefaultImage=1&$80x80_jpg$', '618-041_00_detail?DefaultImage=1&$80x80_jpg$', '618-041_01_detail?DefaultImage=1&$80x80_jpg$', '618-041_02_detail?DefaultImage=1&$80x80_jpg$', '618-041_03_detail?DefaultImage=1&$80x80_jpg$', '618-041_04_detail?DefaultImage=1&$80x80_jpg$', '618-041_05_detail?DefaultImage=1&$80x80_jpg$', '618-041_06_detail?DefaultImage=1&$80x80_jpg$', '618-041_07_detail?DefaultImage=1&$80x80_jpg$', '618-041_08_detail?DefaultImage=1&$80x80_jpg$', '618-041_09_detail?DefaultImage=1&$80x80_jpg$', '618-041_10_detail?DefaultImage=1&$80x80_jpg$', '618-041_11_detail?DefaultImage=1&$80x80_jpg$', '618-041_12_detail?DefaultImage=1&$80x80_jpg$', '618-041_13_detail?DefaultImage=1&$80x80_jpg$', '618-041?DefaultImage=1&$120x120_jpg$', '618-041?DefaultImage=1&$120x120_jpg$'], 'sku': u'1522', 'Margin $': u'', 'title': u'Ttv Invicta Women Angel Starlight Mop Dial Bracelet Watch W/ 3 Slot Box Silvertone Size: Womens', 'Brand': u'Invicta', 'model_number': u'', 'jNumber': u'J416733', 'Total Cost': u'$49.84', 'full_': u'J416733-00466-01593', 'Retail': u'', 'condition': u'bad movement', 'upc': u'', 'Qty': u'1', 'listerInitials': u'JM', 'jNumberFolderPath': u'display_image\\jPages\\J416733', 'msrp': u'$49.84', 'jnumber': u'J416733', 'pallet_number': u'Watches4', 'specs': "['tt_productRightCol', 'entity.id=618-041', 'entity.categoryId=product', 'entity.name=Invicta Womens Angel Starlight Bracelet Watch Made w/ Swarovski&reg; Elements', 'entity.pageUrl=http://www.shophq.com/product/618-041.aspx?\\\\u0026familyid=J416733', 'entity.thumbnailUrl=http://images.shophq.com/is/image/ShopHQ/618-041?DefaultImage=1&$120x120_jpg$', 'entity.message=TTV INVICTA WOMEN ANGEL STARLIGHT MOP DIAL BRACELET WATCH W/ JEWLERY BOX', 'entity.value=49.8400', '']", 'eBay Price': u'', 'Division': u'Watches', 'itemSelectedImages': {u'key': u''}, 'condition_notes': u'', 'retailer_code': u'1', 'retailer_code:1': u'', 'description': '\r\n                \r\n                <p><strong>Invicta Women\'s Angel Starlight Bracelet Watch Made w/ Swarovski&reg; Elements</strong></p>\r\n\r\n<p><strong>Choices: </strong>Gold-tone, Rose-tone or Silver-tone bezel</p>\r\n\r\n<p>Refined elegance and a sleek profile accentuated with a shimmering halo of crystals makes this Angel Starlight by Invicta the perfect gift for your angel!</p>\r\n                <p>Commencing the design, a round silver-tone stainless steel case houses a reliable Swiss Parts ISA 2331/103 Quartz movement. Resting atop the case, a fixed bezel in your choice of gold-tone, rose-tone or silver-tone features a dazzling array of 24 clear crystal accents. A bezel coordinating coin edged push/pull crown puts time at your fingertips.</p>\r\n\r\n<p>Adding another touch of sophistication, a round white mother-of-pearl dial rests below a protective Flame Fusion crystal. Bezel matching Roman numerals appear at 12:00, 4:00 and 8:00, and coordinating Tritnite accented triangular index markers display at all remaining hour positions except 3:00. The Invicta name and logo settle in below 12:00 while a date window at 3:00 keeps you on schedule. Hour, minute and seconds hands in a bezel coordinating color keep the time. Tritnite accents adorn the hour and minute hands.</p>\r\n\r\n<p>Finishing your look in classic taste, a 16mm three-link bracelet executed in a combination of silver-tone outer links and bezel matching inner links tapers in width to 14mm. The bracelet fastens comfortably to the wrist with a dual deployant clasp. Treat yourself or someone you love to the gift of time today with the stunning Invicta Angel Starlight!</p>\r\n\r\n<p>Your Invicta Angel Starlight comes shipped to you in a stunning three-slot collector\'s watch box.</p>\r\n\r\n<p><li><strong>Bracelet: </strong>Stainless Steel\r\n<li><strong>Movement: </strong>Swiss Parts ISA 2331/103 Quartz \r\n<li><strong>Crystal: </strong>Flame Fusion\r\n<li><strong>Crown: </strong>Push/Pull\r\n<li><strong>Clasp: </strong>Dual Deployant\r\n<li><strong>Bracelet Measurements: </strong>8-1/2" L x 16mm W\r\n<li><strong>Case Measurements: </strong>33mm\r\n<li><strong>Case Thickness: </strong>9.5mm\r\n<li><strong>Water Resistance: </strong>10 ATM - 100 meters - 330 feet\r\n<li><strong>Model Numbers: </strong>\r\n<br>Gold-tone: 12855-IPM121 \r\n<br>Rose-tone: 12856-IPM121\r\n<br>Silver-tone: 12854-IPM121\r\n<li><strong>UPC: </strong>\r\n<br>Gold-tone: 886678128556 \r\n<br>Rose-tone: 886678128563 \r\n<br>Silver-tone: 886678128549  \r\n\r\n<li>', 'palletNumber': u'Watches4', 'manifested': u'X', 'Total Retail': u'', 'box': u'no movement 1', 'date_listed': u'', 'Margin %': u'', 'band_size': u'6.25', u'*Category': u'31387'} updateMainFrameCurrentItemInfo
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onScanNumberText INFO     
+updateMainFrameCurrentItemInfo results:True onScanNumberText
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onScanNumberText INFO     
+updateMainFrameCurrentItemInfo results:True onScanNumberText
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onScanNumberText INFO     
+onScanNumberText currentItemInfo: {'repair': u'', u'ebay_category': u'31387', 'image_list': ['618-041?DefaultImage=1&$472x472_jpg$', '618-041_01_swatch?DefaultImage=1&$40x40_jpg$', '618-041_02_swatch?DefaultImage=1&$40x40_jpg$', '618-041_00_swatch?DefaultImage=1&$40x40_jpg$', '618-041?DefaultImage=1&$80x80_jpg$', '618-041_00_detail?DefaultImage=1&$80x80_jpg$', '618-041_01_detail?DefaultImage=1&$80x80_jpg$', '618-041_02_detail?DefaultImage=1&$80x80_jpg$', '618-041_03_detail?DefaultImage=1&$80x80_jpg$', '618-041_04_detail?DefaultImage=1&$80x80_jpg$', '618-041_05_detail?DefaultImage=1&$80x80_jpg$', '618-041_06_detail?DefaultImage=1&$80x80_jpg$', '618-041_07_detail?DefaultImage=1&$80x80_jpg$', '618-041_08_detail?DefaultImage=1&$80x80_jpg$', '618-041_09_detail?DefaultImage=1&$80x80_jpg$', '618-041_10_detail?DefaultImage=1&$80x80_jpg$', '618-041_11_detail?DefaultImage=1&$80x80_jpg$', '618-041_12_detail?DefaultImage=1&$80x80_jpg$', '618-041_13_detail?DefaultImage=1&$80x80_jpg$', '618-041?DefaultImage=1&$120x120_jpg$', '618-041?DefaultImage=1&$120x120_jpg$'], 'sku': u'1522', 'Margin $': u'', 'title': u'Ttv Invicta Women Angel Starlight Mop Dial Bracelet Watch W/ 3 Slot Box Silvertone Size: Womens', 'Brand': u'Invicta', 'model_number': u'', 'jNumber': u'J416733', 'Total Cost': u'$49.84', 'full_': u'J416733-00466-01593', 'Retail': u'', 'condition': u'bad movement', 'upc': u'', 'Qty': u'1', 'listerInitials': u'JM', 'jNumberFolderPath': u'display_image\\jPages\\J416733', 'msrp': u'$49.84', 'jnumber': u'J416733', 'pallet_number': u'Watches4', 'specs': "['tt_productRightCol', 'entity.id=618-041', 'entity.categoryId=product', 'entity.name=Invicta Womens Angel Starlight Bracelet Watch Made w/ Swarovski&reg; Elements', 'entity.pageUrl=http://www.shophq.com/product/618-041.aspx?\\\\u0026familyid=J416733', 'entity.thumbnailUrl=http://images.shophq.com/is/image/ShopHQ/618-041?DefaultImage=1&$120x120_jpg$', 'entity.message=TTV INVICTA WOMEN ANGEL STARLIGHT MOP DIAL BRACELET WATCH W/ JEWLERY BOX', 'entity.value=49.8400', '']", 'eBay Price': u'', 'Division': u'Watches', 'itemSelectedImages': {u'key': u''}, 'condition_notes': u'', 'retailer_code': u'1', 'retailer_code:1': u'', 'description': '\r\n                \r\n                <p><strong>Invicta Women\'s Angel Starlight Bracelet Watch Made w/ Swarovski&reg; Elements</strong></p>\r\n\r\n<p><strong>Choices: </strong>Gold-tone, Rose-tone or Silver-tone bezel</p>\r\n\r\n<p>Refined elegance and a sleek profile accentuated with a shimmering halo of crystals makes this Angel Starlight by Invicta the perfect gift for your angel!</p>\r\n                <p>Commencing the design, a round silver-tone stainless steel case houses a reliable Swiss Parts ISA 2331/103 Quartz movement. Resting atop the case, a fixed bezel in your choice of gold-tone, rose-tone or silver-tone features a dazzling array of 24 clear crystal accents. A bezel coordinating coin edged push/pull crown puts time at your fingertips.</p>\r\n\r\n<p>Adding another touch of sophistication, a round white mother-of-pearl dial rests below a protective Flame Fusion crystal. Bezel matching Roman numerals appear at 12:00, 4:00 and 8:00, and coordinating Tritnite accented triangular index markers display at all remaining hour positions except 3:00. The Invicta name and logo settle in below 12:00 while a date window at 3:00 keeps you on schedule. Hour, minute and seconds hands in a bezel coordinating color keep the time. Tritnite accents adorn the hour and minute hands.</p>\r\n\r\n<p>Finishing your look in classic taste, a 16mm three-link bracelet executed in a combination of silver-tone outer links and bezel matching inner links tapers in width to 14mm. The bracelet fastens comfortably to the wrist with a dual deployant clasp. Treat yourself or someone you love to the gift of time today with the stunning Invicta Angel Starlight!</p>\r\n\r\n<p>Your Invicta Angel Starlight comes shipped to you in a stunning three-slot collector\'s watch box.</p>\r\n\r\n<p><li><strong>Bracelet: </strong>Stainless Steel\r\n<li><strong>Movement: </strong>Swiss Parts ISA 2331/103 Quartz \r\n<li><strong>Crystal: </strong>Flame Fusion\r\n<li><strong>Crown: </strong>Push/Pull\r\n<li><strong>Clasp: </strong>Dual Deployant\r\n<li><strong>Bracelet Measurements: </strong>8-1/2" L x 16mm W\r\n<li><strong>Case Measurements: </strong>33mm\r\n<li><strong>Case Thickness: </strong>9.5mm\r\n<li><strong>Water Resistance: </strong>10 ATM - 100 meters - 330 feet\r\n<li><strong>Model Numbers: </strong>\r\n<br>Gold-tone: 12855-IPM121 \r\n<br>Rose-tone: 12856-IPM121\r\n<br>Silver-tone: 12854-IPM121\r\n<li><strong>UPC: </strong>\r\n<br>Gold-tone: 886678128556 \r\n<br>Rose-tone: 886678128563 \r\n<br>Silver-tone: 886678128549  \r\n\r\n<li>', 'palletNumber': u'Watches4', 'manifested': u'X', 'Total Retail': u'', 'box': u'no movement 1', 'date_listed': u'', 'Margin %': u'', 'band_size': u'6.25', u'*Category': u'31387'} onScanNumberText
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onScanNumberText INFO     
+onScanNumberText currentItemInfo: {'repair': u'', u'ebay_category': u'31387', 'image_list': ['618-041?DefaultImage=1&$472x472_jpg$', '618-041_01_swatch?DefaultImage=1&$40x40_jpg$', '618-041_02_swatch?DefaultImage=1&$40x40_jpg$', '618-041_00_swatch?DefaultImage=1&$40x40_jpg$', '618-041?DefaultImage=1&$80x80_jpg$', '618-041_00_detail?DefaultImage=1&$80x80_jpg$', '618-041_01_detail?DefaultImage=1&$80x80_jpg$', '618-041_02_detail?DefaultImage=1&$80x80_jpg$', '618-041_03_detail?DefaultImage=1&$80x80_jpg$', '618-041_04_detail?DefaultImage=1&$80x80_jpg$', '618-041_05_detail?DefaultImage=1&$80x80_jpg$', '618-041_06_detail?DefaultImage=1&$80x80_jpg$', '618-041_07_detail?DefaultImage=1&$80x80_jpg$', '618-041_08_detail?DefaultImage=1&$80x80_jpg$', '618-041_09_detail?DefaultImage=1&$80x80_jpg$', '618-041_10_detail?DefaultImage=1&$80x80_jpg$', '618-041_11_detail?DefaultImage=1&$80x80_jpg$', '618-041_12_detail?DefaultImage=1&$80x80_jpg$', '618-041_13_detail?DefaultImage=1&$80x80_jpg$', '618-041?DefaultImage=1&$120x120_jpg$', '618-041?DefaultImage=1&$120x120_jpg$'], 'sku': u'1522', 'Margin $': u'', 'title': u'Ttv Invicta Women Angel Starlight Mop Dial Bracelet Watch W/ 3 Slot Box Silvertone Size: Womens', 'Brand': u'Invicta', 'model_number': u'', 'jNumber': u'J416733', 'Total Cost': u'$49.84', 'full_': u'J416733-00466-01593', 'Retail': u'', 'condition': u'bad movement', 'upc': u'', 'Qty': u'1', 'listerInitials': u'JM', 'jNumberFolderPath': u'display_image\\jPages\\J416733', 'msrp': u'$49.84', 'jnumber': u'J416733', 'pallet_number': u'Watches4', 'specs': "['tt_productRightCol', 'entity.id=618-041', 'entity.categoryId=product', 'entity.name=Invicta Womens Angel Starlight Bracelet Watch Made w/ Swarovski&reg; Elements', 'entity.pageUrl=http://www.shophq.com/product/618-041.aspx?\\\\u0026familyid=J416733', 'entity.thumbnailUrl=http://images.shophq.com/is/image/ShopHQ/618-041?DefaultImage=1&$120x120_jpg$', 'entity.message=TTV INVICTA WOMEN ANGEL STARLIGHT MOP DIAL BRACELET WATCH W/ JEWLERY BOX', 'entity.value=49.8400', '']", 'eBay Price': u'', 'Division': u'Watches', 'itemSelectedImages': {u'key': u''}, 'condition_notes': u'', 'retailer_code': u'1', 'retailer_code:1': u'', 'description': '\r\n                \r\n                <p><strong>Invicta Women\'s Angel Starlight Bracelet Watch Made w/ Swarovski&reg; Elements</strong></p>\r\n\r\n<p><strong>Choices: </strong>Gold-tone, Rose-tone or Silver-tone bezel</p>\r\n\r\n<p>Refined elegance and a sleek profile accentuated with a shimmering halo of crystals makes this Angel Starlight by Invicta the perfect gift for your angel!</p>\r\n                <p>Commencing the design, a round silver-tone stainless steel case houses a reliable Swiss Parts ISA 2331/103 Quartz movement. Resting atop the case, a fixed bezel in your choice of gold-tone, rose-tone or silver-tone features a dazzling array of 24 clear crystal accents. A bezel coordinating coin edged push/pull crown puts time at your fingertips.</p>\r\n\r\n<p>Adding another touch of sophistication, a round white mother-of-pearl dial rests below a protective Flame Fusion crystal. Bezel matching Roman numerals appear at 12:00, 4:00 and 8:00, and coordinating Tritnite accented triangular index markers display at all remaining hour positions except 3:00. The Invicta name and logo settle in below 12:00 while a date window at 3:00 keeps you on schedule. Hour, minute and seconds hands in a bezel coordinating color keep the time. Tritnite accents adorn the hour and minute hands.</p>\r\n\r\n<p>Finishing your look in classic taste, a 16mm three-link bracelet executed in a combination of silver-tone outer links and bezel matching inner links tapers in width to 14mm. The bracelet fastens comfortably to the wrist with a dual deployant clasp. Treat yourself or someone you love to the gift of time today with the stunning Invicta Angel Starlight!</p>\r\n\r\n<p>Your Invicta Angel Starlight comes shipped to you in a stunning three-slot collector\'s watch box.</p>\r\n\r\n<p><li><strong>Bracelet: </strong>Stainless Steel\r\n<li><strong>Movement: </strong>Swiss Parts ISA 2331/103 Quartz \r\n<li><strong>Crystal: </strong>Flame Fusion\r\n<li><strong>Crown: </strong>Push/Pull\r\n<li><strong>Clasp: </strong>Dual Deployant\r\n<li><strong>Bracelet Measurements: </strong>8-1/2" L x 16mm W\r\n<li><strong>Case Measurements: </strong>33mm\r\n<li><strong>Case Thickness: </strong>9.5mm\r\n<li><strong>Water Resistance: </strong>10 ATM - 100 meters - 330 feet\r\n<li><strong>Model Numbers: </strong>\r\n<br>Gold-tone: 12855-IPM121 \r\n<br>Rose-tone: 12856-IPM121\r\n<br>Silver-tone: 12854-IPM121\r\n<li><strong>UPC: </strong>\r\n<br>Gold-tone: 886678128556 \r\n<br>Rose-tone: 886678128563 \r\n<br>Silver-tone: 886678128549  \r\n\r\n<li>', 'palletNumber': u'Watches4', 'manifested': u'X', 'Total Retail': u'', 'box': u'no movement 1', 'date_listed': u'', 'Margin %': u'', 'band_size': u'6.25', u'*Category': u'31387'} onScanNumberText
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onScanNumberText INFO     
+Trying to open: display_image\jPages\J416733\618-041_01_swatch.JPEG onScanNumberText
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onScanNumberText INFO     
+Trying to open: display_image\jPages\J416733\618-041_01_swatch.JPEG onScanNumberText
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onUpcNumberText INFO     
+Inside:  onUpcNumberText
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onUpcNumberText INFO     
+Inside:  onUpcNumberText
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onUpcNumberText INFO     
+upc entered, and updated. onUpcNumberText
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onUpcNumberText INFO     
+upc entered, and updated. onUpcNumberText
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onEbayCategoryIdText INFO     
+Inside:  onEbayCategoryIdText
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onEbayCategoryIdText INFO     
+Inside:  onEbayCategoryIdText
+
+--06-20 15:13:33 log_debug display_image.EventsHandlers.MainFrameEventHandler.onEbayCategoryIdText DEBUG    31387 onEbayCategoryIdText
+ARGS_KWARGS_STR:
+{'ARGS': ()
+, 'KWARGS': {}}
+call_fn: C:\Users\Mitchell\Desktop\juan\display_image\EventsHandlers\MainFrameEventHandler.py
+call_ln: 1111
+call_func: onScanNumberText
+caller: ["                self.MainFrame.ebayCategoryIdText.SetValue(self.MainFrame.currentItemInfo['ebay_category'])\n"]
+Exception:
+None
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onLookUpBySkuBtnShopHq INFO     
+Added MainFrame.itemRow to currentItemInfo[['retailer_code:1', 'Division', 'Brand', 'pallet_number', 'full_', 'jnumber', 'model_number', 'title', 'Qty', 'msrp', 'Total Cost', 'Retail', 'Total Retail', 'Margin %', 'Margin $', 'eBay Price', 'sku', 'box', 'condition', 'condition_notes', 'band_size', 'date_listed', 'repair', 'manifested', 'upc'], ['', 'Watches', 'Invicta', 'Watches4', 'J416733-00466-01593', 'J416733', '', 'TTV INVICTA WOMEN ANGEL STARLIGHT MOP DIAL BRACELET WATCH W/ 3 SLOT BOX SILVERTONE SIZE: WOMENS', '1', '$49.84', '$49.84', '', '', '', '', '', '1522', 'no movement 1', 'bad movement', '', '6.25', '', '', 'X', '']] onLookUpBySkuBtnShopHq
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onLookUpBySkuBtnShopHq INFO     
+Added MainFrame.itemRow to currentItemInfo[['retailer_code:1', 'Division', 'Brand', 'pallet_number', 'full_', 'jnumber', 'model_number', 'title', 'Qty', 'msrp', 'Total Cost', 'Retail', 'Total Retail', 'Margin %', 'Margin $', 'eBay Price', 'sku', 'box', 'condition', 'condition_notes', 'band_size', 'date_listed', 'repair', 'manifested', 'upc'], ['', 'Watches', 'Invicta', 'Watches4', 'J416733-00466-01593', 'J416733', '', 'TTV INVICTA WOMEN ANGEL STARLIGHT MOP DIAL BRACELET WATCH W/ 3 SLOT BOX SILVERTONE SIZE: WOMENS', '1', '$49.84', '$49.84', '', '', '', '', '', '1522', 'no movement 1', 'bad movement', '', '6.25', '', '', 'X', '']] onLookUpBySkuBtnShopHq
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentConditionText INFO     
+Inside:  onCurrentConditionText
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentConditionText INFO     
+Inside:  onCurrentConditionText
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentConditionText INFO     
+Calling Save(self.MainFrame) onCurrentConditionText
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentConditionText INFO     
+Calling Save(self.MainFrame) onCurrentConditionText
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onPalletNumberText INFO     
+Inside:  onPalletNumberText
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onPalletNumberText INFO     
+Inside:  onPalletNumberText
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onPalletNumberText INFO     
+
+# PhotoCtrlEventHandler.onPalletNumberText(): # onPalletNumberText
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onPalletNumberText INFO     
+
+# PhotoCtrlEventHandler.onPalletNumberText(): # onPalletNumberText
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onDateListedText INFO     
+inside:  onDateListedText
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onDateListedText INFO     
+inside:  onDateListedText
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onDateListedText INFO     
+date listed things onDateListedText
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onDateListedText INFO     
+date listed things onDateListedText
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onDateListedText INFO     
+inside:  onDateListedText
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onDateListedText INFO     
+inside:  onDateListedText
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onDateListedText INFO     
+date listed things onDateListedText
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onDateListedText INFO     
+date listed things onDateListedText
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentTitleText INFO     
+Inside:  onCurrentTitleText
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentTitleText INFO     
+Inside:  onCurrentTitleText
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentTitleText INFO     
+Inside:  onCurrentTitleText
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentTitleText INFO     
+Inside:  onCurrentTitleText
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onEbayCategoryIdText INFO     
+Inside:  onEbayCategoryIdText
+
+--06-20 15:13:33 log_info display_image.EventsHandlers.MainFrameEventHandler.onEbayCategoryIdText INFO     
+Inside:  onEbayCategoryIdText
+
+--06-20 15:13:33 log_debug display_image.EventsHandlers.MainFrameEventHandler.onEbayCategoryIdText DEBUG    31387 onEbayCategoryIdText
+ARGS_KWARGS_STR:
+{'ARGS': ()
+, 'KWARGS': {}}
+call_fn: C:\Users\Mitchell\Desktop\juan\display_image\EventsHandlers\MainFrameEventHandler.py
+call_ln: 259
+call_func: onLookUpBySkuBtnShopHq
+caller: ["        self.MainFrame.ebayCategoryIdText.SetValue('31387')\n"]
+Exception:
+None
+
+--06-20 15:13:36 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:36 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:36 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:36 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:38 log_info display_image.EventsHandlers.MainFrameEventHandler.onSaveCurrentTextBtn INFO     
+Inside:  onSaveCurrentTextBtn
+
+--06-20 15:13:38 log_info display_image.EventsHandlers.MainFrameEventHandler.onSaveCurrentTextBtn INFO     
+Inside:  onSaveCurrentTextBtn
+
+--06-20 15:13:38 log_info display_image.EventsHandlers.MainFrameEventHandler.onSaveCurrentTextBtn INFO     
+
+# PhotoCtrlEventHandler.onSaveCurrentTextBtn(): # onSaveCurrentTextBtn
+
+--06-20 15:13:38 log_info display_image.EventsHandlers.MainFrameEventHandler.onSaveCurrentTextBtn INFO     
+
+# PhotoCtrlEventHandler.onSaveCurrentTextBtn(): # onSaveCurrentTextBtn
+
+--06-20 15:13:38 log_info display_image.SaveJsonStateFile.writeJson INFO     
+
+# Save.writeJson(): # writeJson
+
+--06-20 15:13:38 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. repair
+. ###
+. str: writeJson
+
+--06-20 15:13:38 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. ebay_category
+. ###
+. Unicode:31387 writeJson
+
+--06-20 15:13:38 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. image_list
+###
+. List:['618-041?DefaultImage=1&$472x472_jpg$', '618-041_01_swatch?DefaultImage=1&$40x40_jpg$', '618-041_02_swatch?DefaultImage=1&$40x40_jpg$', '618-041_00_swatch?DefaultImage=1&$40x40_jpg$', '618-041?DefaultImage=1&$80x80_jpg$', '618-041_00_detail?DefaultImage=1&$80x80_jpg$', '618-041_01_detail?DefaultImage=1&$80x80_jpg$', '618-041_02_detail?DefaultImage=1&$80x80_jpg$', '618-041_03_detail?DefaultImage=1&$80x80_jpg$', '618-041_04_detail?DefaultImage=1&$80x80_jpg$', '618-041_05_detail?DefaultImage=1&$80x80_jpg$', '618-041_06_detail?DefaultImage=1&$80x80_jpg$', '618-041_07_detail?DefaultImage=1&$80x80_jpg$', '618-041_08_detail?DefaultImage=1&$80x80_jpg$', '618-041_09_detail?DefaultImage=1&$80x80_jpg$', '618-041_10_detail?DefaultImage=1&$80x80_jpg$', '618-041_11_detail?DefaultImage=1&$80x80_jpg$', '618-041_12_detail?DefaultImage=1&$80x80_jpg$', '618-041_13_detail?DefaultImage=1&$80x80_jpg$', '618-041?DefaultImage=1&$120x120_jpg$', '618-041?DefaultImage=1&$120x120_jpg$'] writeJson
+
+--06-20 15:13:38 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. sku
+. ###
+. str:1522 writeJson
+
+--06-20 15:13:38 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. Margin $
+. ###
+. str: writeJson
+
+--06-20 15:13:38 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. title
+. ###
+. Unicode:Ttv Invicta Women Angel Starlight Mop Dial Bracelet Watch W/ 3 Slot Box Silvertone Size: Womens writeJson
+
+--06-20 15:13:38 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. Brand
+. ###
+. str:Invicta writeJson
+
+--06-20 15:13:38 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. model_number
+. ###
+. str: writeJson
+
+--06-20 15:13:38 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. jNumber
+. ###
+. Unicode:J416733 writeJson
+
+--06-20 15:13:38 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. Total Cost
+. ###
+. str:$49.84 writeJson
+
+--06-20 15:13:38 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. full_
+. ###
+. str:J416733-00466-01593 writeJson
+
+--06-20 15:13:38 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. Retail
+. ###
+. str: writeJson
+
+--06-20 15:13:38 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. condition
+. ###
+. str:bad movement writeJson
+
+--06-20 15:13:38 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. upc
+. ###
+. str: writeJson
+
+--06-20 15:13:38 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. Qty
+. ###
+. str:1 writeJson
+
+--06-20 15:13:38 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. listerInitials
+. ###
+. Unicode:JM writeJson
+
+--06-20 15:13:38 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. jNumberFolderPath
+. ###
+. Unicode:display_image\jPages\J416733 writeJson
+
+--06-20 15:13:38 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. msrp
+. ###
+. str:$49.84 writeJson
+
+--06-20 15:13:38 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. jnumber
+. ###
+. str:J416733 writeJson
+
+--06-20 15:13:38 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. pallet_number
+. ###
+. str:Watches4 writeJson
+
+--06-20 15:13:38 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. specs
+. ###
+. str:['tt_productRightCol', 'entity.id=618-041', 'entity.categoryId=product', 'entity.name=Invicta Womens Angel Starlight Bracelet Watch Made w/ Swarovski&reg; Elements', 'entity.pageUrl=http://www.shophq.com/product/618-041.aspx?\\u0026familyid=J416733', 'entity.thumbnailUrl=http://images.shophq.com/is/image/ShopHQ/618-041?DefaultImage=1&$120x120_jpg$', 'entity.message=TTV INVICTA WOMEN ANGEL STARLIGHT MOP DIAL BRACELET WATCH W/ JEWLERY BOX', 'entity.value=49.8400', ''] writeJson
+
+--06-20 15:13:38 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. eBay Price
+. ###
+. str: writeJson
+
+--06-20 15:13:38 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. Division
+. ###
+. str:Watches writeJson
+
+--06-20 15:13:38 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. itemSelectedImages
+###
+. Dict:{u'key': u''} writeJson
+
+--06-20 15:13:38 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. condition_notes
+. ###
+. str: writeJson
+
+--06-20 15:13:38 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. retailer_code
+. ###
+. Unicode:1 writeJson
+
+--06-20 15:13:38 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. retailer_code:1
+. ###
+. str: writeJson
+
+--06-20 15:13:38 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. description
+. ###
+. Unicode:
+                
+                <p><strong>Invicta Women's Angel Starlight Bracelet Watch Made w/ Swarovski&reg; Elements</strong></p>
+
+<p><strong>Choices: </strong>Gold-tone, Rose-tone or Silver-tone bezel</p>
+
+<p>Refined elegance and a sleek profile accentuated with a shimmering halo of crystals makes this Angel Starlight by Invicta the perfect gift for your angel!</p>
+                <p>Commencing the design, a round silver-tone stainless steel case houses a reliable Swiss Parts ISA 2331/103 Quartz movement. Resting atop the case, a fixed bezel in your choice of gold-tone, rose-tone or silver-tone features a dazzling array of 24 clear crystal accents. A bezel coordinating coin edged push/pull crown puts time at your fingertips.</p>
+
+<p>Adding another touch of sophistication, a round white mother-of-pearl dial rests below a protective Flame Fusion crystal. Bezel matching Roman numerals appear at 12:00, 4:00 and 8:00, and coordinating Tritnite accented triangular index markers display at all remaining hour positions except 3:00. The Invicta name and logo settle in below 12:00 while a date window at 3:00 keeps you on schedule. Hour, minute and seconds hands in a bezel coordinating color keep the time. Tritnite accents adorn the hour and minute hands.</p>
+
+<p>Finishing your look in classic taste, a 16mm three-link bracelet executed in a combination of silver-tone outer links and bezel matching inner links tapers in width to 14mm. The bracelet fastens comfortably to the wrist with a dual deployant clasp. Treat yourself or someone you love to the gift of time today with the stunning Invicta Angel Starlight!</p>
+
+<p>Your Invicta Angel Starlight comes shipped to you in a stunning three-slot collector's watch box.</p>uu
+
+<p><li><strong>Bracelet: </strong>Stainless Steel
+<li><strong>Movement: </strong>Swiss Parts ISA 2331/103 Quartz 
+<li><strong>Crystal: </strong>Flame Fusion
+<li><strong>Crown: </strong>Push/Pull
+<li><strong>Clasp: </strong>Dual Deployant
+<li><strong>Bracelet Measurements: </strong>8-1/2" L x 16mm W
+<li><strong>Case Measurements: </strong>33mm
+<li><strong>Case Thickness: </strong>9.5mm
+<li><strong>Water Resistance: </strong>10 ATM - 100 meters - 330 feet
+<li><strong>Model Numbers: </strong>
+<br>Gold-tone: 12855-IPM121 
+<br>Rose-tone: 12856-IPM121
+<br>Silver-tone: 12854-IPM121
+<li><strong>UPC: </strong>
+<br>Gold-tone: 886678128556 
+<br>Rose-tone: 886678128563 
+<br>Silver-tone: 886678128549  
+
+<li> writeJson
+
+--06-20 15:13:38 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. palletNumber
+. ###
+. Unicode:Watches4 writeJson
+
+--06-20 15:13:38 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. manifested
+. ###
+. str:X writeJson
+
+--06-20 15:13:38 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. Total Retail
+. ###
+. str: writeJson
+
+--06-20 15:13:38 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. box
+. ###
+. str:no movement 1 writeJson
+
+--06-20 15:13:38 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. date_listed
+. ###
+. str: writeJson
+
+--06-20 15:13:38 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. Margin %
+. ###
+. str: writeJson
+
+--06-20 15:13:38 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. band_size
+. ###
+. str:6.25 writeJson
+
+--06-20 15:13:38 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. *Category
+. ###
+. Unicode:31387 writeJson
+
+--06-20 15:13:38 log_info display_image.SaveJsonStateFile.writeJson INFO     
+save:{'repair': '', u'ebay_category': u'31387', 'image_list': ['618-041?DefaultImage=1&$472x472_jpg$', '618-041_01_swatch?DefaultImage=1&$40x40_jpg$', '618-041_02_swatch?DefaultImage=1&$40x40_jpg$', '618-041_00_swatch?DefaultImage=1&$40x40_jpg$', '618-041?DefaultImage=1&$80x80_jpg$', '618-041_00_detail?DefaultImage=1&$80x80_jpg$', '618-041_01_detail?DefaultImage=1&$80x80_jpg$', '618-041_02_detail?DefaultImage=1&$80x80_jpg$', '618-041_03_detail?DefaultImage=1&$80x80_jpg$', '618-041_04_detail?DefaultImage=1&$80x80_jpg$', '618-041_05_detail?DefaultImage=1&$80x80_jpg$', '618-041_06_detail?DefaultImage=1&$80x80_jpg$', '618-041_07_detail?DefaultImage=1&$80x80_jpg$', '618-041_08_detail?DefaultImage=1&$80x80_jpg$', '618-041_09_detail?DefaultImage=1&$80x80_jpg$', '618-041_10_detail?DefaultImage=1&$80x80_jpg$', '618-041_11_detail?DefaultImage=1&$80x80_jpg$', '618-041_12_detail?DefaultImage=1&$80x80_jpg$', '618-041_13_detail?DefaultImage=1&$80x80_jpg$', '618-041?DefaultImage=1&$120x120_jpg$', '618-041?DefaultImage=1&$120x120_jpg$'], 'sku': '1522', 'Margin $': '', 'title': u'Ttv Invicta Women Angel Starlight Mop Dial Bracelet Watch W/ 3 Slot Box Silvertone Size: Womens', 'Brand': 'Invicta', 'model_number': '', 'jNumber': u'J416733', 'Total Cost': '$49.84', 'full_': 'J416733-00466-01593', 'Retail': '', 'condition': 'bad movement', 'upc': '', 'Qty': '1', 'listerInitials': u'JM', 'jNumberFolderPath': u'display_image\\jPages\\J416733', 'msrp': '$49.84', 'jnumber': 'J416733', 'pallet_number': 'Watches4', 'specs': "['tt_productRightCol', 'entity.id=618-041', 'entity.categoryId=product', 'entity.name=Invicta Womens Angel Starlight Bracelet Watch Made w/ Swarovski&reg; Elements', 'entity.pageUrl=http://www.shophq.com/product/618-041.aspx?\\\\u0026familyid=J416733', 'entity.thumbnailUrl=http://images.shophq.com/is/image/ShopHQ/618-041?DefaultImage=1&$120x120_jpg$', 'entity.message=TTV INVICTA WOMEN ANGEL STARLIGHT MOP DIAL BRACELET WATCH W/ JEWLERY BOX', 'entity.value=49.8400', '']", 'eBay Price': '', 'Division': 'Watches', 'itemSelectedImages': {u'key': u''}, 'condition_notes': '', 'retailer_code': u'1', 'retailer_code:1': '', 'description': u"\n                \n                <p><strong>Invicta Women's Angel Starlight Bracelet Watch Made w/ Swarovski&reg; Elements</strong></p>\n\n<p><strong>Choices: </strong>Gold-tone Rose-tone or Silver-tone bezel</p>\n\n<p>Refined elegance and a sleek profile accentuated with a shimmering halo of crystals makes this Angel Starlight by Invicta the perfect gift for your angel!</p>\n                <p>Commencing the design a round silver-tone stainless steel case houses a reliable Swiss Parts ISA 2331/103 Quartz movement. Resting atop the case a fixed bezel in your choice of gold-tone rose-tone or silver-tone features a dazzling array of 24 clear crystal accents. A bezel coordinating coin edged push/pull crown puts time at your fingertips.</p>\n\n<p>Adding another touch of sophistication a round white mother-of-pearl dial rests below a protective Flame Fusion crystal. Bezel matching Roman numerals appear at 12:00 4:00 and 8:00 and coordinating Tritnite accented triangular index markers display at all remaining hour positions except 3:00. The Invicta name and logo settle in below 12:00 while a date window at 3:00 keeps you on schedule. Hour minute and seconds hands in a bezel coordinating color keep the time. Tritnite accents adorn the hour and minute hands.</p>\n\n<p>Finishing your look in classic taste a 16mm three-link bracelet executed in a combination of silver-tone outer links and bezel matching inner links tapers in width to 14mm. The bracelet fastens comfortably to the wrist with a dual deployant clasp. Treat yourself or someone you love to the gift of time today with the stunning Invicta Angel Starlight!</p>\n\n<p>Your Invicta Angel Starlight comes shipped to you in a stunning three-slot collector's watch box.</p>uu\n\n<p><li><strong>Bracelet: </strong>Stainless Steel\n<li><strong>Movement: </strong>Swiss Parts ISA 2331/103 Quartz \n<li><strong>Crystal: </strong>Flame Fusion\n<li><strong>Crown: </strong>Push/Pull\n<li><strong>Clasp: </strong>Dual Deployant\n<li><strong>Bracelet Measurements: </strong>8-1/2 L x 16mm W\n<li><strong>Case Measurements: </strong>33mm\n<li><strong>Case Thickness: </strong>9.5mm\n<li><strong>Water Resistance: </strong>10 ATM - 100 meters - 330 feet\n<li><strong>Model Numbers: </strong>\n<br>Gold-tone: 12855-IPM121 \n<br>Rose-tone: 12856-IPM121\n<br>Silver-tone: 12854-IPM121\n<li><strong>UPC: </strong>\n<br>Gold-tone: 886678128556 \n<br>Rose-tone: 886678128563 \n<br>Silver-tone: 886678128549  \n\n<li>", 'palletNumber': u'Watches4', 'manifested': 'X', 'Total Retail': '', 'box': 'no movement 1', 'date_listed': '', 'Margin %': '', 'band_size': '6.25', u'*Category': u'31387'} writeJson
+
+--06-20 15:13:38 log_info display_image.EventsHandlers.MainFrameEventHandler.onSaveCurrentTextBtn INFO     
+Called Save(self.MainFrame) onSaveCurrentTextBtn
+
+--06-20 15:13:38 log_info display_image.EventsHandlers.MainFrameEventHandler.onSaveCurrentTextBtn INFO     
+Called Save(self.MainFrame) onSaveCurrentTextBtn
+
+--06-20 15:13:39 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:39 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:40 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:40 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:40 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:40 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:40 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:40 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:41 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:41 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:42 log_info display_image.EventsHandlers.MainFrameEventHandler.onSaveCurrentTextBtn INFO     
+Inside:  onSaveCurrentTextBtn
+
+--06-20 15:13:42 log_info display_image.EventsHandlers.MainFrameEventHandler.onSaveCurrentTextBtn INFO     
+Inside:  onSaveCurrentTextBtn
+
+--06-20 15:13:42 log_info display_image.EventsHandlers.MainFrameEventHandler.onSaveCurrentTextBtn INFO     
+
+# PhotoCtrlEventHandler.onSaveCurrentTextBtn(): # onSaveCurrentTextBtn
+
+--06-20 15:13:42 log_info display_image.EventsHandlers.MainFrameEventHandler.onSaveCurrentTextBtn INFO     
+
+# PhotoCtrlEventHandler.onSaveCurrentTextBtn(): # onSaveCurrentTextBtn
+
+--06-20 15:13:42 log_info display_image.SaveJsonStateFile.writeJson INFO     
+
+# Save.writeJson(): # writeJson
+
+--06-20 15:13:42 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. repair
+. ###
+. str: writeJson
+
+--06-20 15:13:42 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. ebay_category
+. ###
+. Unicode:31387 writeJson
+
+--06-20 15:13:42 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. image_list
+###
+. List:['618-041?DefaultImage=1&$472x472_jpg$', '618-041_01_swatch?DefaultImage=1&$40x40_jpg$', '618-041_02_swatch?DefaultImage=1&$40x40_jpg$', '618-041_00_swatch?DefaultImage=1&$40x40_jpg$', '618-041?DefaultImage=1&$80x80_jpg$', '618-041_00_detail?DefaultImage=1&$80x80_jpg$', '618-041_01_detail?DefaultImage=1&$80x80_jpg$', '618-041_02_detail?DefaultImage=1&$80x80_jpg$', '618-041_03_detail?DefaultImage=1&$80x80_jpg$', '618-041_04_detail?DefaultImage=1&$80x80_jpg$', '618-041_05_detail?DefaultImage=1&$80x80_jpg$', '618-041_06_detail?DefaultImage=1&$80x80_jpg$', '618-041_07_detail?DefaultImage=1&$80x80_jpg$', '618-041_08_detail?DefaultImage=1&$80x80_jpg$', '618-041_09_detail?DefaultImage=1&$80x80_jpg$', '618-041_10_detail?DefaultImage=1&$80x80_jpg$', '618-041_11_detail?DefaultImage=1&$80x80_jpg$', '618-041_12_detail?DefaultImage=1&$80x80_jpg$', '618-041_13_detail?DefaultImage=1&$80x80_jpg$', '618-041?DefaultImage=1&$120x120_jpg$', '618-041?DefaultImage=1&$120x120_jpg$'] writeJson
+
+--06-20 15:13:42 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. sku
+. ###
+. str:1522 writeJson
+
+--06-20 15:13:42 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. Margin $
+. ###
+. str: writeJson
+
+--06-20 15:13:42 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. title
+. ###
+. Unicode:Ttv Invicta Women Angel Starlight Mop Dial Bracelet Watch W/ 3 Slot Box Silvertone Size: Womens writeJson
+
+--06-20 15:13:42 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. Brand
+. ###
+. str:Invicta writeJson
+
+--06-20 15:13:42 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. model_number
+. ###
+. str: writeJson
+
+--06-20 15:13:42 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. jNumber
+. ###
+. Unicode:J416733 writeJson
+
+--06-20 15:13:42 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. Total Cost
+. ###
+. str:$49.84 writeJson
+
+--06-20 15:13:42 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. full_
+. ###
+. str:J416733-00466-01593 writeJson
+
+--06-20 15:13:42 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. Retail
+. ###
+. str: writeJson
+
+--06-20 15:13:42 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. condition
+. ###
+. str:bad movement writeJson
+
+--06-20 15:13:42 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. upc
+. ###
+. str: writeJson
+
+--06-20 15:13:42 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. Qty
+. ###
+. str:1 writeJson
+
+--06-20 15:13:42 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. listerInitials
+. ###
+. Unicode:JM writeJson
+
+--06-20 15:13:42 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. jNumberFolderPath
+. ###
+. Unicode:display_image\jPages\J416733 writeJson
+
+--06-20 15:13:42 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. msrp
+. ###
+. str:$49.84 writeJson
+
+--06-20 15:13:42 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. jnumber
+. ###
+. str:J416733 writeJson
+
+--06-20 15:13:42 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. pallet_number
+. ###
+. str:Watches4 writeJson
+
+--06-20 15:13:42 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. specs
+. ###
+. str:['tt_productRightCol', 'entity.id=618-041', 'entity.categoryId=product', 'entity.name=Invicta Womens Angel Starlight Bracelet Watch Made w/ Swarovski&reg; Elements', 'entity.pageUrl=http://www.shophq.com/product/618-041.aspx?\\u0026familyid=J416733', 'entity.thumbnailUrl=http://images.shophq.com/is/image/ShopHQ/618-041?DefaultImage=1&$120x120_jpg$', 'entity.message=TTV INVICTA WOMEN ANGEL STARLIGHT MOP DIAL BRACELET WATCH W/ JEWLERY BOX', 'entity.value=49.8400', ''] writeJson
+
+--06-20 15:13:42 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. eBay Price
+. ###
+. str: writeJson
+
+--06-20 15:13:42 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. Division
+. ###
+. str:Watches writeJson
+
+--06-20 15:13:42 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. itemSelectedImages
+###
+. Dict:{u'key': u''} writeJson
+
+--06-20 15:13:42 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. condition_notes
+. ###
+. str: writeJson
+
+--06-20 15:13:42 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. retailer_code
+. ###
+. Unicode:1 writeJson
+
+--06-20 15:13:42 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. retailer_code:1
+. ###
+. str: writeJson
+
+--06-20 15:13:42 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. description
+. ###
+. Unicode:
+                
+                <p><strong>Invicta Women's Angel Starlight Bracelet Watch Made w/ Swarovski&reg; Elements</strong></p>
+
+<p><strong>Choices: </strong>Gold-tone, Rose-tone or Silver-tone bezel</p>
+
+<p>Refined elegance and a sleek profile accentuated with a shimmering halo of crystals makes this Angel Starlight by Invicta the perfect gift for your angel!</p>
+                <p>Commencing the design, a round silver-tone stainless steel case houses a reliable Swiss Parts ISA 2331/103 Quartz movement. Resting atop the case, a fixed bezel in your choice of gold-tone, rose-tone or silver-tone features a dazzling array of 24 clear crystal accents. A bezel coordinating coin edged push/pull crown puts time at your fingertips.</p>
+
+<p>Adding another touch of sophistication, a round white mother-of-pearl dial rests below a protective Flame Fusion crystal. Bezel matching Roman numerals appear at 12:00, 4:00 and 8:00, and coordinating Tritnite accented triangular index markers display at all remaining hour positions except 3:00. The Invicta name and logo settle in below 12:00 while a date window at 3:00 keeps you on schedule. Hour, minute and seconds hands in a bezel coordinating color keep the time. Tritnite accents adorn the hour and minute hands.</p>
+
+<p>Finishing your look in classic taste, a 16mm three-link bracelet executed in a combination of silver-tone outer links and bezel matching inner links tapers in width to 14mm. The bracelet fastens comfortably to the wrist with a dual deployant clasp. Treat yourself or someone you love to the gift of time today with the stunning Invicta Angel Starlight!</p>
+
+<p>Your Invicta Angel Starlight comes shipped to you in a stunning three-slot collector's watch box.</p>uuuuuuu
+
+<p><li><strong>Bracelet: </strong>Stainless Steel
+<li><strong>Movement: </strong>Swiss Parts ISA 2331/103 Quartz 
+<li><strong>Crystal: </strong>Flame Fusion
+<li><strong>Crown: </strong>Push/Pull
+<li><strong>Clasp: </strong>Dual Deployant
+<li><strong>Bracelet Measurements: </strong>8-1/2" L x 16mm W
+<li><strong>Case Measurements: </strong>33mm
+<li><strong>Case Thickness: </strong>9.5mm
+<li><strong>Water Resistance: </strong>10 ATM - 100 meters - 330 feet
+<li><strong>Model Numbers: </strong>
+<br>Gold-tone: 12855-IPM121 
+<br>Rose-tone: 12856-IPM121
+<br>Silver-tone: 12854-IPM121
+<li><strong>UPC: </strong>
+<br>Gold-tone: 886678128556 
+<br>Rose-tone: 886678128563 
+<br>Silver-tone: 886678128549  
+
+<li> writeJson
+
+--06-20 15:13:42 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. palletNumber
+. ###
+. Unicode:Watches4 writeJson
+
+--06-20 15:13:42 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. manifested
+. ###
+. str:X writeJson
+
+--06-20 15:13:42 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. Total Retail
+. ###
+. str: writeJson
+
+--06-20 15:13:42 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. box
+. ###
+. str:no movement 1 writeJson
+
+--06-20 15:13:42 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. date_listed
+. ###
+. str: writeJson
+
+--06-20 15:13:42 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. Margin %
+. ###
+. str: writeJson
+
+--06-20 15:13:42 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. band_size
+. ###
+. str:6.25 writeJson
+
+--06-20 15:13:42 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. *Category
+. ###
+. Unicode:31387 writeJson
+
+--06-20 15:13:42 log_info display_image.SaveJsonStateFile.writeJson INFO     
+save:{'repair': '', u'ebay_category': u'31387', 'image_list': ['618-041?DefaultImage=1&$472x472_jpg$', '618-041_01_swatch?DefaultImage=1&$40x40_jpg$', '618-041_02_swatch?DefaultImage=1&$40x40_jpg$', '618-041_00_swatch?DefaultImage=1&$40x40_jpg$', '618-041?DefaultImage=1&$80x80_jpg$', '618-041_00_detail?DefaultImage=1&$80x80_jpg$', '618-041_01_detail?DefaultImage=1&$80x80_jpg$', '618-041_02_detail?DefaultImage=1&$80x80_jpg$', '618-041_03_detail?DefaultImage=1&$80x80_jpg$', '618-041_04_detail?DefaultImage=1&$80x80_jpg$', '618-041_05_detail?DefaultImage=1&$80x80_jpg$', '618-041_06_detail?DefaultImage=1&$80x80_jpg$', '618-041_07_detail?DefaultImage=1&$80x80_jpg$', '618-041_08_detail?DefaultImage=1&$80x80_jpg$', '618-041_09_detail?DefaultImage=1&$80x80_jpg$', '618-041_10_detail?DefaultImage=1&$80x80_jpg$', '618-041_11_detail?DefaultImage=1&$80x80_jpg$', '618-041_12_detail?DefaultImage=1&$80x80_jpg$', '618-041_13_detail?DefaultImage=1&$80x80_jpg$', '618-041?DefaultImage=1&$120x120_jpg$', '618-041?DefaultImage=1&$120x120_jpg$'], 'sku': '1522', 'Margin $': '', 'title': u'Ttv Invicta Women Angel Starlight Mop Dial Bracelet Watch W/ 3 Slot Box Silvertone Size: Womens', 'Brand': 'Invicta', 'model_number': '', 'jNumber': u'J416733', 'Total Cost': '$49.84', 'full_': 'J416733-00466-01593', 'Retail': '', 'condition': 'bad movement', 'upc': '', 'Qty': '1', 'listerInitials': u'JM', 'jNumberFolderPath': u'display_image\\jPages\\J416733', 'msrp': '$49.84', 'jnumber': 'J416733', 'pallet_number': 'Watches4', 'specs': "['tt_productRightCol', 'entity.id=618-041', 'entity.categoryId=product', 'entity.name=Invicta Womens Angel Starlight Bracelet Watch Made w/ Swarovski&reg; Elements', 'entity.pageUrl=http://www.shophq.com/product/618-041.aspx?\\\\u0026familyid=J416733', 'entity.thumbnailUrl=http://images.shophq.com/is/image/ShopHQ/618-041?DefaultImage=1&$120x120_jpg$', 'entity.message=TTV INVICTA WOMEN ANGEL STARLIGHT MOP DIAL BRACELET WATCH W/ JEWLERY BOX', 'entity.value=49.8400', '']", 'eBay Price': '', 'Division': 'Watches', 'itemSelectedImages': {u'key': u''}, 'condition_notes': '', 'retailer_code': u'1', 'retailer_code:1': '', 'description': u"\n                \n                <p><strong>Invicta Women's Angel Starlight Bracelet Watch Made w/ Swarovski&reg; Elements</strong></p>\n\n<p><strong>Choices: </strong>Gold-tone Rose-tone or Silver-tone bezel</p>\n\n<p>Refined elegance and a sleek profile accentuated with a shimmering halo of crystals makes this Angel Starlight by Invicta the perfect gift for your angel!</p>\n                <p>Commencing the design a round silver-tone stainless steel case houses a reliable Swiss Parts ISA 2331/103 Quartz movement. Resting atop the case a fixed bezel in your choice of gold-tone rose-tone or silver-tone features a dazzling array of 24 clear crystal accents. A bezel coordinating coin edged push/pull crown puts time at your fingertips.</p>\n\n<p>Adding another touch of sophistication a round white mother-of-pearl dial rests below a protective Flame Fusion crystal. Bezel matching Roman numerals appear at 12:00 4:00 and 8:00 and coordinating Tritnite accented triangular index markers display at all remaining hour positions except 3:00. The Invicta name and logo settle in below 12:00 while a date window at 3:00 keeps you on schedule. Hour minute and seconds hands in a bezel coordinating color keep the time. Tritnite accents adorn the hour and minute hands.</p>\n\n<p>Finishing your look in classic taste a 16mm three-link bracelet executed in a combination of silver-tone outer links and bezel matching inner links tapers in width to 14mm. The bracelet fastens comfortably to the wrist with a dual deployant clasp. Treat yourself or someone you love to the gift of time today with the stunning Invicta Angel Starlight!</p>\n\n<p>Your Invicta Angel Starlight comes shipped to you in a stunning three-slot collector's watch box.</p>uuuuuuu\n\n<p><li><strong>Bracelet: </strong>Stainless Steel\n<li><strong>Movement: </strong>Swiss Parts ISA 2331/103 Quartz \n<li><strong>Crystal: </strong>Flame Fusion\n<li><strong>Crown: </strong>Push/Pull\n<li><strong>Clasp: </strong>Dual Deployant\n<li><strong>Bracelet Measurements: </strong>8-1/2 L x 16mm W\n<li><strong>Case Measurements: </strong>33mm\n<li><strong>Case Thickness: </strong>9.5mm\n<li><strong>Water Resistance: </strong>10 ATM - 100 meters - 330 feet\n<li><strong>Model Numbers: </strong>\n<br>Gold-tone: 12855-IPM121 \n<br>Rose-tone: 12856-IPM121\n<br>Silver-tone: 12854-IPM121\n<li><strong>UPC: </strong>\n<br>Gold-tone: 886678128556 \n<br>Rose-tone: 886678128563 \n<br>Silver-tone: 886678128549  \n\n<li>", 'palletNumber': u'Watches4', 'manifested': 'X', 'Total Retail': '', 'box': 'no movement 1', 'date_listed': '', 'Margin %': '', 'band_size': '6.25', u'*Category': u'31387'} writeJson
+
+--06-20 15:13:42 log_info display_image.EventsHandlers.MainFrameEventHandler.onSaveCurrentTextBtn INFO     
+Called Save(self.MainFrame) onSaveCurrentTextBtn
+
+--06-20 15:13:42 log_info display_image.EventsHandlers.MainFrameEventHandler.onSaveCurrentTextBtn INFO     
+Called Save(self.MainFrame) onSaveCurrentTextBtn
+
+--06-20 15:13:42 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:42 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:43 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:43 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:43 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:43 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:43 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:43 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:43 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:43 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:44 log_info display_image.EventsHandlers.MainFrameEventHandler.onSaveCurrentTextBtn INFO     
+Inside:  onSaveCurrentTextBtn
+
+--06-20 15:13:44 log_info display_image.EventsHandlers.MainFrameEventHandler.onSaveCurrentTextBtn INFO     
+Inside:  onSaveCurrentTextBtn
+
+--06-20 15:13:44 log_info display_image.EventsHandlers.MainFrameEventHandler.onSaveCurrentTextBtn INFO     
+
+# PhotoCtrlEventHandler.onSaveCurrentTextBtn(): # onSaveCurrentTextBtn
+
+--06-20 15:13:44 log_info display_image.EventsHandlers.MainFrameEventHandler.onSaveCurrentTextBtn INFO     
+
+# PhotoCtrlEventHandler.onSaveCurrentTextBtn(): # onSaveCurrentTextBtn
+
+--06-20 15:13:44 log_info display_image.SaveJsonStateFile.writeJson INFO     
+
+# Save.writeJson(): # writeJson
+
+--06-20 15:13:44 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. repair
+. ###
+. str: writeJson
+
+--06-20 15:13:44 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. ebay_category
+. ###
+. Unicode:31387 writeJson
+
+--06-20 15:13:44 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. image_list
+###
+. List:['618-041?DefaultImage=1&$472x472_jpg$', '618-041_01_swatch?DefaultImage=1&$40x40_jpg$', '618-041_02_swatch?DefaultImage=1&$40x40_jpg$', '618-041_00_swatch?DefaultImage=1&$40x40_jpg$', '618-041?DefaultImage=1&$80x80_jpg$', '618-041_00_detail?DefaultImage=1&$80x80_jpg$', '618-041_01_detail?DefaultImage=1&$80x80_jpg$', '618-041_02_detail?DefaultImage=1&$80x80_jpg$', '618-041_03_detail?DefaultImage=1&$80x80_jpg$', '618-041_04_detail?DefaultImage=1&$80x80_jpg$', '618-041_05_detail?DefaultImage=1&$80x80_jpg$', '618-041_06_detail?DefaultImage=1&$80x80_jpg$', '618-041_07_detail?DefaultImage=1&$80x80_jpg$', '618-041_08_detail?DefaultImage=1&$80x80_jpg$', '618-041_09_detail?DefaultImage=1&$80x80_jpg$', '618-041_10_detail?DefaultImage=1&$80x80_jpg$', '618-041_11_detail?DefaultImage=1&$80x80_jpg$', '618-041_12_detail?DefaultImage=1&$80x80_jpg$', '618-041_13_detail?DefaultImage=1&$80x80_jpg$', '618-041?DefaultImage=1&$120x120_jpg$', '618-041?DefaultImage=1&$120x120_jpg$'] writeJson
+
+--06-20 15:13:44 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. sku
+. ###
+. str:1522 writeJson
+
+--06-20 15:13:44 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. Margin $
+. ###
+. str: writeJson
+
+--06-20 15:13:44 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. title
+. ###
+. Unicode:Ttv Invicta Women Angel Starlight Mop Dial Bracelet Watch W/ 3 Slot Box Silvertone Size: Womens writeJson
+
+--06-20 15:13:44 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. Brand
+. ###
+. str:Invicta writeJson
+
+--06-20 15:13:44 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. model_number
+. ###
+. str: writeJson
+
+--06-20 15:13:44 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. jNumber
+. ###
+. Unicode:J416733 writeJson
+
+--06-20 15:13:44 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. Total Cost
+. ###
+. str:$49.84 writeJson
+
+--06-20 15:13:44 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. full_
+. ###
+. str:J416733-00466-01593 writeJson
+
+--06-20 15:13:44 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. Retail
+. ###
+. str: writeJson
+
+--06-20 15:13:44 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. condition
+. ###
+. str:bad movement writeJson
+
+--06-20 15:13:44 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. upc
+. ###
+. str: writeJson
+
+--06-20 15:13:44 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. Qty
+. ###
+. str:1 writeJson
+
+--06-20 15:13:44 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. listerInitials
+. ###
+. Unicode:JM writeJson
+
+--06-20 15:13:44 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. jNumberFolderPath
+. ###
+. Unicode:display_image\jPages\J416733 writeJson
+
+--06-20 15:13:44 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. msrp
+. ###
+. str:$49.84 writeJson
+
+--06-20 15:13:44 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. jnumber
+. ###
+. str:J416733 writeJson
+
+--06-20 15:13:44 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. pallet_number
+. ###
+. str:Watches4 writeJson
+
+--06-20 15:13:44 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. specs
+. ###
+. str:['tt_productRightCol', 'entity.id=618-041', 'entity.categoryId=product', 'entity.name=Invicta Womens Angel Starlight Bracelet Watch Made w/ Swarovski&reg; Elements', 'entity.pageUrl=http://www.shophq.com/product/618-041.aspx?\\u0026familyid=J416733', 'entity.thumbnailUrl=http://images.shophq.com/is/image/ShopHQ/618-041?DefaultImage=1&$120x120_jpg$', 'entity.message=TTV INVICTA WOMEN ANGEL STARLIGHT MOP DIAL BRACELET WATCH W/ JEWLERY BOX', 'entity.value=49.8400', ''] writeJson
+
+--06-20 15:13:44 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. eBay Price
+. ###
+. str: writeJson
+
+--06-20 15:13:44 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. Division
+. ###
+. str:Watches writeJson
+
+--06-20 15:13:44 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. itemSelectedImages
+###
+. Dict:{u'key': u''} writeJson
+
+--06-20 15:13:44 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. condition_notes
+. ###
+. str: writeJson
+
+--06-20 15:13:44 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. retailer_code
+. ###
+. Unicode:1 writeJson
+
+--06-20 15:13:44 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. retailer_code:1
+. ###
+. str: writeJson
+
+--06-20 15:13:44 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. description
+. ###
+. Unicode:
+                
+                <p><strong>Invicta Women's Angel Starlight Bracelet Watch Made w/ Swarovski&reg; Elements</strong></p>
+
+<p><strong>Choices: </strong>Gold-tone, Rose-tone or Silver-tone bezel</p>
+
+<p>Refined elegance and a sleek profile accentuated with a shimmering halo of crystals makes this Angel Starlight by Invicta the perfect gift for your angel!</p>
+                <p>Commencing the design, a round silver-tone stainless steel case houses a reliable Swiss Parts ISA 2331/103 Quartz movement. Resting atop the case, a fixed bezel in your choice of gold-tone, rose-tone or silver-tone features a dazzling array of 24 clear crystal accents. A bezel coordinating coin edged push/pull crown puts time at your fingertips.</p>
+
+<p>Adding another touch of sophistication, a round white mother-of-pearl dial rests below a protective Flame Fusion crystal. Bezel matching Roman numerals appear at 12:00, 4:00 and 8:00, and coordinating Tritnite accented triangular index markers display at all remaining hour positions except 3:00. The Invicta name and logo settle in below 12:00 while a date window at 3:00 keeps you on schedule. Hour, minute and seconds hands in a bezel coordinating color keep the time. Tritnite accents adorn the hour and minute hands.</p>
+
+<p>Finishing your look in classic taste, a 16mm three-link bracelet executed in a combination of silver-tone outer links and bezel matching inner links tapers in width to 14mm. The bracelet fastens comfortably to the wrist with a dual deployant clasp. Treat yourself or someone you love to the gift of time today with the stunning Invicta Angel Starlight!</p>
+
+<p>Your Invicta Angel Starlight comes shipped to you in a stunning three-slot collector's watch box.</p>uuuuuuu
+uuuuu
+<p><li><strong>Bracelet: </strong>Stainless Steel
+<li><strong>Movement: </strong>Swiss Parts ISA 2331/103 Quartz 
+<li><strong>Crystal: </strong>Flame Fusion
+<li><strong>Crown: </strong>Push/Pull
+<li><strong>Clasp: </strong>Dual Deployant
+<li><strong>Bracelet Measurements: </strong>8-1/2" L x 16mm W
+<li><strong>Case Measurements: </strong>33mm
+<li><strong>Case Thickness: </strong>9.5mm
+<li><strong>Water Resistance: </strong>10 ATM - 100 meters - 330 feet
+<li><strong>Model Numbers: </strong>
+<br>Gold-tone: 12855-IPM121 
+<br>Rose-tone: 12856-IPM121
+<br>Silver-tone: 12854-IPM121
+<li><strong>UPC: </strong>
+<br>Gold-tone: 886678128556 
+<br>Rose-tone: 886678128563 
+<br>Silver-tone: 886678128549  
+
+<li> writeJson
+
+--06-20 15:13:44 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. palletNumber
+. ###
+. Unicode:Watches4 writeJson
+
+--06-20 15:13:44 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. manifested
+. ###
+. str:X writeJson
+
+--06-20 15:13:44 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. Total Retail
+. ###
+. str: writeJson
+
+--06-20 15:13:44 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. box
+. ###
+. str:no movement 1 writeJson
+
+--06-20 15:13:44 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. date_listed
+. ###
+. str: writeJson
+
+--06-20 15:13:44 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. Margin %
+. ###
+. str: writeJson
+
+--06-20 15:13:44 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. band_size
+. ###
+. str:6.25 writeJson
+
+--06-20 15:13:44 log_info display_image.SaveJsonStateFile.writeJson INFO     
+. ###
+. *Category
+. ###
+. Unicode:31387 writeJson
+
+--06-20 15:13:44 log_info display_image.SaveJsonStateFile.writeJson INFO     
+save:{'repair': '', u'ebay_category': u'31387', 'image_list': ['618-041?DefaultImage=1&$472x472_jpg$', '618-041_01_swatch?DefaultImage=1&$40x40_jpg$', '618-041_02_swatch?DefaultImage=1&$40x40_jpg$', '618-041_00_swatch?DefaultImage=1&$40x40_jpg$', '618-041?DefaultImage=1&$80x80_jpg$', '618-041_00_detail?DefaultImage=1&$80x80_jpg$', '618-041_01_detail?DefaultImage=1&$80x80_jpg$', '618-041_02_detail?DefaultImage=1&$80x80_jpg$', '618-041_03_detail?DefaultImage=1&$80x80_jpg$', '618-041_04_detail?DefaultImage=1&$80x80_jpg$', '618-041_05_detail?DefaultImage=1&$80x80_jpg$', '618-041_06_detail?DefaultImage=1&$80x80_jpg$', '618-041_07_detail?DefaultImage=1&$80x80_jpg$', '618-041_08_detail?DefaultImage=1&$80x80_jpg$', '618-041_09_detail?DefaultImage=1&$80x80_jpg$', '618-041_10_detail?DefaultImage=1&$80x80_jpg$', '618-041_11_detail?DefaultImage=1&$80x80_jpg$', '618-041_12_detail?DefaultImage=1&$80x80_jpg$', '618-041_13_detail?DefaultImage=1&$80x80_jpg$', '618-041?DefaultImage=1&$120x120_jpg$', '618-041?DefaultImage=1&$120x120_jpg$'], 'sku': '1522', 'Margin $': '', 'title': u'Ttv Invicta Women Angel Starlight Mop Dial Bracelet Watch W/ 3 Slot Box Silvertone Size: Womens', 'Brand': 'Invicta', 'model_number': '', 'jNumber': u'J416733', 'Total Cost': '$49.84', 'full_': 'J416733-00466-01593', 'Retail': '', 'condition': 'bad movement', 'upc': '', 'Qty': '1', 'listerInitials': u'JM', 'jNumberFolderPath': u'display_image\\jPages\\J416733', 'msrp': '$49.84', 'jnumber': 'J416733', 'pallet_number': 'Watches4', 'specs': "['tt_productRightCol', 'entity.id=618-041', 'entity.categoryId=product', 'entity.name=Invicta Womens Angel Starlight Bracelet Watch Made w/ Swarovski&reg; Elements', 'entity.pageUrl=http://www.shophq.com/product/618-041.aspx?\\\\u0026familyid=J416733', 'entity.thumbnailUrl=http://images.shophq.com/is/image/ShopHQ/618-041?DefaultImage=1&$120x120_jpg$', 'entity.message=TTV INVICTA WOMEN ANGEL STARLIGHT MOP DIAL BRACELET WATCH W/ JEWLERY BOX', 'entity.value=49.8400', '']", 'eBay Price': '', 'Division': 'Watches', 'itemSelectedImages': {u'key': u''}, 'condition_notes': '', 'retailer_code': u'1', 'retailer_code:1': '', 'description': u"\n                \n                <p><strong>Invicta Women's Angel Starlight Bracelet Watch Made w/ Swarovski&reg; Elements</strong></p>\n\n<p><strong>Choices: </strong>Gold-tone Rose-tone or Silver-tone bezel</p>\n\n<p>Refined elegance and a sleek profile accentuated with a shimmering halo of crystals makes this Angel Starlight by Invicta the perfect gift for your angel!</p>\n                <p>Commencing the design a round silver-tone stainless steel case houses a reliable Swiss Parts ISA 2331/103 Quartz movement. Resting atop the case a fixed bezel in your choice of gold-tone rose-tone or silver-tone features a dazzling array of 24 clear crystal accents. A bezel coordinating coin edged push/pull crown puts time at your fingertips.</p>\n\n<p>Adding another touch of sophistication a round white mother-of-pearl dial rests below a protective Flame Fusion crystal. Bezel matching Roman numerals appear at 12:00 4:00 and 8:00 and coordinating Tritnite accented triangular index markers display at all remaining hour positions except 3:00. The Invicta name and logo settle in below 12:00 while a date window at 3:00 keeps you on schedule. Hour minute and seconds hands in a bezel coordinating color keep the time. Tritnite accents adorn the hour and minute hands.</p>\n\n<p>Finishing your look in classic taste a 16mm three-link bracelet executed in a combination of silver-tone outer links and bezel matching inner links tapers in width to 14mm. The bracelet fastens comfortably to the wrist with a dual deployant clasp. Treat yourself or someone you love to the gift of time today with the stunning Invicta Angel Starlight!</p>\n\n<p>Your Invicta Angel Starlight comes shipped to you in a stunning three-slot collector's watch box.</p>uuuuuuu\nuuuuu\n<p><li><strong>Bracelet: </strong>Stainless Steel\n<li><strong>Movement: </strong>Swiss Parts ISA 2331/103 Quartz \n<li><strong>Crystal: </strong>Flame Fusion\n<li><strong>Crown: </strong>Push/Pull\n<li><strong>Clasp: </strong>Dual Deployant\n<li><strong>Bracelet Measurements: </strong>8-1/2 L x 16mm W\n<li><strong>Case Measurements: </strong>33mm\n<li><strong>Case Thickness: </strong>9.5mm\n<li><strong>Water Resistance: </strong>10 ATM - 100 meters - 330 feet\n<li><strong>Model Numbers: </strong>\n<br>Gold-tone: 12855-IPM121 \n<br>Rose-tone: 12856-IPM121\n<br>Silver-tone: 12854-IPM121\n<li><strong>UPC: </strong>\n<br>Gold-tone: 886678128556 \n<br>Rose-tone: 886678128563 \n<br>Silver-tone: 886678128549  \n\n<li>", 'palletNumber': u'Watches4', 'manifested': 'X', 'Total Retail': '', 'box': 'no movement 1', 'date_listed': '', 'Margin %': '', 'band_size': '6.25', u'*Category': u'31387'} writeJson
+
+--06-20 15:13:44 log_info display_image.EventsHandlers.MainFrameEventHandler.onSaveCurrentTextBtn INFO     
+Called Save(self.MainFrame) onSaveCurrentTextBtn
+
+--06-20 15:13:44 log_info display_image.EventsHandlers.MainFrameEventHandler.onSaveCurrentTextBtn INFO     
+Called Save(self.MainFrame) onSaveCurrentTextBtn
+
+--06-20 15:13:48 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:48 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:48 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:48 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:48 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:48 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:48 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:48 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:48 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:48 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:48 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:48 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:48 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:48 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:48 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:48 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:48 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:48 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:48 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:48 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:48 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:48 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField
+
+--06-20 15:13:49 log_info display_image.EventsHandlers.MainFrameEventHandler.onDescriptionTextField INFO     
+inside: onDescriptionTextField

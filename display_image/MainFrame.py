@@ -34,6 +34,7 @@ class MainFrame(wx.Frame):
         wx.Frame.__init__(self, parent, title=title)
         self.mainPanel = wx.Panel(self)
         # self.Maximize()
+        self.descriptionTextFieldInitialized = False
         with open('config.yaml','r') as f:
             self.defaults = yaml.load(f)
         self.currentItemInfo = self.defaults['currentItemInfo']
@@ -227,7 +228,13 @@ class MainFrame(wx.Frame):
         results = Check(self)
         description = results.description()
         self.descriptionTextField.AppendText(description)
+        
+        
+        ####work in progress####
+        self.descriptionTextField.Bind(wx.EVT_TEXT, self.eventsHandler.onDescriptionTextField)
 
+        
+        
         self.rSizer = wx.BoxSizer(wx.HORIZONTAL)
         self.rSizer.Add(self.descriptionTextField, 0, wx.ALL, 5)
         # Create Lbls/Text

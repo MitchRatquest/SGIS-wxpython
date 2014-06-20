@@ -148,6 +148,26 @@ class MainFrameEventHandler(object):
         # else:
             # self.infoLogger('Not Saving'+str(upc_len))
         return
+        
+    def onDescriptionTextField(self, event):
+        '''
+        updates save current button when bothered
+        set back to false on save current
+        also set back to white on save current
+        '''
+        self.infoLogger('inside:')
+        if self.MainFrame.descriptionTextFieldInitialized is True:
+            self.MainFrame.saveDescriptionTextBtn.SetBackgroundColour((255,0,0))
+        else:
+            self.MainFrame.saveDescriptionTextBtn.SetBackgroundColour((255,255,255))
+            
+        return
+        
+        
+        
+        
+        
+        
     def onCurrentConditionText(self, event):
         '''
         Updates self.MainFrame.currentItemInfo['*ConditionID']
@@ -215,6 +235,11 @@ class MainFrameEventHandler(object):
         self.MainFrame.scanNumberText.Clear()
         self.MainFrame.scanNumberText.AppendText(jnumber)
         self.MainFrame.palletNumberText.SetValue(pallet_number)
+        #----------------------------------------
+        #   V E R Y   M Y S T E R I O U S 
+        #   used during manifesting, is being edited while its hidden
+        #
+        #----------------------------------------
         self.onScanNumberText(self)
         # update MainFrame.currentItemInfo with itemRow information ... msrp, type, etc
         for key in self.MainFrame.itemRow[0]: # itemRow = [[column_indexes],[itemRow]]
@@ -453,6 +478,7 @@ class MainFrameEventHandler(object):
         self.infoLogger('Called Save(self.MainFrame)')
         print self.descriptionText.encode('ascii','ignore')
         # write value
+        self.MainFrame.saveDescriptionTextBtn.SetBackgroundColour((255,255,255))
         return
         
     def onSelectImageBtn(self, event):
@@ -1024,7 +1050,7 @@ class MainFrameEventHandler(object):
         # ----------------------------------------------------
         retailer_code = self.checkIfManifestedResults['retailer_code']
         try:
-            results = self.updateMainFrameCurrentItemInfo(retailer_code) #<---------------------- 
+            results = self.updateMainFrameCurrentItemInfo(retailer_code) 
             self.infoLogger('updateMainFrameCurrentItemInfo results:'+str(results))
         except Exception, results:
             self.debugLogger('results issue: ',results)
@@ -1060,9 +1086,11 @@ class MainFrameEventHandler(object):
             self.MainFrame.descriptionTextField.Clear()
             try:
                 self.MainFrame.descriptionTextField.AppendText(self.description.decode('utf8'))
+                self.MainFrame.descriptionTextFieldInitialized = True
             except UnicodeEncodeError, e:
                 self.MainFrame.descriptionTextField.AppendText(self.description)
-            try: # show lables
+                self.MainFrame.descriptionTextFieldInitialized = True
+            try: # show labels
                 self.MainFrame.ebayCategoryIdLbl.Show()
                 self.MainFrame.ebayCategoryIdText.Show()
             except Exception, e:
