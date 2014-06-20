@@ -12,6 +12,7 @@ from display_image.Dialogs.ImageSelectionFrame import ImageSelectionFrame
 from display_image.build_auction import BuildAuction
 from display_image.PreFetcher import PreFetcher
 from display_image.Dialogs.ListingPreferencesDialog import ListingPreferencesDialog
+import time
 
 class MainFrameEventHandler(object):
     '''
@@ -74,7 +75,7 @@ class MainFrameEventHandler(object):
         '''
         self.infoLogger("Inside: ")
         self.MainFrame.currentItemInfo['title'] = self.MainFrame.currentTitleText.GetValue().rstrip(' ')
-        self.MainFrame.currentTitleText.SetInsertionPoint(0)
+        
         return
     def onListerInitialsText(self, event):
         '''
@@ -191,12 +192,11 @@ class MainFrameEventHandler(object):
             condition_notes = self.MainFrame.itemRow[1][condition_notes_column_index]
             date_listed_column_index = self.MainFrame.itemRow[0].index('date_listed')
             date_listed = self.MainFrame.itemRow[1][date_listed_column_index]
-            repair_column_index = self.MainFrame.itemRow[0].index('repair')
-            repair = self.MainFrame.itemRow[1][repair_column_index]
             manifested_column_index = self.MainFrame.itemRow[0].index('manifested')
             manifested = self.MainFrame.itemRow[1][manifested_column_index]
             title_index = self.MainFrame.itemRow[0].index('title')
             title = self.MainFrame.itemRow[1][title_index]
+            title = title.lower().title()
         except ValueError,e:
             self.infoLogger("A dialog giving a reason why we can't continue should appear.")
             tmp_dialog = wx.MessageDialog(self.MainFrame, str(str(e)+'\n\nCheck the HEADERS within the CSV file.\n\n Is this value there?\n\n *Hint*: It is Case Sensitive.'), 'ValueError', wx.OK)
@@ -223,16 +223,16 @@ class MainFrameEventHandler(object):
         self.MainFrame.currentItemInfo['jNumber'] = self.MainFrame.jNumber # :( why are so many variables mixed naming GRRRRRRRRR
         self.infoLogger('Added MainFrame.itemRow to currentItemInfo'+str(self.MainFrame.itemRow))
         # set values
-        self.MainFrame.currentBoxText.SetValue(box)
+        #self.MainFrame.currentBoxText.SetValue(box)
         self.MainFrame.currentConditionText.SetValue(condition)
         self.MainFrame.currentConditionNotesText.Clear()
         self.MainFrame.palletNumberText.SetValue(pallet_number)
         self.MainFrame.currentConditionNotesText.AppendText(condition_notes)
         self.MainFrame.currentDateListedText.SetValue(date_listed)
-        self.MainFrame.currentRepairText.SetValue(repair)
         self.MainFrame.rSizer.Show(self.MainFrame.rSizerCurrentItemSizer)
         self.MainFrame.currentTitleText.Clear()
         self.MainFrame.currentTitleText.AppendText(title)
+        self.MainFrame.ebayCategoryIdText.SetValue('31387')
         self.MainFrame.mainSizer.Fit(self.MainFrame)
         self.MainFrame.mainPanel.Layout()
         self.MainFrame.mainPanel.Refresh()
@@ -291,14 +291,12 @@ class MainFrameEventHandler(object):
         self.MainFrame.currentConditionText.AppendText(condition)
         self.MainFrame.currentConditionNotesText.Clear()
         self.MainFrame.currentConditionNotesText.AppendText(condition_notes)
-        self.MainFrame.currentDateListedText.SetValue(date_listed)
+        self.MainFrame.currentDateListedText.Clear()
         self.MainFrame.currentTitleText.Clear()
         self.MainFrame.currentTitleText.AppendText(title)
         self.MainFrame.rSizer.Show(self.MainFrame.rSizerCurrentItemSizer)
         self.MainFrame.currentBoxLbl.Hide()
         self.MainFrame.currentBoxText.Hide()
-        self.MainFrame.currentRepairLbl.Hide()
-        self.MainFrame.currentRepairText.Hide()
 #        self.MainFrame.scanNumberText.Clear()
  #       self.MainFrame.scanNumberText.AppendText(jnumber)
         self.MainFrame.ebayCategoryIdText.SetValue('')
@@ -428,6 +426,16 @@ class MainFrameEventHandler(object):
             self.MainFrame.statusbar.SetStatusText('ShopHq Radio Selected. CWD:' + self.MainFrame.defaultJPagesFolder)
         return
         
+    def onDateListedText(self, event):
+        '''
+        updates the date listed box with the current date
+        '''
+        self.infoLogger("inside: ")
+        self.infoLogger('date listed things')
+        currentdate = time.strftime("%m/%d")
+        self.MainFrame.currentDateListedText.SetValue(currentdate) 
+        return
+        
     def onSaveCurrentTextBtn(self, event):
         '''
         ###########################################
@@ -479,7 +487,7 @@ class MainFrameEventHandler(object):
         try:
             self.MainFrame.currentItemInfo['title'] = self.MainFrame.itemRowDict['title'].rstrip(' ')
             self.MainFrame.currentItemInfo['msrp'] = self.MainFrame.itemRowDict['msrp']
-            self.MainFrame.currentTitleText.SetValue(self.MainFrame.currentItemInfo['title'])
+            self.MainFrame.currentTitleText.SetValue(self.MainFrame.currentItemInfo['title'].lower().title())
         except Exception, e:
             self.infoLogger(traceback.format_exc())
             self.debugLogger(e)

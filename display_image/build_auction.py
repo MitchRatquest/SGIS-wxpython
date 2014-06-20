@@ -55,11 +55,40 @@ class BuildAuction(object):
             destination = "http://"+self.MainFrame.defaults['extIP']
             final_path = posixpath.join(destination,destinationFolder)
             self.final_destination = posixpath.join(final_path, filename)
-            images_tags += "<img src=\""+self.final_destination+"\"></br>"
+            images_tags += "<a href=\""+self.final_destination+"\"><img src=\""+self.final_destination+"\" height=\"400\" width=\"400\" ></a></br>"
         msrp_tags = "<div align=\"left\"><h4>Item normally retails for: "+self.currentItemInfo['msrp']+"</h4></div>"
+        self.currentItemInfo['description'] = self.currentItemInfo['description'].split('<div class=\"panelDetail\" id=\"prod_description\">')[-1].split('<strong>Warranty:')[0].split('<p><strong>Additional Features:')[0].split('<!--googleoff: all-->')[0].split('<li><strong>Additional Information:')[0].split('</table>')[-1]
+
         description_tags = '<div align=\"left\"<p>'+self.currentItemInfo['description'].replace('"','').replace('\t','').replace(',','').replace('\r','').replace('\n','').encode("ascii", 'ignore')+'</p></div>'
+        
+        
+        
+        
+        try:
+            self.infoLogger('inside trying auction includes attempt list whatever pizza bab')
+            auction_includes_tags = '<div align=\"left\"><p><b><u>Auction Includes:</b></u><br><br><ul> '
+            auction_includes_list = self.MainFrame.currentItemInfo['auction_includes'].split('|')
+            for item in auction_includes_list:
+                auction_includes_tags += str('<li>' + item + '</li>')
+            auction_includes_tags += '</ul></p></div>'
+            self.debugLogger('auction_includes_tags:', auction_includes_tags, auction_includes_list)
+        except Exception, e:
+            self.infoLogger('try in auction_includes_list' + str(e))
+            print(e)
+            pass
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        listing_sku_tags = '<p><span style="color:#a9a9a9;">SKU: '+ self.listingSku + '</span></p>'
         footer_tags = "<div align=\"center\"><br>_________________________________________________________________________________<br></div><div align=\"left\"><b><u><br><br><br>SHIPPING :</u></b><ul><li>Items are shipped out Monday - Friday excluding Holidays.&nbsp; <br></li><li>Please expect up to 1 business day processing time for item to ship out.</li><li><b>Combined Shipping: </b>Please contact us before checkout for a revised invoice.</li><li>We DO NOT ship on the weekends.</li><li>We DO NOT ship outside of the US. and its territories</li></ul><b><u>CONTACT :</u></b>Point One Premiums welcomes you to contact us with any questions or concerns during our business hours.<br>(M-F 9am - 5pm CST) Any messages received outside of business hours will be processed the following business day.<br><br>Please use eBay's message system.<b><u><br></u></b><br><u><b>Return policy. </b></u><br><br>We offer a 14 day return policy. &nbsp;If you have any problems with the product please contact us right away to work out an exchange or refund.<br><br><b><u>Warranty Policy :</u></b><i><b><u><br><br></u></b></i><i style=\"font-weight: bold;\"></i>While some of our items are in New or Manufacturer Refurbished condition, <u>None</u> are implied to include a warranty. &nbsp;Some include a Manufacturer Warranty Card and it is between you and Manufacturer if that warranty is still valid. &nbsp;PointOnePremiums offers no warranties or&nbsp;guarantees&nbsp;of a warranty.<br><br><u><b>CANCELING TRANSACTIONS :</b></u><br><br>Due to a large number of bidders not following through on auctions we no longer cancel transactions.<br>All cancelled transactions charged a 15% restocking fee. <br><br><u><b>Unpaid Bidder Policy :</b></u><br><br>A case is opened for all auctions with unpaid bidders.<br>If you do not see something in the photos or detailed in the description as being included, do not assume it is included.&nbsp; <br><u><b><br>AS-IS and FOR PARTS/REPAIR :</b></u><br><br>Items listed AS-IS or FOR PARTS/REPAIR are non returnable and are not covered by our return policy.<br>We encourage buyers to contact us with any issues before opening a case with eBay.&nbsp; We will be happy to work with you to come to a satisfactory resolution.<br></div>    <div><br>    </div>    <div><br>    </div><br><div align=\"center\">___________________________________________________________________________<br></div></body></html>"
-        html_for_listing = str(header_tags+title_tags+images_tags+msrp_tags+description_tags+footer_tags)
+        html_for_listing = str(header_tags+title_tags+images_tags+msrp_tags+description_tags+auction_includes_tags+listing_sku_tags+footer_tags)
         return html_for_listing
 
     def returnEbayAuctionHeaderColumnIndex(self,header_str):
@@ -71,6 +100,46 @@ class BuildAuction(object):
         index = self.ebayAuctionHeaders.index(header_str)
         return index
 
+        
+    def returnCategory2(self):
+        '''
+        only relevant for broken watches
+        returns second category for broken watches
+        '''
+        if '2' not in self.Mainframe.currentItemInfo['condition']:
+            self.infoLogger('
+            return '165144'
+        else:
+            return ''
+        
+        
+    def returnConditionDescription(self):
+        '''
+        gather the description
+        '''
+        #make sure the spreadsheet makes sense, these could change column names or something
+        #i am a scrub
+        
+        introduction = 'Works like new. '
+        try:
+            introduction += self.MainFrame.currentItemInfo['condition_notes'].lower().capitalize() 
+            introduction += '. '
+        except Exception, e:
+            self.infoLogger(e)
+            pass
+        try:
+            if len(self.MainFrame.currentItemInfo['band_size']) != 0:
+                introduction += 'Watch fits a '
+                introduction += self.MainFrame.currentItemInfo['band_size'] 
+                introduction += 'inch wrist'
+        except Exception, e:
+            self.infoLogger(e)
+            pass
+            
+        return introduction
+        
+        
+        
     def generateEbayListingCsvLine(self):
         '''
         Generates a dictionary with ebayAuctionHeaders as keys and based on
@@ -94,7 +163,7 @@ class BuildAuction(object):
             line.append('')
 
         defaults = {'*Action(SiteID=US|Country=US|Currency=USD|Version=745)':'VerifyAdd',
-                    'ConditionDescription':'',
+                    'ConditionDescription':self.returnConditionDescription(),
                     '*Quantity':'1',
                     'ImmediatePayRequired':'0',
                     '*Location':'55406',
@@ -102,6 +171,7 @@ class BuildAuction(object):
                     'PayPalAccepted':'1',
                     'PayPalEmailAddress':'sales@skygroupcloseouts.com',
                     'PaymentInstructions':'If you need a revised invoice for combined shipping, please contact us before paying so we can adjust the shipping costs.',
+                    'Category2':self.returnCategory2(),
                     'StoreCategory':'',
                     'ShippingDiscountProfileID':'',
                     'DomesticRateTable':'',

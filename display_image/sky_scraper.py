@@ -278,7 +278,7 @@ class FetchPage(object):
             for item in tmp_price_title_info:
                 price_title_info.append(item.lstrip('\r\n \'').replace("'","").replace("\"",""))
 
-            tmp_watch_data = data.split('<div class=\"panelDetail\" id=\"prod_description\">')[-1].split('<li><strong>Warranty:')[0].split('<p><strong>Additional Features:')[0].split('<!--googleoff: all-->')[0].split('<li><strong>Additional Information:')[0].split('</table>')[-1]
+            tmp_watch_data = data.split('<div class=\"panelDetail\" id=\"prod_description\">')[-1].split('<strong>Warranty:')[0].split('<p><strong>Additional Features:')[0].split('<!--googleoff: all-->')[0].split('<li><strong>Additional Information:')[0].split('</table>')[-1]
             watch_description = tmp_watch_data
 
             specs = str(price_title_info)
