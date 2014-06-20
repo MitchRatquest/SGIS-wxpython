@@ -110,6 +110,7 @@ class BuildAuction(object):
             self.infoLogger('category2 in build auction')
             return '165144'
         else:
+            self.infoLogger('Category2 not seen, returning empty string')
             return ''
         
         
