@@ -1,53 +1,53 @@
 
---06-20 11:03:59 log_info display_image.Dialogs.ListingPreferencesDialog.check INFO     
+--06-20 12:42:10 log_info display_image.Dialogs.ListingPreferencesDialog.check INFO     
 
 # ListingPreferencesDialog.CheckListingPreferences.check() # check
 
---06-20 11:03:59 log_info display_image.Dialogs.ListingPreferencesDialog.check INFO     
+--06-20 12:42:10 log_info display_image.Dialogs.ListingPreferencesDialog.check INFO     
 ######################## Listing Preferences #############
 Type: <type 'dict'>
 {u'BuyItNowPrice': {u'percent of MSRP': False}, u'*Format': {u'Auction': True, u'FixedPrice': False}, u'ReservePrice': {u'percent of MSRP': False}, u'ShippingService-1:Cost': {u'Amount': u'12'}, u'ShippingService-1:Option': {u'FedExHomeDelivery': True, u'USPSPriority': False}, u'*StartPrice': {u'.99': u'.99', u'percent of MSRP': False}, u'*Duration': {u'10': False, u'GTC': False, u'30': False, u'3': False, u'5': True, u'7': False}} check
 
---06-20 11:03:59 log_info display_image.MainFrame.createWidgets INFO     
+--06-20 12:42:10 log_info display_image.MainFrame.createWidgets INFO     
 THIS IS A MESSAGE in CreateWidgets
 
---06-20 11:03:59 log_info display_image.MainFrame.lsizerCreate INFO     
+--06-20 12:42:10 log_info display_image.MainFrame.lsizerCreate INFO     
 THIS IS A MESSAGE IN lsizerCreate
 
---06-20 11:03:59 log_info display_image.EventsHandlers.MainFrameEventHandler.onbeginShelfNumberText INFO     
+--06-20 12:42:10 log_info display_image.EventsHandlers.MainFrameEventHandler.onbeginShelfNumberText INFO     
 Inside:  onbeginShelfNumberText
 
---06-20 11:03:59 log_info display_image.EventsHandlers.MainFrameEventHandler.onbeginShelfNumberText INFO     
+--06-20 12:42:10 log_info display_image.EventsHandlers.MainFrameEventHandler.onbeginShelfNumberText INFO     
 Inside:  onbeginShelfNumberText
 
---06-20 11:03:59 log_info display_image.EventsHandlers.MainFrameEventHandler.onListerInitialsText INFO     
+--06-20 12:42:10 log_info display_image.EventsHandlers.MainFrameEventHandler.onListerInitialsText INFO     
 Initials set:JM onListerInitialsText
 
---06-20 11:03:59 log_info display_image.EventsHandlers.MainFrameEventHandler.onListerInitialsText INFO     
+--06-20 12:42:10 log_info display_image.EventsHandlers.MainFrameEventHandler.onListerInitialsText INFO     
 Initials set:JM onListerInitialsText
 
---06-20 11:03:59 log_info display_image.MainFrame.csizerCreate INFO     
+--06-20 12:42:10 log_info display_image.MainFrame.csizerCreate INFO     
 THIS IS A MESSAGE in csizerCreate
 
---06-20 11:03:59 log_info display_image.MainFrame.rsizerCreate INFO     
+--06-20 12:42:10 log_info display_image.MainFrame.rsizerCreate INFO     
 THIS IS A MESSAGE in rsizerCreate
 
---06-20 11:04:00 log_info run.MainFrame INFO     
+--06-20 12:42:10 log_info run.MainFrame INFO     
 # main(): #
 MainFrame.__dict__:
-{'beginManifestingRadio': <wx._controls.RadioButton; proxy of <Swig Object of type 'wxRadioButton *' at 0x3815880> >,
- 'retailerLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3815d78> >,
- 'file': <wx._core.Menu; proxy of <Swig Object of type 'wxMenu *' at 0x2075670> >,
- 'ebayCategoryIdText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x381d640> >,
+{'beginManifestingRadio': <wx._controls.RadioButton; proxy of <Swig Object of type 'wxRadioButton *' at 0x3815068> >,
+ 'retailerLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3815560> >,
+ 'file': <wx._core.Menu; proxy of <Swig Object of type 'wxMenu *' at 0x1fd55b0> >,
+ 'ebayCategoryIdText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x381aea8> >,
  'listingPreferencesResults': {u'BuyItNowPrice': {u'percent of MSRP': False}, u'*Format': {u'Auction': True, u'FixedPrice': False}, u'ReservePrice': {u'percent of MSRP': False}, u'ShippingService-1:Cost': {u'Amount': u'12'}, u'ShippingService-1:Option': {u'FedExHomeDelivery': True, u'USPSPriority': False}, u'*StartPrice': {u'.99': u'.99', u'percent of MSRP': False}, u'*Duration': {u'10': False, u'GTC': False, u'30': False, u'3': False, u'5': True, u'7': False}},
- 'ebayCategoryIdLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3816e08> >,
- 'fetchManifestItemInfo': <wx._core.MenuItem; proxy of <Swig Object of type 'wxMenuItem *' at 0x20758b0> >,
- 'currentSkuText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x3703cb0> >,
- 'rSizer': <wx._core.BoxSizer; proxy of <Swig Object of type 'wxBoxSizer *' at 0x34a41e0> >,
+ 'ebayCategoryIdLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x38165f0> >,
+ 'fetchManifestItemInfo': <wx._core.MenuItem; proxy of <Swig Object of type 'wxMenuItem *' at 0x1fd5970> >,
+ 'currentSkuText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x3809948> >,
+ 'rSizer': <wx._core.BoxSizer; proxy of <Swig Object of type 'wxBoxSizer *' at 0x33876a0> >,
  'jNumber': 'QZ468',
  'ssh_pass': None,
- 'beginShelfNumberLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3816c60> >,
- 'browseText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x38235c0> >,
+ 'beginShelfNumberLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3816448> >,
+ 'browseText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x381ee28> >,
  'currentItemInfo':
 
  {'description': '\nJ176344  Description is empty\n4PK4260000010\n21492\n',
@@ -60,34 +60,34 @@ MainFrame.__dict__:
 
  {'key': ''},
  'specs': '\nJ176344  Description is empty\n4PK4260000010\n21492\n'},
- 'mainSizer': <wx._core.BoxSizer; proxy of <Swig Object of type 'wxBoxSizer *' at 0x34a42a0> >,
- 'help': <wx._core.Menu; proxy of <Swig Object of type 'wxMenu *' at 0x2075730> >,
- 'eventsHandler': <display_image.EventsHandlers.MainFrameEventHandler.MainFrameEventHandler object at 0x037B23B0>,
- 'quit': <wx._core.MenuItem; proxy of <Swig Object of type 'wxMenuItem *' at 0x2075bb0> >,
- 'scanNumberSeperator': <wx._controls.StaticLine; proxy of <Swig Object of type 'wxStaticLine *' at 0x38165c0> >,
- 'SelectImageBtn': <wx._controls.Button; proxy of <Swig Object of type 'wxButton *' at 0x3821ad0> >,
- 'statusbar': <wx._windows.StatusBar; proxy of <Swig Object of type 'wxStatusBar *' at 0x2259ca0> >,
- 'currentDateListedLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3821fc8> >,
+ 'mainSizer': <wx._core.BoxSizer; proxy of <Swig Object of type 'wxBoxSizer *' at 0x3387760> >,
+ 'help': <wx._core.Menu; proxy of <Swig Object of type 'wxMenu *' at 0x1fd57f0> >,
+ 'eventsHandler': <display_image.EventsHandlers.MainFrameEventHandler.MainFrameEventHandler object at 0x037B1410>,
+ 'quit': <wx._core.MenuItem; proxy of <Swig Object of type 'wxMenuItem *' at 0x1fd5c70> >,
+ 'scanNumberSeperator': <wx._controls.StaticLine; proxy of <Swig Object of type 'wxStaticLine *' at 0x3815da8> >,
+ 'SelectImageBtn': <wx._controls.Button; proxy of <Swig Object of type 'wxButton *' at 0x381d338> >,
+ 'statusbar': <wx._windows.StatusBar; proxy of <Swig Object of type 'wxStatusBar *' at 0x35e5bc8> >,
+ 'currentDateListedLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x381d830> >,
  'defaultImgPath': 'display_image\\jPages\\QZ468\\default.JPEG',
  'ListingPreferencesDialog': <class 'display_image.Dialogs.ListingPreferencesDialog.ListingPreferencesDialog'>,
- 'currentTitleText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x3653eb8> >,
- 'palletNumberLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3816270> >,
+ 'currentTitleText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x369ded0> >,
+ 'palletNumberLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3815a58> >,
  'defaultJNumber': 'QZ468',
- 'loadManifest': <wx._core.MenuItem; proxy of <Swig Object of type 'wxMenuItem *' at 0x20757f0> >,
- 'itemSpecificsFetcher': <display_image.sky_manifest.ManifestReader object at 0x037B2330>,
- 'emptyRadio': <wx._controls.RadioButton; proxy of <Swig Object of type 'wxRadioButton *' at 0x38156d8> >,
- 'reloadModules': <wx._core.MenuItem; proxy of <Swig Object of type 'wxMenuItem *' at 0x2075d30> >,
+ 'loadManifest': <wx._core.MenuItem; proxy of <Swig Object of type 'wxMenuItem *' at 0x1fd58b0> >,
+ 'itemSpecificsFetcher': <display_image.sky_manifest.ManifestReader object at 0x037B1390>,
+ 'emptyRadio': <wx._controls.RadioButton; proxy of <Swig Object of type 'wxRadioButton *' at 0x3814ec0> >,
+ 'reloadModules': <wx._core.MenuItem; proxy of <Swig Object of type 'wxMenuItem *' at 0x1fd5df0> >,
  'PhotoMaxSize': 400,
- 'mainPanel': <wx._windows.Panel; proxy of <Swig Object of type 'wxPanel *' at 0x36e7de0> >,
+ 'mainPanel': <wx._windows.Panel; proxy of <Swig Object of type 'wxPanel *' at 0x36e6890> >,
  'threading': False,
- 'currentConditionNotesLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3821e20> >,
- 'startingSkuLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3816768> >,
- 'logger': <logs.logger_example.log_this object at 0x037B2230>,
+ 'currentConditionNotesLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x381d688> >,
+ 'startingSkuLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3815f50> >,
+ 'logger': <logs.logger_example.log_this object at 0x037B1290>,
  'instructions': 'Is this image correct?',
- 'upcNumberText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x381c6c0> >,
- 'resetSsh': <wx._core.MenuItem; proxy of <Swig Object of type 'wxMenuItem *' at 0x2075a30> >,
- 'lookUpBySkuSizer': <wx._core.BoxSizer; proxy of <Swig Object of type 'wxBoxSizer *' at 0x34a4120> >,
- 'saveDescriptionTextBtn': <wx._controls.Button; proxy of <Swig Object of type 'wxButton *' at 0x3821c78> >,
+ 'upcNumberText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x3704650> >,
+ 'resetSsh': <wx._core.MenuItem; proxy of <Swig Object of type 'wxMenuItem *' at 0x1fd5af0> >,
+ 'lookUpBySkuSizer': <wx._core.BoxSizer; proxy of <Swig Object of type 'wxBoxSizer *' at 0x33875e0> >,
+ 'saveDescriptionTextBtn': <wx._controls.Button; proxy of <Swig Object of type 'wxButton *' at 0x381d4e0> >,
  'defaultJNumberInfo':
 
  {'itemSelectedImages':
@@ -173,39 +173,39 @@ MainFrame.__dict__:
  'C:MPN',
  'C:Serial Number',
  'C:Country/Region of Manufacture'],
- 'buildAuctionButton': <wx._controls.Button; proxy of <Swig Object of type 'wxButton *' at 0x3817158> >,
- 'cSizer': <wx._core.BoxSizer; proxy of <Swig Object of type 'wxBoxSizer *' at 0x34a4180> >,
- 'instructLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3821780> >,
- 'beginShelfNumberText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x381d280> >,
- 'listingPreferences': <wx._core.MenuItem; proxy of <Swig Object of type 'wxMenuItem *' at 0x2075af0> >,
- 'currentConditionNotesText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x3824900> >,
- 'scanNumberText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x37038f0> >,
- 'lookupManifestedRadio': <wx._controls.RadioButton; proxy of <Swig Object of type 'wxRadioButton *' at 0x3815a28> >,
- 'imageCountLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x38215d8> >,
- 'currentConditionText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x3824540> >,
- 'ssh': <display_image.Ssh_Put.Ssh object at 0x037B2910>,
- 'pdbSetTrace': <wx._core.MenuItem; proxy of <Swig Object of type 'wxMenuItem *' at 0x2075c70> >,
- 'listerInitialsText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x381e200> >,
+ 'buildAuctionButton': <wx._controls.Button; proxy of <Swig Object of type 'wxButton *' at 0x3816940> >,
+ 'cSizer': <wx._core.BoxSizer; proxy of <Swig Object of type 'wxBoxSizer *' at 0x3387640> >,
+ 'instructLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x381cfe8> >,
+ 'beginShelfNumberText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x3705210> >,
+ 'listingPreferences': <wx._core.MenuItem; proxy of <Swig Object of type 'wxMenuItem *' at 0x1fd5bb0> >,
+ 'currentConditionNotesText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x3822168> >,
+ 'scanNumberText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x3809588> >,
+ 'lookupManifestedRadio': <wx._controls.RadioButton; proxy of <Swig Object of type 'wxRadioButton *' at 0x3815210> >,
+ 'imageCountLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x381ce40> >,
+ 'currentConditionText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x3821da8> >,
+ 'ssh': <display_image.Ssh_Put.Ssh object at 0x037B1970>,
+ 'pdbSetTrace': <wx._core.MenuItem; proxy of <Swig Object of type 'wxMenuItem *' at 0x1fd5d30> >,
+ 'listerInitialsText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x381ba68> >,
  'defaultJPagesFolder': 'display_image\\jPages',
- 'listerInitialsLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3816fb0> >,
- 'descriptionTextField': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x3824180> >,
+ 'listerInitialsLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3816798> >,
+ 'descriptionTextField': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x381f9e8> >,
  'ebayHeadersFile': 'display_image\\archivedData\\ebay_auction_headers.csv',
- 'lSizer': <wx._core.BoxSizer; proxy of <Swig Object of type 'wxBoxSizer *' at 0x34a40c0> >,
+ 'lSizer': <wx._core.BoxSizer; proxy of <Swig Object of type 'wxBoxSizer *' at 0x3387580> >,
  'archivedDataFolderPath': 'display_image\\archivedData',
- 'browseBtn': <wx._controls.Button; proxy of <Swig Object of type 'wxButton *' at 0x3821928> >,
- 'currentTitleLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3822170> >,
- 'rSizerCurrentItemSizer': <wx._core.BoxSizer; proxy of <Swig Object of type 'wxBoxSizer *' at 0x34a4240> >,
+ 'browseBtn': <wx._controls.Button; proxy of <Swig Object of type 'wxButton *' at 0x381d190> >,
+ 'currentTitleLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x381d9d8> >,
+ 'rSizerCurrentItemSizer': <wx._core.BoxSizer; proxy of <Swig Object of type 'wxBoxSizer *' at 0x3387700> >,
  'defaultJNumberFolder': 'display_image\\jPages\\QZ468',
- 'sky_manifest': <module 'display_image.sky_manifest' from 'C:\Users\Mitchell\Desktop\SGIS-wxpython-master\display_image\sky_manifest.pyc'>,
- 'fingerRadio': <wx._controls.RadioButton; proxy of <Swig Object of type 'wxRadioButton *' at 0x3815f20> >,
- 'currentDateListedText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x3824cc0> >,
- 'shopHqRadio': <wx._controls.RadioButton; proxy of <Swig Object of type 'wxRadioButton *' at 0x38160c8> >,
- 'lookUpBySkuBtn': <wx._controls.Button; proxy of <Swig Object of type 'wxButton *' at 0x3816910> >,
- 'scanNumberLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3816418> >,
- 'this': <Swig Object of type 'wxFrame *' at 0x3420360>,
+ 'sky_manifest': <module 'display_image.sky_manifest' from 'C:\Users\Mitchell\Desktop\juan\display_image\sky_manifest.py'>,
+ 'fingerRadio': <wx._controls.RadioButton; proxy of <Swig Object of type 'wxRadioButton *' at 0x3815708> >,
+ 'currentDateListedText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x3822528> >,
+ 'shopHqRadio': <wx._controls.RadioButton; proxy of <Swig Object of type 'wxRadioButton *' at 0x38158b0> >,
+ 'lookUpBySkuBtn': <wx._controls.Button; proxy of <Swig Object of type 'wxButton *' at 0x38160f8> >,
+ 'scanNumberLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3815c00> >,
+ 'this': <Swig Object of type 'wxFrame *' at 0x33f4950>,
  'scanNumberTextValue': None,
  'uniqueCategoryArchive': 'display_image\\archivedData\\unique_category_4numbeer_sku.csv',
- 'edit': <wx._core.Menu; proxy of <Swig Object of type 'wxMenu *' at 0x20755b0> >,
+ 'edit': <wx._core.Menu; proxy of <Swig Object of type 'wxMenu *' at 0x1fd5730> >,
  'defaults':
 
  {'username': 'root',
@@ -253,795 +253,10 @@ MainFrame.__dict__:
  'serverLocation': '192.168.0.170',
  'itemSpecifics': [],
  'defaultShelf': 'XXX'},
- 'upcNumberLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x3816ab8> >,
- 'palletNumberText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x38081a0> >,
+ 'upcNumberLbl': <wx._controls.StaticText; proxy of <Swig Object of type 'wxStaticText *' at 0x38162a0> >,
+ 'palletNumberText': <wx._controls.TextCtrl; proxy of <Swig Object of type 'wxTextCtrl *' at 0x38091c8> >,
  'jNumberFolderPath': 'display_image\\jPages\\QZ468',
- 'actionSeperator': <wx._controls.StaticLine; proxy of <Swig Object of type 'wxStaticLine *' at 0x3815bd0> >,
- 'imageCtrl': <wx._controls.StaticBitmap; proxy of <Swig Object of type 'wxStaticBitmap *' at 0x38174a8> >,
- 'newItemButton': <wx._controls.Button; proxy of <Swig Object of type 'wxButton *' at 0x3817300> >,
+ 'actionSeperator': <wx._controls.StaticLine; proxy of <Swig Object of type 'wxStaticLine *' at 0x38153b8> >,
+ 'imageCtrl': <wx._controls.StaticBitmap; proxy of <Swig Object of type 'wxStaticBitmap *' at 0x3816c90> >,
+ 'newItemButton': <wx._controls.Button; proxy of <Swig Object of type 'wxButton *' at 0x3816ae8> >,
  'currentImgPath': 'display_image\\jPages\\QZ468\\default.JPEG'}
-
---06-20 11:04:03 log_info display_image.EventsHandlers.MainFrameEventHandler.onLookupManifestedRadio INFO     
-Inside:  onLookupManifestedRadio
-
---06-20 11:04:03 log_info display_image.EventsHandlers.MainFrameEventHandler.onLookupManifestedRadio INFO     
-Inside:  onLookupManifestedRadio
-
---06-20 11:04:03 log_info display_image.EventsHandlers.MainFrameEventHandler.onLookupManifestedRadio INFO     
-
-# PhotoCtrlEventsHandler: onLookupManifestedRadio # onLookupManifestedRadio
-
---06-20 11:04:03 log_info display_image.EventsHandlers.MainFrameEventHandler.onLookupManifestedRadio INFO     
-
-# PhotoCtrlEventsHandler: onLookupManifestedRadio # onLookupManifestedRadio
-
---06-20 11:04:03 log_debug display_image.EventsHandlers.MainFrameEventHandler.csvFileBrowse DEBUG    Inside:  csvFileBrowse
-ARGS_KWARGS_STR:
-{'ARGS': ()
-, 'KWARGS': {}}
-call_fn: C:\Python27\lib\site-packages\wx-3.0-msw\wx\_core.py
-call_ln: 7952
-call_func: MainLoop
-caller: ['        return _core_.PyApp_MainLoop(*args, **kwargs)\n']
-Exception:
-None
-
---06-20 11:04:03 log_info display_image.EventsHandlers.MainFrameEventHandler.csvFileBrowse INFO     
-Inside:  csvFileBrowse
-
---06-20 11:04:03 log_info display_image.EventsHandlers.MainFrameEventHandler.csvFileBrowse INFO     
-Inside:  csvFileBrowse
-
---06-20 11:04:05 log_debug display_image.EventsHandlers.MainFrameEventHandler.csvFileBrowse DEBUG    Filenames: csvFileBrowse
-ARGS_KWARGS_STR:
-{'ARGS': ([u'C:\\Users\\Mitchell\\Desktop\\SGIS-wxpython-master\\spreadsheets\\Watch SNBC#4 CR March 14-04 - SNBC4 no dupes.csv'],)
-, 'KWARGS': {}}
-call_fn: C:\Python27\lib\site-packages\wx-3.0-msw\wx\_core.py
-call_ln: 7952
-call_func: MainLoop
-caller: ['        return _core_.PyApp_MainLoop(*args, **kwargs)\n']
-Exception:
-None
-
---06-20 11:04:06 log_info display_image.EventsHandlers.MainFrameEventHandler.onRetailerRadio INFO     
-Inside:  onRetailerRadio
-
---06-20 11:04:06 log_info display_image.EventsHandlers.MainFrameEventHandler.onRetailerRadio INFO     
-Inside:  onRetailerRadio
-
---06-20 11:04:06 log_info display_image.EventsHandlers.MainFrameEventHandler.onRetailerRadio INFO     
-
-# PhotoCtrlEventsHandler.onRetailerRadio()  onRetailerRadio
-
---06-20 11:04:06 log_info display_image.EventsHandlers.MainFrameEventHandler.onRetailerRadio INFO     
-
-# PhotoCtrlEventsHandler.onRetailerRadio()  onRetailerRadio
-
---06-20 11:04:07 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentSkuText INFO     
-Inside:  onCurrentSkuText
-
---06-20 11:04:07 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentSkuText INFO     
-Inside:  onCurrentSkuText
-
---06-20 11:04:07 log_debug display_image.EventsHandlers.MainFrameEventHandler.onCurrentSkuText DEBUG    . self.MainFrame.startingSkuNumber Updated to:  onCurrentSkuText
-ARGS_KWARGS_STR:
-{'ARGS': ('1',)
-, 'KWARGS': {}}
-call_fn: C:\Python27\lib\site-packages\wx-3.0-msw\wx\_core.py
-call_ln: 8660
-call_func: MainLoop
-caller: ['        wx.PyApp.MainLoop(self)\n']
-Exception:
-None
-
---06-20 11:04:07 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentSkuText INFO     
-Inside:  onCurrentSkuText
-
---06-20 11:04:07 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentSkuText INFO     
-Inside:  onCurrentSkuText
-
---06-20 11:04:07 log_debug display_image.EventsHandlers.MainFrameEventHandler.onCurrentSkuText DEBUG    . self.MainFrame.startingSkuNumber Updated to:  onCurrentSkuText
-ARGS_KWARGS_STR:
-{'ARGS': ('11',)
-, 'KWARGS': {}}
-call_fn: C:\Python27\lib\site-packages\wx-3.0-msw\wx\_core.py
-call_ln: 8660
-call_func: MainLoop
-caller: ['        wx.PyApp.MainLoop(self)\n']
-Exception:
-None
-
---06-20 11:04:07 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentSkuText INFO     
-Inside:  onCurrentSkuText
-
---06-20 11:04:07 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentSkuText INFO     
-Inside:  onCurrentSkuText
-
---06-20 11:04:07 log_debug display_image.EventsHandlers.MainFrameEventHandler.onCurrentSkuText DEBUG    . self.MainFrame.startingSkuNumber Updated to:  onCurrentSkuText
-ARGS_KWARGS_STR:
-{'ARGS': ('111',)
-, 'KWARGS': {}}
-call_fn: C:\Python27\lib\site-packages\wx-3.0-msw\wx\_core.py
-call_ln: 8660
-call_func: MainLoop
-caller: ['        wx.PyApp.MainLoop(self)\n']
-Exception:
-None
-
---06-20 11:04:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentSkuText INFO     
-Inside:  onCurrentSkuText
-
---06-20 11:04:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentSkuText INFO     
-Inside:  onCurrentSkuText
-
---06-20 11:04:08 log_debug display_image.EventsHandlers.MainFrameEventHandler.onCurrentSkuText DEBUG    . self.MainFrame.startingSkuNumber Updated to:  onCurrentSkuText
-ARGS_KWARGS_STR:
-{'ARGS': ('1111',)
-, 'KWARGS': {}}
-call_fn: C:\Python27\lib\site-packages\wx-3.0-msw\wx\_core.py
-call_ln: 8660
-call_func: MainLoop
-caller: ['        wx.PyApp.MainLoop(self)\n']
-Exception:
-None
-
---06-20 11:04:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onLookUpBySkuBtn INFO     
-Inside:  onLookUpBySkuBtn
-
---06-20 11:04:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onLookUpBySkuBtn INFO     
-Inside:  onLookUpBySkuBtn
-
---06-20 11:04:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onLookUpBySkuBtn INFO     
-
-# PhotoCtrlEventsHandler.onLookUpBySkuBtn(): # onLookUpBySkuBtn
-
---06-20 11:04:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onLookUpBySkuBtn INFO     
-
-# PhotoCtrlEventsHandler.onLookUpBySkuBtn(): # onLookUpBySkuBtn
-
---06-20 11:04:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onLookUpBySkuBtnShopHq INFO     
-Inside:  onLookUpBySkuBtnShopHq
-
---06-20 11:04:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onLookUpBySkuBtnShopHq INFO     
-Inside:  onLookUpBySkuBtnShopHq
-
---06-20 11:04:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onLookUpBySkuBtnShopHq INFO     
-[['retailer_code:1', 'Division', 'Brand', 'pallet_number', 'full_', 'jnumber', 'model_number', 'title', 'Qty', 'msrp', 'Total Cost', 'Retail', 'Total Retail', 'Margin %', 'Margin $', 'eBay Price', 'sku', 'box', 'condition', 'condition_notes', 'band_size', 'date_listed', 'repair', 'manifested', 'upc'], ['', 'Watches', 'Invicta', 'Watches4', 'J433424-00005-04168', 'J433424', '', 'INVICTA MENS GRAND DIVER 54MM QUARTZ DATE STAINLESS BRACELET WATCH W/ 8DC RED MENS', '1', '$171.00', '$171.00', '', '', '', '', '', '1111', '', '2', '', '7.25', '', '', 'X', '']] onLookUpBySkuBtnShopHq
-
---06-20 11:04:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onLookUpBySkuBtnShopHq INFO     
-[['retailer_code:1', 'Division', 'Brand', 'pallet_number', 'full_', 'jnumber', 'model_number', 'title', 'Qty', 'msrp', 'Total Cost', 'Retail', 'Total Retail', 'Margin %', 'Margin $', 'eBay Price', 'sku', 'box', 'condition', 'condition_notes', 'band_size', 'date_listed', 'repair', 'manifested', 'upc'], ['', 'Watches', 'Invicta', 'Watches4', 'J433424-00005-04168', 'J433424', '', 'INVICTA MENS GRAND DIVER 54MM QUARTZ DATE STAINLESS BRACELET WATCH W/ 8DC RED MENS', '1', '$171.00', '$171.00', '', '', '', '', '', '1111', '', '2', '', '7.25', '', '', 'X', '']] onLookUpBySkuBtnShopHq
-
---06-20 11:04:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onPalletNumberText INFO     
-Inside:  onPalletNumberText
-
---06-20 11:04:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onPalletNumberText INFO     
-Inside:  onPalletNumberText
-
---06-20 11:04:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onPalletNumberText INFO     
-
-# PhotoCtrlEventHandler.onPalletNumberText(): # onPalletNumberText
-
---06-20 11:04:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onPalletNumberText INFO     
-
-# PhotoCtrlEventHandler.onPalletNumberText(): # onPalletNumberText
-
---06-20 11:04:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onScanNumberText INFO     
-Inside:  onScanNumberText
-
---06-20 11:04:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onScanNumberText INFO     
-Inside:  onScanNumberText
-
---06-20 11:04:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onScanNumberText INFO     
-
-# PhotoCtrlEventHandler.scanNumberText() # onScanNumberText
-
---06-20 11:04:08 log_info display_image.EventsHandlers.MainFrameEventHandler.onScanNumberText INFO     
-
-# PhotoCtrlEventHandler.scanNumberText() # onScanNumberText
-
---06-20 11:04:08 log_info display_image.sky_manifest.checkIfManifested INFO     
-
-# sky_manifest.ManifestReader.checkIfManifested(jnumber) # checkIfManifested
-
---06-20 11:04:08 log_info display_image.sky_manifest.checkIfManifested INFO     
-. jnumber:J433424 checkIfManifested
-
---06-20 11:04:08 log_info display_image.sky_manifest.returnColumn INFO     
-
-# sky_manifest.ManifestReader.returnColumn: ERROR appending returnColumn
-
---06-20 11:04:08 log_info display_image.sky_manifest.returnColumn INFO     
-list index out of range returnColumn
-
---06-20 11:04:08 log_info display_image.sky_manifest.returnColumn INFO     
-
-# sky_manifest.ManifestReader.returnColumn: ERROR appending returnColumn
-
---06-20 11:04:08 log_info display_image.sky_manifest.returnColumn INFO     
-list index out of range returnColumn
-
---06-20 11:04:08 log_info display_image.sky_manifest.returnColumn INFO     
-
-# sky_manifest.ManifestReader.returnColumn: ERROR appending returnColumn
-
---06-20 11:04:08 log_info display_image.sky_manifest.returnColumn INFO     
-list index out of range returnColumn
-
---06-20 11:04:08 log_info display_image.sky_manifest.returnColumn INFO     
-
-# sky_manifest.ManifestReader.returnColumn: ERROR appending returnColumn
-
---06-20 11:04:08 log_info display_image.sky_manifest.returnColumn INFO     
-list index out of range returnColumn
-
---06-20 11:04:08 log_info display_image.sky_manifest.returnColumn INFO     
-
-# sky_manifest.ManifestReader.returnColumn: ERROR appending returnColumn
-
---06-20 11:04:08 log_info display_image.sky_manifest.returnColumn INFO     
-list index out of range returnColumn
-
---06-20 11:04:08 log_info display_image.sky_manifest.checkIfManifested INFO     
-. jc_len:561 mc_len:561 sc_len:561 checkIfManifested
-
---06-20 11:04:08 log_info display_image.sky_manifest.checkIfManifested INFO     
-. Found Match on row_index:111 checkIfManifested
-
---06-20 11:04:08 log_info display_image.sky_manifest.checkIfManifested INFO     
-. Line Number: 112 checkIfManifested
-
---06-20 11:04:08 log_info display_image.sky_manifest.checkIfManifested INFO     
-. Found sku Number: 1111 checkIfManifested
-
---06-20 11:04:08 log_info display_image.sky_manifest.checkIfManifested INFO     
-. Manifested: X checkIfManifested
-
---06-20 11:04:08 log_info display_image.Check.loadMainFrameJson INFO     
-
-# Check.loadself.MainFrameJson(): # loadMainFrameJson
-
---06-20 11:04:08 log_info display_image.Check.loadMainFrameJson INFO     
-display_image\jPages\J433424\J433424.json loadMainFrameJson
-
---06-20 11:04:08 log_debug display_image.Check.loadMainFrameJson DEBUG    Json jNumber not foundloadMainFrameJson
-ARGS_KWARGS_STR:
-{'ARGS': (u'display_image\\jPages\\J433424\\J433424.json',)
-, 'KWARGS': {}}
-call_fn: C:\Users\Mitchell\Desktop\SGIS-wxpython-master\display_image\EventsHandlers\MainFrameEventHandler.py
-call_ln: 1027
-call_func: onScanNumberText
-caller: ['            results = self.updateMainFrameCurrentItemInfo(retailer_code) #<---------------------- \n']
-Exception:
-None
-
---06-20 11:04:08 log_info display_image.EventsHandlers.MainFrameEventHandler.updateMainFrameCurrentItemInfo INFO     
-Post json_exists: {'retailer_code:1': '', 'box': '', 'description': '\nJ176344  Description is empty\n4PK4260000010\n21492\n', 'repair': '', 'band_size': '7.25', 'image_list': ['default', '4QZ4680000010_VA_999', 'default'], 'jnumber': 'J433424', 'pallet_number': 'Watches4', 'jNumberFolderPath': u'display_image\\jPages\\J433424', 'full_': 'J433424-00005-04168', 'Retail': '', 'specs': '\nJ176344  Description is empty\n4PK4260000010\n21492\n', 'eBay Price': '', 'Total Retail': '', 'sku': '1111', 'Division': 'Watches', 'Margin $': '', 'title': 'INVICTA MENS GRAND DIVER 54MM QUARTZ DATE STAINLESS BRACELET WATCH W/ 8DC RED MENS', 'manifested': 'X', 'Brand': 'Invicta', 'Margin %': '', 'model_number': '', 'jNumber': 'J433424', 'Qty': '1', 'listerInitials': u'JM', 'itemSelectedImages': {'key': ''}, 'condition': '2', 'condition_notes': '', 'date_listed': '', 'palletNumber': u'Watches4', 'upc': '', 'retailer_code': '1', 'msrp': '$171.00', 'Total Cost': '$171.00'} updateMainFrameCurrentItemInfo
-
---06-20 11:04:08 log_info display_image.EventsHandlers.MainFrameEventHandler.updateMainFrameCurrentItemInfo INFO     
-Post json_exists: {'retailer_code:1': '', 'box': '', 'description': '\nJ176344  Description is empty\n4PK4260000010\n21492\n', 'repair': '', 'band_size': '7.25', 'image_list': ['default', '4QZ4680000010_VA_999', 'default'], 'jnumber': 'J433424', 'pallet_number': 'Watches4', 'jNumberFolderPath': u'display_image\\jPages\\J433424', 'full_': 'J433424-00005-04168', 'Retail': '', 'specs': '\nJ176344  Description is empty\n4PK4260000010\n21492\n', 'eBay Price': '', 'Total Retail': '', 'sku': '1111', 'Division': 'Watches', 'Margin $': '', 'title': 'INVICTA MENS GRAND DIVER 54MM QUARTZ DATE STAINLESS BRACELET WATCH W/ 8DC RED MENS', 'manifested': 'X', 'Brand': 'Invicta', 'Margin %': '', 'model_number': '', 'jNumber': 'J433424', 'Qty': '1', 'listerInitials': u'JM', 'itemSelectedImages': {'key': ''}, 'condition': '2', 'condition_notes': '', 'date_listed': '', 'palletNumber': u'Watches4', 'upc': '', 'retailer_code': '1', 'msrp': '$171.00', 'Total Cost': '$171.00'} updateMainFrameCurrentItemInfo
-
---06-20 11:04:08 log_debug display_image.sky_scraper.fetchPage DEBUG    retailer_code,jNumberfetchPage
-ARGS_KWARGS_STR:
-{'ARGS': ('1', u'J433424')
-, 'KWARGS': {}}
-call_fn: C:\Users\Mitchell\Desktop\SGIS-wxpython-master\display_image\EventsHandlers\MainFrameEventHandler.py
-call_ln: 859
-call_func: updateMainFrameCurrentItemInfo
-caller: ["                    results = FetchPage(self.MainFrame).results     # results = {image_list:[],description:''}\n"]
-Exception:
-None
-
---06-20 11:04:08 log_info display_image.sky_scraper.fetchPage INFO     
-starting getShopHqProductInfo fetchPage
-
---06-20 11:04:08 log_info display_image.sky_scraper.getShopHqProductInfo INFO     
-folder:display_image\jPages getShopHqProductInfo
-
---06-20 11:04:08 log_info display_image.sky_scraper.getShopHqProductInfo INFO     
-itemFolder:display_image\jPages\J433424 getShopHqProductInfo
-
---06-20 11:04:08 log_info display_image.sky_scraper.getShopHqProductInfo INFO     
-html_file_path:display_image\jPages\J433424\J433424_html getShopHqProductInfo
-
---06-20 11:04:08 log_info display_image.sky_scraper.getShopHqProductInfo INFO     
-[Error 183] Cannot create a file when that file already exists: 'display_image\\jPages' getShopHqProductInfo
-
---06-20 11:04:08 log_info display_image.sky_scraper.getShopHqProductInfo INFO     
-[Error 183] Cannot create a file when that file already exists: u'display_image\\jPages\\J433424' getShopHqProductInfo
-
---06-20 11:04:08 log_info display_image.sky_scraper.extract_product_info INFO     
-
-                <p><strong>Invicta 54mm Grand Diver Quartz Stainless Steel Bracelet Watch w/ Eight-Slot Dive Case</strong></p>
-
-<p><strong>Choices: </strong> Blue or Red bezel accent</p>
-
-<p> An impressive display of striking design, this Invicta Grand Diver lives up to its name! </p>
-                Beginning with a round silver-tone stainless steel case, this Grand Diver houses a black texture edged unidirectional rotating bezel with blue or red accents, a diver’s scale, Arabic numerals and one luminous Tritnite marker. You’ll find the Grand Diver logo atop the crown and “Invicta” etched on the left side of the case for understated refinement. A silver-tone bracelet holds this timepiece together with brush finished outer links and polish finished inner links. </p> 
-
-<p> Keeping you always on schedule, a black metal dial presents a magnified date window near 3:00 and Tritnite index markers with silver-tone trim at all hour positions. The hour and minute hands match perfectly as they circle the dial and a red seconds hand stands out with a Tritnite tip and the Invicta logo on its end. “Invicta” below 12:00 and the Grand Diver logo above 6:00 finish the dial. </p>
-
-<p> Complete your sharp style with this Grand Diver from Invicta! </p>
-
-<strong>Details:</strong>
-<ul><li><strong>Bracelet: </strong>Stainless Steel
-<li><strong>Movement: </strong>Swiss Parts ISA 2331/103 Quartz 
-<li><strong>Crystal: </strong>Mineral
-<li><strong>Crown: </strong>Push/Pull
-<li><strong>Clasp: </strong>Deployant
-<li><strong>Bracelet Measurements: </strong>9-1/4 L x 26mm W
-<li><strong>Case Measurements: </strong>54mm
-<li><strong>Case Thickness: </strong>14-1/2mm
-<li><strong>Weight: </strong>9 oz.
-<li><strong>Water Resistance: </strong>20 ATM - 200 meters - 660 feet
-<li><strong>Model Numbers: </strong>
-<br>Blue: 14655 - 8BLK/YEL 
-<br>Red: 14652- 8BLK/YEL 
-<li><strong>UPC: </strong>
-<br>Blue: 886678153312 
-<br>Red: 886678153282   </ul></li>
-<p> extract_product_info
-
---06-20 11:04:08 log_info display_image.sky_scraper.getShopHqProductInfo INFO     
-{'image_list': ['622-785?DefaultImage=1&$472x472_jpg$', '622-785_01_swatch?DefaultImage=1&$40x40_jpg$', '622-785_00_swatch?DefaultImage=1&$40x40_jpg$', '622-785?DefaultImage=1&$472x472_jpg$', '622-785?DefaultImage=1&$80x80_jpg$', '622-785_00_detail?DefaultImage=1&$80x80_jpg$', '622-785_01_detail?DefaultImage=1&$80x80_jpg$', '622-785_02_detail?DefaultImage=1&$80x80_jpg$', '622-785_03_detail?DefaultImage=1&$80x80_jpg$', '622-785?DefaultImage=1&$120x120_jpg$', '622-785?DefaultImage=1&$120x120_jpg$'], 'description': '\r\n                <p><strong>Invicta 54mm Grand Diver Quartz Stainless Steel Bracelet Watch w/ Eight-Slot Dive Case</strong></p>\r\n\r\n<p><strong>Choices: </strong> Blue or Red bezel accent</p>\r\n\r\n<p> An impressive display of striking design, this Invicta Grand Diver lives up to its name! </p>\r\n                Beginning with a round silver-tone stainless steel case, this Grand Diver houses a black texture edged unidirectional rotating bezel with blue or red accents, a diver\xe2\x80\x99s scale, Arabic numerals and one luminous Tritnite marker. You\xe2\x80\x99ll find the Grand Diver logo atop the crown and \xe2\x80\x9cInvicta\xe2\x80\x9d etched on the left side of the case for understated refinement. A silver-tone bracelet holds this timepiece together with brush finished outer links and polish finished inner links. </p> \r\n\r\n<p> Keeping you always on schedule, a black metal dial presents a magnified date window near 3:00 and Tritnite index markers with silver-tone trim at all hour positions. The hour and minute hands match perfectly as they circle the dial and a red seconds hand stands out with a Tritnite tip and the Invicta logo on its end. \xe2\x80\x9cInvicta\xe2\x80\x9d below 12:00 and the Grand Diver logo above 6:00 finish the dial. </p>\r\n\r\n<p> Complete your sharp style with this Grand Diver from Invicta! </p>\r\n\r\n<strong>Details:</strong>\r\n<ul><li><strong>Bracelet: </strong>Stainless Steel\r\n<li><strong>Movement: </strong>Swiss Parts ISA 2331/103 Quartz \r\n<li><strong>Crystal: </strong>Mineral\r\n<li><strong>Crown: </strong>Push/Pull\r\n<li><strong>Clasp: </strong>Deployant\r\n<li><strong>Bracelet Measurements: </strong>9-1/4 L x 26mm W\r\n<li><strong>Case Measurements: </strong>54mm\r\n<li><strong>Case Thickness: </strong>14-1/2mm\r\n<li><strong>Weight: </strong>9 oz.\r\n<li><strong>Water Resistance: </strong>20 ATM - 200 meters - 660 feet\r\n<li><strong>Model Numbers: </strong>\r\n<br>Blue: 14655 - 8BLK/YEL \r\n<br>Red: 14652- 8BLK/YEL \r\n<li><strong>UPC: </strong>\r\n<br>Blue: 886678153312 \r\n<br>Red: 886678153282   </ul></li>\r\n<p>', 'specs': "['tt_productRightCol', 'entity.id=622-785', 'entity.categoryId=product', 'entity.name=Invicta 54mm Grand Diver Quartz Stainless Steel Bracelet Watch w/ Eight-Slot Dive Case', 'entity.pageUrl=http://www.shophq.com/product/622-785.aspx?\\\\u0026familyid=J433424', 'entity.thumbnailUrl=http://images.shophq.com/is/image/ShopHQ/622-785?DefaultImage=1&$120x120_jpg$', 'entity.message=INVICTA MENS GRAND DIVER QUARTZ DATE BRACELET WATCH', 'entity.value=176.0000', '']"} getShopHqProductInfo
-
---06-20 11:04:08 log_info display_image.sky_scraper.fetchPage INFO     
-Updating currentItemInfo in FetchPage fetchPage
-
---06-20 11:04:08 log_debug display_image.sky_scraper.fetchPage DEBUG    getShopHqProductInfo(jNumber) fetchPage results:fetchPage
-ARGS_KWARGS_STR:
-{'ARGS': ({'retailer_code:1': ''
-, 'box': ''
-, 'description': '\r\n                <p><strong>Invicta 54mm Grand Diver Quartz Stainless Steel Bracelet Watch w/ Eight-Slot Dive Case</strong></p>\r\n\r\n<p><strong>Choices: </strong> Blue or Red bezel accent</p>\r\n\r\n<p> An impressive display of striking design, this Invicta Grand Diver lives up to its name! </p>\r\n                Beginning with a round silver-tone stainless steel case, this Grand Diver houses a black texture edged unidirectional rotating bezel with blue or red accents, a diver\xe2\x80\x99s scale, Arabic numerals and one luminous Tritnite marker. You\xe2\x80\x99ll find the Grand Diver logo atop the crown and \xe2\x80\x9cInvicta\xe2\x80\x9d etched on the left side of the case for understated refinement. A silver-tone bracelet holds this timepiece together with brush finished outer links and polish finished inner links. </p> \r\n\r\n<p> Keeping you always on schedule, a black metal dial presents a magnified date window near 3:00 and Tritnite index markers with silver-tone trim at all hour positions. The hour and minute hands match perfectly as they circle the dial and a red seconds hand stands out with a Tritnite tip and the Invicta logo on its end. \xe2\x80\x9cInvicta\xe2\x80\x9d below 12:00 and the Grand Diver logo above 6:00 finish the dial. </p>\r\n\r\n<p> Complete your sharp style with this Grand Diver from Invicta! </p>\r\n\r\n<strong>Details:</strong>\r\n<ul><li><strong>Bracelet: </strong>Stainless Steel\r\n<li><strong>Movement: </strong>Swiss Parts ISA 2331/103 Quartz \r\n<li><strong>Crystal: </strong>Mineral\r\n<li><strong>Crown: </strong>Push/Pull\r\n<li><strong>Clasp: </strong>Deployant\r\n<li><strong>Bracelet Measurements: </strong>9-1/4 L x 26mm W\r\n<li><strong>Case Measurements: </strong>54mm\r\n<li><strong>Case Thickness: </strong>14-1/2mm\r\n<li><strong>Weight: </strong>9 oz.\r\n<li><strong>Water Resistance: </strong>20 ATM - 200 meters - 660 feet\r\n<li><strong>Model Numbers: </strong>\r\n<br>Blue: 14655 - 8BLK/YEL \r\n<br>Red: 14652- 8BLK/YEL \r\n<li><strong>UPC: </strong>\r\n<br>Blue: 886678153312 \r\n<br>Red: 886678153282   </ul></li>\r\n<p>'
-, 'repair': ''
-, 'band_size': '7.25'
-, 'image_list': ['622-785?DefaultImage=1&$472x472_jpg$'
-, '622-785_01_swatch?DefaultImage=1&$40x40_jpg$'
-, '622-785_00_swatch?DefaultImage=1&$40x40_jpg$'
-, '622-785?DefaultImage=1&$472x472_jpg$'
-, '622-785?DefaultImage=1&$80x80_jpg$'
-, '622-785_00_detail?DefaultImage=1&$80x80_jpg$'
-, '622-785_01_detail?DefaultImage=1&$80x80_jpg$'
-, '622-785_02_detail?DefaultImage=1&$80x80_jpg$'
-, '622-785_03_detail?DefaultImage=1&$80x80_jpg$'
-, '622-785?DefaultImage=1&$120x120_jpg$'
-, '622-785?DefaultImage=1&$120x120_jpg$']
-, 'jnumber': 'J433424'
-, 'pallet_number': 'Watches4'
-, 'jNumberFolderPath': u'display_image\\jPages\\J433424'
-, 'full_': 'J433424-00005-04168'
-, 'Retail': ''
-, 'specs': "['tt_productRightCol'
-, 'entity.id=622-785'
-, 'entity.categoryId=product'
-, 'entity.name=Invicta 54mm Grand Diver Quartz Stainless Steel Bracelet Watch w/ Eight-Slot Dive Case'
-, 'entity.pageUrl=http://www.shophq.com/product/622-785.aspx?\\\\u0026familyid=J433424'
-, 'entity.thumbnailUrl=http://images.shophq.com/is/image/ShopHQ/622-785?DefaultImage=1&$120x120_jpg$'
-, 'entity.message=INVICTA MENS GRAND DIVER QUARTZ DATE BRACELET WATCH'
-, 'entity.value=176.0000'
-, '']"
-, 'eBay Price': ''
-, 'Total Retail': ''
-, 'sku': '1111'
-, 'Division': 'Watches'
-, 'Margin $': ''
-, 'title': 'INVICTA MENS GRAND DIVER 54MM QUARTZ DATE STAINLESS BRACELET WATCH W/ 8DC RED MENS'
-, 'manifested': 'X'
-, 'Brand': 'Invicta'
-, 'Margin %': ''
-, 'model_number': ''
-, 'jNumber': 'J433424'
-, 'Qty': '1'
-, 'listerInitials': u'JM'
-, 'itemSelectedImages': {'key': ''}
-, 'condition': '2'
-, 'condition_notes': ''
-, 'date_listed': ''
-, 'palletNumber': u'Watches4'
-, 'upc': ''
-, 'retailer_code': '1'
-, 'msrp': '$171.00'
-, 'Total Cost': '$171.00'}, u'J433424', u'J433424')
-, 'KWARGS': {}}
-call_fn: C:\Users\Mitchell\Desktop\SGIS-wxpython-master\display_image\EventsHandlers\MainFrameEventHandler.py
-call_ln: 859
-call_func: updateMainFrameCurrentItemInfo
-caller: ["                    results = FetchPage(self.MainFrame).results     # results = {image_list:[],description:''}\n"]
-Exception:
-None
-
---06-20 11:04:08 log_debug display_image.EventsHandlers.MainFrameEventHandler.updateMainFrameCurrentItemInfo DEBUG    MainFrameEventHandler.updateMainFrameCurrentItemInfo updateMainFrameCurrentItemInfo
-ARGS_KWARGS_STR:
-{'ARGS': ({'retailer_code:1': ''
-, 'box': ''
-, 'description': '\r\n                <p><strong>Invicta 54mm Grand Diver Quartz Stainless Steel Bracelet Watch w/ Eight-Slot Dive Case</strong></p>\r\n\r\n<p><strong>Choices: </strong> Blue or Red bezel accent</p>\r\n\r\n<p> An impressive display of striking design, this Invicta Grand Diver lives up to its name! </p>\r\n                Beginning with a round silver-tone stainless steel case, this Grand Diver houses a black texture edged unidirectional rotating bezel with blue or red accents, a diver\xe2\x80\x99s scale, Arabic numerals and one luminous Tritnite marker. You\xe2\x80\x99ll find the Grand Diver logo atop the crown and \xe2\x80\x9cInvicta\xe2\x80\x9d etched on the left side of the case for understated refinement. A silver-tone bracelet holds this timepiece together with brush finished outer links and polish finished inner links. </p> \r\n\r\n<p> Keeping you always on schedule, a black metal dial presents a magnified date window near 3:00 and Tritnite index markers with silver-tone trim at all hour positions. The hour and minute hands match perfectly as they circle the dial and a red seconds hand stands out with a Tritnite tip and the Invicta logo on its end. \xe2\x80\x9cInvicta\xe2\x80\x9d below 12:00 and the Grand Diver logo above 6:00 finish the dial. </p>\r\n\r\n<p> Complete your sharp style with this Grand Diver from Invicta! </p>\r\n\r\n<strong>Details:</strong>\r\n<ul><li><strong>Bracelet: </strong>Stainless Steel\r\n<li><strong>Movement: </strong>Swiss Parts ISA 2331/103 Quartz \r\n<li><strong>Crystal: </strong>Mineral\r\n<li><strong>Crown: </strong>Push/Pull\r\n<li><strong>Clasp: </strong>Deployant\r\n<li><strong>Bracelet Measurements: </strong>9-1/4 L x 26mm W\r\n<li><strong>Case Measurements: </strong>54mm\r\n<li><strong>Case Thickness: </strong>14-1/2mm\r\n<li><strong>Weight: </strong>9 oz.\r\n<li><strong>Water Resistance: </strong>20 ATM - 200 meters - 660 feet\r\n<li><strong>Model Numbers: </strong>\r\n<br>Blue: 14655 - 8BLK/YEL \r\n<br>Red: 14652- 8BLK/YEL \r\n<li><strong>UPC: </strong>\r\n<br>Blue: 886678153312 \r\n<br>Red: 886678153282   </ul></li>\r\n<p>'
-, 'repair': ''
-, 'band_size': '7.25'
-, 'image_list': ['622-785?DefaultImage=1&$472x472_jpg$'
-, '622-785_01_swatch?DefaultImage=1&$40x40_jpg$'
-, '622-785_00_swatch?DefaultImage=1&$40x40_jpg$'
-, '622-785?DefaultImage=1&$472x472_jpg$'
-, '622-785?DefaultImage=1&$80x80_jpg$'
-, '622-785_00_detail?DefaultImage=1&$80x80_jpg$'
-, '622-785_01_detail?DefaultImage=1&$80x80_jpg$'
-, '622-785_02_detail?DefaultImage=1&$80x80_jpg$'
-, '622-785_03_detail?DefaultImage=1&$80x80_jpg$'
-, '622-785?DefaultImage=1&$120x120_jpg$'
-, '622-785?DefaultImage=1&$120x120_jpg$']
-, 'jnumber': 'J433424'
-, 'pallet_number': 'Watches4'
-, 'jNumberFolderPath': u'display_image\\jPages\\J433424'
-, 'full_': 'J433424-00005-04168'
-, 'Retail': ''
-, 'specs': "['tt_productRightCol'
-, 'entity.id=622-785'
-, 'entity.categoryId=product'
-, 'entity.name=Invicta 54mm Grand Diver Quartz Stainless Steel Bracelet Watch w/ Eight-Slot Dive Case'
-, 'entity.pageUrl=http://www.shophq.com/product/622-785.aspx?\\\\u0026familyid=J433424'
-, 'entity.thumbnailUrl=http://images.shophq.com/is/image/ShopHQ/622-785?DefaultImage=1&$120x120_jpg$'
-, 'entity.message=INVICTA MENS GRAND DIVER QUARTZ DATE BRACELET WATCH'
-, 'entity.value=176.0000'
-, '']"
-, 'eBay Price': ''
-, 'Total Retail': ''
-, 'sku': '1111'
-, 'Division': 'Watches'
-, 'Margin $': ''
-, 'title': 'INVICTA MENS GRAND DIVER 54MM QUARTZ DATE STAINLESS BRACELET WATCH W/ 8DC RED MENS'
-, 'manifested': 'X'
-, 'Brand': 'Invicta'
-, 'Margin %': ''
-, 'model_number': ''
-, 'jNumber': 'J433424'
-, 'Qty': '1'
-, 'listerInitials': u'JM'
-, 'itemSelectedImages': {'key': ''}
-, 'condition': '2'
-, 'condition_notes': ''
-, 'date_listed': ''
-, 'palletNumber': u'Watches4'
-, 'upc': ''
-, 'retailer_code': '1'
-, 'msrp': '$171.00'
-, 'Total Cost': '$171.00'},)
-, 'KWARGS': {}}
-call_fn: C:\Users\Mitchell\Desktop\SGIS-wxpython-master\display_image\EventsHandlers\MainFrameEventHandler.py
-call_ln: 218
-call_func: onLookUpBySkuBtnShopHq
-caller: ['        self.onScanNumberText(self)\n']
-Exception:
-None
-
---06-20 11:04:08 log_info display_image.EventsHandlers.MainFrameEventHandler.updateMainFrameCurrentItemInfo INFO     
-############### Begin download images ############## updateMainFrameCurrentItemInfo
-
---06-20 11:04:08 log_info display_image.EventsHandlers.MainFrameEventHandler.updateMainFrameCurrentItemInfo INFO     
-############### Begin download images ############## updateMainFrameCurrentItemInfo
-
---06-20 11:04:08 log_info display_image.Check.downloadImages INFO     
-###Downloading Images####
- downloadImages
-
---06-20 11:04:08 log_debug display_image.Check.downloadImages DEBUG    WHAT IS IN THE itemInfo IMAGE LISTdownloadImages
-ARGS_KWARGS_STR:
-{'ARGS': (['622-785?DefaultImage=1&$472x472_jpg$'
-, '622-785_01_swatch?DefaultImage=1&$40x40_jpg$'
-, '622-785_00_swatch?DefaultImage=1&$40x40_jpg$'
-, '622-785?DefaultImage=1&$472x472_jpg$'
-, '622-785?DefaultImage=1&$80x80_jpg$'
-, '622-785_00_detail?DefaultImage=1&$80x80_jpg$'
-, '622-785_01_detail?DefaultImage=1&$80x80_jpg$'
-, '622-785_02_detail?DefaultImage=1&$80x80_jpg$'
-, '622-785_03_detail?DefaultImage=1&$80x80_jpg$'
-, '622-785?DefaultImage=1&$120x120_jpg$'
-, '622-785?DefaultImage=1&$120x120_jpg$'],)
-, 'KWARGS': {}}
-call_fn: C:\Users\Mitchell\Desktop\SGIS-wxpython-master\display_image\EventsHandlers\MainFrameEventHandler.py
-call_ln: 1027
-call_func: onScanNumberText
-caller: ['            results = self.updateMainFrameCurrentItemInfo(retailer_code) #<---------------------- \n']
-Exception:
-None
-
---06-20 11:04:08 log_debug display_image.Check.downloadImages DEBUG    WHAT IS IN THE currentItemInfo IMAGE LISTdownloadImages
-ARGS_KWARGS_STR:
-{'ARGS': (['622-785?DefaultImage=1&$472x472_jpg$'
-, '622-785_01_swatch?DefaultImage=1&$40x40_jpg$'
-, '622-785_00_swatch?DefaultImage=1&$40x40_jpg$'
-, '622-785?DefaultImage=1&$472x472_jpg$'
-, '622-785?DefaultImage=1&$80x80_jpg$'
-, '622-785_00_detail?DefaultImage=1&$80x80_jpg$'
-, '622-785_01_detail?DefaultImage=1&$80x80_jpg$'
-, '622-785_02_detail?DefaultImage=1&$80x80_jpg$'
-, '622-785_03_detail?DefaultImage=1&$80x80_jpg$'
-, '622-785?DefaultImage=1&$120x120_jpg$'
-, '622-785?DefaultImage=1&$120x120_jpg$'],)
-, 'KWARGS': {}}
-call_fn: C:\Users\Mitchell\Desktop\SGIS-wxpython-master\display_image\EventsHandlers\MainFrameEventHandler.py
-call_ln: 1027
-call_func: onScanNumberText
-caller: ['            results = self.updateMainFrameCurrentItemInfo(retailer_code) #<---------------------- \n']
-Exception:
-None
-
---06-20 11:04:08 log_info display_image.Check.downloadImages INFO     
-. Check.downloadImages(): Fetching Image: http://images.shophq.com/is/image/ShopHQ/622-785?DefaultImage=1&$472x472_jpg$ downloadImages
-
---06-20 11:04:08 log_info display_image.Check.downloadImages INFO     
-. Check.downloadImages(): Fetching Image: http://images.shophq.com/is/image/ShopHQ/622-785_01_swatch?DefaultImage=1&$40x40_jpg$ downloadImages
-
---06-20 11:04:08 log_info display_image.Check.downloadImages INFO     
-. Check.downloadImages(): Fetching Image: http://images.shophq.com/is/image/ShopHQ/622-785_00_swatch?DefaultImage=1&$40x40_jpg$ downloadImages
-
---06-20 11:04:09 log_info display_image.Check.downloadImages INFO     
-. Check.downloadImages(): Fetching Image: http://images.shophq.com/is/image/ShopHQ/622-785_00_detail?DefaultImage=1&$80x80_jpg$ downloadImages
-
---06-20 11:04:09 log_info display_image.Check.downloadImages INFO     
-. Check.downloadImages(): Fetching Image: http://images.shophq.com/is/image/ShopHQ/622-785_01_detail?DefaultImage=1&$80x80_jpg$ downloadImages
-
---06-20 11:04:09 log_info display_image.Check.downloadImages INFO     
-. Check.downloadImages(): Fetching Image: http://images.shophq.com/is/image/ShopHQ/622-785_02_detail?DefaultImage=1&$80x80_jpg$ downloadImages
-
---06-20 11:04:09 log_info display_image.Check.downloadImages INFO     
-. Check.downloadImages(): Fetching Image: http://images.shophq.com/is/image/ShopHQ/622-785_03_detail?DefaultImage=1&$80x80_jpg$ downloadImages
-
---06-20 11:04:10 log_debug display_image.EventsHandlers.MainFrameEventHandler.updateMainFrameCurrentItemInfo DEBUG    json results updateMainFrameCurrentItemInfo
-ARGS_KWARGS_STR:
-{'ARGS': ({'retailer_code:1': ''
-, 'box': ''
-, 'description': '\r\n                <p><strong>Invicta 54mm Grand Diver Quartz Stainless Steel Bracelet Watch w/ Eight-Slot Dive Case</strong></p>\r\n\r\n<p><strong>Choices: </strong> Blue or Red bezel accent</p>\r\n\r\n<p> An impressive display of striking design, this Invicta Grand Diver lives up to its name! </p>\r\n                Beginning with a round silver-tone stainless steel case, this Grand Diver houses a black texture edged unidirectional rotating bezel with blue or red accents, a diver\xe2\x80\x99s scale, Arabic numerals and one luminous Tritnite marker. You\xe2\x80\x99ll find the Grand Diver logo atop the crown and \xe2\x80\x9cInvicta\xe2\x80\x9d etched on the left side of the case for understated refinement. A silver-tone bracelet holds this timepiece together with brush finished outer links and polish finished inner links. </p> \r\n\r\n<p> Keeping you always on schedule, a black metal dial presents a magnified date window near 3:00 and Tritnite index markers with silver-tone trim at all hour positions. The hour and minute hands match perfectly as they circle the dial and a red seconds hand stands out with a Tritnite tip and the Invicta logo on its end. \xe2\x80\x9cInvicta\xe2\x80\x9d below 12:00 and the Grand Diver logo above 6:00 finish the dial. </p>\r\n\r\n<p> Complete your sharp style with this Grand Diver from Invicta! </p>\r\n\r\n<strong>Details:</strong>\r\n<ul><li><strong>Bracelet: </strong>Stainless Steel\r\n<li><strong>Movement: </strong>Swiss Parts ISA 2331/103 Quartz \r\n<li><strong>Crystal: </strong>Mineral\r\n<li><strong>Crown: </strong>Push/Pull\r\n<li><strong>Clasp: </strong>Deployant\r\n<li><strong>Bracelet Measurements: </strong>9-1/4 L x 26mm W\r\n<li><strong>Case Measurements: </strong>54mm\r\n<li><strong>Case Thickness: </strong>14-1/2mm\r\n<li><strong>Weight: </strong>9 oz.\r\n<li><strong>Water Resistance: </strong>20 ATM - 200 meters - 660 feet\r\n<li><strong>Model Numbers: </strong>\r\n<br>Blue: 14655 - 8BLK/YEL \r\n<br>Red: 14652- 8BLK/YEL \r\n<li><strong>UPC: </strong>\r\n<br>Blue: 886678153312 \r\n<br>Red: 886678153282   </ul></li>\r\n<p>'
-, 'repair': ''
-, 'band_size': '7.25'
-, 'image_list': ['622-785?DefaultImage=1&$472x472_jpg$'
-, '622-785_01_swatch?DefaultImage=1&$40x40_jpg$'
-, '622-785_00_swatch?DefaultImage=1&$40x40_jpg$'
-, '622-785?DefaultImage=1&$472x472_jpg$'
-, '622-785?DefaultImage=1&$80x80_jpg$'
-, '622-785_00_detail?DefaultImage=1&$80x80_jpg$'
-, '622-785_01_detail?DefaultImage=1&$80x80_jpg$'
-, '622-785_02_detail?DefaultImage=1&$80x80_jpg$'
-, '622-785_03_detail?DefaultImage=1&$80x80_jpg$'
-, '622-785?DefaultImage=1&$120x120_jpg$'
-, '622-785?DefaultImage=1&$120x120_jpg$']
-, 'jnumber': 'J433424'
-, 'pallet_number': 'Watches4'
-, 'jNumberFolderPath': u'display_image\\jPages\\J433424'
-, 'full_': 'J433424-00005-04168'
-, 'Retail': ''
-, 'specs': "['tt_productRightCol'
-, 'entity.id=622-785'
-, 'entity.categoryId=product'
-, 'entity.name=Invicta 54mm Grand Diver Quartz Stainless Steel Bracelet Watch w/ Eight-Slot Dive Case'
-, 'entity.pageUrl=http://www.shophq.com/product/622-785.aspx?\\\\u0026familyid=J433424'
-, 'entity.thumbnailUrl=http://images.shophq.com/is/image/ShopHQ/622-785?DefaultImage=1&$120x120_jpg$'
-, 'entity.message=INVICTA MENS GRAND DIVER QUARTZ DATE BRACELET WATCH'
-, 'entity.value=176.0000'
-, '']"
-, 'eBay Price': ''
-, 'Total Retail': ''
-, 'sku': '1111'
-, 'Division': 'Watches'
-, 'Margin $': ''
-, 'title': 'INVICTA MENS GRAND DIVER 54MM QUARTZ DATE STAINLESS BRACELET WATCH W/ 8DC RED MENS'
-, 'manifested': 'X'
-, 'Brand': 'Invicta'
-, 'Margin %': ''
-, 'model_number': ''
-, 'jNumber': 'J433424'
-, 'Qty': '1'
-, 'listerInitials': u'JM'
-, 'itemSelectedImages': {'key': ''}
-, 'condition': '2'
-, 'condition_notes': ''
-, 'date_listed': ''
-, 'palletNumber': u'Watches4'
-, 'upc': ''
-, 'retailer_code': '1'
-, 'msrp': '$171.00'
-, 'Total Cost': '$171.00'},)
-, 'KWARGS': {}}
-call_fn: C:\Users\Mitchell\Desktop\SGIS-wxpython-master\display_image\EventsHandlers\MainFrameEventHandler.py
-call_ln: 218
-call_func: onLookUpBySkuBtnShopHq
-caller: ['        self.onScanNumberText(self)\n']
-Exception:
-None
-
---06-20 11:04:10 log_debug display_image.Check.guessImageName DEBUG    currentItemInfo:guessImageName
-ARGS_KWARGS_STR:
-{'ARGS': ({'retailer_code:1': ''
-, 'box': ''
-, 'description': '\r\n                <p><strong>Invicta 54mm Grand Diver Quartz Stainless Steel Bracelet Watch w/ Eight-Slot Dive Case</strong></p>\r\n\r\n<p><strong>Choices: </strong> Blue or Red bezel accent</p>\r\n\r\n<p> An impressive display of striking design, this Invicta Grand Diver lives up to its name! </p>\r\n                Beginning with a round silver-tone stainless steel case, this Grand Diver houses a black texture edged unidirectional rotating bezel with blue or red accents, a diver\xe2\x80\x99s scale, Arabic numerals and one luminous Tritnite marker. You\xe2\x80\x99ll find the Grand Diver logo atop the crown and \xe2\x80\x9cInvicta\xe2\x80\x9d etched on the left side of the case for understated refinement. A silver-tone bracelet holds this timepiece together with brush finished outer links and polish finished inner links. </p> \r\n\r\n<p> Keeping you always on schedule, a black metal dial presents a magnified date window near 3:00 and Tritnite index markers with silver-tone trim at all hour positions. The hour and minute hands match perfectly as they circle the dial and a red seconds hand stands out with a Tritnite tip and the Invicta logo on its end. \xe2\x80\x9cInvicta\xe2\x80\x9d below 12:00 and the Grand Diver logo above 6:00 finish the dial. </p>\r\n\r\n<p> Complete your sharp style with this Grand Diver from Invicta! </p>\r\n\r\n<strong>Details:</strong>\r\n<ul><li><strong>Bracelet: </strong>Stainless Steel\r\n<li><strong>Movement: </strong>Swiss Parts ISA 2331/103 Quartz \r\n<li><strong>Crystal: </strong>Mineral\r\n<li><strong>Crown: </strong>Push/Pull\r\n<li><strong>Clasp: </strong>Deployant\r\n<li><strong>Bracelet Measurements: </strong>9-1/4 L x 26mm W\r\n<li><strong>Case Measurements: </strong>54mm\r\n<li><strong>Case Thickness: </strong>14-1/2mm\r\n<li><strong>Weight: </strong>9 oz.\r\n<li><strong>Water Resistance: </strong>20 ATM - 200 meters - 660 feet\r\n<li><strong>Model Numbers: </strong>\r\n<br>Blue: 14655 - 8BLK/YEL \r\n<br>Red: 14652- 8BLK/YEL \r\n<li><strong>UPC: </strong>\r\n<br>Blue: 886678153312 \r\n<br>Red: 886678153282   </ul></li>\r\n<p>'
-, 'repair': ''
-, 'band_size': '7.25'
-, 'image_list': ['622-785?DefaultImage=1&$472x472_jpg$'
-, '622-785_01_swatch?DefaultImage=1&$40x40_jpg$'
-, '622-785_00_swatch?DefaultImage=1&$40x40_jpg$'
-, '622-785?DefaultImage=1&$472x472_jpg$'
-, '622-785?DefaultImage=1&$80x80_jpg$'
-, '622-785_00_detail?DefaultImage=1&$80x80_jpg$'
-, '622-785_01_detail?DefaultImage=1&$80x80_jpg$'
-, '622-785_02_detail?DefaultImage=1&$80x80_jpg$'
-, '622-785_03_detail?DefaultImage=1&$80x80_jpg$'
-, '622-785?DefaultImage=1&$120x120_jpg$'
-, '622-785?DefaultImage=1&$120x120_jpg$']
-, 'jnumber': 'J433424'
-, 'pallet_number': 'Watches4'
-, 'jNumberFolderPath': u'display_image\\jPages\\J433424'
-, 'full_': 'J433424-00005-04168'
-, 'Retail': ''
-, 'specs': "['tt_productRightCol'
-, 'entity.id=622-785'
-, 'entity.categoryId=product'
-, 'entity.name=Invicta 54mm Grand Diver Quartz Stainless Steel Bracelet Watch w/ Eight-Slot Dive Case'
-, 'entity.pageUrl=http://www.shophq.com/product/622-785.aspx?\\\\u0026familyid=J433424'
-, 'entity.thumbnailUrl=http://images.shophq.com/is/image/ShopHQ/622-785?DefaultImage=1&$120x120_jpg$'
-, 'entity.message=INVICTA MENS GRAND DIVER QUARTZ DATE BRACELET WATCH'
-, 'entity.value=176.0000'
-, '']"
-, 'eBay Price': ''
-, 'Total Retail': ''
-, 'sku': '1111'
-, 'Division': 'Watches'
-, 'Margin $': ''
-, 'title': 'INVICTA MENS GRAND DIVER 54MM QUARTZ DATE STAINLESS BRACELET WATCH W/ 8DC RED MENS'
-, 'manifested': 'X'
-, 'Brand': 'Invicta'
-, 'Margin %': ''
-, 'model_number': ''
-, 'jNumber': 'J433424'
-, 'Qty': '1'
-, 'listerInitials': u'JM'
-, 'itemSelectedImages': {'key': ''}
-, 'condition': '2'
-, 'condition_notes': ''
-, 'date_listed': ''
-, 'palletNumber': u'Watches4'
-, 'upc': ''
-, 'retailer_code': '1'
-, 'msrp': '$171.00'
-, 'Total Cost': '$171.00'},)
-, 'KWARGS': {}}
-call_fn: C:\Users\Mitchell\Desktop\SGIS-wxpython-master\display_image\EventsHandlers\MainFrameEventHandler.py
-call_ln: 1027
-call_func: onScanNumberText
-caller: ['            results = self.updateMainFrameCurrentItemInfo(retailer_code) #<---------------------- \n']
-Exception:
-None
-
---06-20 11:04:10 log_debug display_image.Check.guessImageName DEBUG    image name guess: guessImageName
-ARGS_KWARGS_STR:
-{'ARGS': ('622-785?DefaultImage=1&$472x472_jpg$',)
-, 'KWARGS': {}}
-call_fn: C:\Users\Mitchell\Desktop\SGIS-wxpython-master\display_image\EventsHandlers\MainFrameEventHandler.py
-call_ln: 1027
-call_func: onScanNumberText
-caller: ['            results = self.updateMainFrameCurrentItemInfo(retailer_code) #<---------------------- \n']
-Exception:
-None
-
---06-20 11:04:10 log_info display_image.EventsHandlers.MainFrameEventHandler.updateMainFrameCurrentItemInfo INFO     
-MainFrameEventHandler.updateMainFrameCurrentItemInfo.img_name622-785.JPEG updateMainFrameCurrentItemInfo
-
---06-20 11:04:10 log_info display_image.EventsHandlers.MainFrameEventHandler.updateMainFrameCurrentItemInfo INFO     
-MainFrameEventHandler.updateMainFrameCurrentItemInfo.img_name622-785.JPEG updateMainFrameCurrentItemInfo
-
---06-20 11:04:10 log_info display_image.EventsHandlers.MainFrameEventHandler.onScanNumberText INFO     
-updateMainFrameCurrentItemInfo results:None onScanNumberText
-
---06-20 11:04:10 log_info display_image.EventsHandlers.MainFrameEventHandler.onScanNumberText INFO     
-updateMainFrameCurrentItemInfo results:None onScanNumberText
-
---06-20 11:04:10 log_info display_image.EventsHandlers.MainFrameEventHandler.onScanNumberText INFO     
-onScanNumberText currentItemInfo: {'retailer_code:1': '', 'box': '', 'description': '\r\n                <p><strong>Invicta 54mm Grand Diver Quartz Stainless Steel Bracelet Watch w/ Eight-Slot Dive Case</strong></p>\r\n\r\n<p><strong>Choices: </strong> Blue or Red bezel accent</p>\r\n\r\n<p> An impressive display of striking design, this Invicta Grand Diver lives up to its name! </p>\r\n                Beginning with a round silver-tone stainless steel case, this Grand Diver houses a black texture edged unidirectional rotating bezel with blue or red accents, a diver\xe2\x80\x99s scale, Arabic numerals and one luminous Tritnite marker. You\xe2\x80\x99ll find the Grand Diver logo atop the crown and \xe2\x80\x9cInvicta\xe2\x80\x9d etched on the left side of the case for understated refinement. A silver-tone bracelet holds this timepiece together with brush finished outer links and polish finished inner links. </p> \r\n\r\n<p> Keeping you always on schedule, a black metal dial presents a magnified date window near 3:00 and Tritnite index markers with silver-tone trim at all hour positions. The hour and minute hands match perfectly as they circle the dial and a red seconds hand stands out with a Tritnite tip and the Invicta logo on its end. \xe2\x80\x9cInvicta\xe2\x80\x9d below 12:00 and the Grand Diver logo above 6:00 finish the dial. </p>\r\n\r\n<p> Complete your sharp style with this Grand Diver from Invicta! </p>\r\n\r\n<strong>Details:</strong>\r\n<ul><li><strong>Bracelet: </strong>Stainless Steel\r\n<li><strong>Movement: </strong>Swiss Parts ISA 2331/103 Quartz \r\n<li><strong>Crystal: </strong>Mineral\r\n<li><strong>Crown: </strong>Push/Pull\r\n<li><strong>Clasp: </strong>Deployant\r\n<li><strong>Bracelet Measurements: </strong>9-1/4 L x 26mm W\r\n<li><strong>Case Measurements: </strong>54mm\r\n<li><strong>Case Thickness: </strong>14-1/2mm\r\n<li><strong>Weight: </strong>9 oz.\r\n<li><strong>Water Resistance: </strong>20 ATM - 200 meters - 660 feet\r\n<li><strong>Model Numbers: </strong>\r\n<br>Blue: 14655 - 8BLK/YEL \r\n<br>Red: 14652- 8BLK/YEL \r\n<li><strong>UPC: </strong>\r\n<br>Blue: 886678153312 \r\n<br>Red: 886678153282   </ul></li>\r\n<p>', 'repair': '', 'band_size': '7.25', 'image_list': ['622-785?DefaultImage=1&$472x472_jpg$', '622-785_01_swatch?DefaultImage=1&$40x40_jpg$', '622-785_00_swatch?DefaultImage=1&$40x40_jpg$', '622-785?DefaultImage=1&$472x472_jpg$', '622-785?DefaultImage=1&$80x80_jpg$', '622-785_00_detail?DefaultImage=1&$80x80_jpg$', '622-785_01_detail?DefaultImage=1&$80x80_jpg$', '622-785_02_detail?DefaultImage=1&$80x80_jpg$', '622-785_03_detail?DefaultImage=1&$80x80_jpg$', '622-785?DefaultImage=1&$120x120_jpg$', '622-785?DefaultImage=1&$120x120_jpg$'], 'jnumber': 'J433424', 'pallet_number': 'Watches4', 'jNumberFolderPath': u'display_image\\jPages\\J433424', 'full_': 'J433424-00005-04168', 'Retail': '', 'specs': "['tt_productRightCol', 'entity.id=622-785', 'entity.categoryId=product', 'entity.name=Invicta 54mm Grand Diver Quartz Stainless Steel Bracelet Watch w/ Eight-Slot Dive Case', 'entity.pageUrl=http://www.shophq.com/product/622-785.aspx?\\\\u0026familyid=J433424', 'entity.thumbnailUrl=http://images.shophq.com/is/image/ShopHQ/622-785?DefaultImage=1&$120x120_jpg$', 'entity.message=INVICTA MENS GRAND DIVER QUARTZ DATE BRACELET WATCH', 'entity.value=176.0000', '']", 'eBay Price': '', 'Total Retail': '', 'sku': '1111', 'Division': 'Watches', 'Margin $': '', 'title': 'INVICTA MENS GRAND DIVER 54MM QUARTZ DATE STAINLESS BRACELET WATCH W/ 8DC RED MENS', 'manifested': 'X', 'Brand': 'Invicta', 'Margin %': '', 'model_number': '', 'jNumber': 'J433424', 'Qty': '1', 'listerInitials': u'JM', 'itemSelectedImages': {'key': ''}, 'condition': '2', 'condition_notes': '', 'date_listed': '', 'palletNumber': u'Watches4', 'upc': '', 'retailer_code': '1', 'msrp': '$171.00', 'Total Cost': '$171.00'} onScanNumberText
-
---06-20 11:04:10 log_info display_image.EventsHandlers.MainFrameEventHandler.onScanNumberText INFO     
-onScanNumberText currentItemInfo: {'retailer_code:1': '', 'box': '', 'description': '\r\n                <p><strong>Invicta 54mm Grand Diver Quartz Stainless Steel Bracelet Watch w/ Eight-Slot Dive Case</strong></p>\r\n\r\n<p><strong>Choices: </strong> Blue or Red bezel accent</p>\r\n\r\n<p> An impressive display of striking design, this Invicta Grand Diver lives up to its name! </p>\r\n                Beginning with a round silver-tone stainless steel case, this Grand Diver houses a black texture edged unidirectional rotating bezel with blue or red accents, a diver\xe2\x80\x99s scale, Arabic numerals and one luminous Tritnite marker. You\xe2\x80\x99ll find the Grand Diver logo atop the crown and \xe2\x80\x9cInvicta\xe2\x80\x9d etched on the left side of the case for understated refinement. A silver-tone bracelet holds this timepiece together with brush finished outer links and polish finished inner links. </p> \r\n\r\n<p> Keeping you always on schedule, a black metal dial presents a magnified date window near 3:00 and Tritnite index markers with silver-tone trim at all hour positions. The hour and minute hands match perfectly as they circle the dial and a red seconds hand stands out with a Tritnite tip and the Invicta logo on its end. \xe2\x80\x9cInvicta\xe2\x80\x9d below 12:00 and the Grand Diver logo above 6:00 finish the dial. </p>\r\n\r\n<p> Complete your sharp style with this Grand Diver from Invicta! </p>\r\n\r\n<strong>Details:</strong>\r\n<ul><li><strong>Bracelet: </strong>Stainless Steel\r\n<li><strong>Movement: </strong>Swiss Parts ISA 2331/103 Quartz \r\n<li><strong>Crystal: </strong>Mineral\r\n<li><strong>Crown: </strong>Push/Pull\r\n<li><strong>Clasp: </strong>Deployant\r\n<li><strong>Bracelet Measurements: </strong>9-1/4 L x 26mm W\r\n<li><strong>Case Measurements: </strong>54mm\r\n<li><strong>Case Thickness: </strong>14-1/2mm\r\n<li><strong>Weight: </strong>9 oz.\r\n<li><strong>Water Resistance: </strong>20 ATM - 200 meters - 660 feet\r\n<li><strong>Model Numbers: </strong>\r\n<br>Blue: 14655 - 8BLK/YEL \r\n<br>Red: 14652- 8BLK/YEL \r\n<li><strong>UPC: </strong>\r\n<br>Blue: 886678153312 \r\n<br>Red: 886678153282   </ul></li>\r\n<p>', 'repair': '', 'band_size': '7.25', 'image_list': ['622-785?DefaultImage=1&$472x472_jpg$', '622-785_01_swatch?DefaultImage=1&$40x40_jpg$', '622-785_00_swatch?DefaultImage=1&$40x40_jpg$', '622-785?DefaultImage=1&$472x472_jpg$', '622-785?DefaultImage=1&$80x80_jpg$', '622-785_00_detail?DefaultImage=1&$80x80_jpg$', '622-785_01_detail?DefaultImage=1&$80x80_jpg$', '622-785_02_detail?DefaultImage=1&$80x80_jpg$', '622-785_03_detail?DefaultImage=1&$80x80_jpg$', '622-785?DefaultImage=1&$120x120_jpg$', '622-785?DefaultImage=1&$120x120_jpg$'], 'jnumber': 'J433424', 'pallet_number': 'Watches4', 'jNumberFolderPath': u'display_image\\jPages\\J433424', 'full_': 'J433424-00005-04168', 'Retail': '', 'specs': "['tt_productRightCol', 'entity.id=622-785', 'entity.categoryId=product', 'entity.name=Invicta 54mm Grand Diver Quartz Stainless Steel Bracelet Watch w/ Eight-Slot Dive Case', 'entity.pageUrl=http://www.shophq.com/product/622-785.aspx?\\\\u0026familyid=J433424', 'entity.thumbnailUrl=http://images.shophq.com/is/image/ShopHQ/622-785?DefaultImage=1&$120x120_jpg$', 'entity.message=INVICTA MENS GRAND DIVER QUARTZ DATE BRACELET WATCH', 'entity.value=176.0000', '']", 'eBay Price': '', 'Total Retail': '', 'sku': '1111', 'Division': 'Watches', 'Margin $': '', 'title': 'INVICTA MENS GRAND DIVER 54MM QUARTZ DATE STAINLESS BRACELET WATCH W/ 8DC RED MENS', 'manifested': 'X', 'Brand': 'Invicta', 'Margin %': '', 'model_number': '', 'jNumber': 'J433424', 'Qty': '1', 'listerInitials': u'JM', 'itemSelectedImages': {'key': ''}, 'condition': '2', 'condition_notes': '', 'date_listed': '', 'palletNumber': u'Watches4', 'upc': '', 'retailer_code': '1', 'msrp': '$171.00', 'Total Cost': '$171.00'} onScanNumberText
-
---06-20 11:04:10 log_info display_image.EventsHandlers.MainFrameEventHandler.onScanNumberText INFO     
-Trying to open: display_image\jPages\J433424\622-785.JPEG onScanNumberText
-
---06-20 11:04:10 log_info display_image.EventsHandlers.MainFrameEventHandler.onScanNumberText INFO     
-Trying to open: display_image\jPages\J433424\622-785.JPEG onScanNumberText
-
---06-20 11:04:10 log_info display_image.EventsHandlers.MainFrameEventHandler.onUpcNumberText INFO     
-Inside:  onUpcNumberText
-
---06-20 11:04:10 log_info display_image.EventsHandlers.MainFrameEventHandler.onUpcNumberText INFO     
-Inside:  onUpcNumberText
-
---06-20 11:04:10 log_info display_image.EventsHandlers.MainFrameEventHandler.onUpcNumberText INFO     
-upc entered, and updated. onUpcNumberText
-
---06-20 11:04:10 log_info display_image.EventsHandlers.MainFrameEventHandler.onUpcNumberText INFO     
-upc entered, and updated. onUpcNumberText
-
---06-20 11:04:10 log_info display_image.EventsHandlers.MainFrameEventHandler.onScanNumberText INFO     
-currentItemInfo['ebay_category']'ebay_category' onScanNumberText
-
---06-20 11:04:10 log_info display_image.EventsHandlers.MainFrameEventHandler.onScanNumberText INFO     
-currentItemInfo['ebay_category']'ebay_category' onScanNumberText
-
---06-20 11:04:10 log_info display_image.EventsHandlers.MainFrameEventHandler.onLookUpBySkuBtnShopHq INFO     
-Added MainFrame.itemRow to currentItemInfo[['retailer_code:1', 'Division', 'Brand', 'pallet_number', 'full_', 'jnumber', 'model_number', 'title', 'Qty', 'msrp', 'Total Cost', 'Retail', 'Total Retail', 'Margin %', 'Margin $', 'eBay Price', 'sku', 'box', 'condition', 'condition_notes', 'band_size', 'date_listed', 'repair', 'manifested', 'upc'], ['', 'Watches', 'Invicta', 'Watches4', 'J433424-00005-04168', 'J433424', '', 'INVICTA MENS GRAND DIVER 54MM QUARTZ DATE STAINLESS BRACELET WATCH W/ 8DC RED MENS', '1', '$171.00', '$171.00', '', '', '', '', '', '1111', '', '2', '', '7.25', '', '', 'X', '']] onLookUpBySkuBtnShopHq
-
---06-20 11:04:10 log_info display_image.EventsHandlers.MainFrameEventHandler.onLookUpBySkuBtnShopHq INFO     
-Added MainFrame.itemRow to currentItemInfo[['retailer_code:1', 'Division', 'Brand', 'pallet_number', 'full_', 'jnumber', 'model_number', 'title', 'Qty', 'msrp', 'Total Cost', 'Retail', 'Total Retail', 'Margin %', 'Margin $', 'eBay Price', 'sku', 'box', 'condition', 'condition_notes', 'band_size', 'date_listed', 'repair', 'manifested', 'upc'], ['', 'Watches', 'Invicta', 'Watches4', 'J433424-00005-04168', 'J433424', '', 'INVICTA MENS GRAND DIVER 54MM QUARTZ DATE STAINLESS BRACELET WATCH W/ 8DC RED MENS', '1', '$171.00', '$171.00', '', '', '', '', '', '1111', '', '2', '', '7.25', '', '', 'X', '']] onLookUpBySkuBtnShopHq
-
---06-20 11:04:10 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentConditionText INFO     
-Inside:  onCurrentConditionText
-
---06-20 11:04:10 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentConditionText INFO     
-Inside:  onCurrentConditionText
-
---06-20 11:04:10 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentConditionText INFO     
-Calling Save(self.MainFrame) onCurrentConditionText
-
---06-20 11:04:10 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentConditionText INFO     
-Calling Save(self.MainFrame) onCurrentConditionText
-
---06-20 11:04:10 log_info display_image.EventsHandlers.MainFrameEventHandler.onPalletNumberText INFO     
-Inside:  onPalletNumberText
-
---06-20 11:04:10 log_info display_image.EventsHandlers.MainFrameEventHandler.onPalletNumberText INFO     
-Inside:  onPalletNumberText
-
---06-20 11:04:10 log_info display_image.EventsHandlers.MainFrameEventHandler.onPalletNumberText INFO     
-
-# PhotoCtrlEventHandler.onPalletNumberText(): # onPalletNumberText
-
---06-20 11:04:10 log_info display_image.EventsHandlers.MainFrameEventHandler.onPalletNumberText INFO     
-
-# PhotoCtrlEventHandler.onPalletNumberText(): # onPalletNumberText
-
---06-20 11:04:10 log_info display_image.EventsHandlers.MainFrameEventHandler.onDateListedText INFO     
-inside:  onDateListedText
-
---06-20 11:04:10 log_info display_image.EventsHandlers.MainFrameEventHandler.onDateListedText INFO     
-inside:  onDateListedText
-
---06-20 11:04:10 log_info display_image.EventsHandlers.MainFrameEventHandler.onDateListedText INFO     
-date listed things onDateListedText
-
---06-20 11:04:10 log_info display_image.EventsHandlers.MainFrameEventHandler.onDateListedText INFO     
-date listed things onDateListedText
-
---06-20 11:04:10 log_info display_image.EventsHandlers.MainFrameEventHandler.onDateListedText INFO     
-inside:  onDateListedText
-
---06-20 11:04:10 log_info display_image.EventsHandlers.MainFrameEventHandler.onDateListedText INFO     
-inside:  onDateListedText
-
---06-20 11:04:10 log_info display_image.EventsHandlers.MainFrameEventHandler.onDateListedText INFO     
-date listed things onDateListedText
-
---06-20 11:04:10 log_info display_image.EventsHandlers.MainFrameEventHandler.onDateListedText INFO     
-date listed things onDateListedText
-
---06-20 11:04:10 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentTitleText INFO     
-Inside:  onCurrentTitleText
-
---06-20 11:04:10 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentTitleText INFO     
-Inside:  onCurrentTitleText
-
---06-20 11:04:10 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentTitleText INFO     
-Inside:  onCurrentTitleText
-
---06-20 11:04:10 log_info display_image.EventsHandlers.MainFrameEventHandler.onCurrentTitleText INFO     
-Inside:  onCurrentTitleText
-
---06-20 11:04:10 log_info display_image.EventsHandlers.MainFrameEventHandler.onEbayCategoryIdText INFO     
-Inside:  onEbayCategoryIdText
-
---06-20 11:04:10 log_info display_image.EventsHandlers.MainFrameEventHandler.onEbayCategoryIdText INFO     
-Inside:  onEbayCategoryIdText
-
---06-20 11:04:10 log_debug display_image.EventsHandlers.MainFrameEventHandler.onEbayCategoryIdText DEBUG    31387 onEbayCategoryIdText
-ARGS_KWARGS_STR:
-{'ARGS': ()
-, 'KWARGS': {}}
-call_fn: C:\Users\Mitchell\Desktop\SGIS-wxpython-master\display_image\EventsHandlers\MainFrameEventHandler.py
-call_ln: 235
-call_func: onLookUpBySkuBtnShopHq
-caller: ["        self.MainFrame.ebayCategoryIdText.SetValue('31387')\n"]
-Exception:
-None
